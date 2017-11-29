@@ -127,7 +127,6 @@ RateService.prototype.listAlternatives = function(sort) {
   }
 
   var alternatives = self.lodash.map(this.getAlternatives(), function(item) {
-    console.log('item', item);
     return {
       name: item.name,
       isoCode: item.isoCode

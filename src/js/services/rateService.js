@@ -46,8 +46,6 @@ RateService.prototype.updateRates = function() {
   var backoffSeconds = 5;
   var updateFrequencySeconds = 5 * 60;
   var rateServiceUrl = 'https://masq.bitcoinz.ph/rates';
-  var bchRateServiceUrl = 'https://api.kraken.com/0/public/Ticker?pair=BCHUSD,BCHEUR';
-
 
   function getBTCZ(cb, tries) {
     tries = tries || 0;
@@ -76,52 +74,19 @@ RateService.prototype.updateRates = function() {
     })
   }
 
-  function getBCH(cb, tries) {
-    tries = tries || 0;
-    if (!self.httprequest) return;
-    if (tries > 5) return cb('could not get BCH rates');
-
-    function retry(tries) {
-      //log.debug('Error fetching exchange rates', err);
-      setTimeout(function() {
-        backoffSeconds *= 1.5;
-        getBTCZ(cb, tries++);
-      }, backoffSeconds * 1000);
-      return;
-    }
-
-    self.httprequest.get(bchRateServiceUrl).success(function(res) {
-      self.lodash.each(res.result, function(data, paircode) {
-        var code = paircode.substr(3,3);
-        var rate =data.c[0];
-        self._ratesBCH[code] = rate;
-      })
-      return cb();
-    }).error(function() {
-      return retry(tries);
-    })
-  }
-
   getBTCZ(function(err) {
     if (err) return;
-    getBCH(function(err) {
-      if (err) return;
-
-      self._isAvailable = true;
-      self.lodash.each(self._queued, function(callback) {
-        setTimeout(callback, 1);
-      });
-      setTimeout( self.updateRates  , updateFrequencySeconds * 1000);
-    })
-  })
+    self._isAvailable = true;
+    self.lodash.each(self._queued, function(callback) {
+      setTimeout(callback, 1);
+    });
+    setTimeout( self.updateRates  , updateFrequencySeconds * 1000);
+  });
 
 };
 
 RateService.prototype.getRate = function(code, chain) {
-  if (chain == 'bch')
-    return this._ratesBCH[code];
-  else
-    return this._rates[code];
+  return this._rates[code];
 };
 
 RateService.prototype.getAlternatives = function() {

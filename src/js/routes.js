@@ -374,16 +374,6 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
        *
        */
 
-      .state('tabs.preferencesCash', {
-        url: '/preferencesCash',
-        views: {
-          'tab-settings@tabs': {
-            controller: 'preferencesCashController',
-            templateUrl: 'views/preferencesCash.html'
-          }
-        }
-      })
-
       .state('tabs.notifications', {
         url: '/notifications',
         views: {
@@ -587,16 +577,6 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
           'tab-settings@tabs': {
             controller: 'preferencesDeleteWalletController',
             templateUrl: 'views/preferencesDeleteWallet.html'
-          }
-        }
-      })
-
-      .state('tabs.preferencesCash.scan', {
-        url: '/cashScan',
-        views: {
-          'tab-settings@tabs': {
-            controller: 'cashScanController',
-            templateUrl: 'views/cashScan.html'
           }
         }
       })

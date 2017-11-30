@@ -43,8 +43,6 @@ cd btcz-wallet
 Install npm modules
 ```
 npm install
-rm -rf node_modules/bitcore-lib
-cp -R node_modules/bitcore-lib-btcz node_modules/bitcore-lib
 ```
 
 Ensure you have [Node](https://nodejs.org/) installed, then install and start BitcoinZ Wallet:

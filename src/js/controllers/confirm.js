@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('copayApp.controllers').controller('confirmController', function($rootScope, $scope, $interval, $filter, $timeout, $ionicScrollDelegate, gettextCatalog, walletService, platformInfo, lodash, configService, $stateParams, $window, $state, $log, profileService, bitcore, bitcoreCash, txFormatService, ongoingProcess, $ionicModal, popupService, $ionicHistory, $ionicConfig, payproService, feeService, bwcError, txConfirmNotification, externalLinkService) {
+angular.module('copayApp.controllers').controller('confirmController', function($rootScope, $scope, $interval, $filter, $timeout, $ionicScrollDelegate, gettextCatalog, walletService, platformInfo, lodash, configService, $stateParams, $window, $state, $log, profileService, bitcoreBtcz, txFormatService, ongoingProcess, $ionicModal, popupService, $ionicHistory, $ionicConfig, payproService, feeService, bwcError, txConfirmNotification, externalLinkService) {
 
   var countDown = null;
   var CONFIRM_LIMIT_USD = 20;
@@ -122,7 +122,7 @@ angular.module('copayApp.controllers').controller('confirmController', function(
 
     // Setup $scope
 
-    var B = data.stateParams.coin == 'bch' ? bitcoreCash : bitcore;
+    var B = bitcoreBtcz;
     var networkName;
     try {
       networkName = (new B.Address(data.stateParams.toAddress)).network.name;
@@ -139,7 +139,7 @@ angular.module('copayApp.controllers').controller('confirmController', function(
           $ionicHistory.clearHistory();
           if (!back) {
             var url = 'https://support.bitpay.com/hc/en-us/articles/115004671663';
-            externalLinkService.open(url); 
+            externalLinkService.open(url);
           }
         });
       });

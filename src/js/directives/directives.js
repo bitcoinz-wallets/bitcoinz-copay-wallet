@@ -1,17 +1,13 @@
 'use strict';
 angular.module('copayApp.directives')
-  .directive('validAddress', ['$rootScope', 'bitcore', 'bitcoreCash',
-    function($rootScope, bitcore, bitcoreCash) {
+  .directive('validAddress', ['$rootScope', 'bitcoreBtcz',
+    function($rootScope, bitcoreBtcz) {
       return {
         require: 'ngModel',
         link: function(scope, elem, attrs, ctrl) {
           // Bitcoin address
-          var URI = bitcore.URI;
-          var Address = bitcore.Address
-
-          // Bitcoin Cash address
-          var URICash = bitcoreCash.URI;
-          var AddressCash = bitcoreCash.Address
+          var URI = bitcoreBtcz.URI;
+          var Address = bitcoreBtcz.Address
 
           var validator = function(value) {
 
@@ -32,14 +28,6 @@ angular.module('copayApp.directives')
               }
               ctrl.$setValidity('validAddress', isUriValid && (isAddressValidLivenet || isAddressValidTestnet));
               return value;
-            } else if (/^bitcoincash:/.test(value)) {
-              var isUriValid = URICash.isValid(value);
-              if (isUriValid) {
-                uri = new URICash(value);
-                isAddressValidLivenet = AddressCash.isValid(uri.address.toString(), 'livenet')
-              }
-              ctrl.$setValidity('validAddress', isUriValid && (isAddressValidLivenet));
-              return value;
             }
 
             if (typeof value == 'undefined') {
@@ -47,11 +35,9 @@ angular.module('copayApp.directives')
               return;
             }
 
-            // Regular Address: try Bitcoin and Bitcoin Cash
+            // Regular Address: try Bitcoin
             var regularAddressLivenet = Address.isValid(value, 'livenet');
             var regularAddressTestnet = Address.isValid(value, 'testnet');
-            var regularAddressCashLivenet = AddressCash.isValid(value, 'livenet');
-            ctrl.$setValidity('validAddress', (regularAddressLivenet || regularAddressTestnet || regularAddressCashLivenet));
             return value;
           };
 
@@ -102,7 +88,7 @@ angular.module('copayApp.directives')
       };
     }
   ])
-  .directive('walletSecret', function(bitcore) {
+  .directive('walletSecret', function(bitcoreBtcz) {
     return {
       require: 'ngModel',
       link: function(scope, elem, attrs, ctrl) {

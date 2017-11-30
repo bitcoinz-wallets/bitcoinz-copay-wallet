@@ -9,12 +9,8 @@ bwcModule.provider("bwcService", function() {
   provider.$get = function() {
     var service = {};
 
-    service.getBitcore = function() {
-      return Client.Bitcore;
-    };
-
-    service.getBitcoreCash = function() {
-      return Client.BitcoreCash;
+    service.getBitcoreBtcz = function() {
+      return Client.BitcoreBtcz;
     };
 
     service.getErrors = function() {

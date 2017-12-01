@@ -145,24 +145,6 @@ angular.module('copayApp.services').factory('incomingData', function($log, $stat
       });
       return true;
 
-    } else if (data && data.indexOf(appConfigService.name + '://coinbase') === 0) {
-      var code = getParameterByName('code', data);
-      $ionicHistory.nextViewOptions({
-        disableAnimate: true
-      });
-      $state.go('tabs.home', {}, {
-        'reload': true,
-        'notify': $state.current.name == 'tabs.home' ? false : true
-      }).then(function() {
-        $ionicHistory.nextViewOptions({
-          disableAnimate: true
-        });
-        $state.transitionTo('tabs.buyandsell.coinbase', {
-          code: code
-        });
-      });
-      return true;
-
       // BitPayCard Authentication
     } else if (data && data.indexOf(appConfigService.name + '://') === 0) {
 

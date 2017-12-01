@@ -959,62 +959,6 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
 
       /*
        *
-       * Coinbase
-       *
-       */
-
-      .state('tabs.buyandsell.coinbase', {
-        url: '/coinbase/:code',
-        views: {
-          'tab-home@tabs': {
-            controller: 'coinbaseController',
-            controllerAs: 'coinbase',
-            templateUrl: 'views/coinbase.html'
-          }
-        },
-        params: {
-          coin: 'btcz',
-        }
-      })
-      .state('tabs.preferences.coinbase', {
-        url: '/coinbase',
-        views: {
-          'tab-settings@tabs': {
-            controller: 'preferencesCoinbaseController',
-            templateUrl: 'views/preferencesCoinbase.html'
-          }
-        }
-      })
-      .state('tabs.buyandsell.coinbase.amount', {
-        url: '/amount/:nextStep/:currency',
-        views: {
-          'tab-home@tabs': {
-            controller: 'amountController',
-            templateUrl: 'views/amount.html'
-          }
-        }
-      })
-      .state('tabs.buyandsell.coinbase.buy', {
-        url: '/buy/:amount/:currency',
-        views: {
-          'tab-home@tabs': {
-            controller: 'buyCoinbaseController',
-            templateUrl: 'views/buyCoinbase.html'
-          }
-        }
-      })
-      .state('tabs.buyandsell.coinbase.sell', {
-        url: '/sell/:amount/:currency',
-        views: {
-          'tab-home@tabs': {
-            controller: 'sellCoinbaseController',
-            templateUrl: 'views/sellCoinbase.html'
-          }
-        }
-      })
-
-      /*
-       *
        * Gift Cards
        *
        */
@@ -1076,7 +1020,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
         }
       })
   })
-  .run(function($rootScope, $state, $location, $log, $timeout, startupService, ionicToast, fingerprintService, $ionicHistory, $ionicPlatform, $window, appConfigService, lodash, platformInfo, profileService, uxLanguage, gettextCatalog, openURLService, storageService, scannerService, configService, emailService, /* plugins START HERE => */ coinbaseService, glideraService, applicationService, mercadoLibreService) {
+  .run(function($rootScope, $state, $location, $log, $timeout, startupService, ionicToast, fingerprintService, $ionicHistory, $ionicPlatform, $window, appConfigService, lodash, platformInfo, profileService, uxLanguage, gettextCatalog, openURLService, storageService, scannerService, configService, emailService, /* plugins START HERE => */ glideraService, applicationService, mercadoLibreService) {
 
     uxLanguage.init();
 

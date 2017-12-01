@@ -177,18 +177,6 @@ angular.module('copayApp.services').factory('incomingData', function($log, $stat
       $state.go('tabs.home', {}, {
         'reload': true,
         'notify': $state.current.name == 'tabs.home' ? false : true
-      }).then(function() {
-        switch (reason) {
-          default:
-            case '0':
-            /* For BitPay card binding */
-            $state.transitionTo('tabs.bitpayCardIntro', {
-              secret: secret,
-              email: email,
-              otp: otp
-            });
-          break;
-        }
       });
       return true;
 

@@ -1126,68 +1126,9 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
             templateUrl: 'views/buyAmazon.html'
           }
         }
-      })
-
-      /*
-       *
-       * BitPay Card
-       *
-       */
-
-      .state('tabs.bitpayCardIntro', {
-        url: '/bitpay-card-intro/:secret/:email/:otp',
-        views: {
-          'tab-home@tabs': {
-            controller: 'bitpayCardIntroController',
-            templateUrl: 'views/bitpayCardIntro.html'
-          }
-        }
-      })
-      .state('tabs.bitpayCard', {
-        url: '/bitpay-card',
-        views: {
-          'tab-home@tabs': {
-            controller: 'bitpayCardController',
-            controllerAs: 'bitpayCard',
-            templateUrl: 'views/bitpayCard.html'
-          }
-        },
-        params: {
-          id: null,
-          currency: 'USD',
-          coin: 'btcz',
-          useSendMax: null
-        }
-      })
-      .state('tabs.bitpayCard.amount', {
-        url: '/amount/:nextStep',
-        views: {
-          'tab-home@tabs': {
-            controller: 'amountController',
-            templateUrl: 'views/amount.html'
-          }
-        }
-      })
-      .state('tabs.bitpayCard.topup', {
-        url: '/topup/:amount',
-        views: {
-          'tab-home@tabs': {
-            controller: 'topUpController',
-            templateUrl: 'views/topup.html'
-          }
-        }
-      })
-      .state('tabs.preferences.bitpayServices', {
-        url: '/bitpay-services',
-        views: {
-          'tab-settings@tabs': {
-            controller: 'preferencesBitpayServicesController',
-            templateUrl: 'views/preferencesBitpayServices.html'
-          }
-        }
       });
   })
-  .run(function($rootScope, $state, $location, $log, $timeout, startupService, ionicToast, fingerprintService, $ionicHistory, $ionicPlatform, $window, appConfigService, lodash, platformInfo, profileService, uxLanguage, gettextCatalog, openURLService, storageService, scannerService, configService, emailService, /* plugins START HERE => */ coinbaseService, glideraService, amazonService, bitpayCardService, applicationService, mercadoLibreService) {
+  .run(function($rootScope, $state, $location, $log, $timeout, startupService, ionicToast, fingerprintService, $ionicHistory, $ionicPlatform, $window, appConfigService, lodash, platformInfo, profileService, uxLanguage, gettextCatalog, openURLService, storageService, scannerService, configService, emailService, /* plugins START HERE => */ coinbaseService, glideraService, amazonService, applicationService, mercadoLibreService) {
 
     uxLanguage.init();
 

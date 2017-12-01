@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('copayApp.controllers').controller('tabSettingsController', function($rootScope, $timeout, $scope, appConfigService, $ionicModal, $log, lodash, uxLanguage, platformInfo, profileService, feeService, configService, externalLinkService, storageService, glideraService, gettextCatalog, buyAndSellService) {
+angular.module('copayApp.controllers').controller('tabSettingsController', function($rootScope, $timeout, $scope, appConfigService, $ionicModal, $log, lodash, uxLanguage, platformInfo, profileService, feeService, configService, externalLinkService, storageService, gettextCatalog, buyAndSellService) {
 
   var updateConfig = function() {
     $scope.currentLanguageName = uxLanguage.getCurrentLanguageName();

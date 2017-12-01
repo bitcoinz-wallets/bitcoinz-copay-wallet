@@ -902,63 +902,6 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
 
       /*
        *
-       * Glidera
-       *
-       *
-       */
-
-      .state('tabs.buyandsell.glidera', {
-        url: '/glidera/:code',
-        views: {
-          'tab-home@tabs': {
-            controller: 'glideraController',
-            controllerAs: 'glidera',
-            templateUrl: 'views/glidera.html'
-          }
-        },
-        params: {
-          coin: 'btcz',
-        }
-      })
-      .state('tabs.buyandsell.glidera.amount', {
-        url: '/amount/:nextStep/:currency',
-        views: {
-          'tab-home@tabs': {
-            controller: 'amountController',
-            templateUrl: 'views/amount.html'
-          }
-        }
-      })
-      .state('tabs.buyandsell.glidera.buy', {
-        url: '/buy/:amount/:currency',
-        views: {
-          'tab-home@tabs': {
-            controller: 'buyGlideraController',
-            templateUrl: 'views/buyGlidera.html'
-          }
-        }
-      })
-      .state('tabs.buyandsell.glidera.sell', {
-        url: '/sell/:amount/:currency',
-        views: {
-          'tab-home@tabs': {
-            controller: 'sellGlideraController',
-            templateUrl: 'views/sellGlidera.html'
-          }
-        }
-      })
-      .state('tabs.preferences.glidera', {
-        url: '/glidera',
-        views: {
-          'tab-settings@tabs': {
-            controller: 'preferencesGlideraController',
-            templateUrl: 'views/preferencesGlidera.html'
-          }
-        }
-      })
-
-      /*
-       *
        * Gift Cards
        *
        */
@@ -1020,7 +963,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
         }
       })
   })
-  .run(function($rootScope, $state, $location, $log, $timeout, startupService, ionicToast, fingerprintService, $ionicHistory, $ionicPlatform, $window, appConfigService, lodash, platformInfo, profileService, uxLanguage, gettextCatalog, openURLService, storageService, scannerService, configService, emailService, /* plugins START HERE => */ glideraService, applicationService, mercadoLibreService) {
+  .run(function($rootScope, $state, $location, $log, $timeout, startupService, ionicToast, fingerprintService, $ionicHistory, $ionicPlatform, $window, appConfigService, lodash, platformInfo, profileService, uxLanguage, gettextCatalog, openURLService, storageService, scannerService, configService, emailService, /* plugins START HERE => */ applicationService, mercadoLibreService) {
 
     uxLanguage.init();
 

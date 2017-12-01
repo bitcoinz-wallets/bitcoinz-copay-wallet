@@ -240,78 +240,6 @@ angular.module('copayApp.services')
       storage.get('remotePrefStored', cb);
     };
 
-    root.setGlideraToken = function(network, token, cb) {
-      storage.set('glideraToken-' + network, token, cb);
-    };
-
-    root.getGlideraToken = function(network, cb) {
-      storage.get('glideraToken-' + network, cb);
-    };
-
-    root.removeGlideraToken = function(network, cb) {
-      storage.remove('glideraToken-' + network, cb);
-    };
-
-    root.setGlideraPermissions = function(network, p, cb) {
-      storage.set('glideraPermissions-' + network, p, cb);
-    };
-
-    root.getGlideraPermissions = function(network, cb) {
-      storage.get('glideraPermissions-' + network, cb);
-    };
-
-    root.removeGlideraPermissions = function(network, cb) {
-      storage.remove('glideraPermissions-' + network, cb);
-    };
-
-    root.setGlideraStatus = function(network, status, cb) {
-      storage.set('glideraStatus-' + network, status, cb);
-    };
-
-    root.getGlideraStatus = function(network, cb) {
-      storage.get('glideraStatus-' + network, cb);
-    };
-
-    root.removeGlideraStatus = function(network, cb) {
-      storage.remove('glideraStatus-' + network, cb);
-    };
-
-    root.setGlideraTxs = function(network, txs, cb) {
-      storage.set('glideraTxs-' + network, txs, cb);
-    };
-
-    root.getGlideraTxs = function(network, cb) {
-      storage.get('glideraTxs-' + network, cb);
-    };
-
-    root.removeGlideraTxs = function(network, cb) {
-      storage.remove('glideraTxs-' + network, cb);
-    };
-
-    root.setCoinbaseRefreshToken = function(network, token, cb) {
-      storage.set('coinbaseRefreshToken-' + network, token, cb);
-    };
-
-    root.getCoinbaseRefreshToken = function(network, cb) {
-      storage.get('coinbaseRefreshToken-' + network, cb);
-    };
-
-    root.removeCoinbaseRefreshToken = function(network, cb) {
-      storage.remove('coinbaseRefreshToken-' + network, cb);
-    };
-
-    root.setCoinbaseToken = function(network, token, cb) {
-      storage.set('coinbaseToken-' + network, token, cb);
-    };
-
-    root.getCoinbaseToken = function(network, cb) {
-      storage.get('coinbaseToken-' + network, cb);
-    };
-
-    root.removeCoinbaseToken = function(network, cb) {
-      storage.remove('coinbaseToken-' + network, cb);
-    };
-
     root.setAddressbook = function(network, addressbook, cb) {
       storage.set('addressbook-' + network, addressbook, cb);
     };
@@ -360,18 +288,6 @@ angular.module('copayApp.services')
     root.removeTxHistory = function(walletId, cb) {
       storage.remove('txsHistory-' + walletId, cb);
     }
-
-    root.setCoinbaseTxs = function(network, ctx, cb) {
-      storage.set('coinbaseTxs-' + network, ctx, cb);
-    };
-
-    root.getCoinbaseTxs = function(network, cb) {
-      storage.get('coinbaseTxs-' + network, cb);
-    };
-
-    root.removeCoinbaseTxs = function(network, cb) {
-      storage.remove('coinbaseTxs-' + network, cb);
-    };
 
     root.setBalanceCache = function(cardId, data, cb) {
       storage.set('balanceCache-' + cardId, data, cb);
@@ -586,18 +502,6 @@ angular.module('copayApp.services')
       });
     };
 
-    root.setAmazonGiftCards = function(network, gcs, cb) {
-      storage.set('amazonGiftCards-' + network, gcs, cb);
-    };
-
-    root.getAmazonGiftCards = function(network, cb) {
-      storage.get('amazonGiftCards-' + network, cb);
-    };
-
-    root.removeAmazonGiftCards = function(network, cb) {
-      storage.remove('amazonGiftCards-' + network, cb);
-    };
-
     root.setTxConfirmNotification = function(txid, val, cb) {
       storage.set('txConfirmNotif-' + txid, val, cb);
     };
@@ -608,18 +512,6 @@ angular.module('copayApp.services')
 
     root.removeTxConfirmNotification = function(txid, cb) {
       storage.remove('txConfirmNotif-' + txid, cb);
-    };
-
-    root.setMercadoLibreGiftCards = function(network, gcs, cb) {
-      storage.set('mercadoLibreGiftCards-' + network, gcs, cb);
-    };
-
-    root.getMercadoLibreGiftCards = function(network, cb) {
-      storage.get('mercadoLibreGiftCards-' + network, cb);
-    };
-
-    root.removeMercadoLibreGiftCards = function(network, cb) {
-      storage.remove('MercadoLibreGiftCards-' + network, cb);
     };
 
     return root;

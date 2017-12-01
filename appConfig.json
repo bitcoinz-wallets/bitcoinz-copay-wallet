@@ -29,9 +29,5 @@
   "version": "1.0.0",
   "androidVersion": "382001",
   "_extraCSS": null,
-  "_enabledExtensions": {
-    "coinbase": false,
-    "glidera": false,
-    "amazon": false
-  }
+  "_enabledExtensions": {}
 }

@@ -16,11 +16,7 @@ angular.module('copayApp.controllers').controller('txDetailsController', functio
     $scope.isShared = $scope.wallet.credentials.n > 1;
     $scope.txsUnsubscribedForNotifications = config.confirmedTxsNotifications ? !config.confirmedTxsNotifications.enabled : true;
 
-    if ($scope.wallet.coin == 'bch') {
-      blockexplorerUrl = 'bch-insight.bitpay.com';
-    } else {
-      blockexplorerUrl = 'bitcoinz.ph';
-    }
+    blockexplorerUrl = 'bitcoinz.ph';
 
     txConfirmNotification.checkIfEnabled(txId, function(res) {
       $scope.txNotification = {

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('copayApp.controllers').controller('topUpController', function($scope, $log, $state, $timeout, $ionicHistory, $ionicConfig, lodash, popupService, profileService, ongoingProcess, walletService, configService, platformInfo, bitpayService, bitpayCardService, payproService, bwcError, txFormatService, sendMaxService, gettextCatalog) {
+angular.module('copayApp.controllers').controller('topUpController', function($scope, $log, $state, $timeout, $ionicHistory, $ionicConfig, lodash, popupService, profileService, ongoingProcess, walletService, configService, platformInfo, payproService, bwcError, txFormatService, sendMaxService, gettextCatalog) {
 
   $scope.isCordova = platformInfo.isCordova;
   var coin = 'btcz';
@@ -86,24 +86,7 @@ angular.module('copayApp.controllers').controller('topUpController', function($s
   };
 
   var createInvoice = function(data, cb) {
-    bitpayCardService.topUp(cardId, data, function(err, invoiceId) {
-      if (err) {
-        return cb({
-          title: gettextCatalog.getString('Could not create the invoice'),
-          message: err
-        });
-      }
-
-      bitpayCardService.getInvoice(invoiceId, function(err, inv) {
-        if (err) {
-          return cb({
-            title: gettextCatalog.getString('Could not get the invoice'),
-            message: err
-          });
-        }
-        return cb(null, inv);
-      });
-    });
+      return cb(null, null);
   };
 
   var createTx = function(wallet, invoice, message, cb) {
@@ -238,41 +221,10 @@ angular.module('copayApp.controllers').controller('topUpController', function($s
   });
 
   $scope.$on("$ionicView.beforeEnter", function(event, data) {
-
     cardId = data.stateParams.id;
     useSendMax = data.stateParams.useSendMax;
     amount = data.stateParams.amount;
     currency = data.stateParams.currency;
-
-    bitpayCardService.get({ cardId: cardId, noRefresh: true }, function(err, card) {
-      if (err) {
-        showErrorAndBack(null, err);
-        return;
-      }
-      bitpayCardService.setCurrencySymbol(card[0]);
-      $scope.lastFourDigits = card[0].lastFourDigits;
-      $scope.currencySymbol = card[0].currencySymbol;
-      $scope.currencyIsoCode = card[0].currency;
-
-      $scope.wallets = profileService.getWallets({
-        onlyComplete: true,
-        network: bitpayService.getEnvironment().network,
-        hasFunds: true,
-        coin: coin
-      });
-
-      if (lodash.isEmpty($scope.wallets)) {
-        showErrorAndBack(null, gettextCatalog.getString('No wallets available'));
-        return;
-      }
-
-      bitpayCardService.getRates($scope.currencyIsoCode, function(err, r) {
-        if (err) $log.error(err);
-        $scope.rate = r.rate;
-      });
-
-      $scope.onWalletSelect($scope.wallets[0]); // Default first wallet
-    });
   });
 
   $scope.topUpConfirm = function() {
@@ -333,9 +285,7 @@ angular.module('copayApp.controllers').controller('topUpController', function($s
       historyRoot: true
     });
     $ionicHistory.clearHistory();
-    $state.go('tabs.home').then(function() {
-      $state.transitionTo('tabs.bitpayCard', {id: cardId});
-    });
+    $state.go('tabs.home');
   };
 
 });

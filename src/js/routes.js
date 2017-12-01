@@ -910,60 +910,8 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
         url: '/giftcards',
         abstract: true
       })
-
-      /*
-       *
-       * Mercado Libre Gift Card
-       *
-       */
-
-      .state('tabs.giftcards.mercadoLibre', {
-        url: '/mercadoLibre',
-        views: {
-          'tab-home@tabs': {
-            controller: 'mercadoLibreController',
-            templateUrl: 'views/mercadoLibre.html'
-          }
-        }
-      })
-      .state('tabs.giftcards.mercadoLibre.cards', {
-        url: '/cards',
-        views: {
-          'tab-home@tabs': {
-            controller: 'mercadoLibreCardsController',
-            templateUrl: 'views/mercadoLibreCards.html'
-          }
-        },
-        params: {
-          invoiceId: null
-        }
-      })
-      .state('tabs.giftcards.mercadoLibre.amount', {
-        url: '/amount',
-        views: {
-          'tab-home@tabs': {
-            controller: 'amountController',
-            templateUrl: 'views/amount.html'
-          }
-        },
-        params: {
-          nextStep: 'tabs.giftcards.mercadoLibre.buy',
-          currency: 'BRL',
-          coin: 'btcz',
-          fixedUnit: 1,
-        }
-      })
-      .state('tabs.giftcards.mercadoLibre.buy', {
-        url: '/buy/:amount/:currency',
-        views: {
-          'tab-home@tabs': {
-            controller: 'buyMercadoLibreController',
-            templateUrl: 'views/buyMercadoLibre.html'
-          }
-        }
-      })
   })
-  .run(function($rootScope, $state, $location, $log, $timeout, startupService, ionicToast, fingerprintService, $ionicHistory, $ionicPlatform, $window, appConfigService, lodash, platformInfo, profileService, uxLanguage, gettextCatalog, openURLService, storageService, scannerService, configService, emailService, /* plugins START HERE => */ applicationService, mercadoLibreService) {
+  .run(function($rootScope, $state, $location, $log, $timeout, startupService, ionicToast, fingerprintService, $ionicHistory, $ionicPlatform, $window, appConfigService, lodash, platformInfo, profileService, uxLanguage, gettextCatalog, openURLService, storageService, scannerService, configService, emailService, /* plugins START HERE => */ applicationService) {
 
     uxLanguage.init();
 

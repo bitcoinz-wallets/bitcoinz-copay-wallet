@@ -31,7 +31,6 @@
   "_extraCSS": null,
   "_enabledExtensions": {
     "coinbase": false,
-    "glidera": false,
-    "amazon": false
+    "glidera": false
   }
 }

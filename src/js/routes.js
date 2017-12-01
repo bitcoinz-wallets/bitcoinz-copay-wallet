@@ -1075,60 +1075,8 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
           }
         }
       })
-
-      /*
-       *
-       * Amazon.com Gift Card
-       *
-       */
-
-      .state('tabs.giftcards.amazon', {
-        url: '/amazon',
-        views: {
-          'tab-home@tabs': {
-            controller: 'amazonController',
-            templateUrl: 'views/amazon.html'
-          }
-        }
-      })
-      .state('tabs.giftcards.amazon.cards', {
-        url: '/cards',
-        views: {
-          'tab-home@tabs': {
-            controller: 'amazonCardsController',
-            templateUrl: 'views/amazonCards.html'
-          }
-        },
-        params: {
-          invoiceId: null
-        }
-      })
-      .state('tabs.giftcards.amazon.amount', {
-        url: '/amount',
-        views: {
-          'tab-home@tabs': {
-            controller: 'amountController',
-            templateUrl: 'views/amount.html'
-          }
-        },
-        params: {
-          nextStep: 'tabs.giftcards.amazon.buy',
-          currency: 'USD',
-          coin: 'btcz',
-          fixedUnit: true,
-        }
-      })
-      .state('tabs.giftcards.amazon.buy', {
-        url: '/buy/:amount/:currency',
-        views: {
-          'tab-home@tabs': {
-            controller: 'buyAmazonController',
-            templateUrl: 'views/buyAmazon.html'
-          }
-        }
-      });
   })
-  .run(function($rootScope, $state, $location, $log, $timeout, startupService, ionicToast, fingerprintService, $ionicHistory, $ionicPlatform, $window, appConfigService, lodash, platformInfo, profileService, uxLanguage, gettextCatalog, openURLService, storageService, scannerService, configService, emailService, /* plugins START HERE => */ coinbaseService, glideraService, amazonService, applicationService, mercadoLibreService) {
+  .run(function($rootScope, $state, $location, $log, $timeout, startupService, ionicToast, fingerprintService, $ionicHistory, $ionicPlatform, $window, appConfigService, lodash, platformInfo, profileService, uxLanguage, gettextCatalog, openURLService, storageService, scannerService, configService, emailService, /* plugins START HERE => */ coinbaseService, glideraService, applicationService, mercadoLibreService) {
 
     uxLanguage.init();
 

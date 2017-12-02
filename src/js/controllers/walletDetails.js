@@ -74,10 +74,12 @@ angular.module('copayApp.controllers').controller('walletDetailsController', fun
       if (err) {
         if (err === 'WALLET_NOT_REGISTERED') {
           $scope.walletNotRegistered = true;
+          $scope.recreate();
         } else {
           $scope.updateStatusError = bwcError.msg(err, gettextCatalog.getString('Could not update wallet'));
         }
         $scope.status = null;
+        $log.error(err);
       } else {
         setPendingTxps(status.pendingTxps);
         $scope.status = status;

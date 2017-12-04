@@ -154,8 +154,15 @@ npm run final:windows
 
 ### Desktop (Linux, macOS, and Windows)
 
+Install dependencies:
+```
+npm install -g fileicon
+```
+
+Make the final build:
 ```
 npm run clean-all
+npm install
 npm run final:desktop
 ```
 

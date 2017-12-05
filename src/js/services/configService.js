@@ -22,7 +22,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
         url: 'https://bitpay.com/wallet'
       },
       copay: {
-        url: 'https://copay.io/#download'
+        url: 'https://github.com/bitcoinz-wallets/bitcoinz-copay-wallet/releases'
       }
     },
 
@@ -72,11 +72,11 @@ angular.module('copayApp.services').factory('configService', function(storageSer
     },
 
     rates: {
-      url: 'https://insight.bitpay.com:443/api/rates',
+      url: 'https://masq.bitcoinz.ph/rates',
     },
 
     release: {
-      url: 'https://api.github.com/repos/bitpay/copay/releases/latest'
+      url: 'https://api.github.com/repos/bitcoinz-wallets/bitcoinz-copay-wallet/releases/latest'
     },
 
     pushNotificationsEnabled: true,

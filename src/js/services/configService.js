@@ -14,7 +14,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
 
     // Bitcore wallet service URL
     bws: {
-      url: 'https://bws.bitcoinz.ph/bws/api',
+      url: 'https://bws.btcz.rocks/bws/api',
     },
 
     download: {

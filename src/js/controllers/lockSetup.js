@@ -76,7 +76,7 @@ angular.module('copayApp.controllers').controller('lockSetupController', functio
   function processWallets() {
     var wallets = profileService.getWallets();
     var singleLivenetWallet = wallets.length == 1 && wallets[0].network == 'livenet' && wallets[0].needsBackup;
-    var atLeastOneLivenetWallet = lodash.any(wallets, function(w) {
+    var atLeastOneLivenetWallet = lodash.some(wallets, function(w) {
       return w.network == 'livenet' && w.needsBackup;
     });
 

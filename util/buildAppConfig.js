@@ -11,7 +11,7 @@ var getCommitHash = function() {
 
   var hash = shell.exec('git rev-parse HEAD', {
     silent: true
-  }).output.trim().substr(0, 7);
+  }).stdout.trim().substr(0, 7);
   return hash;
 }
 
@@ -29,4 +29,3 @@ content = content + '\nwindow.commitHash="' + commitHash + '";';
 
 content = content + '\nwindow.appConfig=' + JSON.stringify(appConfig) + ';';
 fs.writeFileSync("./src/js/appConfig.js", content);
-

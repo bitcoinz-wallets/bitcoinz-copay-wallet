@@ -57,7 +57,7 @@
     "bezier-easing": "^2.0.3",
     "bhttp": "^1.2.4",
     "bitauth": "^0.2.1",
-    "bitcore-wallet-client-btcz": "git+https://github.com/bitcoinz-wallets/bitcore-wallet-client-btcz.git#update-dependencies",
+    "bitcore-wallet-client-btcz": "git+https://github.com/bitcoinz-wallets/bitcore-wallet-client-btcz.git#v1.0.1",
     "bower": "^1.7.9",
     "cordova": "^7.1.0",
     "cordova-android": "^6.4.0",
@@ -178,9 +178,7 @@
       "cordova-plugin-wkwebview-engine": {},
       "cordova-plugin-qrscanner": {},
       "cordova-plugin-customurlscheme": {
-        "URL_SCHEME": "bitcoin",
-        "SECOND_URL_SCHEME": "copay",
-        "THIRD_URL_SCHEME": "bitcoincash"
+        "URL_SCHEME": "bitcoinz"
       },
       "cordova-custom-config": {},
       "cordova-plugin-queries-schemes": {},

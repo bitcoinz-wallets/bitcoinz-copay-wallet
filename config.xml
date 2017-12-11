@@ -126,9 +126,7 @@
     <plugin name="cordova-plugin-wkwebview-engine" spec="https://github.com/driftyco/cordova-plugin-wkwebview-engine.git#4221015eb3f309fe593a7d81205b691e27088743" />
     <plugin name="cordova-plugin-qrscanner" spec="~2.5.0" />
     <plugin name="cordova-plugin-customurlscheme" spec="^4.3.0">
-        <variable name="URL_SCHEME" value="bitcoin" />
-        <variable name="SECOND_URL_SCHEME" value="copay" />
-        <variable name="THIRD_URL_SCHEME" value="bitcoincash" />
+        <variable name="URL_SCHEME" value="bitcoinz" />
     </plugin>
     <plugin name="cordova-custom-config" spec="~3.0.5" />
     <plugin name="cordova-plugin-queries-schemes" spec="~0.1.5" />

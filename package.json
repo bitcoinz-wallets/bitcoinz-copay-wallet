@@ -2,7 +2,7 @@
   "//": "        Modify it in the app-template directory",
   "name": "copay",
   "description": "A Secure BitcoinZ Wallet",
-  "author": "BitPay",
+  "author": "BitcoinZ Community",
   "version": "1.0.0",
   "keywords": [
     "bitcoin",

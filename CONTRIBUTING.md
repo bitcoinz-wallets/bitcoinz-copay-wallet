@@ -74,7 +74,7 @@ provide as much detail and context as possible.
 ## Support requests
 
 If you are having particular problem with your BitcoinZ Wallet instalation, please first [search older
-issues](https://github.com/renuzit/btcz-wallet/issues) in order to learn if the issue is already reported. It could be fixed already.
+issues](https://github.com/bitcoinz-wallets/bitcoinz-copay-wallet/issues) in order to learn if the issue is already reported. It could be fixed already.
 
 Please also check our the copay [FAQ](https://github.com/bitpay/copay/wiki/COPAY---FAQ).
 
@@ -94,7 +94,7 @@ If you need to provide personal / sensitive data to solve the issue (like the Wa
 We will provide a better channel (like an BitPay email address) so you can send the information. If possible, please
 encrypt your emails using GnuPG.
 
-To open an issue go to [Github Issues](https://github.com/renuzit/btcz-wallet/issues).
+To open an issue go to [Github Issues](https://github.com/bitcoinz-wallets/bitcoinz-copay-wallet/issues).
 
 <a name="pull-requests"></a>
 ## Pull requests

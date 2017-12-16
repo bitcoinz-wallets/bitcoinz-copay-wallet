@@ -3,7 +3,7 @@
   "name": "copay",
   "description": "A Secure BitcoinZ Wallet",
   "author": "BitcoinZ Community",
-  "version": "1.0.0",
+  "version": "10.0.2",
   "keywords": [
     "bitcoin",
     "wallet",
@@ -40,11 +40,11 @@
   "homepage": "https://suite.bitcoinz.ph",
   "license": "MIT",
   "repository": {
-    "url": "git://github.com/renuzit/btcz-wallet.git",
+    "url": "git://github.com/bitcoinz-wallets/bitcoinz-copay-wallet.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/renuzit/btcz-wallet/issues"
+    "url": "https://github.com/bitcoinz-wallets/bitcoinz-copay-wallet/issues"
   },
   "engines": {
     "node": "6",
@@ -90,6 +90,7 @@
     "cordova-plugin-x-toast": "~2.5.2",
     "cordova-windows": "~5.0.0",
     "express": "^4.11.2",
+    "fileicon": "^0.2.0",
     "fs-extra": "^4.0.2",
     "grunt-angular-gettext": "^2.2.3",
     "grunt-browserify": "^5.0.0",
@@ -135,7 +136,7 @@
     "run:android": "cordova run android --device",
     "run:android-release": "cordova run android --device --release",
     "log:android": "adb logcat | grep chromium",
-    "sign:android": "rm -f platforms/android/build/outputs/apk/android-release-signed-aligned.apk; jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ../copay.keystore -signedjar platforms/android/build/outputs/apk/android-release-signed.apk  platforms/android/build/outputs/apk/android-release-unsigned.apk copay_play && $ANDROID_HOME/build-tools/26.0.1/zipalign -v 4 platforms/android/build/outputs/apk/android-release-signed.apk platforms/android/build/outputs/apk/android-release-signed-aligned.apk",
+    "sign:android": "rm -f platforms/android/build/outputs/apk/release/android-release-signed-aligned.apk && jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ../copay.keystore -signedjar platforms/android/build/outputs/apk/release/android-release-signed.apk platforms/android/build/outputs/apk/release/android-release-unsigned.apk copay_play && $ANDROID_HOME/build-tools/26.0.2/zipalign -v 4 platforms/android/build/outputs/apk/release/android-release-signed.apk platforms/android/build/outputs/apk/release/android-release-signed-aligned.apk",
     "test": "echo \"no package tests configured\"",
     "clean": "trash platforms && trash plugins && cordova prepare",
     "unstage-package": "git reset package.json",

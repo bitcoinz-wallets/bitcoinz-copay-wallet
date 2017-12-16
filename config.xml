@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="382001" id="com.bitcoinz.BtczWallet" ios-CFBundleVersion="1.0.0" version="1.0.0">
-    <name>BitcoinZ Wallet</name>
+<widget android-versionCode="383001" id="com.btczcom.btcz" ios-CFBundleVersion="10.0.2" version="10.0.2">
+    <name>BitcoinZ</name>
     <description>
       BitcoinZ Wallet
     </description>
     <author email="bitcoinzcommunity@gmail.com" href="https://bitcoinz.global">
-        BitPay Inc.
+        BitcoinZ Community
     </author>
     <content src="index.html" />
     <access origin="*" />

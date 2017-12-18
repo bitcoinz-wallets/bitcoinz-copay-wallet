@@ -169,7 +169,7 @@ msgid "All Addresses"
 msgstr ""
 
 #: www/views/modals/wallet-balance.html:18
-msgid "All of your BitcoinZ wallet balance may not be available for immediate spending."
+msgid "All of your BitcoinZ Wallet balance may not be available for immediate spending."
 msgstr ""
 
 #: www/views/tab-receive.html:25
@@ -801,7 +801,7 @@ msgstr ""
 #: www/views/onboarding/tour.html:51
 #: www/views/tab-home.html:77
 #: www/views/tab-send.html:36
-msgid "Create BitcoinZ wallet"
+msgid "Create BitcoinZ Wallet"
 msgstr ""
 
 #: www/views/tab-create-personal.html:131
@@ -928,7 +928,7 @@ msgid "Duplicating wallet..."
 msgstr ""
 
 #: www/views/addresses.html:19
-msgid "Each BitcoinZ wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
+msgid "Each BitcoinZ Wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
 msgstr ""
 
 #: src/js/services/feeService.js:13

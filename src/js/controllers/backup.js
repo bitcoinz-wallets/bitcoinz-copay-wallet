@@ -106,7 +106,7 @@ angular.module('copayApp.controllers').controller('backupController',
     var confirm = function(cb) {
       $scope.backupError = false;
 
-      var customWordList = lodash.pluck($scope.customWords, 'word');
+      var customWordList = lodash.map($scope.customWords, 'word');
 
       if (!lodash.isEqual($scope.mnemonicWords, customWordList)) {
         return cb('Mnemonic string mismatch');

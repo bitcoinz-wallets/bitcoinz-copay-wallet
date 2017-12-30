@@ -115,13 +115,13 @@ angular.module('copayApp.services')
       var basePath = hwWallet.getAddressPath(root.description.id, isMultisig, account, txp.network);
 
       var rawTx = bwcService.Client.getRawTx(txp);
-      var keypaths = lodash.map(lodash.pluck(txp.inputs, 'path'), function(path) {
+      var keypaths = lodash.map(lodash.map(txp.inputs, 'path'), function(path) {
         return path.replace('m', basePath);
       });
-      var publicKeys = lodash.pluck(txp.inputs, 'publicKeys');
+      var publicKeys = lodash.map(txp.inputs, 'publicKeys');
       var changePublicKeys = txp.changeAddress.publicKeys;
       publicKeys.push(changePublicKeys);
-      
+
       var changeaddrpath;
       if (txp.changeAddress) {
         changeaddrpath = txp.changeAddress.path.replace('m', basePath);

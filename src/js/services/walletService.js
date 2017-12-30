@@ -41,7 +41,7 @@ angular.module('copayApp.services').factory('walletService', function($log, $tim
   var _signWithTrezor = function(wallet, txp, cb) {
     $log.info('Requesting Trezor  to sign the transaction');
 
-    var xPubKeys = lodash.pluck(wallet.credentials.publicKeyRing, 'xPubKey');
+    var xPubKeys = lodash.map(wallet.credentials.publicKeyRing, 'xPubKey');
     trezor.signTx(xPubKeys, txp, wallet.credentials.account, function(err, result) {
       if (err) return cb(err);
 

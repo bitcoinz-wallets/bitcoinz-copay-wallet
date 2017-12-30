@@ -43,7 +43,7 @@ angular.module('copayApp.controllers').controller('preferencesInformation',
       $scope.basePath = basePath;
       $scope.M = c.m;
       $scope.N = c.n;
-      $scope.pubKeys = lodash.pluck(c.publicKeyRing, 'xPubKey');
+      $scope.pubKeys = lodash.map(c.publicKeyRing, 'xPubKey');
       $scope.externalSource = null;
 
       if (wallet.isPrivKeyExternal()) {

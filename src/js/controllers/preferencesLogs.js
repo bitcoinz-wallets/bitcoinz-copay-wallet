@@ -7,7 +7,7 @@ angular.module('copayApp.controllers').controller('preferencesLogs',
     var logLevels = historicLog.getLevels();
     var selectedLevel;
 
-    $scope.logOptions = lodash.indexBy(logLevels, 'level');
+    $scope.logOptions = lodash.keyBy(logLevels, 'level');
 
     var filterLogs = function(weight) {
       $scope.filteredLogs = historicLog.get(weight);

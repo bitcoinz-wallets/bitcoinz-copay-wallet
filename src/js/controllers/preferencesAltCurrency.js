@@ -16,8 +16,8 @@ angular.module('copayApp.controllers').controller('preferencesAltCurrencyControl
 
         $scope.listComplete = false;
 
-        var idx = lodash.indexBy(unusedCurrencyList, 'isoCode');
-        var idx2 = lodash.indexBy($scope.lastUsedAltCurrencyList, 'isoCode');
+        var idx = lodash.keyBy(unusedCurrencyList, 'isoCode');
+        var idx2 = lodash.keyBy($scope.lastUsedAltCurrencyList, 'isoCode');
 
         completeAlternativeList = lodash.reject(rateService.listAlternatives(true), function(c) {
           return idx[c.isoCode] || idx2[c.isoCode];

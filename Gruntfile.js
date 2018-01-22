@@ -222,7 +222,6 @@ module.exports = function(grunt) {
       }
     },
     nwjs: {
-      args: ['--disable-accelerated-video'],
       options: {
         appName: '<%= pkg.title %>',
         platforms: ['win64', 'osx64', 'linux64'],

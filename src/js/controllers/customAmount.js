@@ -45,7 +45,7 @@ angular.module('copayApp.controllers').controller('customAmountController', func
       var currency = parsedAmount.currency;
       $scope.amountUnitStr = parsedAmount.amountUnitStr;
 
-      if (currency != 'BTCZ' && currency != 'BCH') {
+      if (currency != 'BTCZ') {
         // Convert to BTCZ or BCH
         var config = configService.getSync().wallet.settings;
         var amountUnit = txFormatService.satToUnit(parsedAmount.amountSat);
@@ -69,15 +69,13 @@ angular.module('copayApp.controllers').controller('customAmountController', func
 
   $scope.shareAddress = function() {
     if (!platformInfo.isCordova) return;
-    var protocol = 'bitcoin';
-    if ($scope.wallet.coin == 'bch') protocol += 'cash';
+    var protocol = 'bitcoinz';
     var data = protocol + ':' + $scope.address + '?amount=' + $scope.amountBtc;
     window.plugins.socialsharing.share(data, null, null, null);
   }
 
   $scope.copyToClipboard = function() {
-    var protocol = 'bitcoin';
-    if ($scope.wallet.coin == 'bch') protocol += 'cash';
+    var protocol = 'bitcoinz';
     return protocol + ':' + $scope.address + '?amount=' + $scope.amountBtc;
   };
 

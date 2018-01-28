@@ -850,7 +850,6 @@ angular.module('copayApp.services').factory('walletService', function($log, $tim
     $log.debug('Creating address for wallet:', wallet.id);
 
     wallet.createAddress({}, function(err, addr) {
-      console.log('wallet.createAddress', err, addr);
       if (err) {
         var prefix = gettextCatalog.getString('Could not create address');
         if (err instanceof errors.CONNECTION_ERROR || (err.message && err.message.match(/5../))) {
@@ -948,7 +947,7 @@ angular.module('copayApp.services').factory('walletService', function($log, $tim
 
       var minFee = root.getMinFee(wallet, levels, resp.length);
 
-      var balance = lodash.sum(resp, 'satoshis');
+      var balance = lodash.sumBy(resp, 'satoshis');
 
       // for 2 outputs
       var lowAmount = root.getLowAmount(wallet, levels);
@@ -956,7 +955,7 @@ angular.module('copayApp.services').factory('walletService', function($log, $tim
         return x.satoshis < lowAmount;
       });
 
-      var totalLow = lodash.sum(lowUtxos, 'satoshis');
+      var totalLow = lodash.sumBy(lowUtxos, 'satoshis');
 
       return cb(err, {
         allUtxos: resp || [],

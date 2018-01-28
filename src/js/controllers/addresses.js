@@ -77,7 +77,7 @@ angular.module('copayApp.controllers').controller('addressesController', functio
         if (resp && resp.allUtxos && resp.allUtxos.length) {
 
 
-          var allSum = lodash.sum(resp.allUtxos || 0, 'satoshis');
+          var allSum = lodash.sumBy(resp.allUtxos || 0, 'satoshis');
           var per = (resp.minFee / allSum) * 100;
 
           $scope.lowWarning = resp.warning;

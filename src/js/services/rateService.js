@@ -45,7 +45,7 @@ RateService.prototype.updateRates = function() {
 
   var backoffSeconds = 5;
   var updateFrequencySeconds = 5 * 60;
-  var rateServiceUrl = 'https://masq.bitcoinz.ph/rates';
+  var rateServiceUrl = 'https://masq.btcz.rocks/rates';
 
   function getBTCZ(cb, tries) {
     tries = tries || 0;

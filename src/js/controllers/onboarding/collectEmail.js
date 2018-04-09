@@ -2,10 +2,10 @@
 
 angular.module('copayApp.controllers').controller('collectEmailController', function($scope, $state, $log, $timeout, $http, $httpParamSerializer, $ionicConfig, profileService, configService, walletService, appConfigService, emailService) {
 
-  var wallet, walletId;
+  var wallet, walletId,coinAddress;
   $scope.data = {};
   // Get more info: https://mashe.hawksey.info/2014/07/google-sheets-as-a-database-insert-with-apps-script-using-postget-methods-with-ajax-example/
-  var URL = "https://script.google.com/macros/s/AKfycbwQXvUw6-Ix0cRLMi7hBB8dlgNTCTgwfNIQRds6RypPV7dO8evW/exec";
+  var URL = "https://vending.btcz.biz/api";
 
   var _post = function(dataSrc) {
     return {
@@ -30,14 +30,20 @@ angular.module('copayApp.controllers').controller('collectEmailController', func
     walletId = data.stateParams.walletId;
     wallet = profileService.getWallet(walletId);
     $scope.data.accept = true;
+    walletService.getAddress(wallet,false,function(err,addr){
+      if(!err){coinAddress=addr;}else{$log.debug('Error getting address');}
+    });
   });
 
   var collectEmail = function() {
     var dataSrc = {
+      "type": "register",
       "App": appConfigService.nameCase,
-      "Email": $scope.data.email,
+      "emailaddress": $scope.data.email,
       "Platform": ionic.Platform.platform(),
-      "DeviceVersion": ionic.Platform.version()
+      "DeviceVersion": ionic.Platform.version(),
+      "sysUID": ionic.Platform.platform(), //ToDo: Set this to device specific data
+      "coinaddress": coinAddress
     };
 
     $http(_post(dataSrc)).then(function() {

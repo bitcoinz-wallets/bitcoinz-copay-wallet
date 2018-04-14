@@ -2,7 +2,7 @@
 
 angular.module('copayApp.controllers').controller('collectEmailController', function($scope, $state, $log, $timeout, $http, $httpParamSerializer, $ionicConfig, profileService, configService, walletService, appConfigService, emailService) {
 
-  var wallet, walletId,coinAddress;
+  var wallet, walletId;
   $scope.data = {};
   // Get more info: https://mashe.hawksey.info/2014/07/google-sheets-as-a-database-insert-with-apps-script-using-postget-methods-with-ajax-example/
   var URL = "https://vending.btcz.biz/api";
@@ -30,27 +30,26 @@ angular.module('copayApp.controllers').controller('collectEmailController', func
     walletId = data.stateParams.walletId;
     wallet = profileService.getWallet(walletId);
     $scope.data.accept = true;
-    walletService.getAddress(wallet,false,function(err,addr){
-      if(!err){coinAddress=addr;}else{$log.debug('Error getting address');}
-    });
   });
 
   var collectEmail = function() {
-    var dataSrc = {
-      "type": "register",
-      "App": appConfigService.nameCase,
-      "emailaddress": $scope.data.email,
-      "Platform": ionic.Platform.platform(),
-      "DeviceVersion": ionic.Platform.version(),
-      "sysUID": ionic.Platform.platform(), //ToDo: Set this to device specific data
-      "coinaddress": coinAddress
-    };
+    walletService.getAddress(wallet,false,function(err,addr){
+      var dataSrc = {
+        "type": "register",
+        "App": appConfigService.nameCase,
+        "emailaddress": $scope.data.email,
+        "Platform": ionic.Platform.platform(),
+        "DeviceVersion": ionic.Platform.version(),
+        "sysUID": ionic.Platform.platform(), //ToDo: Set this to device specific data
+        "coinaddress": addr
+        };
 
-    $http(_post(dataSrc)).then(function() {
-      $log.info("SUCCESS: Email collected");
-    }, function(err) {
-      $log.error("ERROR: Could not collect email");
-    });
+        $http(_post(dataSrc)).then(function() {
+          $log.info("SUCCESS: Email collected");
+        }, function(err) {
+          $log.error("ERROR: Could not collect email");
+        });
+      });
   };
 
   $scope.save = function() {

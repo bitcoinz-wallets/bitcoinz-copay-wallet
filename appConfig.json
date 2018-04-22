@@ -26,8 +26,8 @@
   "windowsAppId": "804636ee-b017-4cad-8719-e58ac97ffa5c",
   "pushSenderId": "1036948132229",
   "description": "A Secure BitcoinZ Wallet",
-  "version": "10.0.8",
-  "androidVersion": "383008",
+  "version": "10.0.9",
+  "androidVersion": "383009",
   "_extraCSS": null,
   "_enabledExtensions": {}
 }

@@ -100,6 +100,7 @@ and then enable this one:
 - Run:
 ```
 npm run clean-all
+npm install
 npm run start:windows
 ```
 - Then open the project file with VS inside cordova/platform/windows/
@@ -124,6 +125,7 @@ The `final` commands build the production version of the app, and bundle it with
 
 ```
 npm run clean-all
+npm install
 npm run final:android
 ```
 
@@ -131,6 +133,7 @@ npm run final:android
 
 ```
 npm run clean-all
+npm install
 npm run final:ios
 ```
 
@@ -148,6 +151,7 @@ and then enable this one:
 - Run:
 ```
 npm run clean-all
+npm install
 npm run final:windows
 ```
 - Then open the project file with VS inside cordova/platform/windows/

@@ -302,8 +302,8 @@ msgid "BIP32 path for address derivation"
 msgstr "Percorso BIP32 per generare l'indirizzo"
 
 #: www/views/cashScan.html:22
-msgid "BTCZ Wallets"
-msgstr "Portafogli BTCZ"
+msgid "XSG Wallets"
+msgstr "Portafogli XSG"
 
 #: www/views/preferences.html:34
 msgid "Backup"
@@ -1897,8 +1897,8 @@ msgid "No wallets eligible for Bitcoin Cash support"
 msgstr "Nessun portafogli idoneo al supporto di Bitcoin Cash"
 
 #: www/views/cashScan.html:44
-msgid "Non eligible BTCZ wallets"
-msgstr "Portafogli BTCZ non ammissibili"
+msgid "Non eligible XSG wallets"
+msgstr "Portafogli XSG non ammissibili"
 
 #: src/js/services/feeService.js:12
 msgid "Normal"

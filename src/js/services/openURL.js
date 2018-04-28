@@ -83,8 +83,8 @@ angular.module('copayApp.services').factory('openURLService', function($rootScop
 
       if (navigator.registerProtocolHandler) {
         $log.debug('Registering Browser handlers base:' + base);
-        navigator.registerProtocolHandler('bitcoinz', url, 'Copay Bitcoin Handler');
-        navigator.registerProtocolHandler('web+copay', url, 'Copay Wallet Handler');
+        navigator.registerProtocolHandler('snowgem', url, 'Copay Bitcoin Handler');
+        navigator.registerProtocolHandler('web+snowgem', url, 'Copay Wallet Handler');
         navigator.registerProtocolHandler('web+bitpay', url, 'BitPay Wallet Handler');
       }
     }

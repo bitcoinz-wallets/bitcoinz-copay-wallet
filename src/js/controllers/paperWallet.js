@@ -1,5 +1,5 @@
 angular.module('copayApp.controllers').controller('paperWalletController',
-  function($scope, $timeout, $log, $ionicModal, $ionicHistory, feeService, popupService, gettextCatalog, platformInfo, configService, profileService, $state, bitcoreBtcz, ongoingProcess, txFormatService, $stateParams, walletService) {
+  function($scope, $timeout, $log, $ionicModal, $ionicHistory, feeService, popupService, gettextCatalog, platformInfo, configService, profileService, $state, bitcoreXsg, ongoingProcess, txFormatService, $stateParams, walletService) {
 
     function _scanFunds(cb) {
       function getPrivateKey(scannedKey, isPkEncrypted, passphrase, cb) {
@@ -13,7 +13,7 @@ angular.module('copayApp.controllers').controller('paperWalletController',
 
       function checkPrivateKey(privateKey) {
         try {
-          new bitcoreBtcz.PrivateKey(privateKey, 'livenet');
+          new bitcoreXsg.PrivateKey(privateKey, 'livenet');
         } catch (err) {
           return false;
         }
@@ -59,7 +59,7 @@ angular.module('copayApp.controllers').controller('paperWalletController',
         $scope.wallet.buildTxFromPrivateKey($scope.privateKey, destinationAddress, null, function(err, testTx) {
           if (err) return cb(err);
           var rawTxLength = testTx.serialize().length;
-          feeService.getCurrentFeeRate('btcz', 'livenet', function(err, feePerKb) {
+          feeService.getCurrentFeeRate('xsg', 'livenet', function(err, feePerKb) {
             var opts = {};
             opts.fee = Math.round((feePerKb * rawTxLength) / 2000);
             $scope.wallet.buildTxFromPrivateKey($scope.privateKey, destinationAddress, opts, function(err, tx) {

@@ -15,7 +15,7 @@ Seguridad basada en el dispositivo: todas las claves privadas se guardan localme
 Soporta monederos bitcoin en testnet
 Acceso sincrónico desde las principales plataformas móviles y de escritorio
 Soporte al protocolo de pago (BIP70-BIP73): solicitudes de pagos fácilmente identificable y verificables como pago seguro en bitcoin
-Soporte a más de 150 precios de monedas y unidades de denominación en BTCZ o bits
+Soporte a más de 150 precios de monedas y unidades de denominación en XSG o bits
 Notificaciones por email de pagos y transferencias
 Monederos con nombres y colores de fondo personalizables
 Soporte en 9 idiomas (EN, CS, FR, DE, IT, ES, JA, PL, RU)

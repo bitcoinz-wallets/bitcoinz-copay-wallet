@@ -59,7 +59,7 @@ angular.module('copayApp.services').factory('feeService', function($log, $timeou
   };
 
   root.getFeeLevels = function(coin, cb) {
-    coin = coin || 'btcz';
+    coin = coin || 'xsg';
 
     if (cache.coin == coin && cache.updateTs > Date.now() - CACHE_TIME_TS * 1000) {
       return cb(null, cache.data, true);
@@ -68,7 +68,7 @@ angular.module('copayApp.services').factory('feeService', function($log, $timeou
     var walletClient = bwcService.getClient();
 
     walletClient.getFeeLevels(coin, 'livenet', function(errLivenet, levelsLivenet) {
-      walletClient.getFeeLevels('btcz', 'testnet', function(errTestnet, levelsTestnet) {
+      walletClient.getFeeLevels('xsg', 'testnet', function(errTestnet, levelsTestnet) {
         if (errLivenet || errTestnet) {
           return cb(gettextCatalog.getString('Could not get dynamic fee'));
         }

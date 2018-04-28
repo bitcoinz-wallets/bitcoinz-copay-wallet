@@ -302,7 +302,7 @@ msgid "BIP32 path for address derivation"
 msgstr "BIP32 路径的地址衍生"
 
 #: www/views/cashScan.html:22
-msgid "BTCZ Wallets"
+msgid "XSG Wallets"
 msgstr ""
 
 #: www/views/preferences.html:34
@@ -1897,7 +1897,7 @@ msgid "No wallets eligible for Bitcoin Cash support"
 msgstr ""
 
 #: www/views/cashScan.html:44
-msgid "Non eligible BTCZ wallets"
+msgid "Non eligible XSG wallets"
 msgstr ""
 
 #: src/js/services/feeService.js:12

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('copayApp.controllers').controller('amountController', function($scope, $filter, $timeout, $ionicScrollDelegate, $ionicHistory, gettextCatalog, platformInfo, lodash, configService, rateService, $stateParams, $window, $state, $log, txFormatService, ongoingProcess, popupService, bwcError, payproService, profileService, bitcoreBtcz, nodeWebkitService) {
+angular.module('copayApp.controllers').controller('amountController', function($scope, $filter, $timeout, $ionicScrollDelegate, $ionicHistory, gettextCatalog, platformInfo, lodash, configService, rateService, $stateParams, $window, $state, $log, txFormatService, ongoingProcess, popupService, bwcError, payproService, profileService, bitcoreXsg, nodeWebkitService) {
   var _id;
   var unitToSatoshi;
   var satToUnit;
@@ -30,15 +30,15 @@ angular.module('copayApp.controllers').controller('amountController', function($
 
       availableUnits = [];
 
-      var hasBTCZWallets = profileService.getWallets({
-        coin: 'btcz'
+      var hasXSGWallets = profileService.getWallets({
+        coin: 'xsg'
       }).length;
 
-      if (hasBTCZWallets) {
+      if (hasXSGWallets) {
         availableUnits.push({
           name: 'Bitcoin',
-          id: 'btcz',
-          shortName: 'BTCZ',
+          id: 'xsg',
+          shortName: 'XSG',
         });
       }
 
@@ -217,7 +217,7 @@ angular.module('copayApp.controllers').controller('amountController', function($
 
 
     if (availableUnits[unitIndex].isFiat) {
-      // Always return to BTCZ... TODO?
+      // Always return to XSG... TODO?
       altUnitIndex = 0;
     } else {
       altUnitIndex = lodash.findIndex(availableUnits, {

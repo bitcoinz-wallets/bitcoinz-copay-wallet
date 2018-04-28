@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('copayApp.services')
-  .factory('intelTEE', function($log, $timeout, gettext, lodash, bitcoreBtcz, hwWallet, bwcService, platformInfo) {
+  .factory('intelTEE', function($log, $timeout, gettext, lodash, bitcoreXsg, hwWallet, bwcService, platformInfo) {
 
     var root = {};
 

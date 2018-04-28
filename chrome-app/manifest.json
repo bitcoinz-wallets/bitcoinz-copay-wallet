@@ -3,8 +3,8 @@
   "//":"        Modify it in the app-template directory",
 
   "manifest_version": 2,
-  "name": "copay",
-  "description": "A Secure BitcoinZ Wallet",
+  "name": "snowgem",
+  "description": "A Secure SnowGem Wallet",
   "version": "1.0.0",
   "permissions": [
     "storage",

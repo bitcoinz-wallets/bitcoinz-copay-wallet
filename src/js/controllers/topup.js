@@ -3,7 +3,7 @@
 angular.module('copayApp.controllers').controller('topUpController', function($scope, $log, $state, $timeout, $ionicHistory, $ionicConfig, lodash, popupService, profileService, ongoingProcess, walletService, configService, platformInfo, payproService, bwcError, txFormatService, sendMaxService, gettextCatalog) {
 
   $scope.isCordova = platformInfo.isCordova;
-  var coin = 'btcz';
+  var coin = 'xsg';
   var cardId;
   var useSendMax;
   var amount;
@@ -101,7 +101,7 @@ angular.module('copayApp.controllers').controller('topUpController', function($s
 
     var outputs = [];
     var toAddress = invoice.bitcoinAddress;
-    var amountSat = parseInt((invoice.btczDue * 100000000).toFixed(0)); // BTCZ to Satoshi
+    var amountSat = parseInt((invoice.xsgDue * 100000000).toFixed(0)); // XSG to Satoshi
 
     outputs.push({
       'toAddress': toAddress,
@@ -150,7 +150,7 @@ angular.module('copayApp.controllers').controller('topUpController', function($s
 
         var maxAmountBtc = Number((maxValues.amount / 100000000).toFixed(8));
 
-        createInvoice({amount: maxAmountBtc, currency: 'BTCZ'}, function(err, inv) {
+        createInvoice({amount: maxAmountBtc, currency: 'XSG'}, function(err, inv) {
           if (err) return cb(err);
 
           var invoiceFeeSat = parseInt((inv.buyerPaidBtcMinerFee * 100000000).toFixed());

@@ -22,7 +22,7 @@
           <div class="amount-final">{{amountUnitStr}}</div>
           <div class="alternative" ng-show="amountUnitStr">
             <span ng-if="rate">@
-              {{rate | currency:currencySymbol:2}} {{currencyIsoCode}} per BTCZ</span>
+              {{rate | currency:currencySymbol:2}} {{currencyIsoCode}} per XSG</span>
             <span ng-if="!rate">...</span>
           </div>
         </div>
@@ -34,7 +34,7 @@
           <div class="label" translate>From</div>
           <div class="wallet">
             <i class="icon big-icon-svg">
-              <img ng-src="img/{{wallet.network == 'testnet' ? 'icon-wallet-testnet' : (wallet.coin == 'btcz' ? 'icon-btcz' : 'icon-bch')}}.svg" ng-class="{'wallet-background-color-default': !wallet.color}" ng-style="{'background-color': wallet.color}" class="bg">
+              <img ng-src="img/{{wallet.network == 'testnet' ? 'icon-wallet-testnet' : (wallet.coin == 'xsg' ? 'icon-xsg' : 'icon-bch')}}.svg" ng-class="{'wallet-background-color-default': !wallet.color}" ng-style="{'background-color': wallet.color}" class="bg">
             </i>
             {{wallet ? wallet.name : '...'}}
           </div>

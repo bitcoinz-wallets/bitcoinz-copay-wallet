@@ -15,7 +15,7 @@ Device-based security: all private keys are stored locally, not in the cloud
 Support for Bitcoin testnet wallets
 Synchronous access across all major mobile and desktop platforms
 Payment protocol (BIP70-BIP73) support: easily-identifiable payment requests and verifiably secure bitcoin payments
-Support for 150+ currency pricing options and unit denomination in BTCZ or bits
+Support for 150+ currency pricing options and unit denomination in XSG or bits
 Email notifications for payments and transfers
 Customizable wallet naming and background colors
 9 supported languages (EN, CS, FR, DE, IT, ES, JA, PL, RU)

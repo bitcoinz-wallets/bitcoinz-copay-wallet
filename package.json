@@ -1,21 +1,21 @@
 {
   "//": "        Modify it in the app-template directory",
-  "name": "copay",
-  "description": "A Secure BitcoinZ Wallet",
-  "author": "BitcoinZ Community",
+  "name": "snowgem",
+  "description": "A Secure SnowGem Wallet",
+  "author": "SnowGem Community",
   "version": "10.0.9",
   "keywords": [
     "bitcoin",
     "wallet",
     "bitpay",
-    "copay",
+    "snowgem",
     "multisignature",
     "bitcore"
   ],
   "main": "www/index.html",
-  "title": "BitcoinZ",
+  "title": "SnowGem",
   "window": {
-    "title": "BitcoinZ - BitcoinZ Wallet",
+    "title": "SnowGem - SnowGem Wallet",
     "icon": "www/img/app/icon.png",
     "toolbar": false,
     "show": true,
@@ -37,14 +37,14 @@
   },
   "dom_storage_quota": 200,
   "id": "jid1-x7bV5evAaI1P9Q",
-  "homepage": "https://btcz.rocks",
+  "homepage": "https://snowgem.org",
   "license": "MIT",
   "repository": {
-    "url": "git://github.com/bitcoinz-wallets/bitcoinz-copay-wallet.git",
+    "url": "git://github.com/snowgem/snowgem-copay-wallet.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/bitcoinz-wallets/bitcoinz-copay-wallet/issues"
+    "url": "https://github.com/snowgem/snowgem-copay-wallet/issues"
   },
   "engines": {
     "node": "6",
@@ -57,11 +57,11 @@
     "bezier-easing": "^2.0.3",
     "bhttp": "^1.2.4",
     "bitauth": "^0.2.1",
-    "bitcore-wallet-client-btcz": "git+https://github.com/bitcoinz-wallets/bitcore-wallet-client-btcz.git#v1.0.3",
+    "bitcore-wallet-client-xsg": "git+https://github.com/snowgem/bitcore-wallet-client-xsg.git",
     "bower": "^1.7.9",
     "cordova": "^7.1.0",
     "cordova-android": "^6.4.0",
-    "cordova-clipboard": "1.1.1",
+    "cordova-clipboard": "^1.1.1",
     "cordova-custom-config": "~3.0.5",
     "cordova-ios": "~4.2.1",
     "cordova-ios-requires-fullscreen": "~0.0.2",
@@ -138,13 +138,14 @@
     "run:android": "cordova run android --device",
     "run:android-release": "cordova run android --device --release",
     "log:android": "adb logcat | grep chromium",
-    "sign:android": "rm -f platforms/android/build/outputs/apk/release/android-release-signed-aligned.apk && jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ../copay.keystore -signedjar platforms/android/build/outputs/apk/release/android-release-signed.apk platforms/android/build/outputs/apk/release/android-release-unsigned.apk copay_play && $ANDROID_HOME/build-tools/26.0.2/zipalign -v 4 platforms/android/build/outputs/apk/release/android-release-signed.apk platforms/android/build/outputs/apk/release/android-release-signed-aligned.apk",
+    "sign:android": "rm -f platforms/android/build/outputs/apk/release/android-release-signed-aligned.apk && jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ../snowgem.keystore -signedjar platforms/android/build/outputs/apk/release/android-release-signed.apk platforms/android/build/outputs/apk/release/android-release-unsigned.apk copay_play && $ANDROID_HOME/build-tools/26.0.2/zipalign -v 4 platforms/android/build/outputs/apk/release/android-release-signed.apk platforms/android/build/outputs/apk/release/android-release-signed-aligned.apk",
     "test": "echo \"no package tests configured\"",
     "clean": "trash platforms && trash plugins && cordova prepare",
     "unstage-package": "git reset package.json",
     "clean-all": "git clean -dfx"
   },
   "devDependencies": {
+    "cordova": "^6.3.1",
     "grunt": "^1.0.1",
     "ionic": "^3.6.0",
     "trash-cli": "^1.4.0",
@@ -180,7 +181,7 @@
       "cordova-plugin-wkwebview-engine": {},
       "cordova-plugin-qrscanner": {},
       "cordova-plugin-customurlscheme": {
-        "URL_SCHEME": "bitcoinz"
+        "URL_SCHEME": "snowgem"
       },
       "cordova-custom-config": {},
       "cordova-plugin-queries-schemes": {},

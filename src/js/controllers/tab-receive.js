@@ -142,7 +142,7 @@ angular.module('copayApp.controllers').controller('tabReceiveController', functi
 
   $scope.shareAddress = function() {
     if (!$scope.isCordova) return;
-    var protocol = 'bitcoinz';
+    var protocol = 'snowgem';
     window.plugins.socialsharing.share(protocol + ':' + $scope.addr, null, null, null);
   }
 });

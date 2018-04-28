@@ -15,7 +15,7 @@ Segurança baseada em dispositivo: todas as chaves privadas são armazenadas loc
 Suporte para carteiras de testes na Bitcoin testnet
 Acesso síncrono entre todas as principais plataformas móveis e desktops
 Suporte a protocolo de pagamento (BIP70-BIP73): solicitações de pagamento facilmente identificadas e pagamentos seguros em bitcoins verificáveis
-Suporte para mais de 150 opções de moedas e denominação de unidades em BTCZ ou bits
+Suporte para mais de 150 opções de moedas e denominação de unidades em XSG ou bits
 Notificações por e-mail para pagamentos e transferências
 Nomes e cores de fundo customizáveis para carteiras
 9 idiomas suportados (EN, CS, FR, DE, IT, ES, JA, PL, RU)

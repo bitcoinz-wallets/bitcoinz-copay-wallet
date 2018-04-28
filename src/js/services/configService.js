@@ -14,15 +14,15 @@ angular.module('copayApp.services').factory('configService', function(storageSer
 
     // Bitcore wallet service URL
     bws: {
-      url: 'https://bws.btcz.rocks/bws/api',
+      url: 'http://127.0.0.1:3232/bws/api',
     },
 
     download: {
       bitpay: {
         url: 'https://bitpay.com/wallet'
       },
-      copay: {
-        url: 'https://github.com/bitcoinz-wallets/bitcoinz-copay-wallet/releases'
+      snowgem: {
+        url: 'https://github.com/snowgem/snowgem-copay-wallet/releases'
       }
     },
 
@@ -32,9 +32,9 @@ angular.module('copayApp.services').factory('configService', function(storageSer
         android: 'https://play.google.com/store/apps/details?id=com.bitpay.wallet',
         wp: ''
       },
-      copay: {
+      snowgem: {
         ios: 'http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=951330296&pageNumber=0&sortOrdering=2&type=Purple+Software&mt=8',
-        android: 'https://play.google.com/store/apps/details?id=com.btczcom.btcz-wallet',
+        android: 'https://play.google.com/store/apps/details?id=com.xsgcom.xsg-wallet',
         wp: ''
       }
     },
@@ -46,10 +46,10 @@ angular.module('copayApp.services').factory('configService', function(storageSer
       reconnectDelay: 5000,
       idleDurationMin: 4,
       settings: {
-        unitName: 'BTCZ',
+        unitName: 'XSG',
         unitToSatoshi: 100000000,
         unitDecimals: 8,
-        unitCode: 'btcz',
+        unitCode: 'xsg',
         alternativeName: 'US Dollar',
         alternativeIsoCode: 'USD',
       }
@@ -72,11 +72,11 @@ angular.module('copayApp.services').factory('configService', function(storageSer
     },
 
     rates: {
-      url: 'https://masq.btcz.rocks/rates',
+      url: 'https://rates.snowgem.org/rates',
     },
 
     release: {
-      url: 'https://api.github.com/repos/bitcoinz-wallets/bitcoinz-copay-wallet/releases/latest'
+      url: 'https://api.github.com/repos/snowgem/snowgem-copay-wallet/releases/latest'
     },
 
     pushNotificationsEnabled: true,
@@ -150,7 +150,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
         }
 
         if (configCache.wallet.settings.unitCode == 'bit') {
-          // Convert to BTCZ. Bits will be disabled
+          // Convert to XSG. Bits will be disabled
           configCache.wallet.settings.unitName = defaultConfig.wallet.settings.unitName;
           configCache.wallet.settings.unitToSatoshi = defaultConfig.wallet.settings.unitToSatoshi;
           configCache.wallet.settings.unitDecimals = defaultConfig.wallet.settings.unitDecimals;

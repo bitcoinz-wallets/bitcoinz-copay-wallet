@@ -16,7 +16,7 @@ angular.module('copayApp.controllers').controller('txDetailsController', functio
     $scope.isShared = $scope.wallet.credentials.n > 1;
     $scope.txsUnsubscribedForNotifications = config.confirmedTxsNotifications ? !config.confirmedTxsNotifications.enabled : true;
 
-    blockexplorerUrl = 'explorer.btcz.rocks';
+    blockexplorerUrl = 'insight.snowgem.org/api';
 
     txConfirmNotification.checkIfEnabled(txId, function(res) {
       $scope.txNotification = {

@@ -11,7 +11,7 @@ angular.module('copayApp.controllers').controller('addressbookViewController', f
     $scope.addressbookEntry.email = data.stateParams.email;
     $scope.addressbookEntry.address = data.stateParams.address;
 
-    coin = 'btcz';
+    coin = 'xsg';
   });
 
   $scope.sendTo = function() {

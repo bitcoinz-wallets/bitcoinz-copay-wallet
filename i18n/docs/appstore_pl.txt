@@ -15,7 +15,7 @@ Zabezpieczenia: wszystkie klucze prywatne przechowywane lokalnie, a nie w chmurz
 Wsparcie dla Bitcoin testnet wallets
 Jednoczesny dostęp ze wszystkich głównych platform mobilnych i stacjonarnych
 Wsparcie protokołów płatności (BIP70-BIP73): łatwe do zidentyfikowania wnioski o płatność i bezpieczne, weryfikowalne płatności bitcoin
-Wsparcie dla wyświetlania ponad 150 walut w jednostkach BTCZ lub bit
+Wsparcie dla wyświetlania ponad 150 walut w jednostkach XSG lub bit
 Powiadomienia o płatnościach i transferach za pośrednictwem poczty elektronicznej
 Konfigurowanie nazwy i koloru tła portfela
 9 obsługiwanych języków (EN, CS, FR, DE, IT, ES, JA, PL, RU)

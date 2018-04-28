@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('copayApp.controllers').controller('confirmController', function($rootScope, $scope, $interval, $filter, $timeout, $ionicScrollDelegate, gettextCatalog, walletService, platformInfo, lodash, configService, $stateParams, $window, $state, $log, profileService, bitcoreBtcz, txFormatService, ongoingProcess, $ionicModal, popupService, $ionicHistory, $ionicConfig, payproService, feeService, bwcError, txConfirmNotification, externalLinkService) {
+angular.module('copayApp.controllers').controller('confirmController', function($rootScope, $scope, $interval, $filter, $timeout, $ionicScrollDelegate, gettextCatalog, walletService, platformInfo, lodash, configService, $stateParams, $window, $state, $log, profileService, bitcoreXsg, txFormatService, ongoingProcess, $ionicModal, popupService, $ionicHistory, $ionicConfig, payproService, feeService, bwcError, txConfirmNotification, externalLinkService) {
 
   var countDown = null;
   var CONFIRM_LIMIT_USD = 20;
@@ -122,7 +122,7 @@ angular.module('copayApp.controllers').controller('confirmController', function(
 
     // Setup $scope
 
-    var B = bitcoreBtcz;
+    var B = bitcoreXsg;
     var networkName;
     try {
       networkName = (new B.Address(data.stateParams.toAddress)).network.name;
@@ -405,7 +405,7 @@ angular.module('copayApp.controllers').controller('confirmController', function(
       return warningMsg.join('\n');
     };
 
-    var msg = gettextCatalog.getString("{{fee}} will be deducted for bitcoinz networking fees.", {
+    var msg = gettextCatalog.getString("{{fee}} will be deducted for snowgem networking fees.", {
       fee: txFormatService.formatAmountStr(wallet.coin, sendMaxInfo.fee)
     });
     var warningMsg = verifyExcludedUtxos();
@@ -520,7 +520,7 @@ angular.module('copayApp.controllers').controller('confirmController', function(
     if (!tx || !wallet) return;
 
     if ($scope.paymentExpired) {
-      popupService.showAlert(null, gettextCatalog.getString('This bitcoinz payment request has expired.'));
+      popupService.showAlert(null, gettextCatalog.getString('This snowgem payment request has expired.'));
       $scope.sendStatus = '';
       $timeout(function() {
         $scope.$apply();

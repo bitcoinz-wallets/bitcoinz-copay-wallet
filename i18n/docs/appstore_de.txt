@@ -15,7 +15,7 @@ Gerätebasierte Sicherheit: Alle privaten Schlüssel werden auf dem Gerät und n
 Unterstützung von Bitcoin Testnet Wallets
 Gleichzeitiger Zugriff über alle wichtigen mobilen Systeme und Desktop-Plattformen
 Zahlungsprotokoll (BIP70-BIP73) Unterstützung: Leicht identifizierbare Zahlungsanforderungen und nachvollziehbare sichere Bitcoinzahlungen.
-Unterstützung von 150+ verschiedenen Währungen und Stückelung in BTCZ oder bits
+Unterstützung von 150+ verschiedenen Währungen und Stückelung in XSG oder bits
 E-Mail Benachrichtigung für Zahlungen und Transaktionen
 Anpasspare Wallets: Eigene Namen und Hintergrundfarben
 Unterstützung von 9 Sprachen (EN, CS, FR, DE, IT, ES, JA, PL, RU)

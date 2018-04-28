@@ -1,6 +1,6 @@
 {
-  "name": "BitcoinZ Wallet",
-  "app_id": "com.btczcom.btcz-wallet-osx",
+  "name": "SnowGem Wallet",
+  "app_id": "com.xsgcom.xsg-wallet-osx",
   "integrations": {
     "cordova": {}
   },

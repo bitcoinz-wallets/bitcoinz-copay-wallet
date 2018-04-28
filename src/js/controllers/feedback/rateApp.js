@@ -39,9 +39,9 @@ angular.module('copayApp.controllers').controller('rateAppController', function(
     var defaults = configService.getDefaults();
     var url;
     if (isAndroid)
-      url = $scope.appName == 'BitcoinZ Wallet' ? defaults.rateApp.copay.android : defaults.rateApp.btczcom.android;
+      url = $scope.appName == 'SnowGem Wallet' ? defaults.rateApp.copay.android : defaults.rateApp.xsgcom.android;
     if (isIOS)
-      url = $scope.appName == 'BitcoinZ Wallet' ? defaults.rateApp.copay.ios : defaults.rateApp.btczcom.ios;
+      url = $scope.appName == 'SnowGem Wallet' ? defaults.rateApp.copay.ios : defaults.rateApp.xsgcom.ios;
 
     externalLinkService.open(url);
     $state.go('tabs.rate.complete', {

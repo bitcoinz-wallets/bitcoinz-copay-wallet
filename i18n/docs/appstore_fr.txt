@@ -15,7 +15,7 @@ Nous avons développé les fonctionnalités suivantes dans cette version de Copa
 • Prise en charge des portefeuilles bitcoin testnet.
 • Accès synchrone sur toutes les principales plateformes mobiles et de bureau.
 • Prise en charge de Payment protocol (BIP70-BIP73) : demandes de paiement facilement identifiables et paiements bitcoins sécurisés et vérifiables.
-• Prise en charge de plus de 150 devises et dénomination d'unité en BTCZ ou en bits.
+• Prise en charge de plus de 150 devises et dénomination d'unité en XSG ou en bits.
 • Notifications e-mail pour les paiements et les transferts.
 • Nom de portefeuille et couleurs de fond personnalisables.
 • 9 langues prises en charge (EN, CS, FR, DE, IT, ES, JA, PL, RU)

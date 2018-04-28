@@ -16,9 +16,9 @@ angular.module('copayApp.controllers').controller('importController',
       $scope.formData.bwsurl = defaults.bws.url;
       $scope.formData.derivationPath = derivationPathHelper.default;
       $scope.formData.account = 1;
-      $scope.formData.coin = 'btcz';
+      $scope.formData.coin = 'xsg';
       $scope.importErr = false;
-      $scope.isCopay = appConfigService.name == 'bitcoinz';
+      $scope.isCopay = appConfigService.name == 'snowgem';
       $scope.fromHardwareWallet = {
         value: false
       };

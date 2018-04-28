@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('copayApp.services')
-  .factory('trezor', function($log, $timeout, lodash, bitcoreBtcz, hwWallet, platformInfo) {
+  .factory('trezor', function($log, $timeout, lodash, bitcoreXsg, hwWallet, platformInfo) {
     var root = {};
 
     var SETTLE_TIME = 3000;
@@ -73,7 +73,7 @@ angular.module('copayApp.services')
       path = path.join('/');
 
       var keys = lodash.map(xPubKeys, function(x) {
-        var pub = (new bitcoreBtcz.HDPublicKey(x)).derive(path).publicKey;
+        var pub = (new bitcoreXsg.HDPublicKey(x)).derive(path).publicKey;
         return {
           xpub: x,
           pub: pub.toString('hex'),

@@ -11,7 +11,7 @@ angular.module('copayApp.controllers').controller('joinController',
       $scope.formData.derivationPath = derivationPathHelper.default;
       $scope.formData.account = 1;
       $scope.formData.secret = null;
-      $scope.formData.coin = 'btcz';
+      $scope.formData.coin = 'xsg';
       if (config.cashSupport) $scope.enableCash = true;
       resetPasswordFields();
       updateSeedSourceSelect();
@@ -58,7 +58,7 @@ angular.module('copayApp.controllers').controller('joinController',
 
     if ($stateParams.url) {
       var data = $stateParams.url;
-      data = data.replace('copay:', '');
+      data = data.replace('snowgem:', '');
       $scope.onQrCodeScannedJoin(data);
     }
 
@@ -77,7 +77,7 @@ angular.module('copayApp.controllers').controller('joinController',
 
       */
 
-      if (appConfigService.name == 'copay') {
+      if (appConfigService.name == 'snowgem') {
         if (walletService.externalSource.ledger.supported) {
           $scope.seedOptions.push({
             id: walletService.externalSource.ledger.id,

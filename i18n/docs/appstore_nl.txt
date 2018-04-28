@@ -15,7 +15,7 @@ Apparaat gebaseerde beveiliging: alle persoonlijke sleutels zijn lokaal opgeslag
 Ondersteuning voor Bitcoin testnet rekeningen
 Synchroniseert toegang tot alle grote mobiele en desktop platforms
 Betaling-protocolondersteuning (BIP70-BIP73): gemakkelijk identificeerbare betalingsaanvragen en verifieerbare veilige bitcoin betalingen
-Ondersteuning voor 150 + valuta prijsopties en eenheid denominatie in BTCZ of bits
+Ondersteuning voor 150 + valuta prijsopties en eenheid denominatie in XSG of bits
 E-mailberichten voor betalingen en transfers
 Aanpasbare rekeningen naamgeving en achtergrond kleuren
 9 ondersteunde talen (NL, CS, FR, DE, het, ES, JA, PL, RU)

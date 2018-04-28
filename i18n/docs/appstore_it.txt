@@ -15,7 +15,7 @@ Sicurezza integrata nel dispositivo: tutte le chiave private sono memorizzate lo
 Supporto per portafogli della testnet Bitcoin
 Accesso sincrono in tutte le piattaforme mobile e desktop
 Supporto per il protocollo di pagamento (BIP70-BIP73): richieste di pagamento facilmente identificabili e pagamenti bitcoin sicuri e verificabili
-Supporto per 150+ valute e denominazione in BTCZ o bits
+Supporto per 150+ valute e denominazione in XSG o bits
 Notifiche email per pagamenti o trasferimenti
 Colori di sfondo e nomi dei portafogli personalizzabli
 9 lingue supportate (EN, CS, FR, DE, IT, ES, JA, PL, RU)

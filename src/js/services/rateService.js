@@ -45,7 +45,7 @@ RateService.prototype.updateRates = function() {
 
   var backoffSeconds = 5;
   var updateFrequencySeconds = 5 * 60;
-  var rateServiceUrl = 'https://rates.snowgem.org/rates';
+  var rateServiceUrl = 'https://snowgem.org/rates';
 
   function getXSG(cb, tries) {
     tries = tries || 0;

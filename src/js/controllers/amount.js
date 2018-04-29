@@ -42,21 +42,6 @@ angular.module('copayApp.controllers').controller('amountController', function($
         });
       }
 
-
-      var hasBCHWallets = profileService.getWallets({
-        coin: 'bch'
-      }).length;
-
-
-
-      if (hasBCHWallets) {
-        availableUnits.push({
-          name: 'Bitcoin Cash',
-          id: 'bch',
-          shortName: 'BCH',
-        });
-      };
-
       unitIndex = 0;
 
       if (data.stateParams.coin) {

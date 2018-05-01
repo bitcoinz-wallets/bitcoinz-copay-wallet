@@ -43,7 +43,7 @@ angular.module('copayApp.controllers').controller('feeLevelsController', functio
   $scope.checkFees = function(feePerSatByte) {
     var fee = Number(feePerSatByte);
 
-    if (fee <= $scope.minFeeAllowed) $scope.showError = true;
+    if (fee < $scope.minFeeAllowed) $scope.showError = true;
     else $scope.showError = false;
 
     if (fee > $scope.minFeeAllowed && fee < $scope.minFeeRecommended) $scope.showMinWarning = true;

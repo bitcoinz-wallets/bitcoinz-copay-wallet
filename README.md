@@ -1,11 +1,9 @@
 # WARNING #
 This software should be used at your own risk. It is experimental.
 
-<img src="https://raw.githubusercontent.com/snowgem/snowgem-copay-wallet/master/resources/copay/android/icon/drawable-xxxhdpi-icon.png" alt="SnowGem" width="79">
-
 SnowGem Wallet is a secure bitcoin wallet platform for both desktop and mobile devices. SnowGem Wallet uses [Bitcore Wallet Service](https://github.com/bitpay/bitcore-wallet-service) (BWS) for peer synchronization and network interfacing.
 
-Binary versions of SnowGem Wallet are available for download at [snowgem.global](https://www.snowgem.global/en/#wallets).
+Binary versions of SnowGem Wallet are available for download at [snowgem.global](https://www.snowgem.org/#wallets).
 For a list of frequently asked questions please visit the [Copay FAQ](https://github.com/bitpay/copay/wiki/COPAY---FAQ).
 
 ## Main Features

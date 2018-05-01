@@ -2,7 +2,7 @@
   "//": "        Modify it in the app-template directory",
   "name": "snowgem",
   "description": "A Secure SnowGem Wallet",
-  "author": "SnowGem Community",
+  "author": "SnowGem Foundation",
   "version": "10.0.9",
   "keywords": [
     "bitcoin",

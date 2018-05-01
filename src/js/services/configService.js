@@ -72,7 +72,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
     },
 
     rates: {
-      url: 'https://snowgem.org/rates',
+      url: 'https://rates.snowgem.org/rates',
     },
 
     release: {

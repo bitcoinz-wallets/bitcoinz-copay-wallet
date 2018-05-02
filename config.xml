@@ -13,7 +13,7 @@
     <preference name="iosPersistentFileLocation" value="Library" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="HideKeyboardFormAccessoryBar" value="true" />
-    <preference name="WindowsStoreIdentityName" value="18C7659D.Copay-SecureBitcoinWallet" />
+    <preference name="WindowsStoreIdentityName" value="18C7659D.Copay-SecureSnowGemWallet" />
     <preference name="WindowsStoreDisplayName" value="SnowGem Wallet - Secure SnowGem Wallet" />
     <preference name="StatusBarBackgroundColor" value="#192c3a" />
     <preference name="BackupWebStorage" value="none" />

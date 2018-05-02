@@ -36,7 +36,7 @@ angular.module('copayApp.controllers').controller('amountController', function($
 
       if (hasXSGWallets) {
         availableUnits.push({
-          name: 'Bitcoin',
+          name: 'SnowGem',
           id: 'xsg',
           shortName: 'XSG',
         });

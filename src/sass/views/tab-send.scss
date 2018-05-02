@@ -47,7 +47,7 @@
     background-color: #f2f2f2;
     border-radius: 3px;
     border: none;
-    .svg#Bitcoin_Symbol {
+    .svg#SnowGem_Symbol {
       width: 14px;
       .st0 {
         fill: #cccccc;
@@ -55,7 +55,7 @@
     }
     &.focus {
       background: none;
-      .svg#Bitcoin_Symbol {
+      .svg#SnowGem_Symbol {
         display: none;
       }
       .search-input {
@@ -80,7 +80,7 @@
     padding-left: 10px;
     height: 70%;
   }
-  .bitcoin-address {
+  .snowgem-address {
     border-top: none;
     padding-bottom: .5rem;
     @media(max-width: 480px) {

@@ -5,18 +5,18 @@ angular.module('copayApp.controllers').controller('paymentUriController',
       return (parseFloat(number.toPrecision(12)));
     };
 
-    // Build bitcoinURI with querystring
+    // Build snowgemURI with querystring
     this.init = function() {
       var query = [];
-      this.bitcoinURI = $stateParams.url;
+      this.snowgemURI = $stateParams.url;
 
       var URI = bitcoreXsg.URI;
-      var isUriValid = URI.isValid(this.bitcoinURI);
-      if (!URI.isValid(this.bitcoinURI)) {
+      var isUriValid = URI.isValid(this.snowgemURI);
+      if (!URI.isValid(this.snowgemURI)) {
         this.error = true;
         return;
       }
-      var uri = new URI(this.bitcoinURI);
+      var uri = new URI(this.snowgemURI);
 
       if (uri && uri.address) {
         var config = configService.getSync().wallet.settings;
@@ -50,7 +50,7 @@ angular.module('copayApp.controllers').controller('paymentUriController',
       $ionicHistory.removeBackView();
       $state.go('tabs.home');
       $timeout(function() {
-        $rootScope.$emit('paymentUri', self.bitcoinURI);
+        $rootScope.$emit('paymentUri', self.snowgemURI);
       }, 1000);
     };
   });

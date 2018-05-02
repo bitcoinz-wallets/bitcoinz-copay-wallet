@@ -9,7 +9,7 @@
       border-top: 0;
   }
   @media(max-width: 480px) {
-    .bitcoin-address {
+    .snowgem-address {
       .icon {
         left: 8px;
         font-size: 24px;
@@ -27,7 +27,7 @@
     }
   }
   @media(max-width: 320px) {
-    .bitcoin-address {
+    .snowgem-address {
       & > span:last-child {
         margin-left: -2px;
       }

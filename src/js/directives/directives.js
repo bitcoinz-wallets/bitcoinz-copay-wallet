@@ -5,7 +5,7 @@ angular.module('copayApp.directives')
       return {
         require: 'ngModel',
         link: function(scope, elem, attrs, ctrl) {
-          // Bitcoin address
+          // SnowGem address
           var URI = bitcoreXsg.URI;
           var Address = bitcoreXsg.Address
 
@@ -35,7 +35,7 @@ angular.module('copayApp.directives')
               return;
             }
 
-            // Regular Address: try Bitcoin
+            // Regular Address: try SnowGem
             var regularAddressLivenet = Address.isValid(value, 'livenet');
             var regularAddressTestnet = Address.isValid(value, 'testnet');
             return value;

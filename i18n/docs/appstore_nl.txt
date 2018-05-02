@@ -1,20 +1,20 @@
-Beveilig bitcoin op je eigen voorwaarden met een open source, multisignature rekening van BitPay. 
+Beveilig snowgem op je eigen voorwaarden met een open source, multisignature rekening van BitPay. 
 Copay gebruikers kunnen individueel vermogen aanhouden of financiën veilig delen met andere gebruikers door gebruik te maken van een multisignature rekening, hiermee voorkom je niet-geautoriseerde betalingen doordat meerdere goedkeuringen nodig zijn. Hier zijn een aantal manieren waarop Copay gebruikt kan worden met anderen:
 
 Om te sparen voor vakanties of gezamenlijke aankopen met vrienden 
 Voor het bijhouden van de familie uitgaven en vergoedingen
 Voor het beheer van de fondsen en kosten van een bedrijf, club of organisatie
 
-Wij hebben de volgende functies ingebouwd in deze versie van Copay voor een bitcoin-wallet die geen concessies doet op het gebied van beveiliging en toegankelijkheid:
+Wij hebben de volgende functies ingebouwd in deze versie van Copay voor een snowgem-wallet die geen concessies doet op het gebied van beveiliging en toegankelijkheid:
 
 Het creëren van meerdere rekeningen beheer in de app 
 Intuïtieve multisignature beveiliging voor persoonlijke of gedeelde rekeningen
 Eenvoudig uitgaven voorstellen voor gedeelde rekeningen en groep betalingen
 Hiërarchische deterministische (HD) adres generatie en rekening back-ups 
 Apparaat gebaseerde beveiliging: alle persoonlijke sleutels zijn lokaal opgeslagen, niet in de cloud
-Ondersteuning voor Bitcoin testnet rekeningen
+Ondersteuning voor SnowGem testnet rekeningen
 Synchroniseert toegang tot alle grote mobiele en desktop platforms
-Betaling-protocolondersteuning (BIP70-BIP73): gemakkelijk identificeerbare betalingsaanvragen en verifieerbare veilige bitcoin betalingen
+Betaling-protocolondersteuning (BIP70-BIP73): gemakkelijk identificeerbare betalingsaanvragen en verifieerbare veilige snowgem betalingen
 Ondersteuning voor 150 + valuta prijsopties en eenheid denominatie in XSG of bits
 E-mailberichten voor betalingen en transfers
 Aanpasbare rekeningen naamgeving en achtergrond kleuren

@@ -42,7 +42,7 @@ angular.module('copayApp.services').factory('addressbookService', function($log,
 
   root.add = function(entry, cb) {
     var network = getNetwork(entry.address);
-    if (lodash.isEmpty(network)) return cb('Not valid bitcoin address');
+    if (lodash.isEmpty(network)) return cb('Not valid snowgem address');
     storageService.getAddressbook(network, function(err, ab) {
       if (err) return cb(err);
       if (ab) ab = JSON.parse(ab);
@@ -61,7 +61,7 @@ angular.module('copayApp.services').factory('addressbookService', function($log,
 
   root.remove = function(addr, cb) {
     var network = getNetwork(addr);
-    if (lodash.isEmpty(network)) return cb('Not valid bitcoin address');
+    if (lodash.isEmpty(network)) return cb('Not valid snowgem address');
     storageService.getAddressbook(network, function(err, ab) {
       if (err) return cb(err);
       if (ab) ab = JSON.parse(ab);

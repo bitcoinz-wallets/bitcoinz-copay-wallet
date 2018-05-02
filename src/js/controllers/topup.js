@@ -100,7 +100,7 @@ angular.module('copayApp.controllers').controller('topUpController', function($s
     }
 
     var outputs = [];
-    var toAddress = invoice.bitcoinAddress;
+    var toAddress = invoice.snowgemAddress;
     var amountSat = parseInt((invoice.xsgDue * 100000000).toFixed(0)); // XSG to Satoshi
 
     outputs.push({

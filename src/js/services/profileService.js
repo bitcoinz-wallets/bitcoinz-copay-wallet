@@ -960,7 +960,18 @@ angular.module('copayApp.services')
               };
             });
 
-            notifications.push(n);
+            var data = [];
+            lodash.each(n, function(x){
+              var temp = lodash.find(data, function(x2){
+                return x.data.txid == x2.data.txid;
+              });
+
+              if(temp == undefined)
+              {
+                data.push(x);
+              }
+            });
+            notifications.push(data);
           }
           if (j == l) {
             notifications = lodash.sortBy(notifications, 'createdOn');

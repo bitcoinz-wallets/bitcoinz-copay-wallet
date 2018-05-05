@@ -16,7 +16,7 @@ if [ -d "$dir" ]; then
 fi
 
 # set up your app name, architecture, and background image file name
-APP_NAME="SnowGem"
+APP_NAME="SnowGem Copay Wallet"
 rm dmg-background.tiff
 ln -s ../resources/snowgem/mac/dmg-background.tiff dmg-background.tiff
 rm volume-icon.icns

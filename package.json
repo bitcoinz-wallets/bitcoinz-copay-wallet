@@ -13,7 +13,7 @@
     "bitcore"
   ],
   "main": "www/index.html",
-  "title": "SnowGem",
+  "title": "SnowGem Copay Wallet",
   "window": {
     "title": "SnowGem - SnowGem Wallet",
     "icon": "www/img/app/icon.png",
@@ -90,6 +90,7 @@
     "cordova-plugin-x-toast": "~2.5.2",
     "cordova-windows": "~5.0.0",
     "express": "^4.11.2",
+    "fileicon": "^0.2.2",
     "fs-extra": "^4.0.2",
     "grunt-angular-gettext": "^2.2.3",
     "grunt-browserify": "^5.0.0",

@@ -15,293 +15,293 @@ msgstr ""
 
 #: www/views/modals/paypro.html:34
 msgid "(Trusted)"
-msgstr "(信頼済み)"
+msgstr "(ä¿¡é ¼æ¸ˆã�¿)"
 
 #: www/views/includes/txp.html:23
 #: www/views/includes/walletHistory.html:64
 msgid "(possible double spend)"
-msgstr "(二重払い可能性あり)"
+msgstr "(äºŒé‡�æ‰•ã�„å�¯èƒ½æ€§ã�‚ã‚Š)"
 
 #: www/views/modals/txp-details.html:161
 msgid "* A payment proposal can be deleted if 1) you are the creator, and no other copayer has signed, or 2) 24 hours have passed since the proposal was created."
-msgstr "* 送金の提案の取下げは①他のウォレット参加者に署名されていなかった場合、提案者に提案を取り下げることができます。②提案の起案から24時間が経っても解決しなかった場合、全員に取り下げることができます。"
+msgstr "* é€�é‡‘ã�®æ��æ¡ˆã�®å�–ä¸‹ã�’ã�¯â‘ ä»–ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆå�‚åŠ è€…ã�«ç½²å��ã�•ã‚Œã�¦ã�„ã�ªã�‹ã�£ã�Ÿå ´å�ˆã€�æ��æ¡ˆè€…ã�«æ��æ¡ˆã‚’å�–ã‚Šä¸‹ã�’ã‚‹ã�“ã�¨ã�Œã�§ã��ã�¾ã�™ã€‚â‘¡æ��æ¡ˆã�®èµ·æ¡ˆã�‹ã‚‰24æ™‚é–“ã�ŒçµŒã�£ã�¦ã‚‚è§£æ±ºã�—ã�ªã�‹ã�£ã�Ÿå ´å�ˆã€�å…¨å“¡ã�«å�–ã‚Šä¸‹ã�’ã‚‹ã�“ã�¨ã�Œã�§ã��ã�¾ã�™ã€‚"
 
 #: www/views/tx-details.html:84
 msgid "- {{btx.feeRateStr}} of the transaction"
-msgstr "- {{btx.feeRateStr}}のレート"
+msgstr "- {{btx.feeRateStr}}ã�®ãƒ¬ãƒ¼ãƒˆ"
 
 #: www/views/modals/txp-details.html:104
 msgid "- {{tx.feeRateStr}} of the transaction"
-msgstr "- {{tx.feeRateStr}}のレート"
+msgstr "- {{tx.feeRateStr}}ã�®ãƒ¬ãƒ¼ãƒˆ"
 
 #: www/views/feedback/rateApp.html:7
 msgid "5-star ratings help us get {{appName}} into more hands, and more users means more resources can be committed to the app!"
-msgstr "5つ星の評価をいただけると、もっとたくさんの人にこのアプリを届けることができます。そして、ユーザーが増えればこのアプリの改善に当てられる人員やリソースも増えます。"
+msgstr "5ã�¤æ˜Ÿã�®è©•ä¾¡ã‚’ã�„ã�Ÿã� ã�‘ã‚‹ã�¨ã€�ã‚‚ã�£ã�¨ã�Ÿã��ã�•ã‚“ã�®äººã�«ã�“ã�®ã‚¢ãƒ—ãƒªã‚’å±Šã�‘ã‚‹ã�“ã�¨ã�Œã�§ã��ã�¾ã�™ã€‚ã��ã�—ã�¦ã€�ãƒ¦ãƒ¼ã‚¶ãƒ¼ã�Œå¢—ã�ˆã‚Œã�°ã�“ã�®ã‚¢ãƒ—ãƒªã�®æ”¹å–„ã�«å½“ã�¦ã‚‰ã‚Œã‚‹äººå“¡ã‚„ãƒªã‚½ãƒ¼ã‚¹ã‚‚å¢—ã�ˆã�¾ã�™ã€‚"
 
 #: www/views/mercadoLibre.html:18
 #: www/views/mercadoLibre.html:40
 msgid "<b>Only</b> redeemable on Mercado Livre (Brazil)"
-msgstr "Mercado Livre (ブラジル)<b>のみ</b>で引き換え可能"
+msgstr "Mercado Livre (ãƒ–ãƒ©ã‚¸ãƒ«)<b>ã�®ã�¿</b>ã�§å¼•ã��æ�›ã�ˆå�¯èƒ½"
 
 #: src/js/controllers/feedback/send.js:27
 #: www/views/feedback/complete.html:21
 msgid "A member of the team will review your feedback as soon as possible."
-msgstr "ただちに開発メンバーでいただいた評価を拝読し参考にさせていただきます。"
+msgstr "ã�Ÿã� ã�¡ã�«é–‹ç™ºãƒ¡ãƒ³ãƒ�ãƒ¼ã�§ã�„ã�Ÿã� ã�„ã�Ÿè©•ä¾¡ã‚’æ‹�èª­ã�—å�‚è€ƒã�«ã�•ã�›ã�¦ã�„ã�Ÿã� ã��ã�¾ã�™ã€‚"
 
 #: src/js/controllers/confirm.js:380
 msgid "A total of {{amountAboveMaxSizeStr}} were excluded. The maximum size allowed for a transaction was exceeded."
-msgstr "注意：合計{{amountAboveMaxSizeStr}} を除外しました。取引に許可される最大サイズを超えました"
+msgstr "æ³¨æ„�ï¼šå�ˆè¨ˆ{{amountAboveMaxSizeStr}} ã‚’é™¤å¤–ã�—ã�¾ã�—ã�Ÿã€‚å�–å¼•ã�«è¨±å�¯ã�•ã‚Œã‚‹æœ€å¤§ã‚µã‚¤ã‚ºã‚’è¶…ã�ˆã�¾ã�—ã�Ÿ"
 
 #: src/js/controllers/confirm.js:374
 msgid "A total of {{amountBelowFeeStr}} were excluded. These funds come from UTXOs smaller than the network fee provided."
-msgstr "注意：合計 {{amountBelowFeeStr}} を除外しました。これらのビットコインは手数料よりも低い額となるため除外しました。"
+msgstr "æ³¨æ„�ï¼šå�ˆè¨ˆ {{amountBelowFeeStr}} ã‚’é™¤å¤–ã�—ã�¾ã�—ã�Ÿã€‚ã�“ã‚Œã‚‰ã�®ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã�¯æ‰‹æ•°æ–™ã‚ˆã‚Šã‚‚ä½Žã�„é¡�ã�¨ã�ªã‚‹ã�Ÿã‚�é™¤å¤–ã�—ã�¾ã�—ã�Ÿã€‚"
 
 #: src/js/controllers/preferencesAbout.js:6
 #: www/views/tab-settings.html:161
 msgid "About"
-msgstr "このアプリについて"
+msgstr "ã�“ã�®ã‚¢ãƒ—ãƒªã�«ã�¤ã�„ã�¦"
 
 #: src/js/controllers/modals/txpDetails.js:62
 #: src/js/controllers/tx-details.js:79
 msgid "Accepted"
-msgstr "承諾済"
+msgstr "æ‰¿è«¾æ¸ˆ"
 
 #: www/views/preferencesInformation.html:72
 msgid "Account"
-msgstr "ポケット"
+msgstr "ãƒ�ã‚±ãƒƒãƒˆ"
 
 #: www/views/join.html:72
 #: www/views/tab-create-personal.html:45
 #: www/views/tab-create-shared.html:74
 #: www/views/tab-import-hardware.html:19
 msgid "Account Number"
-msgstr "ポケット番号"
+msgstr "ãƒ�ã‚±ãƒƒãƒˆç•ªå�·"
 
 #: www/views/preferencesBitpayServices.html:23
 msgid "Accounts"
-msgstr "アカウント一覧"
+msgstr "ã‚¢ã‚«ã‚¦ãƒ³ãƒˆä¸€è¦§"
 
 #: www/views/bitpayCard.html:56
 msgid "Activity"
-msgstr "履歴"
+msgstr "å±¥æ­´"
 
 #: src/js/services/bitpayAccountService.js:83
 msgid "Add Account"
-msgstr "アカウントを追加"
+msgstr "ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’è¿½åŠ "
 
 #: src/js/services/bitpayAccountService.js:69
 msgid "Add BitPay Account?"
-msgstr "BitPay アカウントを追加しますか？"
+msgstr "BitPay ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’è¿½åŠ ã�—ã�¾ã�™ã�‹ï¼Ÿ"
 
 #: www/views/addressbook.add.html:4
 #: www/views/addressbook.html:22
 msgid "Add Contact"
-msgstr "連絡先を追加"
+msgstr "é€£çµ¡å…ˆã‚’è¿½åŠ "
 
 #: www/views/bitpayCard.html:28
 msgid "Add Funds"
-msgstr "資金を追加"
+msgstr "è³‡é‡‘ã‚’è¿½åŠ "
 
 #: www/views/confirm.html:96
 msgid "Add Memo"
-msgstr "メモを追加"
+msgstr "ãƒ¡ãƒ¢ã‚’è¿½åŠ "
 
 #: www/views/join.html:87
 #: www/views/tab-create-personal.html:59
 #: www/views/tab-create-shared.html:88
 msgid "Add a password"
-msgstr "復元フレーズ用パスワードを追加"
+msgstr "å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºç”¨ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’è¿½åŠ "
 
 #: www/views/includes/accountSelector.html:27
 msgid "Add account"
-msgstr "アカウントを追加"
+msgstr "ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’è¿½åŠ "
 
 #: www/views/join.html:90
 #: www/views/tab-create-personal.html:62
 #: www/views/tab-create-shared.html:91
 msgid "Add an optional password to secure the recovery phrase"
-msgstr "フレーズを守るために任意のパスワードをかけて下さい"
+msgstr "ãƒ•ãƒ¬ãƒ¼ã‚ºã‚’å®ˆã‚‹ã�Ÿã‚�ã�«ä»»æ„�ã�®ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’ã�‹ã�‘ã�¦ä¸‹ã�•ã�„"
 
 #: www/views/includes/incomingDataMenu.html:41
 msgid "Add as a contact"
-msgstr "連絡先に追加"
+msgstr "é€£çµ¡å…ˆã�«è¿½åŠ "
 
 #: src/js/controllers/confirm.js:403
 msgid "Add description"
-msgstr "詳細を追加"
+msgstr "è©³ç´°ã‚’è¿½åŠ "
 
 #: www/views/topup.html:6
 msgid "Add funds"
-msgstr "資金を追加"
+msgstr "è³‡é‡‘ã‚’è¿½åŠ "
 
 #: src/js/services/bitpayAccountService.js:78
 msgid "Add this BitPay account ({{email}})?"
-msgstr "このBitPayアカウント ({{email}}) を追加しますか？"
+msgstr "ã�“ã�®BitPayã‚¢ã‚«ã‚¦ãƒ³ãƒˆ ({{email}}) ã‚’è¿½åŠ ã�—ã�¾ã�™ã�‹ï¼Ÿ"
 
 #: www/views/add.html:3
 msgid "Add wallet"
-msgstr "ウォレットを追加"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’è¿½åŠ "
 
 #: www/views/addressbook.view.html:26
 #: www/views/customAmount.html:28
 #: www/views/modals/paypro.html:24
 msgid "Address"
-msgstr "アドレス"
+msgstr "ã‚¢ãƒ‰ãƒ¬ã‚¹"
 
 #: www/views/addressbook.html:6
 #: www/views/tab-settings.html:13
 msgid "Address Book"
-msgstr "アドレス帳"
+msgstr "ã‚¢ãƒ‰ãƒ¬ã‚¹å¸³"
 
 #: www/views/preferencesInformation.html:41
 msgid "Address Type"
-msgstr "アドレスの種類"
+msgstr "ã‚¢ãƒ‰ãƒ¬ã‚¹ã�®ç¨®é¡ž"
 
 #: www/views/addresses.html:64
 msgid "Addresses With Balance"
-msgstr "残高のあるアドレス"
+msgstr "æ®‹é«˜ã�®ã�‚ã‚‹ã‚¢ãƒ‰ãƒ¬ã‚¹"
 
 #: www/views/tab-settings.html:154
 msgid "Advanced"
-msgstr "上級者向け"
+msgstr "ä¸Šç´šè€…å�‘ã�‘"
 
 #: www/views/advancedSettings.html:3
 msgid "Advanced Settings"
-msgstr "詳細の設定"
+msgstr "è©³ç´°ã�®è¨­å®š"
 
 #: www/views/bitpayCard.html:62
 msgid "All"
-msgstr "すべて"
+msgstr "ã�™ã�¹ã�¦"
 
 #: www/views/allAddresses.html:3
 msgid "All Addresses"
-msgstr "全アドレス"
+msgstr "å…¨ã‚¢ãƒ‰ãƒ¬ã‚¹"
 
 #: www/views/modals/wallet-balance.html:18
-msgid "All of your bitcoin wallet balance may not be available for immediate spending."
-msgstr "ビットコインのウォレットの残高の内、即座に送れないビットコインが含まれている可能性があります。"
+msgid "All of your BitcoinZ Wallet balance may not be available for immediate spending."
+msgstr "ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®æ®‹é«˜ã�®å†…ã€�å�³åº§ã�«é€�ã‚Œã�ªã�„ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã�Œå�«ã�¾ã‚Œã�¦ã�„ã‚‹å�¯èƒ½æ€§ã�Œã�‚ã‚Šã�¾ã�™ã€‚"
 
 #: www/views/tab-receive.html:25
-msgid "All signing devices must be added to this multisig wallet before bitcoin addresses can be created."
-msgstr "この共有ウォレットの必要参加者の人数が集まるまではビットコインアドレスを発行することができません。"
+msgid "All signing devices must be added to this multisig wallet before BitcoinZ addresses can be created."
+msgstr "ã�“ã�®å…±æœ‰ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®å¿…è¦�å�‚åŠ è€…ã�®äººæ•°ã�Œé›†ã�¾ã‚‹ã�¾ã�§ã�¯ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’ç™ºè¡Œã�™ã‚‹ã�“ã�¨ã�Œã�§ã��ã�¾ã�›ã‚“ã€‚"
 
 #: www/views/tab-scan.html:21
 msgid "Allow Camera Access"
-msgstr "カメラへのアクセスを許可"
+msgstr "ã‚«ãƒ¡ãƒ©ã�¸ã�®ã‚¢ã‚¯ã‚»ã‚¹ã‚’è¨±å�¯"
 
 #: www/views/onboarding/notifications.html:7
 msgid "Allow notifications"
-msgstr "通知を許可する"
+msgstr "é€šçŸ¥ã‚’è¨±å�¯ã�™ã‚‹"
 
 #: www/views/onboarding/disclaimer.html:14
 msgid "Almost done! Let's review."
-msgstr "ほぼ完了!確認してみましょう。"
+msgstr "ã�»ã�¼å®Œäº†!ç¢ºèª�ã�—ã�¦ã�¿ã�¾ã�—ã‚‡ã�†ã€‚"
 
 #: www/views/preferencesAltCurrency.html:4
 #: www/views/tab-settings.html:79
 msgid "Alternative Currency"
-msgstr "表示通貨"
+msgstr "è¡¨ç¤ºé€šè²¨"
 
 #: src/js/controllers/buyAmazon.js:98
 msgid "Amazon.com is not available at this moment. Please try back later."
-msgstr "Amazon.com は現在ご利用できません、また後でお試しください"
+msgstr "Amazon.com ã�¯ç�¾åœ¨ã�”åˆ©ç”¨ã�§ã��ã�¾ã�›ã‚“ã€�ã�¾ã�Ÿå¾Œã�§ã�Šè©¦ã�—ã��ã� ã�•ã�„"
 
 #: www/views/amount.html:44
 #: www/views/customAmount.html:34
 #: www/views/includes/output.html:7
 msgid "Amount"
-msgstr "金額"
+msgstr "é‡‘é¡�"
 
 #: src/js/services/bwcError.js:110
 msgid "Amount below minimum allowed"
-msgstr "送金可能最少額を下回っています"
+msgstr "é€�é‡‘å�¯èƒ½æœ€å°‘é¡�ã‚’ä¸‹å›žã�£ã�¦ã�„ã�¾ã�™"
 
 #: src/js/controllers/confirm.js:195
 msgid "Amount too big"
-msgstr "金額が大きすぎます"
+msgstr "é‡‘é¡�ã�Œå¤§ã��ã�™ã�Žã�¾ã�™"
 
 #: www/views/includes/walletHistory.html:31
 msgid "Amount too low to spend"
-msgstr "小さすぎて送れない額"
+msgstr "å°�ã�•ã�™ã�Žã�¦é€�ã‚Œã�ªã�„é¡�"
 
 #: src/js/controllers/tab-home.js:147
 msgid "An update to this app is available. For your security, please update to the latest version."
-msgstr "このアプリのアップデートがあります。セキュリティーを保持するために最新版にアップデートして下さい。"
+msgstr "ã�“ã�®ã‚¢ãƒ—ãƒªã�®ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆã�Œã�‚ã‚Šã�¾ã�™ã€‚ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£ãƒ¼ã‚’ä¿�æŒ�ã�™ã‚‹ã�Ÿã‚�ã�«æœ€æ–°ç‰ˆã�«ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆã�—ã�¦ä¸‹ã�•ã�„ã€‚"
 
 #: www/views/backupWarning.html:14
-msgid "Anyone with your backup phrase can access or spend your bitcoin."
-msgstr "復元フレーズを知る者はあなたのビットコインが勝手に送れてしまいます。"
+msgid "Anyone with your backup phrase can access or spend your BitcoinZ."
+msgstr "å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã‚’çŸ¥ã‚‹è€…ã�¯ã�‚ã�ªã�Ÿã�®ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã�Œå‹�æ‰‹ã�«é€�ã‚Œã�¦ã�—ã�¾ã�„ã�¾ã�™ã€‚"
 
 #: www/views/addresses.html:94
-msgid "Approximate Bitcoin network fee to transfer wallet's balance (with normal priority)"
-msgstr "ウォレットの残高を送るために推測される必要なビットコインネットワーク手数料(優先度：普通)"
+msgid "Approximate BitcoinZ network fee to transfer wallet's balance (with normal priority)"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®æ®‹é«˜ã‚’é€�ã‚‹ã�Ÿã‚�ã�«æŽ¨æ¸¬ã�•ã‚Œã‚‹å¿…è¦�ã�ªãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ãƒ�ãƒƒãƒˆãƒ¯ãƒ¼ã‚¯æ‰‹æ•°æ–™(å„ªå…ˆåº¦ï¼šæ™®é€š)"
 
 #: www/views/backupWarning.html:10
 msgid "Are you being watched?"
-msgstr "見られていませんか？"
+msgstr "è¦‹ã‚‰ã‚Œã�¦ã�„ã�¾ã�›ã‚“ã�‹ï¼Ÿ"
 
 #: src/js/controllers/preferencesExternal.js:15
-msgid "Are you being watched? Anyone with your recovery phrase can access or spend your bitcoin."
-msgstr "見られていますか？ 復元フレーズを知る者はあなたのビットコインが勝手に送れてしまいます。"
+msgid "Are you being watched? Anyone with your recovery phrase can access or spend your BitcoinZ."
+msgstr "è¦‹ã‚‰ã‚Œã�¦ã�„ã�¾ã�™ã�‹ï¼Ÿ å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã‚’çŸ¥ã‚‹è€…ã�¯ã�‚ã�ªã�Ÿã�®ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã�Œå‹�æ‰‹ã�«é€�ã‚Œã�¦ã�—ã�¾ã�„ã�¾ã�™ã€‚"
 
 #: src/js/controllers/copayers.js:56
 msgid "Are you sure you want to cancel and delete this wallet?"
-msgstr "本当にこのウォレットをキャンセルし、削除しても\n"
-"宜しいですか？"
+msgstr "æœ¬å½“ã�«ã�“ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’ã‚­ãƒ£ãƒ³ã‚»ãƒ«ã�—ã€�å‰Šé™¤ã�—ã�¦ã‚‚\n"
+"å®œã�—ã�„ã�§ã�™ã�‹ï¼Ÿ"
 
 #: src/js/controllers/addressbookView.js:24
 msgid "Are you sure you want to delete this contact?"
-msgstr "本当にこの連絡先を削除しますか？"
+msgstr "æœ¬å½“ã�«ã�“ã�®é€£çµ¡å…ˆã‚’å‰Šé™¤ã�—ã�¾ã�™ã�‹ï¼Ÿ"
 
 #: src/js/controllers/preferencesDelete.js:25
 msgid "Are you sure you want to delete this wallet?"
-msgstr "本当にこのウォレットを削除しても\n"
-"宜しいですか？"
+msgstr "æœ¬å½“ã�«ã�“ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’å‰Šé™¤ã�—ã�¦ã‚‚\n"
+"å®œã�—ã�„ã�§ã�™ã�‹ï¼Ÿ"
 
 #: src/js/controllers/modals/txpDetails.js:154
 msgid "Are you sure you want to reject this transaction?"
-msgstr "この取引を却下してもよろしいですか?"
+msgstr "ã�“ã�®å�–å¼•ã‚’å�´ä¸‹ã�—ã�¦ã‚‚ã‚ˆã‚�ã�—ã�„ã�§ã�™ã�‹?"
 
 #: src/js/controllers/modals/txpDetails.js:171
 msgid "Are you sure you want to remove this transaction?"
-msgstr "この取引を破棄してもよろしいですか?"
+msgstr "ã�“ã�®å�–å¼•ã‚’ç ´æ£„ã�—ã�¦ã‚‚ã‚ˆã‚�ã�—ã�„ã�§ã�™ã�‹?"
 
 #: src/js/controllers/onboarding/backupRequest.js:23
 msgid "Are you sure you want to skip it?"
-msgstr "本当にバックアップの手順を飛ばしても良いですか？"
+msgstr "æœ¬å½“ã�«ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ã�®æ‰‹é †ã‚’é£›ã�°ã�—ã�¦ã‚‚è‰¯ã�„ã�§ã�™ã�‹ï¼Ÿ"
 
 #: www/views/modals/bitpay-card-confirmation.html:4
 msgid "Are you sure you would like to log out of your BitPay Card account?"
-msgstr "BitPayカードアカウントからログアウトしてもよろしいですか?"
+msgstr "BitPayã‚«ãƒ¼ãƒ‰ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã�‹ã‚‰ãƒ­ã‚°ã‚¢ã‚¦ãƒˆã�—ã�¦ã‚‚ã‚ˆã‚�ã�—ã�„ã�§ã�™ã�‹?"
 
 #: src/js/controllers/preferencesBitpayCard.js:7
 #: src/js/controllers/preferencesBitpayServices.js:20
 msgid "Are you sure you would like to remove your BitPay Card ({{lastFourDigits}}) from this device?"
-msgstr "この端末から BitPay カード ({{lastFourDigits}}) を本当に削除してもよろしいですか？"
+msgstr "ã�“ã�®ç«¯æœ«ã�‹ã‚‰ BitPay ã‚«ãƒ¼ãƒ‰ ({{lastFourDigits}}) ã‚’æœ¬å½“ã�«å‰Šé™¤ã�—ã�¦ã‚‚ã‚ˆã‚�ã�—ã�„ã�§ã�™ã�‹ï¼Ÿ"
 
 #: www/views/includes/walletInfo.html:10
 msgid "Auditable"
-msgstr "監査用"
+msgstr "ç›£æŸ»ç”¨"
 
 #: www/views/modals/wallet-balance.html:42
 msgid "Available"
-msgstr "即座送金可能"
+msgstr "å�³åº§é€�é‡‘å�¯èƒ½"
 
 #: www/views/includes/available-balance.html:3
 msgid "Available Balance"
-msgstr "送金可能残高"
+msgstr "é€�é‡‘å�¯èƒ½æ®‹é«˜"
 
 #: www/views/modals/chooseFeeLevel.html:24
 #: www/views/preferencesFee.html:15
 msgid "Average confirmation time"
-msgstr "平均承認時間"
+msgstr "å¹³å�‡æ‰¿èª�æ™‚é–“"
 
 #: www/views/join.html:143
 #: www/views/tab-create-personal.html:113
 #: www/views/tab-create-shared.html:142
 #: www/views/tab-import-phrase.html:51
 msgid "BIP32 path for address derivation"
-msgstr "階級アドレス派生のパス"
+msgstr "éšŽç´šã‚¢ãƒ‰ãƒ¬ã‚¹æ´¾ç”Ÿã�®ãƒ‘ã‚¹"
 
 #: www/views/cashScan.html:22
 msgid "BTCZ Wallets"
@@ -309,140 +309,140 @@ msgstr ""
 
 #: www/views/preferences.html:34
 msgid "Backup"
-msgstr "バックアップ"
+msgstr "ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—"
 
 #: www/views/includes/backupNeededPopup.html:7
 msgid "Backup Needed"
-msgstr "要バックアップ"
+msgstr "è¦�ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—"
 
 #: src/js/controllers/lockSetup.js:87
 msgid "Backup all livenet wallets before using this function"
-msgstr "この機能を使う前に必ず全てのウォレットの復元フレーズのバックアップを取って下さい！"
+msgstr "ã�“ã�®æ©Ÿèƒ½ã‚’ä½¿ã�†å‰�ã�«å¿…ã�šå…¨ã�¦ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã�®ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ã‚’å�–ã�£ã�¦ä¸‹ã�•ã�„ï¼�"
 
 #: www/views/preferences.html:36
 #: www/views/tab-settings.html:125
 msgid "Backup needed"
-msgstr "要バックアップ"
+msgstr "è¦�ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—"
 
 #: www/views/includes/backupNeededPopup.html:9
 msgid "Backup now"
-msgstr "今すぐバックアップ"
+msgstr "ä»Šã�™ã��ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—"
 
 #: www/views/onboarding/backupRequest.html:11
 #: www/views/tab-export-file.html:89
 msgid "Backup wallet"
-msgstr "ウォレットをバックアップ"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—"
 
 #: src/js/controllers/lockSetup.js:84
 msgid "Backup your wallet before using this function"
-msgstr "この機能を使う前に必ず復元フレーズのバックアップを取って下さい！"
+msgstr "ã�“ã�®æ©Ÿèƒ½ã‚’ä½¿ã�†å‰�ã�«å¿…ã�šå¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã�®ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ã‚’å�–ã�£ã�¦ä¸‹ã�•ã�„ï¼�"
 
 #: src/js/services/profileService.js:445
 msgid "Bad wallet invitation"
-msgstr "不正なウォレット招待コード"
+msgstr "ä¸�æ­£ã�ªã‚¦ã‚©ãƒ¬ãƒƒãƒˆæ‹›å¾…ã‚³ãƒ¼ãƒ‰"
 
 #: www/views/preferencesInformation.html:102
 msgid "Balance By Address"
-msgstr "アドレスごとの残高"
+msgstr "ã‚¢ãƒ‰ãƒ¬ã‚¹ã�”ã�¨ã�®æ®‹é«˜"
 
 #: www/views/includes/confirmBackupPopup.html:7
 msgid "Be sure to store your recovery phrase in a secure place. If this app is deleted, your money cannot be recovered without it."
-msgstr "書き留めた復元フレーズは金庫など、安全な場所にて保管して下さい。このアプリが削除されたら、復元フレーズが必須になってきます。"
+msgstr "æ›¸ã��ç•™ã‚�ã�Ÿå¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã�¯é‡‘åº«ã�ªã�©ã€�å®‰å…¨ã�ªå ´æ‰€ã�«ã�¦ä¿�ç®¡ã�—ã�¦ä¸‹ã�•ã�„ã€‚ã�“ã�®ã‚¢ãƒ—ãƒªã�Œå‰Šé™¤ã�•ã‚Œã�Ÿã‚‰ã€�å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã�Œå¿…é ˆã�«ã�ªã�£ã�¦ã��ã�¾ã�™ã€‚"
 
 #: www/views/preferencesBitpayServices.html:9
 msgid "BitPay Visa&reg; Cards"
-msgstr "BitPayのVISA&reg; カード"
+msgstr "BitPayã�®VISA&reg; ã‚«ãƒ¼ãƒ‰"
 
 #: www/views/addressbook.add.html:38
 #: www/views/includes/incomingDataMenu.html:29
-msgid "Bitcoin Address"
-msgstr "ビットコインアドレス"
+msgid "BitcoinZ Address"
+msgstr "ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚¢ãƒ‰ãƒ¬ã‚¹"
 
 #: www/views/cashScan.html:4
-msgid "Bitcoin Cash (BCH) Balances"
+msgid "BitcoinZ (BTCZ) Balances"
 msgstr ""
 
 #: www/views/preferencesCash.html:3
 #: www/views/tab-settings.html:47
-msgid "Bitcoin Cash Support"
+msgid "BitcoinZ Support"
 msgstr ""
 
 #: www/views/modals/chooseFeeLevel.html:4
 #: www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:90
-msgid "Bitcoin Network Fee Policy"
-msgstr "ビットコインネットワークの手数料設定"
+msgid "BitcoinZ Network Fee Policy"
+msgstr "ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ãƒ�ãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ã�®æ‰‹æ•°æ–™è¨­å®š"
 
 #: src/js/services/incomingData.js:151
-msgid "Bitcoin cash Payment"
+msgid "BitcoinZ Payment"
 msgstr ""
 
 #: www/views/onboarding/tour.html:31
-msgid "Bitcoin is a currency."
-msgstr "ビットコインは通貨の一つ"
+msgid "BitcoinZ is a currency."
+msgstr "ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã�¯é€šè²¨ã�®ä¸€ã�¤"
 
 #: www/views/onboarding/disclaimer.html:15
-msgid "Bitcoin is different &ndash; it cannot be safely held with a bank or web service."
-msgstr "ビットコインは違う &ndash; 銀行やウェブのサービスに安全に預けることはできません。"
+msgid "BitcoinZ is different &ndash; it cannot be safely held with a bank or web service."
+msgstr "ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã�¯é�•ã�† &ndash; éŠ€è¡Œã‚„ã‚¦ã‚§ãƒ–ã�®ã‚µãƒ¼ãƒ“ã‚¹ã�«å®‰å…¨ã�«é �ã�‘ã‚‹ã�“ã�¨ã�¯ã�§ã��ã�¾ã�›ã‚“ã€‚"
 
 #: www/views/onboarding/tour.html:18
-msgid "Bitcoin is secure,<br>digital money."
-msgstr "ビットコインは世界で<br>最も安全な仮想通貨。"
+msgid "BitcoinZ is secure,<br>digital money."
+msgstr "ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã�¯ä¸–ç•Œã�§<br>æœ€ã‚‚å®‰å…¨ã�ªä»®æƒ³é€šè²¨ã€‚"
 
 #: www/views/preferencesFee.html:11
-msgid "Bitcoin transactions include a fee collected by miners on the network."
-msgstr "ビットコインの取引はネットワークの安全を守る「採掘者」と呼ばれる者達に送る手数料が含まれます。"
+msgid "BitcoinZ transactions include a fee collected by miners on the network."
+msgstr "ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã�®å�–å¼•ã�¯ãƒ�ãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ã�®å®‰å…¨ã‚’å®ˆã‚‹ã€ŒæŽ¡æŽ˜è€…ã€�ã�¨å‘¼ã�°ã‚Œã‚‹è€…é�”ã�«é€�ã‚‹æ‰‹æ•°æ–™ã�Œå�«ã�¾ã‚Œã�¾ã�™ã€‚"
 
 #: www/views/buyAmazon.html:108
 msgid "Bought {{amountUnitStr}}"
-msgstr "{{amountUnitStr}} 購入済み"
+msgstr "{{amountUnitStr}} è³¼å…¥æ¸ˆã�¿"
 
 #: www/views/modals/txp-details.html:36
 msgid "Broadcast Payment"
-msgstr "取引送信"
+msgstr "å�–å¼•é€�ä¿¡"
 
 #: src/js/controllers/modals/txpDetails.js:64
 #: src/js/controllers/tx-details.js:81
 msgid "Broadcasted"
-msgstr "送信済み"
+msgstr "é€�ä¿¡æ¸ˆã�¿"
 
 #: src/js/services/onGoingProcess.js:11
 msgid "Broadcasting transaction"
-msgstr "取引送信中"
+msgstr "å�–å¼•é€�ä¿¡ä¸­"
 
 #: www/views/unsupported.html:6
 msgid "Browser unsupported"
-msgstr "ブラウザ未対応"
+msgstr "ãƒ–ãƒ©ã‚¦ã‚¶æœªå¯¾å¿œ"
 
 #: www/views/buyAmazon.html:5
 #: www/views/buyMercadoLibre.html:6
 msgid "Buy"
-msgstr "購入"
+msgstr "è³¼å…¥"
 
 #: www/views/includes/buyAndSellCard.html:3
 msgid "Buy &amp; Sell Bitcoin"
-msgstr "ビットコインの購入&amp;売却"
+msgstr "ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã�®è³¼å…¥&amp;å£²å�´"
 
 #: www/views/tab-send.html:35
 msgid "Buy Bitcoin"
-msgstr "ビットコインを購入"
+msgstr "ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚’è³¼å…¥"
 
 #: www/views/mercadoLibre.html:22
 #: www/views/mercadoLibre.html:50
 msgid "Buy a Gift Card"
-msgstr "ギフトカードの購入"
+msgstr "ã‚®ãƒ•ãƒˆã‚«ãƒ¼ãƒ‰ã�®è³¼å…¥"
 
 #: src/js/controllers/buyAmazon.js:334
 msgid "Buy from"
-msgstr "今すぐ購入"
+msgstr "ä»Šã�™ã��è³¼å…¥"
 
 #: src/js/services/onGoingProcess.js:40
-msgid "Buying Bitcoin..."
-msgstr "ビットコインを購入中..."
+msgid "Buying BitcoinZ..."
+msgstr "ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚’è³¼å…¥ä¸­..."
 
 #: src/js/services/onGoingProcess.js:12
 msgid "Calculating fee"
-msgstr "手数料計算中..."
+msgstr "æ‰‹æ•°æ–™è¨ˆç®—ä¸­..."
 
 #: src/js/controllers/buyAmazon.js:313
 #: src/js/controllers/buyMercadoLibre.js:307
@@ -461,51 +461,51 @@ msgstr "手数料計算中..."
 #: www/views/modals/bitpay-card-confirmation.html:8
 #: www/views/modals/confirmation.html:13
 msgid "Cancel"
-msgstr "キャンセル"
+msgstr "ã‚­ãƒ£ãƒ³ã‚»ãƒ«"
 
 #: www/views/copayers.html:36
 msgid "Cancel invitation"
-msgstr "招待状のキャンセル"
+msgstr "æ‹›å¾…çŠ¶ã�®ã‚­ãƒ£ãƒ³ã‚»ãƒ«"
 
 #: src/js/controllers/onboarding/tour.js:52
 msgid "Cannot Create Wallet"
-msgstr "ウォレットを作成できません。"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’ä½œæˆ�ã�§ã��ã�¾ã�›ã‚“ã€‚"
 
 #: src/js/services/profileService.js:441
 msgid "Cannot join the same wallet more that once"
-msgstr "同じ端末で同じウォレットに複数回参加することができません。"
+msgstr "å�Œã�˜ç«¯æœ«ã�§å�Œã�˜ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�«è¤‡æ•°å›žå�‚åŠ ã�™ã‚‹ã�“ã�¨ã�Œã�§ã��ã�¾ã�›ã‚“ã€‚"
 
 #: www/views/includes/bitpayCardsCard.html:2
 msgid "Cards"
-msgstr "カード"
+msgstr "ã‚«ãƒ¼ãƒ‰"
 
 #: www/views/modals/paypro.html:30
 msgid "Certified by"
-msgstr "証明元："
+msgstr "è¨¼æ˜Žå…ƒï¼š"
 
 #: www/views/preferencesExternal.html:19
 msgid "Check installation and retry."
-msgstr "正しくインストールされたか確認してから再度お試し下さい。"
+msgstr "æ­£ã�—ã��ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã�•ã‚Œã�Ÿã�‹ç¢ºèª�ã�—ã�¦ã�‹ã‚‰å†�åº¦ã�Šè©¦ã�—ä¸‹ã�•ã�„ã€‚"
 
 #: www/views/tab-import-file.html:4
 msgid "Choose a backup file from your computer"
-msgstr "パソコンからバックアップファイルを選択して下さい。"
+msgstr "ãƒ‘ã‚½ã‚³ãƒ³ã�‹ã‚‰ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é�¸æŠžã�—ã�¦ä¸‹ã�•ã�„ã€‚"
 
 #: www/views/modals/wallets.html:9
 msgid "Choose your destination wallet"
-msgstr "宛先ウォレットの選択"
+msgstr "å®›å…ˆã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®é�¸æŠž"
 
 #: www/views/modals/wallets.html:10
 msgid "Choose your source wallet"
-msgstr "送金元のウォレットを選択して下さい"
+msgstr "é€�é‡‘å…ƒã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’é�¸æŠžã�—ã�¦ä¸‹ã�•ã�„"
 
 #: www/views/backup.html:54
 msgid "Clear"
-msgstr "やり直し"
+msgstr "ã‚„ã‚Šç›´ã�—"
 
 #: www/views/preferencesHistory.html:24
 msgid "Clear cache"
-msgstr "キャッシュを消去"
+msgstr "ã‚­ãƒ£ãƒƒã‚·ãƒ¥ã‚’æ¶ˆåŽ»"
 
 #: src/js/controllers/confirm.js:352
 #: src/js/controllers/modals/txpDetails.js:49
@@ -529,7 +529,7 @@ msgstr ""
 #: www/views/modals/wallet-balance.html:3
 #: www/views/modals/wallets.html:5
 msgid "Close"
-msgstr "閉じる"
+msgstr "é–‰ã�˜ã‚‹"
 
 #: www/views/includes/cash.html:2
 #: www/views/preferencesInformation.html:17
@@ -538,19 +538,19 @@ msgstr ""
 
 #: www/views/preferences.html:22
 msgid "Color"
-msgstr "色"
+msgstr "è‰²"
 
 #: www/views/preferencesAbout.html:21
 msgid "Commit hash"
-msgstr "コミットのハッシュ値"
+msgstr "ã‚³ãƒŸãƒƒãƒˆã�®ãƒ�ãƒƒã‚·ãƒ¥å€¤"
 
 #: www/views/preferences.html:49
 msgid "Complete the backup process to use this option"
-msgstr "この機能をご利用いただくにはバックアップを行う必要があります"
+msgstr "ã�“ã�®æ©Ÿèƒ½ã‚’ã�”åˆ©ç”¨ã�„ã�Ÿã� ã��ã�«ã�¯ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ã‚’è¡Œã�†å¿…è¦�ã�Œã�‚ã‚Šã�¾ã�™"
 
 #: www/views/bitpayCard.html:93
 msgid "Completed"
-msgstr "完了"
+msgstr "å®Œäº†"
 
 #: src/js/controllers/buyAmazon.js:311
 #: src/js/controllers/buyMercadoLibre.js:305
@@ -562,92 +562,92 @@ msgstr "完了"
 #: www/views/confirm.html:4
 #: www/views/onboarding/collectEmail.html:32
 msgid "Confirm"
-msgstr "確認"
+msgstr "ç¢ºèª�"
 
 #: www/views/modals/terms.html:26
 #: www/views/onboarding/disclaimer.html:44
 msgid "Confirm &amp; Finish"
-msgstr "承諾して終了する"
+msgstr "æ‰¿è«¾ã�—ã�¦çµ‚äº†ã�™ã‚‹"
 
 #: www/views/buyAmazon.html:90
 #: www/views/buyMercadoLibre.html:77
 msgid "Confirm purchase"
-msgstr "購入の確認"
+msgstr "è³¼å…¥ã�®ç¢ºèª�"
 
 #: www/views/modals/pin.html:10
 msgid "Confirm your PIN"
-msgstr "確認のためPINを再入力してください"
+msgstr "ç¢ºèª�ã�®ã�Ÿã‚�PINã‚’å†�å…¥åŠ›ã�—ã�¦ã��ã� ã�•ã�„"
 
 #: src/js/services/walletService.js:1033
 msgid "Confirm your new spending password"
-msgstr "新しい送金時パスワードを確認してください"
+msgstr "æ–°ã�—ã�„é€�é‡‘æ™‚ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’ç¢ºèª�ã�—ã�¦ã��ã� ã�•ã�„"
 
 #: www/views/tx-details.html:100
 msgid "Confirmations"
-msgstr "承認回数"
+msgstr "æ‰¿èª�å›žæ•°"
 
 #: www/views/bitpayCard.html:68
 #: www/views/modals/wallet-balance.html:61
 msgid "Confirming"
-msgstr "承認中"
+msgstr "æ‰¿èª�ä¸­"
 
 #: www/views/bitpayCardIntro.html:37
 msgid "Connect my BitPay Card"
-msgstr "BitPay カードを接続"
+msgstr "BitPay ã‚«ãƒ¼ãƒ‰ã‚’æŽ¥ç¶š"
 
 #: src/js/services/onGoingProcess.js:13
 msgid "Connecting to Coinbase..."
-msgstr "Coinbase に接続中…"
+msgstr "Coinbase ã�«æŽ¥ç¶šä¸­â€¦"
 
 #: src/js/services/onGoingProcess.js:14
 msgid "Connecting to Glidera..."
-msgstr "Glidera に接続中…"
+msgstr "Glidera ã�«æŽ¥ç¶šä¸­â€¦"
 
 #: src/js/services/bwcError.js:53
 msgid "Connection reset by peer"
-msgstr "接続がピアによってリセットされました"
+msgstr "æŽ¥ç¶šã�Œãƒ”ã‚¢ã�«ã‚ˆã�£ã�¦ãƒªã‚»ãƒƒãƒˆã�•ã‚Œã�¾ã�—ã�Ÿ"
 
 #: www/views/tab-send.html:45
 msgid "Contacts"
-msgstr "連絡先"
+msgstr "é€£çµ¡å…ˆ"
 
 #: www/views/onboarding/notifications.html:9
 msgid "Continue"
-msgstr "続ける"
+msgstr "ç¶šã�‘ã‚‹"
 
 #: www/views/preferencesLanguage.html:26
 msgid "Contribute Translations"
-msgstr "翻訳に協力"
+msgstr "ç¿»è¨³ã�«å�”åŠ›"
 
 #: src/js/services/bwcError.js:62
 msgid "Copayer already in this wallet"
-msgstr "ウォレット参加者が既に存在しています。"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆå�‚åŠ è€…ã�Œæ—¢ã�«å­˜åœ¨ã�—ã�¦ã�„ã�¾ã�™ã€‚"
 
 #: src/js/services/bwcError.js:77
 msgid "Copayer already voted on this spend proposal"
-msgstr "ウォレット参加者が既に送金の提案の意思表明をしています。"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆå�‚åŠ è€…ã�Œæ—¢ã�«é€�é‡‘ã�®æ��æ¡ˆã�®æ„�æ€�è¡¨æ˜Žã‚’ã�—ã�¦ã�„ã�¾ã�™ã€‚"
 
 #: src/js/services/bwcError.js:107
 msgid "Copayer data mismatch"
-msgstr "ウォレット参加者のデータ不整合"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆå�‚åŠ è€…ã�®ãƒ‡ãƒ¼ã‚¿ä¸�æ•´å�ˆ"
 
 #: www/views/includes/walletActivity.html:2
 msgid "Copayer joined"
-msgstr "ウォレット参加者が加わりました"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆå�‚åŠ è€…ã�ŒåŠ ã‚�ã‚Šã�¾ã�—ã�Ÿ"
 
 #: www/views/preferencesInformation.html:94
 msgid "Copayer {{$index}}"
-msgstr "ウォレット参加者 {{$index}}"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆå�‚åŠ è€… {{$index}}"
 
 #: src/js/controllers/copayers.js:79
 #: src/js/controllers/export.js:193
 #: www/views/includes/copyToClipboard.html:4
 msgid "Copied to clipboard"
-msgstr "クリップボードにコピーしました"
+msgstr "ã‚¯ãƒªãƒƒãƒ—ãƒœãƒ¼ãƒ‰ã�«ã‚³ãƒ”ãƒ¼ã�—ã�¾ã�—ã�Ÿ"
 
 #: www/views/tab-export-file.html:94
 msgid "Copy this text as it is to a safe place (notepad or email)"
-msgstr "このテキストを安全な場所に貼り付けて保管して下さい (メモ帳やメールの下書きなど)"
+msgstr "ã�“ã�®ãƒ†ã‚­ã‚¹ãƒˆã‚’å®‰å…¨ã�ªå ´æ‰€ã�«è²¼ã‚Šä»˜ã�‘ã�¦ä¿�ç®¡ã�—ã�¦ä¸‹ã�•ã�„ (ãƒ¡ãƒ¢å¸³ã‚„ãƒ¡ãƒ¼ãƒ«ã�®ä¸‹æ›¸ã��ã�ªã�©)"
 
 #: www/views/includes/incomingDataMenu.html:51
 #: www/views/includes/incomingDataMenu.html:70
@@ -655,69 +655,69 @@ msgstr "このテキストを安全な場所に貼り付けて保管して下さ
 #: www/views/includes/logOptions.html:9
 #: www/views/tab-export-file.html:78
 msgid "Copy to clipboard"
-msgstr "クリップボードへコピー"
+msgstr "ã‚¯ãƒªãƒƒãƒ—ãƒœãƒ¼ãƒ‰ã�¸ã‚³ãƒ”ãƒ¼"
 
 #: src/js/controllers/buyMercadoLibre.js:102
 msgid "Could not access Gift Card Service"
-msgstr "ギフトカードサービスにアクセスできません"
+msgstr "ã‚®ãƒ•ãƒˆã‚«ãƒ¼ãƒ‰ã‚µãƒ¼ãƒ“ã‚¹ã�«ã‚¢ã‚¯ã‚»ã‚¹ã�§ã��ã�¾ã�›ã‚“"
 
 #: www/views/tab-import-phrase.html:2
 msgid "Could not access the wallet at the server. Please check:"
-msgstr "サーバーにてウォレットの確認ができませんでした。こちらをご確認下さい:"
+msgstr "ã‚µãƒ¼ãƒ�ãƒ¼ã�«ã�¦ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®ç¢ºèª�ã�Œã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚ã�“ã�¡ã‚‰ã‚’ã�”ç¢ºèª�ä¸‹ã�•ã�„:"
 
 #: src/js/controllers/buyAmazon.js:102
 msgid "Could not access to Amazon.com"
-msgstr "Amazon.comにアクセスできませんでした。"
+msgstr "Amazon.comã�«ã‚¢ã‚¯ã‚»ã‚¹ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: src/js/services/profileService.js:510
 msgid "Could not access wallet"
-msgstr "ウォレットにアクセスできませんでした。"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�«ã‚¢ã‚¯ã‚»ã‚¹ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: src/js/controllers/confirm.js:189
 msgid "Could not add message to imported wallet without shared encrypting key"
-msgstr "共有キー無しでインポートされたウォレットへのメッセージの追加ができません"
+msgstr "å…±æœ‰ã‚­ãƒ¼ç„¡ã�—ã�§ã‚¤ãƒ³ãƒ�ãƒ¼ãƒˆã�•ã‚Œã�Ÿã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�¸ã�®ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã�®è¿½åŠ ã�Œã�§ã��ã�¾ã�›ã‚“"
 
 #: src/js/controllers/modals/txpDetails.js:199
 msgid "Could not broadcast payment"
-msgstr "送金を配信できませんでした。"
+msgstr "é€�é‡‘ã‚’é…�ä¿¡ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: src/js/services/bwcError.js:41
 msgid "Could not build transaction"
-msgstr "取引を作成できませんでした。"
+msgstr "å�–å¼•ã‚’ä½œæˆ�ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: src/js/services/walletService.js:854
 msgid "Could not create address"
-msgstr "アドレスを生成できませんでした。"
+msgstr "ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’ç”Ÿæˆ�ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: src/js/controllers/topup.js:92
 msgid "Could not create the invoice"
-msgstr "請求を作成できませんでした"
+msgstr "è«‹æ±‚ã‚’ä½œæˆ�ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿ"
 
 #: src/js/controllers/buyAmazon.js:164
 #: src/js/controllers/buyMercadoLibre.js:164
 #: src/js/controllers/topup.js:142
 msgid "Could not create transaction"
-msgstr "取引を作成できませんでした。"
+msgstr "å�–å¼•ã‚’ä½œæˆ�ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: src/js/services/profileService.js:351
 msgid "Could not create using the specified extended private key"
-msgstr "指定された拡張秘密鍵で作成できませんでした。"
+msgstr "æŒ‡å®šã�•ã‚Œã�Ÿæ‹¡å¼µç§˜å¯†é�µã�§ä½œæˆ�ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: src/js/services/profileService.js:363
 msgid "Could not create using the specified extended public key"
-msgstr "指定された拡張公開鍵で作成できませんでした。"
+msgstr "æŒ‡å®šã�•ã‚Œã�Ÿæ‹¡å¼µå…¬é–‹é�µã�§ä½œæˆ�ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: src/js/services/profileService.js:339
 msgid "Could not create: Invalid wallet recovery phrase"
-msgstr "作成できません：ウォレットの復元フレーズが不正です。"
+msgstr "ä½œæˆ�ã�§ã��ã�¾ã�›ã‚“ï¼šã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã�Œä¸�æ­£ã�§ã�™ã€‚"
 
 #: src/js/controllers/import.js:114
 msgid "Could not decrypt file, check your password"
-msgstr "複合化できませんでした。パスワードが正しいかご確認下さい。"
+msgstr "è¤‡å�ˆåŒ–ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã�Œæ­£ã�—ã�„ã�‹ã�”ç¢ºèª�ä¸‹ã�•ã�„ã€‚"
 
 #: src/js/controllers/modals/txpDetails.js:181
 msgid "Could not delete payment proposal"
-msgstr "送金の提案を削除できませんでした"
+msgstr "é€�é‡‘ã�®æ��æ¡ˆã‚’å‰Šé™¤ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿ"
 
 #: src/js/controllers/cashScan.js:101
 msgid "Could not duplicate"
@@ -725,209 +725,209 @@ msgstr ""
 
 #: src/js/services/feeService.js:73
 msgid "Could not get dynamic fee"
-msgstr "手数料の金額を取得できませんでした。"
+msgstr "æ‰‹æ•°æ–™ã�®é‡‘é¡�ã‚’å�–å¾—ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: src/js/services/feeService.js:43
 msgid "Could not get dynamic fee for level: {{feeLevel}}"
-msgstr "次の手数料レートを取得できませんでした: {{feeLevel}}"
+msgstr "æ¬¡ã�®æ‰‹æ•°æ–™ãƒ¬ãƒ¼ãƒˆã‚’å�–å¾—ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿ: {{feeLevel}}"
 
 #: src/js/controllers/modals/feeLevels.js:112
 msgid "Could not get fee levels"
-msgstr "手数料のレベルを取得できませんでした。"
+msgstr "æ‰‹æ•°æ–™ã�®ãƒ¬ãƒ™ãƒ«ã‚’å�–å¾—ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: src/js/controllers/buyAmazon.js:122
 #: src/js/controllers/buyMercadoLibre.js:122
 #: src/js/controllers/topup.js:100
 msgid "Could not get the invoice"
-msgstr "請求の取得ができませんでした"
+msgstr "è«‹æ±‚ã�®å�–å¾—ã�Œã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿ"
 
 #: src/js/controllers/bitpayCard.js:66
 msgid "Could not get transactions"
-msgstr "取引を取得できませんでした。"
+msgstr "å�–å¼•ã‚’å�–å¾—ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: src/js/services/profileService.js:614
 #: src/js/services/profileService.js:649
 #: src/js/services/profileService.js:673
 msgid "Could not import"
-msgstr "インポートできませんでした。"
+msgstr "ã‚¤ãƒ³ãƒ�ãƒ¼ãƒˆã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: src/js/services/profileService.js:583
 msgid "Could not import. Check input file and spending password"
-msgstr "インポートできませんでした。入力ファイルとパスワードが正しいかご確認下さい。"
+msgstr "ã‚¤ãƒ³ãƒ�ãƒ¼ãƒˆã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚å…¥åŠ›ãƒ•ã‚¡ã‚¤ãƒ«ã�¨ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã�Œæ­£ã�—ã�„ã�‹ã�”ç¢ºèª�ä¸‹ã�•ã�„ã€‚"
 
 #: src/js/services/profileService.js:456
 msgid "Could not join wallet"
-msgstr "ウォレットに参加できませんでした。"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�«å�‚åŠ ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: src/js/controllers/modals/txpDetails.js:161
 msgid "Could not reject payment"
-msgstr "送金を却下できませんでした。"
+msgstr "é€�é‡‘ã‚’å�´ä¸‹ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: src/js/controllers/preferencesBitpayServices.js:33
 msgid "Could not remove account"
-msgstr "アカウントを削除できませんでした。"
+msgstr "ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’å‰Šé™¤ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: src/js/controllers/preferencesBitpayCard.js:20
 #: src/js/controllers/preferencesBitpayServices.js:50
 msgid "Could not remove card"
-msgstr "カードを削除できませんでした。"
+msgstr "ã‚«ãƒ¼ãƒ‰ã‚’å‰Šé™¤ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: src/js/services/walletService.js:776
 msgid "Could not save preferences on the server"
-msgstr "設定をサーバーと同期できませんでした。"
+msgstr "è¨­å®šã‚’ã‚µãƒ¼ãƒ�ãƒ¼ã�¨å�ŒæœŸã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: src/js/controllers/modals/txpDetails.js:147
 msgid "Could not send payment"
-msgstr "送金できませんでした。"
+msgstr "é€�é‡‘ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: src/js/controllers/buyAmazon.js:325
 #: src/js/controllers/buyMercadoLibre.js:318
 #: src/js/controllers/topup.js:299
 msgid "Could not send transaction"
-msgstr "取引が送れませんでした"
+msgstr "å�–å¼•ã�Œé€�ã‚Œã�¾ã�›ã‚“ã�§ã�—ã�Ÿ"
 
 #: www/views/walletDetails.html:210
 msgid "Could not update transaction history"
-msgstr "取引履歴を更新できませんでした。"
+msgstr "å�–å¼•å±¥æ­´ã‚’æ›´æ–°ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: src/js/controllers/addresses.js:29
 #: src/js/controllers/addresses.js:37
 #: src/js/controllers/copayers.js:30
 #: src/js/controllers/walletDetails.js:78
 msgid "Could not update wallet"
-msgstr "ウォレットが更新できませんでした。"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�Œæ›´æ–°ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: www/views/tab-create-personal.html:3
 msgid "Create Personal Wallet"
-msgstr "個人用ウォレットを作成"
+msgstr "å€‹äººç”¨ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’ä½œæˆ�"
 
 #: www/views/tab-create-shared.html:3
 msgid "Create Shared Wallet"
-msgstr "共有ウォレットを作成"
+msgstr "å…±æœ‰ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’ä½œæˆ�"
 
 #: www/views/onboarding/tour.html:51
 #: www/views/tab-home.html:77
 #: www/views/tab-send.html:36
-msgid "Create bitcoin wallet"
-msgstr "ビットコインウォレット作成"
+msgid "Create BitcoinZ Wallet"
+msgstr "ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚¦ã‚©ãƒ¬ãƒƒãƒˆä½œæˆ�"
 
 #: www/views/tab-create-personal.html:131
 msgid "Create new wallet"
-msgstr "新規ウォレット作成"
+msgstr "æ–°è¦�ã‚¦ã‚©ãƒ¬ãƒƒãƒˆä½œæˆ�"
 
 #: www/views/add.html:22
 msgid "Create shared wallet"
-msgstr "共有ウォレットを作成"
+msgstr "å…±æœ‰ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’ä½œæˆ�"
 
 #: www/views/tab-create-shared.html:160
 msgid "Create {{formData.requiredCopayers}}-of-{{formData.totalCopayers}} wallet"
-msgstr "{{formData.requiredCopayers}}-of-{{formData.totalCopayers}} ウォレットを作成"
+msgstr "{{formData.requiredCopayers}}-of-{{formData.totalCopayers}} ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’ä½œæˆ�"
 
 #: www/views/modals/txp-details.html:83
 #: www/views/tx-details.html:62
 msgid "Created by"
-msgstr "作成者"
+msgstr "ä½œæˆ�è€…"
 
 #: src/js/services/onGoingProcess.js:18
 msgid "Creating Wallet..."
-msgstr "ウォレット作成中…"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆä½œæˆ�ä¸­â€¦"
 
 #: src/js/services/onGoingProcess.js:17
 msgid "Creating transaction"
-msgstr "取引作成中…"
+msgstr "å�–å¼•ä½œæˆ�ä¸­â€¦"
 
 #: www/views/modals/chooseFeeLevel.html:34
 #: www/views/preferencesFee.html:20
 msgid "Current fee rate for this policy"
-msgstr "この設定の現在の手数料レート"
+msgstr "ã�“ã�®è¨­å®šã�®ç�¾åœ¨ã�®æ‰‹æ•°æ–™ãƒ¬ãƒ¼ãƒˆ"
 
 #: src/js/services/feeService.js:15
 msgid "Custom"
-msgstr "カスタム設定"
+msgstr "ã‚«ã‚¹ã‚¿ãƒ è¨­å®š"
 
 #: www/views/customAmount.html:9
 msgid "Custom Amount"
-msgstr "金額を入力"
+msgstr "é‡‘é¡�ã‚’å…¥åŠ›"
 
 #: src/js/controllers/preferencesFee.js:85
 msgid "Custom Fee"
-msgstr "カスタム手数料"
+msgstr "ã‚«ã‚¹ã‚¿ãƒ æ‰‹æ•°æ–™"
 
 #: www/views/modals/mercadolibre-card-details.html:56
 #: www/views/modals/txp-details.html:89
 #: www/views/tx-details.html:68
 msgid "Date"
-msgstr "日付"
+msgstr "æ—¥ä»˜"
 
 #: www/views/preferencesDeleteWallet.html:21
 msgid "Delete"
-msgstr "削除する"
+msgstr "å‰Šé™¤ã�™ã‚‹"
 
 #: www/views/modals/txp-details.html:166
 msgid "Delete Payment Proposal"
-msgstr "送金の提案を削除"
+msgstr "é€�é‡‘ã�®æ��æ¡ˆã‚’å‰Šé™¤"
 
 #: www/views/preferencesAdvanced.html:33
 #: www/views/preferencesDeleteWallet.html:3
 msgid "Delete Wallet"
-msgstr "ウォレットを削除"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’å‰Šé™¤"
 
 #: www/views/copayers.html:59
 msgid "Delete it and create a new one"
-msgstr "削除して新規作成"
+msgstr "å‰Šé™¤ã�—ã�¦æ–°è¦�ä½œæˆ�"
 
 #: src/js/services/onGoingProcess.js:19
 msgid "Deleting Wallet..."
-msgstr "ウォレット削除中…"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆå‰Šé™¤ä¸­â€¦"
 
 #: src/js/services/onGoingProcess.js:28
 msgid "Deleting payment proposal"
-msgstr "送金の提案を削除"
+msgstr "é€�é‡‘ã�®æ��æ¡ˆã‚’å‰Šé™¤"
 
 #: www/views/join.html:141
 #: www/views/tab-create-personal.html:111
 #: www/views/tab-create-shared.html:140
 #: www/views/tab-import-phrase.html:49
 msgid "Derivation Path"
-msgstr "派生パス"
+msgstr "æ´¾ç”Ÿãƒ‘ã‚¹"
 
 #: www/views/preferencesInformation.html:47
 msgid "Derivation Strategy"
-msgstr "派生パス"
+msgstr "æ´¾ç”Ÿãƒ‘ã‚¹"
 
 #: www/views/buyAmazon.html:39
 #: www/views/buyMercadoLibre.html:38
 #: www/views/modals/mercadolibre-card-details.html:6
 #: www/views/topup.html:45
 msgid "Details"
-msgstr "詳細"
+msgstr "è©³ç´°"
 
 #: src/js/controllers/lockSetup.js:9
 #: src/js/controllers/tab-settings.js:64
 #: www/views/tab-settings.html:50
 msgid "Disabled"
-msgstr "無効"
+msgstr "ç„¡åŠ¹"
 
 #: www/views/includes/backupNeededPopup.html:10
 #: www/views/onboarding/backupRequest.html:12
 msgid "Do it later"
-msgstr "後で行う"
+msgstr "å¾Œã�§è¡Œã�†"
 
 #: www/views/tab-export-file.html:29
 msgid "Do not include private key"
-msgstr "秘密鍵を含めない"
+msgstr "ç§˜å¯†é�µã‚’å�«ã‚�ã�ªã�„"
 
 #: www/views/preferencesLanguage.html:21
 msgid "Don't see your language on Crowdin? Contact the Owner on Crowdin! We'd love to support your language."
-msgstr "ご自分の言語はCrowdinで見当たりませんか？Crowdinの管理者に連絡とってみてください。是非とも対応したく思っております。"
+msgstr "ã�”è‡ªåˆ†ã�®è¨€èªžã�¯Crowdinã�§è¦‹å½“ã�Ÿã‚Šã�¾ã�›ã‚“ã�‹ï¼ŸCrowdinã�®ç®¡ç�†è€…ã�«é€£çµ¡ã�¨ã�£ã�¦ã�¿ã�¦ã��ã� ã�•ã�„ã€‚æ˜¯é�žã�¨ã‚‚å¯¾å¿œã�—ã�Ÿã��æ€�ã�£ã�¦ã�Šã‚Šã�¾ã�™ã€‚"
 
 #: www/views/tab-export-file.html:59
 #: www/views/tab-home.html:22
 msgid "Download"
-msgstr "ダウンロード"
+msgstr "ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰"
 
 #: www/views/cashScan.html:36
-msgid "Duplicate for BCH"
+msgid "Duplicate for BTCZ"
 msgstr ""
 
 #: src/js/services/onGoingProcess.js:49
@@ -935,49 +935,49 @@ msgid "Duplicating wallet..."
 msgstr ""
 
 #: www/views/addresses.html:19
-msgid "Each bitcoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
-msgstr "12個の単語から無限大のアドレスを生成することができ、それをビットコインウォレットと呼びます。送金を受け取る度に新しいアドレスを生成して受取画面でお見せします。"
+msgid "Each BitcoinZ wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
+msgstr "12å€‹ã�®å�˜èªžã�‹ã‚‰ç„¡é™�å¤§ã�®ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’ç”Ÿæˆ�ã�™ã‚‹ã�“ã�¨ã�Œã�§ã��ã€�ã��ã‚Œã‚’ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�¨å‘¼ã�³ã�¾ã�™ã€‚é€�é‡‘ã‚’å�—ã�‘å�–ã‚‹åº¦ã�«æ–°ã�—ã�„ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’ç”Ÿæˆ�ã�—ã�¦å�—å�–ç”»é�¢ã�§ã�Šè¦‹ã�›ã�—ã�¾ã�™ã€‚"
 
 #: src/js/services/feeService.js:13
 msgid "Economy"
-msgstr "節約"
+msgstr "ç¯€ç´„"
 
 #: www/views/onboarding/collectEmail.html:27
 msgid "Edit"
-msgstr "編集"
+msgstr "ç·¨é›†"
 
 #: www/views/addressbook.add.html:29
 #: www/views/addressbook.view.html:22
 msgid "Email"
-msgstr "電子メール"
+msgstr "é›»å­�ãƒ¡ãƒ¼ãƒ«"
 
 #: www/views/preferencesNotifications.html:42
 msgid "Email Address"
-msgstr "メールアドレス"
+msgstr "ãƒ¡ãƒ¼ãƒ«ã‚¢ãƒ‰ãƒ¬ã‚¹"
 
 #: src/js/services/bwcError.js:122
 msgid "Empty addresses limit reached. New addresses cannot be generated."
-msgstr "未使用アドレスを生成しすぎたため、これ以上アドレスを生成することができません。"
+msgstr "æœªä½¿ç”¨ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’ç”Ÿæˆ�ã�—ã�™ã�Žã�Ÿã�Ÿã‚�ã€�ã�“ã‚Œä»¥ä¸Šã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’ç”Ÿæˆ�ã�™ã‚‹ã�“ã�¨ã�Œã�§ã��ã�¾ã�›ã‚“ã€‚"
 
 #: www/views/preferencesCash.html:17
-msgid "Enable Bitcoin Cash wallet creation and operation within the App."
+msgid "Enable BitcoinZ wallet creation and operation within the App."
 msgstr ""
 
 #: www/views/tab-scan.html:19
 msgid "Enable camera access in your device settings to get started."
-msgstr "端末の設定でカメラの使用許可をしないとスキャンができません。"
+msgstr "ç«¯æœ«ã�®è¨­å®šã�§ã‚«ãƒ¡ãƒ©ã�®ä½¿ç”¨è¨±å�¯ã‚’ã�—ã�ªã�„ã�¨ã‚¹ã‚­ãƒ£ãƒ³ã�Œã�§ã��ã�¾ã�›ã‚“ã€‚"
 
 #: www/views/preferencesNotifications.html:29
 msgid "Enable email notifications"
-msgstr "メール通知を有効化"
+msgstr "ãƒ¡ãƒ¼ãƒ«é€šçŸ¥ã‚’æœ‰åŠ¹åŒ–"
 
 #: www/views/preferencesNotifications.html:12
 msgid "Enable push notifications"
-msgstr "プッシュ通知を有効化"
+msgstr "ãƒ—ãƒƒã‚·ãƒ¥é€šçŸ¥ã‚’æœ‰åŠ¹åŒ–"
 
 #: www/views/tab-scan.html:18
 msgid "Enable the camera to get started."
-msgstr "始めるためにカメラを有効にして下さい。"
+msgstr "å§‹ã‚�ã‚‹ã�Ÿã‚�ã�«ã‚«ãƒ¡ãƒ©ã‚’æœ‰åŠ¹ã�«ã�—ã�¦ä¸‹ã�•ã�„ã€‚"
 
 #: www/views/tab-settings.html:49
 msgid "Enabled"
@@ -986,37 +986,37 @@ msgstr ""
 #: src/js/services/walletService.js:1047
 #: src/js/services/walletService.js:1062
 msgid "Enter Spending Password"
-msgstr "送金時のパスワード入力して下さい。"
+msgstr "é€�é‡‘æ™‚ã�®ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰å…¥åŠ›ã�—ã�¦ä¸‹ã�•ã�„ã€‚"
 
 #: src/js/services/bitpayAccountService.js:110
 msgid "Enter Two Factor for your BitPay account"
-msgstr "BitPay アカウントの2段階認証コードを入力して下さい"
+msgstr "BitPay ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã�®2æ®µéšŽèª�è¨¼ã‚³ãƒ¼ãƒ‰ã‚’å…¥åŠ›ã�—ã�¦ä¸‹ã�•ã�„"
 
 #: www/views/amount.html:4
 msgid "Enter amount"
-msgstr "金額を入力"
+msgstr "é‡‘é¡�ã‚’å…¥åŠ›"
 
 #: www/views/modals/chooseFeeLevel.html:41
 msgid "Enter custom fee"
-msgstr "カスタム手数料を入力"
+msgstr "ã‚«ã‚¹ã‚¿ãƒ æ‰‹æ•°æ–™ã‚’å…¥åŠ›"
 
 #: src/js/services/walletService.js:1029
 msgid "Enter new spending password"
-msgstr "新しい送金時パスワードを入力してください"
+msgstr "æ–°ã�—ã�„é€�é‡‘æ™‚ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’å…¥åŠ›ã�—ã�¦ã��ã� ã�•ã�„"
 
 #: www/views/join.html:79
 #: www/views/tab-create-personal.html:51
 #: www/views/tab-create-shared.html:80
 msgid "Enter the recovery phrase (BIP39)"
-msgstr "復元フレーズの単語をご入力下さい。"
+msgstr "å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã�®å�˜èªžã‚’ã�”å…¥åŠ›ä¸‹ã�•ã�„ã€‚"
 
 #: www/views/onboarding/collectEmail.html:13
 msgid "Enter your email"
-msgstr "メールアドレスを入力してください"
+msgstr "ãƒ¡ãƒ¼ãƒ«ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’å…¥åŠ›ã�—ã�¦ã��ã� ã�•ã�„"
 
 #: www/views/backup.html:62
 msgid "Enter your password"
-msgstr "パスワードを入力して下さい。"
+msgstr "ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’å…¥åŠ›ã�—ã�¦ä¸‹ã�•ã�„ã€‚"
 
 #. Trying to import a malformed wallet export QR code
 #: src/js/controllers/activity.js:45
@@ -1095,54 +1095,54 @@ msgstr "パスワードを入力して下さい。"
 #: www/views/mercadoLibreCards.html:19
 #: www/views/modals/mercadolibre-card-details.html:45
 msgid "Error"
-msgstr "エラー"
+msgstr "ã‚¨ãƒ©ãƒ¼"
 
 #: src/js/controllers/confirm.js:481
 msgid "Error at confirm"
-msgstr "確認のエラー"
+msgstr "ç¢ºèª�ã�®ã‚¨ãƒ©ãƒ¼"
 
 #: src/js/controllers/buyAmazon.js:179
 msgid "Error creating gift card"
-msgstr "ギフトカード作成時にエラー"
+msgstr "ã‚®ãƒ•ãƒˆã‚«ãƒ¼ãƒ‰ä½œæˆ�æ™‚ã�«ã‚¨ãƒ©ãƒ¼"
 
 #: src/js/controllers/buyAmazon.js:94
 #: src/js/controllers/buyMercadoLibre.js:94
 msgid "Error creating the invoice"
-msgstr "請求の作成中にエラー"
+msgstr "è«‹æ±‚ã�®ä½œæˆ�ä¸­ã�«ã‚¨ãƒ©ãƒ¼"
 
 #: src/js/services/profileService.js:411
 msgid "Error creating wallet"
-msgstr "ウォレット作成時にエラー"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆä½œæˆ�æ™‚ã�«ã‚¨ãƒ©ãƒ¼"
 
 #: src/js/controllers/confirm.js:275
 msgid "Error getting SendMax information"
-msgstr "全額送金データ取得時にエラー"
+msgstr "å…¨é¡�é€�é‡‘ãƒ‡ãƒ¼ã‚¿å�–å¾—æ™‚ã�«ã‚¨ãƒ©ãƒ¼"
 
 #: src/js/controllers/buyAmazon.js:136
 #: src/js/controllers/buyMercadoLibre.js:136
 #: src/js/controllers/topup.js:114
 msgid "Error in Payment Protocol"
-msgstr "支払い検証のエラー"
+msgstr "æ”¯æ‰•ã�„æ¤œè¨¼ã�®ã‚¨ãƒ©ãƒ¼"
 
 #: src/js/controllers/bitpayCardIntro.js:14
 msgid "Error pairing BitPay Account"
-msgstr "Bitpayアカウントを接続中にエラー"
+msgstr "Bitpayã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’æŽ¥ç¶šä¸­ã�«ã‚¨ãƒ©ãƒ¼"
 
 #: src/js/controllers/paperWallet.js:41
 msgid "Error scanning funds:"
-msgstr "残高確認に失敗しました"
+msgstr "æ®‹é«˜ç¢ºèª�ã�«å¤±æ•—ã�—ã�¾ã�—ã�Ÿ"
 
 #: src/js/controllers/paperWallet.js:90
 msgid "Error sweeping wallet:"
-msgstr "ペーパーウォレット出金時にエラー"
+msgstr "ãƒšãƒ¼ãƒ‘ãƒ¼ã‚¦ã‚©ãƒ¬ãƒƒãƒˆå‡ºé‡‘æ™‚ã�«ã‚¨ãƒ©ãƒ¼"
 
 #: src/js/controllers/bitpayCardIntro.js:20
 msgid "Error updating Debit Cards"
-msgstr "デビットカードの更新エラー"
+msgstr "ãƒ‡ãƒ“ãƒƒãƒˆã‚«ãƒ¼ãƒ‰ã�®æ›´æ–°ã‚¨ãƒ©ãƒ¼"
 
 #: src/js/services/bwcError.js:143
 msgid "Exceeded daily limit of $500 per user"
-msgstr "ユーザーの1日当たりの制限 500 米ドルを超えました"
+msgstr "ãƒ¦ãƒ¼ã‚¶ãƒ¼ã�®1æ—¥å½“ã�Ÿã‚Šã�®åˆ¶é™� 500 ç±³ãƒ‰ãƒ«ã‚’è¶…ã�ˆã�¾ã�—ã�Ÿ"
 
 #: src/js/controllers/confirm.js:440
 #: www/views/confirm.html:27
@@ -1150,38 +1150,38 @@ msgstr "ユーザーの1日当たりの制限 500 米ドルを超えました"
 #: www/views/modals/mercadolibre-card-details.html:34
 #: www/views/modals/txp-details.html:121
 msgid "Expired"
-msgstr "期限切れ"
+msgstr "æœŸé™�åˆ‡ã‚Œ"
 
 #: www/views/modals/paypro.html:54
 #: www/views/modals/txp-details.html:127
 msgid "Expires"
-msgstr "有効期限："
+msgstr "æœ‰åŠ¹æœŸé™�ï¼š"
 
 #: www/views/preferencesAdvanced.html:21
 msgid "Export Wallet"
-msgstr "ウォレットをエクスポート"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’ã‚¨ã‚¯ã‚¹ãƒ�ãƒ¼ãƒˆ"
 
 #: www/views/preferencesHistory.html:11
 #: www/views/preferencesHistory.html:14
 msgid "Export to file"
-msgstr "ファイルへのエクスポート"
+msgstr "ãƒ•ã‚¡ã‚¤ãƒ«ã�¸ã�®ã‚¨ã‚¯ã‚¹ãƒ�ãƒ¼ãƒˆ"
 
 #: www/views/export.html:3
 msgid "Export wallet"
-msgstr "ウォレットをエクスポート"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’ã‚¨ã‚¯ã‚¹ãƒ�ãƒ¼ãƒˆ"
 
 #: src/js/services/walletService.js:1174
 #: www/views/tab-export-qrCode.html:9
 msgid "Exporting via QR not supported for this wallet"
-msgstr "このウォレットはQRによるエクスポートに対応していません"
+msgstr "ã�“ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�¯QRã�«ã‚ˆã‚‹ã‚¨ã‚¯ã‚¹ãƒ�ãƒ¼ãƒˆã�«å¯¾å¿œã�—ã�¦ã�„ã�¾ã�›ã‚“"
 
 #: www/views/preferencesInformation.html:89
 msgid "Extended Public Keys"
-msgstr "拡張公開鍵"
+msgstr "æ‹¡å¼µå…¬é–‹é�µ"
 
 #: src/js/services/onGoingProcess.js:20
 msgid "Extracting Wallet information..."
-msgstr "ウォレット情報を抽出中…"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆæƒ…å ±ã‚’æŠ½å‡ºä¸­â€¦"
 
 #: src/js/controllers/export.js:115
 #: src/js/controllers/export.js:126
@@ -1189,65 +1189,65 @@ msgstr "ウォレット情報を抽出中…"
 #: src/js/controllers/export.js:171
 #: www/views/tab-export-file.html:4
 msgid "Failed to export"
-msgstr "エクスポートに失敗しました。"
+msgstr "ã‚¨ã‚¯ã‚¹ãƒ�ãƒ¼ãƒˆã�«å¤±æ•—ã�—ã�¾ã�—ã�Ÿã€‚"
 
 #: www/views/tab-create-personal.html:14
 #: www/views/tab-create-shared.html:14
 msgid "Family vacation funds"
-msgstr "家族旅行貯金"
+msgstr "å®¶æ—�æ—…è¡Œè²¯é‡‘"
 
 #: www/views/tx-details.html:81
 msgid "Fee"
-msgstr "手数料"
+msgstr "æ‰‹æ•°æ–™"
 
 #: www/views/modals/chooseFeeLevel.html:75
 msgid "Fee level"
-msgstr "手数料レベル"
+msgstr "æ‰‹æ•°æ–™ãƒ¬ãƒ™ãƒ«"
 
 #: src/js/controllers/modals/feeLevels.js:100
 msgid "Fee level is not defined"
-msgstr "手数料レベルが定義されていません"
+msgstr "æ‰‹æ•°æ–™ãƒ¬ãƒ™ãƒ«ã�Œå®šç¾©ã�•ã‚Œã�¦ã�„ã�¾ã�›ã‚“"
 
 #: www/views/confirm.html:81
 #: www/views/modals/txp-details.html:101
 msgid "Fee:"
-msgstr "手数料:"
+msgstr "æ‰‹æ•°æ–™:"
 
 #: src/js/controllers/feedback/send.js:23
 msgid "Feedback could not be submitted. Please try again later."
-msgstr "フォームを送信する事ができませんでした。時間をおいて再試行ください。"
+msgstr "ãƒ•ã‚©ãƒ¼ãƒ ã‚’é€�ä¿¡ã�™ã‚‹äº‹ã�Œã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚æ™‚é–“ã‚’ã�Šã�„ã�¦å†�è©¦è¡Œã��ã� ã�•ã�„ã€‚"
 
 #: src/js/services/onGoingProcess.js:42
 msgid "Fetching BitPay Account..."
-msgstr "BitPay アカウントを取得..."
+msgstr "BitPay ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’å�–å¾—..."
 
 #: src/js/services/onGoingProcess.js:21
 msgid "Fetching payment information"
-msgstr "支払い情報要求しています…"
+msgstr "æ”¯æ‰•ã�„æƒ…å ±è¦�æ±‚ã�—ã�¦ã�„ã�¾ã�™â€¦"
 
 #: www/views/export.html:14
 #: www/views/import.html:16
 msgid "File/Text"
-msgstr "ファイル/テキスト"
+msgstr "ãƒ•ã‚¡ã‚¤ãƒ«/ãƒ†ã‚­ã‚¹ãƒˆ"
 
 #: www/views/preferencesLogs.html:17
 msgid "Filter setting"
-msgstr "フィルタ設定"
+msgstr "ãƒ•ã‚£ãƒ«ã‚¿è¨­å®š"
 
 #: src/js/services/fingerprintService.js:43
 #: src/js/services/fingerprintService.js:48
 msgid "Finger Scan Failed"
-msgstr "指紋認証に失敗しました"
+msgstr "æŒ‡ç´‹èª�è¨¼ã�«å¤±æ•—ã�—ã�¾ã�—ã�Ÿ"
 
 #: src/js/controllers/feedback/send.js:34
 #: www/views/feedback/complete.html:7
 msgid "Finish"
-msgstr "完了"
+msgstr "å®Œäº†"
 
 #: www/views/tab-create-personal.html:123
 #: www/views/tab-create-shared.html:152
 msgid "For audit purposes"
-msgstr "監査用機能"
+msgstr "ç›£æŸ»ç”¨æ©Ÿèƒ½"
 
 #: src/js/controllers/topup.js:308
 #: www/views/buyAmazon.html:29
@@ -1257,98 +1257,98 @@ msgstr "監査用機能"
 #: www/views/topup.html:34
 #: www/views/tx-details.html:52
 msgid "From"
-msgstr "送信者"
+msgstr "é€�ä¿¡è€…"
 
 #: src/js/controllers/bitpayCardIntro.js:71
 msgid "From BitPay account"
-msgstr " BitPayアカウントから"
+msgstr " BitPayã‚¢ã‚«ã‚¦ãƒ³ãƒˆã�‹ã‚‰"
 
 #: www/views/tab-import-phrase.html:57
 msgid "From Hardware Wallet"
-msgstr "ハードウェアウォレットから"
+msgstr "ãƒ�ãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�‹ã‚‰"
 
 #: www/views/tab-export-qrCode.html:5
 msgid "From the destination device, go to Add wallet &gt; Import wallet and scan this QR code"
-msgstr "移行先の端末では、ウォレットを追加から、ウォレットをインポートの画面でQRをスキャンして下さい。"
+msgstr "ç§»è¡Œå…ˆã�®ç«¯æœ«ã�§ã�¯ã€�ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’è¿½åŠ ã�‹ã‚‰ã€�ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’ã‚¤ãƒ³ãƒ�ãƒ¼ãƒˆã�®ç”»é�¢ã�§QRã‚’ã‚¹ã‚­ãƒ£ãƒ³ã�—ã�¦ä¸‹ã�•ã�„ã€‚"
 
 #: src/js/services/bwcError.js:74
 msgid "Funds are locked by pending spend proposals"
-msgstr "協議中の送金の提案により、資金がロックされています。"
+msgstr "å�”è­°ä¸­ã�®é€�é‡‘ã�®æ��æ¡ˆã�«ã‚ˆã‚Šã€�è³‡é‡‘ã�Œãƒ­ãƒƒã‚¯ã�•ã‚Œã�¦ã�„ã�¾ã�™ã€‚"
 
 #: www/views/paperWallet.html:16
 msgid "Funds found:"
-msgstr "残高がありました:"
+msgstr "æ®‹é«˜ã�Œã�‚ã‚Šã�¾ã�—ã�Ÿ:"
 
 #: www/views/topup.html:49
 msgid "Funds to be added"
-msgstr "追加する資金"
+msgstr "è¿½åŠ ã�™ã‚‹è³‡é‡‘"
 
 #: www/views/paperWallet.html:53
 msgid "Funds transferred"
-msgstr "入金されました"
+msgstr "å…¥é‡‘ã�•ã‚Œã�¾ã�—ã�Ÿ"
 
 #: www/views/topup.html:103
 msgid "Funds were added to debit card"
-msgstr "デビットカードへ入金されました"
+msgstr "ãƒ‡ãƒ“ãƒƒãƒˆã‚«ãƒ¼ãƒ‰ã�¸å…¥é‡‘ã�•ã‚Œã�¾ã�—ã�Ÿ"
 
 #: www/views/paperWallet.html:22
 msgid "Funds will be transferred to"
-msgstr "送金先"
+msgstr "é€�é‡‘å…ˆ"
 
 #: www/views/tab-receive.html:51
 msgid "Generate new address"
-msgstr "新規アドレスを生成"
+msgstr "æ–°è¦�ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’ç”Ÿæˆ�"
 
 #: src/js/services/onGoingProcess.js:22
 msgid "Generating .csv file..."
-msgstr "CSVファイル作成中…"
+msgstr "CSVãƒ•ã‚¡ã‚¤ãƒ«ä½œæˆ�ä¸­â€¦"
 
 #: src/js/services/onGoingProcess.js:37
 msgid "Generating new address..."
-msgstr "新規アドレスを生成中..."
+msgstr "æ–°è¦�ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’ç”Ÿæˆ�ä¸­..."
 
 #: www/views/bitpayCardIntro.html:23
 msgid "Get local cash anywhere you go, from any Visa<sup>&reg;</sup> compatible ATM. ATM bank fees may apply."
-msgstr "Visa<sup>&reg;</sup>カード対応ATMから現地通貨をいつでも引き出せます。ATMの手数料はATMによって異なります。"
+msgstr "Visa<sup>&reg;</sup>ã‚«ãƒ¼ãƒ‰å¯¾å¿œATMã�‹ã‚‰ç�¾åœ°é€šè²¨ã‚’ã�„ã�¤ã�§ã‚‚å¼•ã��å‡ºã�›ã�¾ã�™ã€‚ATMã�®æ‰‹æ•°æ–™ã�¯ATMã�«ã‚ˆã�£ã�¦ç•°ã�ªã‚Šã�¾ã�™ã€‚"
 
 #: www/views/onboarding/collectEmail.html:15
 msgid "Get news and updates from BitPay"
-msgstr "BitPay からのニュースや更新情報を受け取ります。"
+msgstr "BitPay ã�‹ã‚‰ã�®ãƒ‹ãƒ¥ãƒ¼ã‚¹ã‚„æ›´æ–°æƒ…å ±ã‚’å�—ã�‘å�–ã‚Šã�¾ã�™ã€‚"
 
 #: www/views/onboarding/welcome.html:8
 msgctxt "button"
 msgid "Get started"
-msgstr "始めよう"
+msgstr "å§‹ã‚�ã‚ˆã�†"
 
 #: www/views/bitpayCard.html:49
 msgid "Get started"
-msgstr "始めよう"
+msgstr "å§‹ã‚�ã‚ˆã�†"
 
 #: www/views/addressbook.html:20
 msgid "Get started by adding your first one."
-msgstr "初めての連絡先を追加しましょう。"
+msgstr "åˆ�ã‚�ã�¦ã�®é€£çµ¡å…ˆã‚’è¿½åŠ ã�—ã�¾ã�—ã‚‡ã�†ã€‚"
 
 #: src/js/services/onGoingProcess.js:23
 msgid "Getting fee levels..."
-msgstr "手数料レベルを取得しています…"
+msgstr "æ‰‹æ•°æ–™ãƒ¬ãƒ™ãƒ«ã‚’å�–å¾—ã�—ã�¦ã�„ã�¾ã�™â€¦"
 
 #: www/views/modals/mercadolibre-card-details.html:30
 #: www/views/modals/mercadolibre-card-details.html:35
 msgid "Gift Card is not available to use anymore"
-msgstr "ギフトカードがもう使用できません。"
+msgstr "ã‚®ãƒ•ãƒˆã‚«ãƒ¼ãƒ‰ã�Œã‚‚ã�†ä½¿ç”¨ã�§ã��ã�¾ã�›ã‚“ã€‚"
 
 #: www/views/buyAmazon.html:43
 #: www/views/buyMercadoLibre.html:42
 msgid "Gift card"
-msgstr "ギフトカード"
+msgstr "ã‚®ãƒ•ãƒˆã‚«ãƒ¼ãƒ‰"
 
 #: src/js/controllers/buyAmazon.js:204
 msgid "Gift card expired"
-msgstr "期限切れのギフトカード"
+msgstr "æœŸé™�åˆ‡ã‚Œã�®ã‚®ãƒ•ãƒˆã‚«ãƒ¼ãƒ‰"
 
 #: www/views/buyAmazon.html:111
 msgid "Gift card generated and ready to use."
-msgstr "ギフトカードが利用可能になりました。"
+msgstr "ã‚®ãƒ•ãƒˆã‚«ãƒ¼ãƒ‰ã�Œåˆ©ç”¨å�¯èƒ½ã�«ã�ªã‚Šã�¾ã�—ã�Ÿã€‚"
 
 #: src/js/controllers/bitpayCard.js:114
 #: src/js/controllers/bitpayCard.js:124
@@ -1362,58 +1362,58 @@ msgstr "ギフトカードが利用可能になりました。"
 #: src/js/controllers/tx-details.js:193
 #: src/js/controllers/tx-details.js:56
 msgid "Go Back"
-msgstr "戻る"
+msgstr "æˆ»ã‚‹"
 
 #: src/js/controllers/onboarding/backupRequest.js:20
 #: src/js/controllers/onboarding/backupRequest.js:26
 #: src/js/services/bitpayAccountService.js:84
 msgid "Go back"
-msgstr "戻る"
+msgstr "æˆ»ã‚‹"
 
 #: www/views/backupWarning.html:15
 #: www/views/includes/confirmBackupPopup.html:8
 #: www/views/onboarding/tour.html:23
 msgid "Got it"
-msgstr "分かりました"
+msgstr "åˆ†ã�‹ã‚Šã�¾ã�—ã�Ÿ"
 
 #: www/views/preferencesInformation.html:53
 #: www/views/preferencesInformation.html:59
 msgid "Hardware Wallet"
-msgstr "ハードウェアウォレット"
+msgstr "ãƒ�ãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢ã‚¦ã‚©ãƒ¬ãƒƒãƒˆ"
 
 #: www/views/preferencesExternal.html:18
 msgid "Hardware not connected."
-msgstr "ハードウェアは接続されていません。"
+msgstr "ãƒ�ãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢ã�¯æŽ¥ç¶šã�•ã‚Œã�¦ã�„ã�¾ã�›ã‚“ã€‚"
 
 #: www/views/import.html:20
 msgid "Hardware wallet"
-msgstr "ハードウェアウォレット"
+msgstr "ãƒ�ãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢ã‚¦ã‚©ãƒ¬ãƒƒãƒˆ"
 
 #: src/js/controllers/create.js:180
 #: src/js/controllers/join.js:145
-msgid "Hardware wallets are not yet supported with Bitcoin Cash"
+msgid "Hardware wallets are not yet supported with BitcoinZ"
 msgstr ""
 
 #: www/views/tab-settings.html:20
 msgid "Help & Support"
-msgstr "ヘルプ＆サポート"
+msgstr "ãƒ˜ãƒ«ãƒ—ï¼†ã‚µãƒ�ãƒ¼ãƒˆ"
 
 #: src/js/controllers/bitpayCard.js:112
 #: src/js/controllers/tab-settings.js:50
 msgid "Help and support information is available at the website."
-msgstr "サポートに関する情報はウェブサイトに掲載しております。"
+msgstr "ã‚µãƒ�ãƒ¼ãƒˆã�«é–¢ã�™ã‚‹æƒ…å ±ã�¯ã‚¦ã‚§ãƒ–ã‚µã‚¤ãƒˆã�«æŽ²è¼‰ã�—ã�¦ã�Šã‚Šã�¾ã�™ã€‚"
 
 #: www/views/addresses.html:25
 msgid "Hide"
-msgstr "非表示"
+msgstr "é�žè¡¨ç¤º"
 
 #: www/views/preferences.html:27
 msgid "Hide Balance"
-msgstr "残高を非表示"
+msgstr "æ®‹é«˜ã‚’é�žè¡¨ç¤º"
 
 #: www/views/advancedSettings.html:30
 msgid "Hide Next Steps Card"
-msgstr "次のステップカードを非表示"
+msgstr "æ¬¡ã�®ã‚¹ãƒ†ãƒƒãƒ—ã‚«ãƒ¼ãƒ‰ã‚’é�žè¡¨ç¤º"
 
 #: www/views/join.html:49
 #: www/views/tab-create-personal.html:28
@@ -1423,247 +1423,247 @@ msgstr "次のステップカードを非表示"
 #: www/views/tab-import-hardware.html:31
 #: www/views/tab-import-phrase.html:36
 msgid "Hide advanced options"
-msgstr "詳細設定を非表示"
+msgstr "è©³ç´°è¨­å®šã‚’é�žè¡¨ç¤º"
 
 #: www/views/tabs.html:3
 msgid "Home"
-msgstr "ホーム"
+msgstr "ãƒ›ãƒ¼ãƒ "
 
 #: src/js/controllers/feedback/send.js:61
 #: src/js/controllers/feedback/send.js:65
 #: src/js/controllers/feedback/send.js:69
 msgid "How could we improve your experience?"
-msgstr "このアプリを改善するためにご意見下さい。"
+msgstr "ã�“ã�®ã‚¢ãƒ—ãƒªã‚’æ”¹å–„ã�™ã‚‹ã�Ÿã‚�ã�«ã�”æ„�è¦‹ä¸‹ã�•ã�„ã€‚"
 
 #: www/views/feedback/rateCard.html:3
 msgid "How do you like {{appName}}?"
-msgstr "このアプリを使用してみて、どのようにお感じですか?"
+msgstr "ã�“ã�®ã‚¢ãƒ—ãƒªã‚’ä½¿ç”¨ã�—ã�¦ã�¿ã�¦ã€�ã�©ã�®ã‚ˆã�†ã�«ã�Šæ„Ÿã�˜ã�§ã�™ã�‹?"
 
 #: src/js/controllers/feedback/rateCard.js:29
 msgid "I don't like it"
-msgstr "好きではない"
+msgstr "å¥½ã��ã�§ã�¯ã�ªã�„"
 
 #: www/views/onboarding/disclaimer.html:43
 msgid "I have read, understood, and agree to the <a ng-click=\"openTerms()\" translate=\"\">Terms of Use</a>."
-msgstr "<a ng-click=\"openTerms()\" translate>利用規約</a>をよく読み、理解し、同意します。"
+msgstr "<a ng-click=\"openTerms()\" translate>åˆ©ç”¨è¦�ç´„</a>ã‚’ã‚ˆã��èª­ã�¿ã€�ç�†è§£ã�—ã€�å�Œæ„�ã�—ã�¾ã�™ã€‚"
 
 #: www/views/modals/terms.html:22
 msgid "I have read, understood, and agree with the Terms of use."
-msgstr "利用規約をよく読み、理解し、同意します。"
+msgstr "åˆ©ç”¨è¦�ç´„ã‚’ã‚ˆã��èª­ã�¿ã€�ç�†è§£ã�—ã€�å�Œæ„�ã�—ã�¾ã�™ã€‚"
 
 #: www/views/join.html:137
 #: www/views/tab-create-personal.html:107
 #: www/views/tab-create-shared.html:136
 msgid "I have written it down"
-msgstr "紙に書き留めました"
+msgstr "ç´™ã�«æ›¸ã��ç•™ã‚�ã�¾ã�—ã�Ÿ"
 
 #: src/js/controllers/feedback/rateCard.js:35
 msgid "I like the app"
-msgstr "このアプリが好き"
+msgstr "ã�“ã�®ã‚¢ãƒ—ãƒªã�Œå¥½ã��"
 
 #: src/js/controllers/feedback/rateCard.js:26
 msgid "I think this app is terrible."
-msgstr "このアプリは最悪です!"
+msgstr "ã�“ã�®ã‚¢ãƒ—ãƒªã�¯æœ€æ‚ªã�§ã�™!"
 
 #: src/js/controllers/onboarding/backupRequest.js:19
 #: www/views/includes/screenshotWarningModal.html:9
 msgid "I understand"
-msgstr "承知しました"
+msgstr "æ‰¿çŸ¥ã�—ã�¾ã�—ã�Ÿ"
 
 #: www/views/onboarding/disclaimer.html:21
-msgid "I understand that if this app is moved to another device or deleted, my bitcoin can only be recovered with the backup phrase."
-msgstr "このアプリが別の端末に移動されたり、削除されたりした場合に、含まれたビットコインが復元フレーズからのみ復元ができることを理解しています。"
+msgid "I understand that if this app is moved to another device or deleted, my BitcoinZ can only be recovered with the backup phrase."
+msgstr "ã�“ã�®ã‚¢ãƒ—ãƒªã�Œåˆ¥ã�®ç«¯æœ«ã�«ç§»å‹•ã�•ã‚Œã�Ÿã‚Šã€�å‰Šé™¤ã�•ã‚Œã�Ÿã‚Šã�—ã�Ÿå ´å�ˆã�«ã€�å�«ã�¾ã‚Œã�Ÿãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã�Œå¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã�‹ã‚‰ã�®ã�¿å¾©å…ƒã�Œã�§ã��ã‚‹ã�“ã�¨ã‚’ç�†è§£ã�—ã�¦ã�„ã�¾ã�™ã€‚"
 
 #: www/views/onboarding/disclaimer.html:18
 msgid "I understand that my funds are held securely on this device, not by a company."
-msgstr "自分のビットコインがこの端末に入っていて、外部のサーバー等に保管は一切されていないことを理解しています。"
+msgstr "è‡ªåˆ†ã�®ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã�Œã�“ã�®ç«¯æœ«ã�«å…¥ã�£ã�¦ã�„ã�¦ã€�å¤–éƒ¨ã�®ã‚µãƒ¼ãƒ�ãƒ¼ç­‰ã�«ä¿�ç®¡ã�¯ä¸€åˆ‡ã�•ã‚Œã�¦ã�„ã�ªã�„ã�“ã�¨ã‚’ç�†è§£ã�—ã�¦ã�„ã�¾ã�™ã€‚"
 
 #: www/views/backup.html:29
 msgid "I've written it down"
-msgstr "紙に書き留めました"
+msgstr "ç´™ã�«æ›¸ã��ç•™ã‚�ã�¾ã�—ã�Ÿ"
 
 #: www/views/preferences.html:45
 msgid "If enabled, all sensitive information (private key and recovery phrase) and actions (spending and exporting) associated with this wallet will be protected."
-msgstr "有効にした場合は、このウォレットに関連する全ての秘密情報(秘密鍵と復元フレーズ)と履歴情報(送金やエクスポート)は守られます。"
+msgstr "æœ‰åŠ¹ã�«ã�—ã�Ÿå ´å�ˆã�¯ã€�ã�“ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�«é–¢é€£ã�™ã‚‹å…¨ã�¦ã�®ç§˜å¯†æƒ…å ±(ç§˜å¯†é�µã�¨å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚º)ã�¨å±¥æ­´æƒ…å ±(é€�é‡‘ã‚„ã‚¨ã‚¯ã‚¹ãƒ�ãƒ¼ãƒˆ)ã�¯å®ˆã‚‰ã‚Œã�¾ã�™ã€‚"
 
 #: www/views/advancedSettings.html:23
 msgid "If enabled, the Recent Transactions card - a list of transactions occuring across all wallets - will appear in the Home tab."
-msgstr "有効にした場合、「最近の取引」カードがホームのメニューに表示されます。アプリに含まれる全ウォレットの取引が一覧できるカードです。"
+msgstr "æœ‰åŠ¹ã�«ã�—ã�Ÿå ´å�ˆã€�ã€Œæœ€è¿‘ã�®å�–å¼•ã€�ã‚«ãƒ¼ãƒ‰ã�Œãƒ›ãƒ¼ãƒ ã�®ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã�«è¡¨ç¤ºã�•ã‚Œã�¾ã�™ã€‚ã‚¢ãƒ—ãƒªã�«å�«ã�¾ã‚Œã‚‹å…¨ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®å�–å¼•ã�Œä¸€è¦§ã�§ã��ã‚‹ã‚«ãƒ¼ãƒ‰ã�§ã�™ã€‚"
 
 #: www/views/advancedSettings.html:14
 msgid "If enabled, wallets will also try to spend unconfirmed funds. This option may cause transaction delays."
-msgstr "有効にした場合、ウォレットは未承認ビットコインも送金時の候補に含めます。これを有効にした場合、承認に時間がかかることがあります。"
+msgstr "æœ‰åŠ¹ã�«ã�—ã�Ÿå ´å�ˆã€�ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�¯æœªæ‰¿èª�ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚‚é€�é‡‘æ™‚ã�®å€™è£œã�«å�«ã‚�ã�¾ã�™ã€‚ã�“ã‚Œã‚’æœ‰åŠ¹ã�«ã�—ã�Ÿå ´å�ˆã€�æ‰¿èª�ã�«æ™‚é–“ã�Œã�‹ã�‹ã‚‹ã�“ã�¨ã�Œã�‚ã‚Šã�¾ã�™ã€‚"
 
 #: src/js/controllers/onboarding/backupRequest.js:18
 msgid "If this device is replaced or this app is deleted, neither you nor BitPay can recover your funds without a backup."
-msgstr "この端末の機種変更をしたり、アプリを削除したりした場合、端末のバックアップを取っていてもビットコインは復元されません。BitPayは復元フレーズを知らないため、お金を失ったことになります。なので、絶対に復元フレーズを書き留めて安全な場所に保管して下さい。"
+msgstr "ã�“ã�®ç«¯æœ«ã�®æ©Ÿç¨®å¤‰æ›´ã‚’ã�—ã�Ÿã‚Šã€�ã‚¢ãƒ—ãƒªã‚’å‰Šé™¤ã�—ã�Ÿã‚Šã�—ã�Ÿå ´å�ˆã€�ç«¯æœ«ã�®ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ã‚’å�–ã�£ã�¦ã�„ã�¦ã‚‚ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã�¯å¾©å…ƒã�•ã‚Œã�¾ã�›ã‚“ã€‚BitPayã�¯å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã‚’çŸ¥ã‚‰ã�ªã�„ã�Ÿã‚�ã€�ã�Šé‡‘ã‚’å¤±ã�£ã�Ÿã�“ã�¨ã�«ã�ªã‚Šã�¾ã�™ã€‚ã�ªã�®ã�§ã€�çµ¶å¯¾ã�«å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã‚’æ›¸ã��ç•™ã‚�ã�¦å®‰å…¨ã�ªå ´æ‰€ã�«ä¿�ç®¡ã�—ã�¦ä¸‹ã�•ã�„ã€‚"
 
 #: www/views/feedback/complete.html:23
 msgid "If you have additional feedback, please let us know by tapping the \"Send feedback\" option in the Settings tab."
-msgstr "他にご意見などありましたら、設定画面の「フィードバックの送信」をタップして下さい。"
+msgstr "ä»–ã�«ã�”æ„�è¦‹ã�ªã�©ã�‚ã‚Šã�¾ã�—ã�Ÿã‚‰ã€�è¨­å®šç”»é�¢ã�®ã€Œãƒ•ã‚£ãƒ¼ãƒ‰ãƒ�ãƒƒã‚¯ã�®é€�ä¿¡ã€�ã‚’ã‚¿ãƒƒãƒ—ã�—ã�¦ä¸‹ã�•ã�„ã€‚"
 
 #: www/views/includes/screenshotWarningModal.html:8
 msgid "If you take a screenshot, your backup may be viewed by other apps. You can make a safe backup with physical paper and a pen."
-msgstr "画面写真を撮ってしまうと、その時点で他のアプリに見られるようになりますので、そのアプリの運営者が安易にビットコインを全て盗めます。安全にバックアップを取るには、紙とボールペンで書き留めましょう。"
+msgstr "ç”»é�¢å†™çœŸã‚’æ’®ã�£ã�¦ã�—ã�¾ã�†ã�¨ã€�ã��ã�®æ™‚ç‚¹ã�§ä»–ã�®ã‚¢ãƒ—ãƒªã�«è¦‹ã‚‰ã‚Œã‚‹ã‚ˆã�†ã�«ã�ªã‚Šã�¾ã�™ã�®ã�§ã€�ã��ã�®ã‚¢ãƒ—ãƒªã�®é�‹å–¶è€…ã�Œå®‰æ˜“ã�«ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚’å…¨ã�¦ç›—ã‚�ã�¾ã�™ã€‚å®‰å…¨ã�«ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ã‚’å�–ã‚‹ã�«ã�¯ã€�ç´™ã�¨ãƒœãƒ¼ãƒ«ãƒšãƒ³ã�§æ›¸ã��ç•™ã‚�ã�¾ã�—ã‚‡ã�†ã€‚"
 
 #: www/views/tab-import-hardware.html:42
 #: www/views/tab-import-phrase.html:80
 msgid "Import"
-msgstr "インポート"
+msgstr "ã‚¤ãƒ³ãƒ�ãƒ¼ãƒˆ"
 
 #: www/views/import.html:3
 msgid "Import Wallet"
-msgstr "ウォレットをインポート"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’ã‚¤ãƒ³ãƒ�ãƒ¼ãƒˆ"
 
 #: www/views/tab-import-file.html:41
 msgid "Import backup"
-msgstr "バックアップをインポート"
+msgstr "ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ã‚’ã‚¤ãƒ³ãƒ�ãƒ¼ãƒˆ"
 
 #: www/views/add.html:38
 msgid "Import wallet"
-msgstr "ウォレットをインポート"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’ã‚¤ãƒ³ãƒ�ãƒ¼ãƒˆ"
 
 #: src/js/services/onGoingProcess.js:24
 msgid "Importing Wallet..."
-msgstr "ウォレットインポート中…"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚¤ãƒ³ãƒ�ãƒ¼ãƒˆä¸­â€¦"
 
 #: www/views/backup.html:65
 msgid "In order to verify your wallet backup, please type your password."
-msgstr "ウォレットのバックアップを確認するためには、復元フレーズ用のパスワードをご入力下さい。"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ã‚’ç¢ºèª�ã�™ã‚‹ã�Ÿã‚�ã�«ã�¯ã€�å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºç”¨ã�®ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’ã�”å…¥åŠ›ä¸‹ã�•ã�„ã€‚"
 
 #: www/views/mercadoLibreCards.html:24
 #: www/views/modals/mercadolibre-card-details.html:29
 msgid "Inactive"
-msgstr "非アクティブ"
+msgstr "é�žã‚¢ã‚¯ãƒ†ã‚£ãƒ–"
 
 #: www/views/includes/walletItem.html:11
 #: www/views/includes/walletSelector.html:18
 #: www/views/tab-home.html:90
 #: www/views/tab-settings.html:122
 msgid "Incomplete"
-msgstr "未完成"
+msgstr "æœªå®Œæˆ�"
 
 #: www/views/tab-receive.html:22
 msgid "Incomplete wallet"
-msgstr "未完成のウォレット"
+msgstr "æœªå®Œæˆ�ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆ"
 
 #: www/views/modals/pin.html:12
 msgid "Incorrect PIN, try again."
-msgstr "PINが間違っています。もう一度やり直して下さい。"
+msgstr "PINã�Œé–“é�•ã�£ã�¦ã�„ã�¾ã�™ã€‚ã‚‚ã�†ä¸€åº¦ã‚„ã‚Šç›´ã�—ã�¦ä¸‹ã�•ã�„ã€‚"
 
 #. Trying to import a malformed wallet export QR code
 #: src/js/controllers/import.js:85
 msgid "Incorrect code format"
-msgstr "コードの形式が異なります"
+msgstr "ã‚³ãƒ¼ãƒ‰ã�®å½¢å¼�ã�Œç•°ã�ªã‚Šã�¾ã�™"
 
 #: src/js/services/bwcError.js:113
 msgid "Incorrect network address"
-msgstr "サーバーのアドレスが不正です"
+msgstr "ã‚µãƒ¼ãƒ�ãƒ¼ã�®ã‚¢ãƒ‰ãƒ¬ã‚¹ã�Œä¸�æ­£ã�§ã�™"
 
 #: src/js/controllers/confirm.js:114
 #: src/js/controllers/confirm.js:285
 #: src/js/services/bwcError.js:44
 msgid "Insufficient funds"
-msgstr "残高不足"
+msgstr "æ®‹é«˜ä¸�è¶³"
 
 #: src/js/controllers/topup.js:165
 #: src/js/controllers/topup.js:177
 #: src/js/services/bwcError.js:71
 msgid "Insufficient funds for fee"
-msgstr "手数料付けるには残高が足りません"
+msgstr "æ‰‹æ•°æ–™ä»˜ã�‘ã‚‹ã�«ã�¯æ®‹é«˜ã�Œè¶³ã‚Šã�¾ã�›ã‚“"
 
 #: www/views/includes/walletHistory.html:49
 msgid "Invalid"
-msgstr "無効"
+msgstr "ç„¡åŠ¹"
 
 #: src/js/controllers/buyAmazon.js:137
 #: src/js/controllers/buyMercadoLibre.js:137
 #: src/js/controllers/topup.js:115
 msgid "Invalid URL"
-msgstr "無効なURL"
+msgstr "ç„¡åŠ¹ã�ªURL"
 
 #: src/js/controllers/create.js:186
 #: src/js/controllers/import.js:345
 #: src/js/controllers/join.js:151
 msgid "Invalid account number"
-msgstr "無効なポケット番号です。"
+msgstr "ç„¡åŠ¹ã�ªãƒ�ã‚±ãƒƒãƒˆç•ªå�·ã�§ã�™ã€‚"
 
 #: src/js/services/bwcError.js:119
 msgid "Invalid address"
-msgstr "不正アドレス"
+msgstr "ä¸�æ­£ã‚¢ãƒ‰ãƒ¬ã‚¹"
 
 #: src/js/controllers/tabsController.js:7
 msgid "Invalid data"
-msgstr "無効のデータ"
+msgstr "ç„¡åŠ¹ã�®ãƒ‡ãƒ¼ã‚¿"
 
 #: src/js/controllers/create.js:161
 #: src/js/controllers/import.js:266
 #: src/js/controllers/join.js:125
 msgid "Invalid derivation path"
-msgstr "無効な派生パス"
+msgstr "ç„¡åŠ¹ã�ªæ´¾ç”Ÿãƒ‘ã‚¹"
 
 #: src/js/controllers/copayers.js:90
 msgid "Invitation to share a {{appName}} Wallet"
-msgstr "{{appName}} 共有ウォレットへの招待"
+msgstr "{{appName}} å…±æœ‰ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�¸ã�®æ‹›å¾…"
 
 #: www/views/mercadoLibreCards.html:20
 #: www/views/modals/mercadolibre-card-details.html:48
 msgid "Invoice expired"
-msgstr "請求有効期限切れ"
+msgstr "è«‹æ±‚æœ‰åŠ¹æœŸé™�åˆ‡ã‚Œ"
 
 #: src/js/controllers/feedback/send.js:79
 msgid "Is there anything we could do better?"
-msgstr "もっと頑張って欲しいところはありますか？"
+msgstr "ã‚‚ã�£ã�¨é ‘å¼µã�£ã�¦æ¬²ã�—ã�„ã�¨ã�“ã‚�ã�¯ã�‚ã‚Šã�¾ã�™ã�‹ï¼Ÿ"
 
 #: www/views/backup.html:47
 msgid "Is this correct?"
-msgstr "正しいですか？"
+msgstr "æ­£ã�—ã�„ã�§ã�™ã�‹ï¼Ÿ"
 
 #: www/views/onboarding/collectEmail.html:22
 msgid "Is this email address correct?"
-msgstr "このメールアドレスで宜しいですか？"
+msgstr "ã�“ã�®ãƒ¡ãƒ¼ãƒ«ã‚¢ãƒ‰ãƒ¬ã‚¹ã�§å®œã�—ã�„ã�§ã�™ã�‹ï¼Ÿ"
 
 #: www/views/addresses.html:25
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your bitcoins secure against hypothetical attacks by quantum computers."
-msgstr "アドレスの再利用は避けましょう。これはプライバシーを守ることももちろんのこと、将来的にあり得るかもしれない量子コンピューターからの、ある攻撃からビットコインを守ることもできます。"
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your BitcoinZ secure against hypothetical attacks by quantum computers."
+msgstr "ã‚¢ãƒ‰ãƒ¬ã‚¹ã�®å†�åˆ©ç”¨ã�¯é�¿ã�‘ã�¾ã�—ã‚‡ã�†ã€‚ã�“ã‚Œã�¯ãƒ—ãƒ©ã‚¤ãƒ�ã‚·ãƒ¼ã‚’å®ˆã‚‹ã�“ã�¨ã‚‚ã‚‚ã�¡ã‚�ã‚“ã�®ã�“ã�¨ã€�å°†æ�¥çš„ã�«ã�‚ã‚Šå¾—ã‚‹ã�‹ã‚‚ã�—ã‚Œã�ªã�„é‡�å­�ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿ãƒ¼ã�‹ã‚‰ã�®ã€�ã�‚ã‚‹æ”»æ’ƒã�‹ã‚‰ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚’å®ˆã‚‹ã�“ã�¨ã‚‚ã�§ã��ã�¾ã�™ã€‚"
 
 #: src/js/controllers/backup.js:76
 msgid "It's important that you write your backup phrase down correctly. If something happens to your wallet, you'll need this backup to recover your money. Please review your backup and try again."
-msgstr "正確に復元フレーズを書き留めることが大変重要です。このアプリやこの端末に問題が発生したりデータが破損したりすると、ビットコインの残高を元に戻すためには復元フレーズが必須になってきます。バックアップを再確認して、もう一度お試し下さい。"
+msgstr "æ­£ç¢ºã�«å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã‚’æ›¸ã��ç•™ã‚�ã‚‹ã�“ã�¨ã�Œå¤§å¤‰é‡�è¦�ã�§ã�™ã€‚ã�“ã�®ã‚¢ãƒ—ãƒªã‚„ã�“ã�®ç«¯æœ«ã�«å•�é¡Œã�Œç™ºç”Ÿã�—ã�Ÿã‚Šãƒ‡ãƒ¼ã‚¿ã�Œç ´æ��ã�—ã�Ÿã‚Šã�™ã‚‹ã�¨ã€�ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã�®æ®‹é«˜ã‚’å…ƒã�«æˆ»ã�™ã�Ÿã‚�ã�«ã�¯å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã�Œå¿…é ˆã�«ã�ªã�£ã�¦ã��ã�¾ã�™ã€‚ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ã‚’å†�ç¢ºèª�ã�—ã�¦ã€�ã‚‚ã�†ä¸€åº¦ã�Šè©¦ã�—ä¸‹ã�•ã�„ã€‚"
 
 #: www/views/join.html:151
 msgid "Join"
-msgstr "参加"
+msgstr "å�‚åŠ "
 
 #: src/js/controllers/copayers.js:85
 msgid "Join my {{appName}} Wallet. Here is the invitation code: {{secret}} You can download {{appName}} for your phone or desktop at {{appUrl}}"
-msgstr "{{appName}}の共有ウォレット作りました： {{secret}} この招待コードを入力して、ウォレットに参加して下さい。アプリのダウンロードは {{appUrl}} にてどうぞ！"
+msgstr "{{appName}}ã�®å…±æœ‰ã‚¦ã‚©ãƒ¬ãƒƒãƒˆä½œã‚Šã�¾ã�—ã�Ÿï¼š {{secret}} ã�“ã�®æ‹›å¾…ã‚³ãƒ¼ãƒ‰ã‚’å…¥åŠ›ã�—ã�¦ã€�ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�«å�‚åŠ ã�—ã�¦ä¸‹ã�•ã�„ã€‚ã‚¢ãƒ—ãƒªã�®ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã�¯ {{appUrl}} ã�«ã�¦ã�©ã�†ã�žï¼�"
 
 #: www/views/add.html:30
 #: www/views/join.html:5
 msgid "Join shared wallet"
-msgstr "共有ウォレットに参加"
+msgstr "å…±æœ‰ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�«å�‚åŠ "
 
 #: src/js/services/onGoingProcess.js:25
 msgid "Joining Wallet..."
-msgstr "ウォレット参加中…"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆå�‚åŠ ä¸­â€¦"
 
 #: www/views/onboarding/tour.html:22
 msgid "Just scan the code to pay."
-msgstr "コードを読み取って送金できます"
+msgstr "ã‚³ãƒ¼ãƒ‰ã‚’èª­ã�¿å�–ã�£ã�¦é€�é‡‘ã�§ã��ã�¾ã�™"
 
 #: src/js/services/bwcError.js:116
 msgid "Key already associated with an existing wallet"
-msgstr "この鍵は既存のウォレットにて登録されています"
+msgstr "ã�“ã�®é�µã�¯æ—¢å­˜ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�«ã�¦ç™»éŒ²ã�•ã‚Œã�¦ã�„ã�¾ã�™"
 
 #: www/views/preferencesLanguage.html:4
 #: www/views/tab-settings.html:68
 msgid "Language"
-msgstr "言語設定"
+msgstr "è¨€èªžè¨­å®š"
 
 #: www/views/bitpayCard.html:61
 msgid "Last Month"
-msgstr "先月"
+msgstr "å…ˆæœˆ"
 
 #: www/views/preferences.html:48
 #: www/views/preferencesCash.html:18
@@ -1673,92 +1673,92 @@ msgstr ""
 
 #: www/views/backup.html:36
 msgid "Let's verify your backup phrase."
-msgstr "復元フレーズを確認しましょう。"
+msgstr "å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã‚’ç¢ºèª�ã�—ã�¾ã�—ã‚‡ã�†ã€‚"
 
 #: www/views/addresses.html:45
 #: www/views/allAddresses.html:14
 msgid "Loading addresses..."
-msgstr "アドレスを読み込んでいます..."
+msgstr "ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’èª­ã�¿è¾¼ã‚“ã�§ã�„ã�¾ã�™..."
 
 #: src/js/services/onGoingProcess.js:35
 msgid "Loading transaction info..."
-msgstr "取引情報の読み込み中..."
+msgstr "å�–å¼•æƒ…å ±ã�®èª­ã�¿è¾¼ã�¿ä¸­..."
 
 #: www/views/tab-settings.html:100
 msgid "Lock App"
-msgstr "アプリをロックする"
+msgstr "ã‚¢ãƒ—ãƒªã‚’ãƒ­ãƒƒã‚¯ã�™ã‚‹"
 
 #: src/js/controllers/lockSetup.js:23
 msgid "Lock by Fingerprint"
-msgstr "指紋認証でロック"
+msgstr "æŒ‡ç´‹èª�è¨¼ã�§ãƒ­ãƒƒã‚¯"
 
 #: src/js/controllers/lockSetup.js:14
 msgid "Lock by PIN"
-msgstr "PINでロック"
+msgstr "PINã�§ãƒ­ãƒƒã‚¯"
 
 #: www/views/modals/wallet-balance.html:80
 msgid "Locked"
-msgstr "ロック済み"
+msgstr "ãƒ­ãƒƒã‚¯æ¸ˆã�¿"
 
 #: src/js/services/bwcError.js:86
 msgid "Locktime in effect. Please wait to create a new spend proposal"
-msgstr "Locktime待ち中です。新しい送金の提案が作成できるまであとしばらくお待ち下さい。"
+msgstr "Locktimeå¾…ã�¡ä¸­ã�§ã�™ã€‚æ–°ã�—ã�„é€�é‡‘ã�®æ��æ¡ˆã�Œä½œæˆ�ã�§ã��ã‚‹ã�¾ã�§ã�‚ã�¨ã�—ã�°ã‚‰ã��ã�Šå¾…ã�¡ä¸‹ã�•ã�„ã€‚"
 
 #: src/js/services/bwcError.js:89
 msgid "Locktime in effect. Please wait to remove this spend proposal"
-msgstr "Locktime待ち中です。この送金の提案が削除できるまであとしばらくお待ち下さい。"
+msgstr "Locktimeå¾…ã�¡ä¸­ã�§ã�™ã€‚ã�“ã�®é€�é‡‘ã�®æ��æ¡ˆã�Œå‰Šé™¤ã�§ã��ã‚‹ã�¾ã�§ã�‚ã�¨ã�—ã�°ã‚‰ã��ã�Šå¾…ã�¡ä¸‹ã�•ã�„ã€‚"
 
 #: www/views/includes/logOptions.html:3
 msgid "Log options"
-msgstr "ログの設定"
+msgstr "ãƒ­ã‚°ã�®è¨­å®š"
 
 #: www/views/modals/bitpay-card-confirmation.html:14
 msgid "Log out"
-msgstr "ログアウト"
+msgstr "ãƒ­ã‚°ã‚¢ã‚¦ãƒˆ"
 
 #: www/views/addresses.html:87
 msgid "Low amount inputs"
-msgstr "少額の入力"
+msgstr "å°‘é¡�ã�®å…¥åŠ›"
 
 #: www/views/includes/walletHistory.html:27
 msgid "Low fees"
-msgstr "低手数料"
+msgstr "ä½Žæ‰‹æ•°æ–™"
 
 #: www/views/onboarding/tour.html:38
 msgid "Makes sense"
-msgstr "わかりました"
+msgstr "ã‚�ã�‹ã‚Šã�¾ã�—ã�Ÿ"
 
 #: src/js/controllers/modals/search.js:61
 msgid "Matches:"
-msgstr "結果:"
+msgstr "çµ�æžœ:"
 
 #: www/views/includes/copayers.html:4
 #: www/views/preferencesInformation.html:85
 msgid "Me"
-msgstr "自分"
+msgstr "è‡ªåˆ†"
 
 #: src/js/controllers/feedback/rateCard.js:32
 msgid "Meh - it's alright"
-msgstr "まあまあです"
+msgstr "ã�¾ã�‚ã�¾ã�‚ã�§ã�™"
 
 #: src/js/controllers/tx-details.js:165
 #: www/views/modals/paypro.html:48
 #: www/views/modals/txp-details.html:95
 #: www/views/tx-details.html:74
 msgid "Memo"
-msgstr "メモ"
+msgstr "ãƒ¡ãƒ¢"
 
 #: www/views/mercadoLibre.html:6
 msgid "Mercado Livre Brazil Gift Cards"
-msgstr "Mercado Livre Brazil ギフトカード"
+msgstr "Mercado Livre Brazil ã‚®ãƒ•ãƒˆã‚«ãƒ¼ãƒ‰"
 
 #: src/js/controllers/buyMercadoLibre.js:98
 msgid "Mercadolibre Gift Card Service is not available at this moment. Please try back later."
-msgstr "Mercadolibre Gift Card Service は現在ご利用できません、また後でお試しください"
+msgstr "Mercadolibre Gift Card Service ã�¯ç�¾åœ¨ã�”åˆ©ç”¨ã�§ã��ã�¾ã�›ã‚“ã€�ã�¾ã�Ÿå¾Œã�§ã�Šè©¦ã�—ã��ã� ã�•ã�„"
 
 #: www/views/modals/txp-details.html:133
 msgid "Merchant Message"
-msgstr "お店からのメッセージ："
+msgstr "ã�Šåº—ã�‹ã‚‰ã�®ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ï¼š"
 
 #: www/views/buyAmazon.html:55
 #: www/views/buyMercadoLibre.html:54
@@ -1768,40 +1768,40 @@ msgstr ""
 
 #: src/js/services/bwcError.js:134
 msgid "Missing parameter"
-msgstr "不足しているパラメータ"
+msgstr "ä¸�è¶³ã�—ã�¦ã�„ã‚‹ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿"
 
 #: src/js/services/bwcError.js:32
 msgid "Missing private keys to sign"
-msgstr "署名するための秘密鍵がありません。"
+msgstr "ç½²å��ã�™ã‚‹ã�Ÿã‚�ã�®ç§˜å¯†é�µã�Œã�‚ã‚Šã�¾ã�›ã‚“ã€‚"
 
 #: www/views/preferences.html:61
 #: www/views/preferencesAdvanced.html:3
 msgid "More Options"
-msgstr "その他オプション"
+msgstr "ã��ã�®ä»–ã‚ªãƒ—ã‚·ãƒ§ãƒ³"
 
 #: www/views/includes/walletHistory.html:47
 #: www/views/tx-details.html:19
 msgid "Moved"
-msgstr "移動済"
+msgstr "ç§»å‹•æ¸ˆ"
 
 #: src/js/controllers/tx-details.js:131
 msgid "Moved Funds"
-msgstr "資金を移動済み"
+msgstr "è³‡é‡‘ã‚’ç§»å‹•æ¸ˆã�¿"
 
 #: www/views/modals/txp-details.html:57
 msgid "Multiple recipients"
-msgstr "複数送金先"
+msgstr "è¤‡æ•°é€�é‡‘å…ˆ"
 
 #: www/views/tab-import-phrase.html:8
 msgid "NOTE: To import a wallet from a 3rd party software, please go to Add Wallet &gt; Create Wallet, and specify the Recovery Phrase there."
-msgstr "注意：他アプリのウォレットをインポートする場合、ウォレットを追加 &gt; 新規ウォレット作成にて復元フレーズを指定するオプションを詳細設定にて有効にして下さい。"
+msgstr "æ³¨æ„�ï¼šä»–ã‚¢ãƒ—ãƒªã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’ã‚¤ãƒ³ãƒ�ãƒ¼ãƒˆã�™ã‚‹å ´å�ˆã€�ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’è¿½åŠ  &gt; æ–°è¦�ã‚¦ã‚©ãƒ¬ãƒƒãƒˆä½œæˆ�ã�«ã�¦å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã‚’æŒ‡å®šã�™ã‚‹ã‚ªãƒ—ã‚·ãƒ§ãƒ³ã‚’è©³ç´°è¨­å®šã�«ã�¦æœ‰åŠ¹ã�«ã�—ã�¦ä¸‹ã�•ã�„ã€‚"
 
 #: www/views/addressbook.add.html:21
 #: www/views/addressbook.view.html:18
 #: www/views/preferences.html:15
 #: www/views/preferencesAlias.html:17
 msgid "Name"
-msgstr "名前"
+msgstr "å��å‰�"
 
 #: www/views/buyAmazon.html:49
 #: www/views/buyMercadoLibre.html:48
@@ -1811,91 +1811,91 @@ msgstr ""
 
 #: src/js/services/bwcError.js:47
 msgid "Network error"
-msgstr "ネットワークにエラーが発生した"
+msgstr "ãƒ�ãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ã�«ã‚¨ãƒ©ãƒ¼ã�Œç™ºç”Ÿã�—ã�Ÿ"
 
 #: www/views/includes/walletActivity.html:43
 msgid "New Proposal"
-msgstr "新しい提案"
+msgstr "æ–°ã�—ã�„æ��æ¡ˆ"
 
 #: src/js/controllers/addresses.js:126
 msgid "New address could not be generated. Please try again."
-msgstr "アドレスを生成できませんでした。もう一度やり直してください。"
+msgstr "ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’ç”Ÿæˆ�ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚ã‚‚ã�†ä¸€åº¦ã‚„ã‚Šç›´ã�—ã�¦ã��ã� ã�•ã�„ã€‚"
 
 #: www/views/add.html:14
 msgid "New personal wallet"
-msgstr "個人用ウォレットを作成"
+msgstr "å€‹äººç”¨ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’ä½œæˆ�"
 
 #: www/views/includes/nextSteps.html:3
 msgid "Next steps"
-msgstr "次のステップ"
+msgstr "æ¬¡ã�®ã‚¹ãƒ†ãƒƒãƒ—"
 
 #: www/views/tab-receive.html:16
 msgid "No Wallet"
-msgstr "ウォレットが無いよ…(´・ω・`)"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�Œç„¡ã�„ã‚ˆâ€¦(Â´ãƒ»Ï‰ãƒ»`)"
 
 #: src/js/controllers/buyAmazon.js:115
 #: src/js/controllers/buyMercadoLibre.js:115
 msgid "No access key defined"
-msgstr "アクセスキーが定義されていません"
+msgstr "ã‚¢ã‚¯ã‚»ã‚¹ã‚­ãƒ¼ã�Œå®šç¾©ã�•ã‚Œã�¦ã�„ã�¾ã�›ã‚“"
 
 #: www/views/onboarding/backupRequest.html:5
-msgid "No backup, no bitcoin."
-msgstr "バックアップは非常に重要です！"
+msgid "No backup, no BitcoinZ."
+msgstr "ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ã�¯é�žå¸¸ã�«é‡�è¦�ã�§ã�™ï¼�"
 
 #: www/views/addressbook.html:19
 msgid "No contacts yet"
-msgstr "連絡先が無い"
+msgstr "é€£çµ¡å…ˆã�Œç„¡ã�„"
 
 #: www/views/preferencesLogs.html:16
 msgid "No entries for this log level"
-msgstr "このレベルのログのエントリーがありません。"
+msgstr "ã�“ã�®ãƒ¬ãƒ™ãƒ«ã�®ãƒ­ã‚°ã�®ã‚¨ãƒ³ãƒˆãƒªãƒ¼ã�Œã�‚ã‚Šã�¾ã�›ã‚“ã€‚"
 
 #: www/views/preferencesExternal.html:12
 msgid "No hardware information available."
-msgstr "ハードウェア情報はありません"
+msgstr "ãƒ�ãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢æƒ…å ±ã�¯ã�‚ã‚Šã�¾ã�›ã‚“"
 
 #: www/views/tab-import-hardware.html:3
 msgid "No hardware wallets supported on this device"
-msgstr "この端末ではハードウェアウォレットがサポートされていません"
+msgstr "ã�“ã�®ç«¯æœ«ã�§ã�¯ãƒ�ãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�Œã‚µãƒ�ãƒ¼ãƒˆã�•ã‚Œã�¦ã�„ã�¾ã�›ã‚“"
 
 #: www/views/proposals.html:24
 msgid "No pending proposals"
-msgstr "保留中の提案はありません"
+msgstr "ä¿�ç•™ä¸­ã�®æ��æ¡ˆã�¯ã�‚ã‚Šã�¾ã�›ã‚“"
 
 #: www/views/activity.html:25
 msgid "No recent transactions"
-msgstr "最近の取引がありません"
+msgstr "æœ€è¿‘ã�®å�–å¼•ã�Œã�‚ã‚Šã�¾ã�›ã‚“"
 
 #: src/js/controllers/buyAmazon.js:44
 #: src/js/controllers/topup.js:47
 msgid "No signing proposal: No private key"
-msgstr "提案に署名できない：秘密鍵がありません"
+msgstr "æ��æ¡ˆã�«ç½²å��ã�§ã��ã�ªã�„ï¼šç§˜å¯†é�µã�Œã�‚ã‚Šã�¾ã�›ã‚“"
 
 #: www/views/walletDetails.html:204
 msgid "No transactions yet"
-msgstr "取引がありません"
+msgstr "å�–å¼•ã�Œã�‚ã‚Šã�¾ã�›ã‚“"
 
 #: src/js/controllers/preferencesDelete.js:15
 msgid "No wallet found"
-msgstr "ウォレットが見つかりません"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�Œè¦‹ã�¤ã�‹ã‚Šã�¾ã�›ã‚“"
 
 #: src/js/controllers/preferencesDelete.js:8
 msgid "No wallet selected"
-msgstr "ウォレットが選択されていません"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�Œé�¸æŠžã�•ã‚Œã�¦ã�„ã�¾ã�›ã‚“"
 
 #: src/js/controllers/buyAmazon.js:300
 #: src/js/controllers/buyMercadoLibre.js:292
 #: src/js/controllers/confirm.js:85
 #: src/js/controllers/topup.js:265
 msgid "No wallets available"
-msgstr "利用可能なウォレットがありません"
+msgstr "åˆ©ç”¨å�¯èƒ½ã�ªã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�Œã�‚ã‚Šã�¾ã�›ã‚“"
 
 #: www/views/paperWallet.html:47
 msgid "No wallets available to receive funds"
-msgstr "ペーパーウォレットの出金を受け取るためのウォレットが入っていません。"
+msgstr "ãƒšãƒ¼ãƒ‘ãƒ¼ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®å‡ºé‡‘ã‚’å�—ã�‘å�–ã‚‹ã�Ÿã‚�ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�Œå…¥ã�£ã�¦ã�„ã�¾ã�›ã‚“ã€‚"
 
 #: www/views/cashScan.html:14
-msgid "No wallets eligible for Bitcoin Cash support"
+msgid "No wallets eligible for BitcoinZ support"
 msgstr ""
 
 #: www/views/cashScan.html:44
@@ -1904,61 +1904,61 @@ msgstr ""
 
 #: src/js/services/feeService.js:12
 msgid "Normal"
-msgstr "通常"
+msgstr "é€šå¸¸"
 
 #: src/js/services/bwcError.js:80
 msgid "Not authorized"
-msgstr "権限がありません。"
+msgstr "æ¨©é™�ã�Œã�‚ã‚Šã�¾ã�›ã‚“ã€‚"
 
 #: src/js/controllers/confirm.js:286
 msgid "Not enough funds for fee"
-msgstr "手数料含めたら残高が不足しています。"
+msgstr "æ‰‹æ•°æ–™å�«ã‚�ã�Ÿã‚‰æ®‹é«˜ã�Œä¸�è¶³ã�—ã�¦ã�„ã�¾ã�™ã€‚"
 
 #: www/views/onboarding/tour.html:50
 msgid "Not even BitPay can access it."
-msgstr "BitPayは管理できない。"
+msgstr "BitPayã�¯ç®¡ç�†ã�§ã��ã�ªã�„ã€‚"
 
 #: src/js/controllers/paperWallet.js:47
 msgid "Not funds found"
-msgstr "残高がありませんでした"
+msgstr "æ®‹é«˜ã�Œã�‚ã‚Šã�¾ã�›ã‚“ã�§ã�—ã�Ÿ"
 
 #: www/views/feedback/rateApp.html:3
 #: www/views/onboarding/notifications.html:8
 msgid "Not now"
-msgstr "今はしない"
+msgstr "ä»Šã�¯ã�—ã�ªã�„"
 
 #: www/views/includes/output.html:15
 msgid "Note"
-msgstr "メモ"
+msgstr "ãƒ¡ãƒ¢"
 
 #: www/views/modals/wallets.html:25
-msgid "Notice: only 1-1 (single signature) wallets can be used for sell bitcoin"
-msgstr "注意： ビットコインの売却は 1-of-1 (単一署名) のウォレットからしか行えません。"
+msgid "Notice: only 1-1 (single signature) wallets can be used for sell BitcoinZ"
+msgstr "æ³¨æ„�ï¼š ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã�®å£²å�´ã�¯ 1-of-1 (å�˜ä¸€ç½²å��) ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�‹ã‚‰ã�—ã�‹è¡Œã�ˆã�¾ã�›ã‚“ã€‚"
 
 #: www/views/preferencesNotifications.html:3
 #: www/views/tab-settings.html:61
 msgid "Notifications"
-msgstr "通知設定"
+msgstr "é€šçŸ¥è¨­å®š"
 
 #: www/views/onboarding/collectEmail.html:9
 msgid "Notifications by email"
-msgstr "メール通知"
+msgstr "ãƒ¡ãƒ¼ãƒ«é€šçŸ¥"
 
 #: www/views/tx-details.html:119
 msgid "Notify me if confirmed"
-msgstr "取引承認時に通知"
+msgstr "å�–å¼•æ‰¿èª�æ™‚ã�«é€šçŸ¥"
 
 #: www/views/preferencesNotifications.html:24
 msgid "Notify me when transactions are confirmed"
-msgstr "取引が承認されたら通知する。"
+msgstr "å�–å¼•ã�Œæ‰¿èª�ã�•ã‚Œã�Ÿã‚‰é€šçŸ¥ã�™ã‚‹ã€‚"
 
 #: www/views/includes/backupNeededPopup.html:8
 msgid "Now is a good time to backup your wallet. If this device is lost, it is impossible to access your funds without a backup."
-msgstr "お金を受け取る前に、このウォレットのバックアップを取っておくことを強くオススメします。一ウォレットごとにバックアップは一回です。バックアップを取らないまま、この端末が紛失・故障されてしまったら全残高が消失されてしまいます。"
+msgstr "ã�Šé‡‘ã‚’å�—ã�‘å�–ã‚‹å‰�ã�«ã€�ã�“ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ã‚’å�–ã�£ã�¦ã�Šã��ã�“ã�¨ã‚’å¼·ã��ã‚ªã‚¹ã‚¹ãƒ¡ã�—ã�¾ã�™ã€‚ä¸€ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�”ã�¨ã�«ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ã�¯ä¸€å›žã�§ã�™ã€‚ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ã‚’å�–ã‚‰ã�ªã�„ã�¾ã�¾ã€�ã�“ã�®ç«¯æœ«ã�Œç´›å¤±ãƒ»æ•…éšœã�•ã‚Œã�¦ã�—ã�¾ã�£ã�Ÿã‚‰å…¨æ®‹é«˜ã�Œæ¶ˆå¤±ã�•ã‚Œã�¦ã�—ã�¾ã�„ã�¾ã�™ã€‚"
 
 #: www/views/backupWarning.html:11
 msgid "Now is a perfect time to assess your surroundings. Nearby windows? Hidden cameras? Shoulder-spies?"
-msgstr "今一度周りの環境をよく見てみましょう。隠しカメラ、窓、覗いてくる人などありませんか？"
+msgstr "ä»Šä¸€åº¦å‘¨ã‚Šã�®ç’°å¢ƒã‚’ã‚ˆã��è¦‹ã�¦ã�¿ã�¾ã�—ã‚‡ã�†ã€‚éš ã�—ã‚«ãƒ¡ãƒ©ã€�çª“ã€�è¦—ã�„ã�¦ã��ã‚‹äººã�ªã�©ã�‚ã‚Šã�¾ã�›ã‚“ã�‹ï¼Ÿ"
 
 #: src/js/controllers/buyAmazon.js:312
 #: src/js/controllers/topup.js:286
@@ -1980,11 +1980,11 @@ msgstr "OK"
 
 #: www/views/modals/terms.html:15
 msgid "Official English Disclaimer"
-msgstr "公式免責事項 (英語)"
+msgstr "å…¬å¼�å…�è²¬äº‹é … (è‹±èªž)"
 
 #: src/js/controllers/feedback/send.js:64
 msgid "Oh no!"
-msgstr "おっと!"
+msgstr "ã�Šã�£ã�¨!"
 
 #: src/js/controllers/buyMercadoLibre.js:306
 msgid "Ok"
@@ -1992,7 +1992,7 @@ msgstr "OK"
 
 #: www/views/tab-home.html:39
 msgid "On this screen you can see all your wallets, accounts, and assets."
-msgstr "この画面では、全てのウォレット、アカウント、資産が閲覧できます。"
+msgstr "ã�“ã�®ç”»é�¢ã�§ã�¯ã€�å…¨ã�¦ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã€�ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã€�è³‡ç”£ã�Œé–²è¦§ã�§ã��ã�¾ã�™ã€‚"
 
 #: src/js/controllers/bitpayCard.js:113
 #: src/js/controllers/preferences.js:66
@@ -2000,52 +2000,52 @@ msgstr "この画面では、全てのウォレット、アカウント、資産
 #: src/js/controllers/tab-settings.js:51
 #: src/js/controllers/tx-details.js:55
 msgid "Open"
-msgstr "開く"
+msgstr "é–‹ã��"
 
 #: src/js/controllers/preferencesLanguage.js:13
 msgid "Open Crowdin"
-msgstr "Crowdinを開く"
+msgstr "Crowdinã‚’é–‹ã��"
 
 #: src/js/controllers/preferencesAbout.js:15
 msgid "Open GitHub"
-msgstr "GitHubを開く"
+msgstr "GitHubã‚’é–‹ã��"
 
 #: src/js/controllers/preferencesAbout.js:13
 msgid "Open GitHub Project"
-msgstr "GitHub のプロジェクトを開く"
+msgstr "GitHub ã�®ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã‚’é–‹ã��"
 
 #: src/js/controllers/bitpayCard.js:123
 #: src/js/controllers/tx-details.js:192
 msgid "Open Insight"
-msgstr "Insightを開く"
+msgstr "Insightã‚’é–‹ã��"
 
 #: www/views/tab-scan.html:22
 msgid "Open Settings"
-msgstr "設定を開く"
+msgstr "è¨­å®šã‚’é–‹ã��"
 
 #: src/js/controllers/preferencesLanguage.js:11
 msgid "Open Translation Community"
-msgstr "翻訳ページを開く"
+msgstr "ç¿»è¨³ãƒšãƒ¼ã‚¸ã‚’é–‹ã��"
 
 #: src/js/controllers/onboarding/terms.js:22
 msgid "Open Website"
-msgstr "サイトを開く"
+msgstr "ã‚µã‚¤ãƒˆã‚’é–‹ã��"
 
 #: src/js/controllers/preferencesCash.js:32
-msgid "Open bitcoincash.org?"
+msgid "Open https://btcz.rocks/ ?"
 msgstr ""
 
 #: www/views/tab-receive.html:27
 msgid "Open wallet"
-msgstr "ウォレットを開く"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’é–‹ã��"
 
 #: www/views/includes/incomingDataMenu.html:19
 msgid "Open website"
-msgstr "サイトを開く"
+msgstr "ã‚µã‚¤ãƒˆã‚’é–‹ã��"
 
 #: www/views/bitpayCardIntro.html:34
 msgid "Order the BitPay Card"
-msgstr "BitPay カードを申し込み"
+msgstr "BitPay ã‚«ãƒ¼ãƒ‰ã‚’ç”³ã�—è¾¼ã�¿"
 
 #: www/views/join.html:105
 #: www/views/join.html:96
@@ -2056,138 +2056,138 @@ msgstr "BitPay カードを申し込み"
 #: www/views/tab-import-file.html:18
 #: www/views/tab-import-phrase.html:41
 msgid "Password"
-msgstr "パスワード"
+msgstr "ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰"
 
 #: src/js/controllers/import.js:98
 msgid "Password required. Make sure to enter your password in advanced options"
-msgstr "パスワードが必要です。上級者向け設定にてパスワードを入力してください。"
+msgstr "ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã�Œå¿…è¦�ã�§ã�™ã€‚ä¸Šç´šè€…å�‘ã�‘è¨­å®šã�«ã�¦ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’å…¥åŠ›ã�—ã�¦ã��ã� ã�•ã�„ã€‚"
 
 #: www/views/join.html:33
 msgid "Paste invitation here"
-msgstr "招待コードをこちらへ貼り付けて下さい"
+msgstr "æ‹›å¾…ã‚³ãƒ¼ãƒ‰ã‚’ã�“ã�¡ã‚‰ã�¸è²¼ã‚Šä»˜ã�‘ã�¦ä¸‹ã�•ã�„"
 
 #: www/views/tab-import-file.html:13
 msgid "Paste the backup plain text code"
-msgstr "バックアップの文字をここに貼り付けて下さい"
+msgstr "ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ã�®æ–‡å­—ã‚’ã�“ã�“ã�«è²¼ã‚Šä»˜ã�‘ã�¦ä¸‹ã�•ã�„"
 
 #: www/views/bitpayCardIntro.html:28
-msgid "Pay 0% fees to turn bitcoin into dollars."
-msgstr "0% 手数料でビットコインを米ドルに替える"
+msgid "Pay 0% fees to turn BitcoinZ into dollars."
+msgstr "0% æ‰‹æ•°æ–™ã�§ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚’ç±³ãƒ‰ãƒ«ã�«æ›¿ã�ˆã‚‹"
 
 #: www/views/modals/paypro.html:18
 msgid "Pay To"
-msgstr "支払い先"
+msgstr "æ”¯æ‰•ã�„å…ˆ"
 
 #: src/js/controllers/modals/txpDetails.js:51
 #: www/views/modals/tx-status.html:33
 msgid "Payment Accepted"
-msgstr "支払いが完了しました"
+msgstr "æ”¯æ‰•ã�„ã�Œå®Œäº†ã�—ã�¾ã�—ã�Ÿ"
 
 #: www/views/confirm.html:25
 msgid "Payment Expires:"
-msgstr "支払い請求の有効期限:"
+msgstr "æ”¯æ‰•ã�„è«‹æ±‚ã�®æœ‰åŠ¹æœŸé™�:"
 
 #: www/views/modals/txp-details.html:6
 msgid "Payment Proposal"
-msgstr "送金の提案"
+msgstr "é€�é‡‘ã�®æ��æ¡ˆ"
 
 #: www/views/modals/tx-status.html:21
 msgid "Payment Proposal Created"
-msgstr "送金の提案が作成されました"
+msgstr "é€�é‡‘ã�®æ��æ¡ˆã�Œä½œæˆ�ã�•ã‚Œã�¾ã�—ã�Ÿ"
 
 #: www/views/tab-home.html:46
 msgid "Payment Proposals"
-msgstr "送金の提案"
+msgstr "é€�é‡‘ã�®æ��æ¡ˆ"
 
 #: src/js/services/payproService.js:32
 msgid "Payment Protocol Invalid"
-msgstr "ペイメントプロトコルが不正です。"
+msgstr "ãƒšã‚¤ãƒ¡ãƒ³ãƒˆãƒ—ãƒ­ãƒˆã‚³ãƒ«ã�Œä¸�æ­£ã�§ã�™ã€‚"
 
 #: src/js/services/payproService.js:18
 msgid "Payment Protocol not supported on Chrome App"
-msgstr "クロームのアプリではペイメントプロトコールがサポートされていません。"
+msgstr "ã‚¯ãƒ­ãƒ¼ãƒ ã�®ã‚¢ãƒ—ãƒªã�§ã�¯ãƒšã‚¤ãƒ¡ãƒ³ãƒˆãƒ—ãƒ­ãƒˆã‚³ãƒ¼ãƒ«ã�Œã‚µãƒ�ãƒ¼ãƒˆã�•ã‚Œã�¦ã�„ã�¾ã�›ã‚“ã€‚"
 
 #: www/views/includes/walletActivity.html:20
 msgid "Payment Received"
-msgstr "送金が受領されました"
+msgstr "é€�é‡‘ã�Œå�—é ˜ã�•ã‚Œã�¾ã�—ã�Ÿ"
 
 #: www/views/modals/tx-status.html:43
 #: www/views/modals/txp-details.html:43
 msgid "Payment Rejected"
-msgstr "送金が却下されました"
+msgstr "é€�é‡‘ã�Œå�´ä¸‹ã�•ã‚Œã�¾ã�—ã�Ÿ"
 
 #: src/js/controllers/modals/txpDetails.js:44
 #: www/views/confirm.html:126
 #: www/views/includes/walletActivity.html:11
 #: www/views/modals/txp-details.html:42
 msgid "Payment Sent"
-msgstr "送金が完了しました"
+msgstr "é€�é‡‘ã�Œå®Œäº†ã�—ã�¾ã�—ã�Ÿ"
 
 #: www/views/modals/txp-details.html:32
 msgid "Payment accepted, but not yet broadcasted"
-msgstr "取引が承認されましたが、まだ送信していません。"
+msgstr "å�–å¼•ã�Œæ‰¿èª�ã�•ã‚Œã�¾ã�—ã�Ÿã�Œã€�ã�¾ã� é€�ä¿¡ã�—ã�¦ã�„ã�¾ã�›ã‚“ã€‚"
 
 #: www/views/modals/txp-details.html:40
 msgid "Payment accepted. It will be broadcasted by Glidera. In case there is a problem, it can be deleted 6 hours after it was created."
-msgstr "取引が承認されました。Glideraより送信されます。問題があった場合、送金命令を出す６時間以内に取り消すことができます。"
+msgstr "å�–å¼•ã�Œæ‰¿èª�ã�•ã‚Œã�¾ã�—ã�Ÿã€‚Glideraã‚ˆã‚Šé€�ä¿¡ã�•ã‚Œã�¾ã�™ã€‚å•�é¡Œã�Œã�‚ã�£ã�Ÿå ´å�ˆã€�é€�é‡‘å‘½ä»¤ã‚’å‡ºã�™ï¼–æ™‚é–“ä»¥å†…ã�«å�–ã‚Šæ¶ˆã�™ã�“ã�¨ã�Œã�§ã��ã�¾ã�™ã€‚"
 
 #: src/js/services/incomingData.js:152
-msgid "Payment address was translated to new Bitcoin Cash address format:"
+msgid "Payment address was translated to new BitcoinZ address format:"
 msgstr ""
 
 #: www/views/modals/txp-details.html:109
 msgid "Payment details"
-msgstr "支払いの詳細"
+msgstr "æ”¯æ‰•ã�„ã�®è©³ç´°"
 
 #: www/views/modals/paypro.html:6
 msgid "Payment request"
-msgstr "支払い請求"
+msgstr "æ”¯æ‰•ã�„è«‹æ±‚"
 
 #: www/views/mercadoLibreCards.html:22
 #: www/views/modals/mercadolibre-card-details.html:39
 msgid "Pending"
-msgstr "未決"
+msgstr "æœªæ±º"
 
 #: www/views/proposals.html:4
 msgid "Pending Proposals"
-msgstr "保留中の提案"
+msgstr "ä¿�ç•™ä¸­ã�®æ��æ¡ˆ"
 
 #: www/views/preferencesDeleteWallet.html:13
 msgid "Permanently delete this wallet."
-msgstr "ウォレットを完全に削除する"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’å®Œå…¨ã�«å‰Šé™¤ã�™ã‚‹"
 
 #: src/js/services/profileService.js:401
 msgid "Personal Wallet"
-msgstr "個人用ウォレット"
+msgstr "å€‹äººç”¨ã‚¦ã‚©ãƒ¬ãƒƒãƒˆ"
 
 #: www/views/backup.html:18
 msgid "Please carefully write down this phrase."
-msgstr "丁寧に復元フレーズを紙に書き留めて下さい"
+msgstr "ä¸�å¯§ã�«å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã‚’ç´™ã�«æ›¸ã��ç•™ã‚�ã�¦ä¸‹ã�•ã�„"
 
 #: www/views/tab-scan.html:20
 msgid "Please connect a camera to get started."
-msgstr "始めるためにカメラを接続して下さい。"
+msgstr "å§‹ã‚�ã‚‹ã�Ÿã‚�ã�«ã‚«ãƒ¡ãƒ©ã‚’æŽ¥ç¶šã�—ã�¦ä¸‹ã�•ã�„ã€‚"
 
 #: src/js/controllers/import.js:277
 msgid "Please enter the recovery phrase"
-msgstr "復元フレーズをご入力下さい"
+msgstr "å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã‚’ã�”å…¥åŠ›ä¸‹ã�•ã�„"
 
 #: src/js/controllers/create.js:174
 #: src/js/controllers/join.js:139
 msgid "Please enter the wallet recovery phrase"
-msgstr "復元フレーズをご入力下さい"
+msgstr "å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã‚’ã�”å…¥åŠ›ä¸‹ã�•ã�„"
 
 #: www/views/modals/pin.html:9
 msgid "Please enter your PIN"
-msgstr "PIN コードを入力してください。"
+msgstr "PIN ã‚³ãƒ¼ãƒ‰ã‚’å…¥åŠ›ã�—ã�¦ã��ã� ã�•ã�„ã€‚"
 
 #: www/views/backup.html:46
 msgid "Please tap each word in the correct order."
-msgstr "正しい順序で各単語をタップしてください。"
+msgstr "æ­£ã�—ã�„é †åº�ã�§å�„å�˜èªžã‚’ã‚¿ãƒƒãƒ—ã�—ã�¦ã��ã� ã�•ã�„ã€‚"
 
 #: src/js/services/bwcError.js:101
 msgid "Please upgrade Copay to perform this action"
-msgstr "この操作を実行するにはCopayを最新バージョンに更新してください"
+msgstr "ã�“ã�®æ“�ä½œã‚’å®Ÿè¡Œã�™ã‚‹ã�«ã�¯Copayã‚’æœ€æ–°ãƒ�ãƒ¼ã‚¸ãƒ§ãƒ³ã�«æ›´æ–°ã�—ã�¦ã��ã� ã�•ã�„"
 
 #: www/views/walletDetails.html:142
 #: www/views/walletDetails.html:62
@@ -2196,106 +2196,106 @@ msgstr ""
 
 #: src/js/controllers/import.js:238
 msgid "Please, select your backup file"
-msgstr "バックアップファイルを選択"
+msgstr "ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é�¸æŠž"
 
 #: www/views/bitpayCard.html:81
 msgid "Pre-Auth Holds"
-msgstr "承認前の保留"
+msgstr "æ‰¿èª�å‰�ã�®ä¿�ç•™"
 
 #: www/views/tab-settings.html:40
 msgid "Preferences"
-msgstr "設定"
+msgstr "è¨­å®š"
 
 #: src/js/services/onGoingProcess.js:38
 msgid "Preparing addresses..."
-msgstr "アドレスを処理中…"
+msgstr "ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’å‡¦ç�†ä¸­â€¦"
 
 #: src/js/controllers/export.js:198
 msgid "Preparing backup..."
-msgstr "バックアップを準備中..."
+msgstr "ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ã‚’æº–å‚™ä¸­..."
 
 #: src/js/routes.js:1261
 msgid "Press again to exit"
-msgstr "もう一度押して終了"
+msgstr "ã‚‚ã�†ä¸€åº¦æŠ¼ã�—ã�¦çµ‚äº†"
 
 #: src/js/services/feeService.js:11
 msgid "Priority"
-msgstr "優先"
+msgstr "å„ªå…ˆ"
 
 #: www/views/includes/incomingDataMenu.html:80
 msgid "Private Key"
-msgstr "秘密鍵"
+msgstr "ç§˜å¯†é�µ"
 
 #: src/js/controllers/paperWallet.js:136
 msgid "Private key encrypted. Enter password"
-msgstr "秘密鍵は暗号化されています。復号化パスワードを入力して下さい。"
+msgstr "ç§˜å¯†é�µã�¯æš—å�·åŒ–ã�•ã‚Œã�¦ã�„ã�¾ã�™ã€‚å¾©å�·åŒ–ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’å…¥åŠ›ã�—ã�¦ä¸‹ã�•ã�„ã€‚"
 
 #: src/js/services/bwcError.js:35
 msgid "Private key is encrypted, cannot sign"
-msgstr "秘密鍵が暗号化されており署名できません。"
+msgstr "ç§˜å¯†é�µã�Œæš—å�·åŒ–ã�•ã‚Œã�¦ã�Šã‚Šç½²å��ã�§ã��ã�¾ã�›ã‚“ã€‚"
 
 #: www/views/includes/walletActivity.html:51
 msgid "Proposal Accepted"
-msgstr "提案が承諾されました"
+msgstr "æ��æ¡ˆã�Œæ‰¿è«¾ã�•ã‚Œã�¾ã�—ã�Ÿ"
 
 #: src/js/controllers/modals/txpDetails.js:61
 #: src/js/controllers/tx-details.js:78
 #: www/views/confirm.html:127
 msgid "Proposal Created"
-msgstr "提案が作成されました"
+msgstr "æ��æ¡ˆã�Œä½œæˆ�ã�•ã‚Œã�¾ã�—ã�Ÿ"
 
 #: www/views/includes/walletActivity.html:27
 msgid "Proposal Deleted"
-msgstr "提案が削除されました"
+msgstr "æ��æ¡ˆã�Œå‰Šé™¤ã�•ã‚Œã�¾ã�—ã�Ÿ"
 
 #: www/views/includes/walletActivity.html:35
 msgid "Proposal Rejected"
-msgstr "提案が却下されました"
+msgstr "æ��æ¡ˆã�Œå�´ä¸‹ã�•ã‚Œã�¾ã�—ã�Ÿ"
 
 #: www/views/walletDetails.html:189
 msgid "Proposals"
-msgstr "提案"
+msgstr "æ��æ¡ˆ"
 
 #: src/js/controllers/buyAmazon.js:282
 msgid "Purchase Amount is limited to {{limitPerDay}} {{currency}} per day"
-msgstr "購入額が一日最大 {{limitPerDay}} {{currency}} になります。"
+msgstr "è³¼å…¥é¡�ã�Œä¸€æ—¥æœ€å¤§ {{limitPerDay}} {{currency}} ã�«ã�ªã‚Šã�¾ã�™ã€‚"
 
 #: src/js/controllers/buyMercadoLibre.js:281
 msgid "Purchase amount must be a value between 50 and 2000"
-msgstr "購入金額は 50〜2000 の間の値でなければなりません"
+msgstr "è³¼å…¥é‡‘é¡�ã�¯ 50ã€œ2000 ã�®é–“ã�®å€¤ã�§ã�ªã�‘ã‚Œã�°ã�ªã‚Šã�¾ã�›ã‚“"
 
 #: www/views/onboarding/notifications.html:3
 msgid "Push Notifications"
-msgstr "プッシュ通知"
+msgstr "ãƒ—ãƒƒã‚·ãƒ¥é€šçŸ¥"
 
 #: www/views/preferencesNotifications.html:17
 msgid "Push notifications for {{appName}} are currently disabled. Enable them in the Settings app."
-msgstr "{{appName}}のプッシュ通知は現在無効です。アプリ設定で有効にします。"
+msgstr "{{appName}}ã�®ãƒ—ãƒƒã‚·ãƒ¥é€šçŸ¥ã�¯ç�¾åœ¨ç„¡åŠ¹ã�§ã�™ã€‚ã‚¢ãƒ—ãƒªè¨­å®šã�§æœ‰åŠ¹ã�«ã�—ã�¾ã�™ã€‚"
 
 #: www/views/export.html:17
 msgid "QR Code"
-msgstr "QRコード"
+msgstr "QRã‚³ãƒ¼ãƒ‰"
 
 #: www/views/onboarding/disclaimer.html:13
 msgid "Quick review!"
-msgstr "おさらい！"
+msgstr "ã�Šã�•ã‚‰ã�„ï¼�"
 
 #: src/js/controllers/create.js:84
 #: src/js/controllers/join.js:68
 msgid "Random"
-msgstr "乱数"
+msgstr "ä¹±æ•°"
 
 #: www/views/feedback/rateApp.html:14
 msgid "Rate on the app store"
-msgstr "App Storeで評価"
+msgstr "App Storeã�§è©•ä¾¡"
 
 #: www/views/addresses.html:52
 msgid "Read less"
-msgstr "非表示にする"
+msgstr "é�žè¡¨ç¤ºã�«ã�™ã‚‹"
 
 #: www/views/addresses.html:51
 msgid "Read more"
-msgstr "もっと読む"
+msgstr "ã‚‚ã�£ã�¨èª­ã‚€"
 
 #: src/js/controllers/preferences.js:65
 #: src/js/controllers/tx-details.js:54
@@ -2305,90 +2305,90 @@ msgstr ""
 #: www/views/tab-receive.html:3
 #: www/views/tabs.html:7
 msgid "Receive"
-msgstr "受取"
+msgstr "å�—å�–"
 
 #: www/views/customAmount.html:46
 msgid "Receive in"
-msgstr "通貨"
+msgstr "é€šè²¨"
 
 #: www/views/includes/walletHistory.html:24
 #: www/views/tx-details.html:18
 msgid "Received"
-msgstr "受取済み"
+msgstr "å�—å�–æ¸ˆã�¿"
 
 #: src/js/controllers/tx-details.js:130
 msgid "Received Funds"
-msgstr "受領した資金"
+msgstr "å�—é ˜ã�—ã�Ÿè³‡é‡‘"
 
 #: www/views/includes/walletHistory.html:57
 #: www/views/tx-details.html:24
 msgid "Receiving"
-msgstr "受け取り中"
+msgstr "å�—ã�‘å�–ã‚Šä¸­"
 
 #: www/views/bitpayCard.html:60
 #: www/views/includes/walletHistory.html:3
 msgid "Recent"
-msgstr "履歴"
+msgstr "å±¥æ­´"
 
 #: www/views/advancedSettings.html:21
 msgid "Recent Transaction Card"
-msgstr "最近の取引カード"
+msgstr "æœ€è¿‘ã�®å�–å¼•ã‚«ãƒ¼ãƒ‰"
 
 #: www/views/activity.html:4
 #: www/views/tab-home.html:58
 msgid "Recent Transactions"
-msgstr "最近の取引"
+msgstr "æœ€è¿‘ã�®å�–å¼•"
 
 #: www/views/amount.html:18
 #: www/views/tab-send.html:9
 msgid "Recipient"
-msgstr "受取人"
+msgstr "å�—å�–äºº"
 
 #: www/views/modals/txp-details.html:62
 msgid "Recipients"
-msgstr "受取人"
+msgstr "å�—å�–äºº"
 
 #: www/views/import.html:12
 msgid "Recovery phrase"
-msgstr "復元フレーズ"
+msgstr "å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚º"
 
 #: src/js/services/onGoingProcess.js:26
 msgid "Recreating Wallet..."
-msgstr "ウォレットを再作成中…"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’å†�ä½œæˆ�ä¸­â€¦"
 
 #: www/views/modals/mercadolibre-card-details.html:22
 msgid "Redeem now"
-msgstr "今すぐ引き換えをする"
+msgstr "ä»Šã�™ã��å¼•ã��æ�›ã�ˆã‚’ã�™ã‚‹"
 
 #: src/js/controllers/modals/txpDetails.js:63
 #: src/js/controllers/tx-details.js:80
 msgid "Rejected"
-msgstr "却下済み"
+msgstr "å�´ä¸‹æ¸ˆã�¿"
 
 #: src/js/services/onGoingProcess.js:27
 msgid "Rejecting payment proposal"
-msgstr "送金の提案却下中"
+msgstr "é€�é‡‘ã�®æ��æ¡ˆå�´ä¸‹ä¸­"
 
 #: www/views/preferencesAbout.html:9
 msgid "Release information"
-msgstr "リリース情報"
+msgstr "ãƒªãƒªãƒ¼ã‚¹æƒ…å ±"
 
 #: www/views/addressbook.view.html:36
 #: www/views/modals/mercadolibre-card-details.html:69
 msgid "Remove"
-msgstr "削除"
+msgstr "å‰Šé™¤"
 
 #: src/js/controllers/preferencesBitpayServices.js:7
 msgid "Remove BitPay Account?"
-msgstr "BitPay アカウントの接続を解除しますか？"
+msgstr "BitPay ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã�®æŽ¥ç¶šã‚’è§£é™¤ã�—ã�¾ã�™ã�‹ï¼Ÿ"
 
 #: src/js/controllers/preferencesBitpayServices.js:19
 msgid "Remove BitPay Card?"
-msgstr "BitPay カードを削除しますか？"
+msgstr "BitPay ã‚«ãƒ¼ãƒ‰ã‚’å‰Šé™¤ã�—ã�¾ã�™ã�‹ï¼Ÿ"
 
 #: src/js/controllers/preferencesBitpayServices.js:8
 msgid "Removing your BitPay account will remove all associated BitPay account data from this device. Are you sure you would like to remove your BitPay Account ({{email}}) from this device?"
-msgstr "BitPay アカウントを削除すると、このデバイスからすべての関連付けられている BitPay のアカウントデータが削除されます。本当にこのデバイスから BitPay アカウント ({{email}}) を削除してもよろしいですか。"
+msgstr "BitPay ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’å‰Šé™¤ã�™ã‚‹ã�¨ã€�ã�“ã�®ãƒ‡ãƒ�ã‚¤ã‚¹ã�‹ã‚‰ã�™ã�¹ã�¦ã�®é–¢é€£ä»˜ã�‘ã‚‰ã‚Œã�¦ã�„ã‚‹ BitPay ã�®ã‚¢ã‚«ã‚¦ãƒ³ãƒˆãƒ‡ãƒ¼ã‚¿ã�Œå‰Šé™¤ã�•ã‚Œã�¾ã�™ã€‚æœ¬å½“ã�«ã�“ã�®ãƒ‡ãƒ�ã‚¤ã‚¹ã�‹ã‚‰ BitPay ã‚¢ã‚«ã‚¦ãƒ³ãƒˆ ({{email}}) ã‚’å‰Šé™¤ã�—ã�¦ã‚‚ã‚ˆã‚�ã�—ã�„ã�§ã�™ã�‹ã€‚"
 
 #: www/views/join.html:116
 #: www/views/join.html:124
@@ -2398,43 +2398,43 @@ msgstr "BitPay アカウントを削除すると、このデバイスからす�
 #: www/views/tab-create-shared.html:123
 #: www/views/tab-export-file.html:17
 msgid "Repeat password"
-msgstr "パスワードを再入力"
+msgstr "ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’å†�å…¥åŠ›"
 
 #: www/views/tab-export-file.html:16
 msgid "Repeat the password"
-msgstr "パスワードの再入力"
+msgstr "ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã�®å†�å…¥åŠ›"
 
 #: www/views/preferences.html:56
 msgid "Request Fingerprint"
-msgstr "指紋を要求"
+msgstr "æŒ‡ç´‹ã‚’è¦�æ±‚"
 
 #: www/views/tab-receive.html:45
 msgid "Request Specific amount"
-msgstr "指定金額を要求"
+msgstr "æŒ‡å®šé‡‘é¡�ã‚’è¦�æ±‚"
 
 #: www/views/preferences.html:42
 msgid "Request Spending Password"
-msgstr "送金時のパスワード入力"
+msgstr "é€�é‡‘æ™‚ã�®ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰å…¥åŠ›"
 
 #: www/views/tab-create-shared.html:44
 msgid "Required number of signatures"
-msgstr "必要な署名の数を選択"
+msgstr "å¿…è¦�ã�ªç½²å��ã�®æ•°ã‚’é�¸æŠž"
 
 #: www/views/onboarding/welcome.html:9
 msgid "Restore from backup"
-msgstr "バックアップから復元"
+msgstr "ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ã�‹ã‚‰å¾©å…ƒ"
 
 #: src/js/services/onGoingProcess.js:29
 msgid "Retrieving inputs information"
-msgstr "入力情報の取得中"
+msgstr "å…¥åŠ›æƒ…å ±ã�®å�–å¾—ä¸­"
 
 #: src/js/controllers/onboarding/tour.js:56
 msgid "Retry"
-msgstr "やり直し"
+msgstr "ã‚„ã‚Šç›´ã�—"
 
 #: www/views/tab-scan.html:23
 msgid "Retry Camera"
-msgstr "カメラを再試行"
+msgstr "ã‚«ãƒ¡ãƒ©ã‚’å†�è©¦è¡Œ"
 
 #: www/views/addressbook.add.html:56
 #: www/views/includes/note.html:9
@@ -2442,36 +2442,36 @@ msgstr "カメラを再試行"
 #: www/views/preferencesBwsUrl.html:25
 #: www/views/preferencesNotifications.html:46
 msgid "Save"
-msgstr "保存"
+msgstr "ä¿�å­˜"
 
 #: www/views/tab-scan.html:3
 #: www/views/tabs.html:11
 msgid "Scan"
-msgstr "スキャン"
+msgstr "ã‚¹ã‚­ãƒ£ãƒ³"
 
 #: www/views/tab-scan.html:15
 msgid "Scan QR Codes"
-msgstr "QRコードを読み取る"
+msgstr "QRã‚³ãƒ¼ãƒ‰ã‚’èª­ã�¿å�–ã‚‹"
 
 #: www/views/addresses.html:31
 msgid "Scan addresses for funds"
-msgstr "アドレスの残高照会"
+msgstr "ã‚¢ãƒ‰ãƒ¬ã‚¹ã�®æ®‹é«˜ç…§ä¼š"
 
 #: www/views/modals/fingerprintCheck.html:11
 msgid "Scan again"
-msgstr "もう一度スキャンし直してください。"
+msgstr "ã‚‚ã�†ä¸€åº¦ã‚¹ã‚­ãƒ£ãƒ³ã�—ç›´ã�—ã�¦ã��ã� ã�•ã�„ã€‚"
 
 #: src/js/services/fingerprintService.js:56
 msgid "Scan your fingerprint please"
-msgstr "指紋をスキャンしてください"
+msgstr "æŒ‡ç´‹ã‚’ã‚¹ã‚­ãƒ£ãƒ³ã�—ã�¦ã��ã� ã�•ã�„"
 
 #: www/views/preferencesCash.html:22
-msgid "Scan your wallets for Bitcoin Cash"
+msgid "Scan your wallets for BitcoinZ"
 msgstr ""
 
 #: src/js/services/onGoingProcess.js:30
 msgid "Scanning Wallet funds..."
-msgstr "ウォレット残高照会中…"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆæ®‹é«˜ç…§ä¼šä¸­â€¦"
 
 #: www/views/tab-home.html:95
 msgid "Scanning funds..."
@@ -2479,188 +2479,188 @@ msgstr ""
 
 #: www/views/includes/screenshotWarningModal.html:7
 msgid "Screenshots are not secure"
-msgstr "画面写真を撮ってしまうと危険です！"
+msgstr "ç”»é�¢å†™çœŸã‚’æ’®ã�£ã�¦ã�—ã�¾ã�†ã�¨å�±é™ºã�§ã�™ï¼�"
 
 #: www/views/modals/search.html:6
 msgid "Search Transactions"
-msgstr "取引を検索"
+msgstr "å�–å¼•ã‚’æ¤œç´¢"
 
 #: www/views/tab-send.html:13
-msgid "Search or enter bitcoin address"
-msgstr "連絡先検索かビットコインアドレスを指定"
+msgid "Search or enter BitcoinZ address"
+msgstr "é€£çµ¡å…ˆæ¤œç´¢ã�‹ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’æŒ‡å®š"
 
 #: www/views/modals/search.html:16
 msgid "Search transactions"
-msgstr "取引を検索"
+msgstr "å�–å¼•ã‚’æ¤œç´¢"
 
 #: www/views/preferencesAltCurrency.html:14
 msgid "Search your currency"
-msgstr "通貨を検索"
+msgstr "é€šè²¨ã‚’æ¤œç´¢"
 
 #: www/views/preferences.html:30
 msgid "Security"
-msgstr "セキュリティ"
+msgstr "ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£"
 
 #: www/views/modals/mercadolibre-card-details.html:64
 msgid "See invoice"
-msgstr "請求書を表示"
+msgstr "è«‹æ±‚æ›¸ã‚’è¡¨ç¤º"
 
 #: www/views/tab-import-file.html:7
 msgid "Select a backup file"
-msgstr "バックアップファイルを選択"
+msgstr "ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é�¸æŠž"
 
 #: src/js/controllers/tab-receive.js:139
 msgid "Select a wallet"
-msgstr "ウォレットを選択"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’é�¸æŠž"
 
 #: www/views/modals/paypro.html:38
 msgid "Self-signed Certificate"
-msgstr "自己署名証明書"
+msgstr "è‡ªå·±ç½²å��è¨¼æ˜Žæ›¸"
 
 #: src/js/services/onGoingProcess.js:41
-msgid "Selling Bitcoin..."
-msgstr "ビットコインを売却中..."
+msgid "Selling BitcoinZ..."
+msgstr "ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚’å£²å�´ä¸­..."
 
 #: www/views/feedback/send.html:13
 #: www/views/feedback/send.html:43
 #: www/views/tab-send.html:3
 #: www/views/tabs.html:15
 msgid "Send"
-msgstr "送信"
+msgstr "é€�ä¿¡"
 
 #: www/views/feedback/send.html:3
 #: www/views/tab-settings.html:29
 msgid "Send Feedback"
-msgstr "フィードバックの送信"
+msgstr "ãƒ•ã‚£ãƒ¼ãƒ‰ãƒ�ãƒƒã‚¯ã�®é€�ä¿¡"
 
 #: www/views/addressbook.view.html:31
 msgid "Send Money"
-msgstr "送金する"
+msgstr "é€�é‡‘ã�™ã‚‹"
 
 #: www/views/allAddresses.html:19
 msgid "Send addresses by email"
-msgstr "ビットコインアドレスをメールにて共有"
+msgstr "ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’ãƒ¡ãƒ¼ãƒ«ã�«ã�¦å…±æœ‰"
 
 #: www/views/includes/logOptions.html:17
 #: www/views/tab-export-file.html:82
 msgid "Send by email"
-msgstr "メールで送信"
+msgstr "ãƒ¡ãƒ¼ãƒ«ã�§é€�ä¿¡"
 
 #: src/js/controllers/confirm.js:156
 msgid "Send from"
-msgstr "ここから送金"
+msgstr "ã�“ã�“ã�‹ã‚‰é€�é‡‘"
 
 #: www/views/includes/itemSelector.html:8
 msgid "Send max amount"
-msgstr "全残高を送金"
+msgstr "å…¨æ®‹é«˜ã‚’é€�é‡‘"
 
 #: www/views/includes/incomingDataMenu.html:46
 msgid "Send payment to this address"
-msgstr "このアドレスへ送信して下さい"
+msgstr "ã�“ã�®ã‚¢ãƒ‰ãƒ¬ã‚¹ã�¸é€�ä¿¡ã�—ã�¦ä¸‹ã�•ã�„"
 
 #: www/views/feedback/rateApp.html:17
 msgid "Send us feedback instead"
-msgstr "代わりにフィードバックを送信"
+msgstr "ä»£ã‚�ã‚Šã�«ãƒ•ã‚£ãƒ¼ãƒ‰ãƒ�ãƒƒã‚¯ã‚’é€�ä¿¡"
 
 #: www/views/confirm.html:15
 #: www/views/includes/txp.html:12
 #: www/views/modals/txp-details.html:19
 #: www/views/tx-details.html:23
 msgid "Sending"
-msgstr "送信中"
+msgstr "é€�ä¿¡ä¸­"
 
 #: src/js/services/onGoingProcess.js:39
 msgid "Sending 2FA code..."
-msgstr "2段階認証コードを送信中…"
+msgstr "2æ®µéšŽèª�è¨¼ã‚³ãƒ¼ãƒ‰ã‚’é€�ä¿¡ä¸­â€¦"
 
 #: src/js/services/onGoingProcess.js:36
 msgid "Sending feedback..."
-msgstr "フィードバックを送信中..."
+msgstr "ãƒ•ã‚£ãƒ¼ãƒ‰ãƒ�ãƒƒã‚¯ã‚’é€�ä¿¡ä¸­..."
 
 #: www/views/confirm.html:16
 msgid "Sending maximum amount"
-msgstr "全残高を送金"
+msgstr "å…¨æ®‹é«˜ã‚’é€�é‡‘"
 
 #: src/js/services/onGoingProcess.js:31
 msgid "Sending transaction"
-msgstr "取引送信中"
+msgstr "å�–å¼•é€�ä¿¡ä¸­"
 
 #: src/js/controllers/confirm.js:524
 msgid "Sending {{amountStr}} from your {{name}} wallet"
-msgstr "ウォレット {{name}} から {{amountStr}} の送金を行います。"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆ {{name}} ã�‹ã‚‰ {{amountStr}} ã�®é€�é‡‘ã‚’è¡Œã�„ã�¾ã�™ã€‚"
 
 #: www/views/includes/walletHistory.html:42
 #: www/views/modals/tx-status.html:9
 #: www/views/topup.html:100
 #: www/views/tx-details.html:17
 msgid "Sent"
-msgstr "送金済み"
+msgstr "é€�é‡‘æ¸ˆã�¿"
 
 #: src/js/controllers/tx-details.js:129
 msgid "Sent Funds"
-msgstr "資金を送金済み"
+msgstr "è³‡é‡‘ã‚’é€�é‡‘æ¸ˆã�¿"
 
 #: src/js/services/bwcError.js:38
 msgid "Server response could not be verified"
-msgstr "サーバーからの返答を検証できませんでした"
+msgstr "ã‚µãƒ¼ãƒ�ãƒ¼ã�‹ã‚‰ã�®è¿”ç­”ã‚’æ¤œè¨¼ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿ"
 
 #: src/js/controllers/buyAmazon.js:97
 #: src/js/controllers/buyMercadoLibre.js:97
 msgid "Service not available"
-msgstr "このサービスは利用できません"
+msgstr "ã�“ã�®ã‚µãƒ¼ãƒ“ã‚¹ã�¯åˆ©ç”¨ã�§ã��ã�¾ã�›ã‚“"
 
 #: www/views/includes/homeIntegrations.html:3
 msgid "Services"
-msgstr "サービス"
+msgstr "ã‚µãƒ¼ãƒ“ã‚¹"
 
 #: www/views/preferencesLogs.html:3
 msgid "Session Log"
-msgstr "セッションのログ"
+msgstr "ã‚»ãƒƒã‚·ãƒ§ãƒ³ã�®ãƒ­ã‚°"
 
 #: www/views/preferencesAbout.html:35
 msgid "Session log"
-msgstr "セッションのログ"
+msgstr "ã‚»ãƒƒã‚·ãƒ§ãƒ³ã�®ãƒ­ã‚°"
 
 #: www/views/tab-export-file.html:10
 msgid "Set up a password"
-msgstr "パスワードを設定"
+msgstr "ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’è¨­å®š"
 
 #: src/js/controllers/preferencesFee.js:85
 msgid "Set your own fee in satoshis/byte"
-msgstr "カスタム手数料は satoshis/byte で指定"
+msgstr "ã‚«ã‚¹ã‚¿ãƒ æ‰‹æ•°æ–™ã�¯ satoshis/byte ã�§æŒ‡å®š"
 
 #: www/views/tab-settings.html:3
 #: www/views/tabs.html:19
 msgid "Settings"
-msgstr "設定"
+msgstr "è¨­å®š"
 
 #: www/views/feedback/complete.html:17
 #: www/views/feedback/complete.html:26
 msgid "Share the love by inviting your friends."
-msgstr "是非友達と共有して下さい"
+msgstr "æ˜¯é�žå�‹é�”ã�¨å…±æœ‰ã�—ã�¦ä¸‹ã�•ã�„"
 
 #: www/views/copayers.html:20
 msgid "Share this invitation with your copayers"
-msgstr "ウォレット参加者に\n"
-"この招待コードを\n"
-"送って下さい。"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆå�‚åŠ è€…ã�«\n"
+"ã�“ã�®æ‹›å¾…ã‚³ãƒ¼ãƒ‰ã‚’\n"
+"é€�ã�£ã�¦ä¸‹ã�•ã�„ã€‚"
 
 #: src/js/controllers/feedback/complete.js:5
 #: www/views/tab-settings.html:36
 msgid "Share {{appName}}"
-msgstr "{{appName}}を共有"
+msgstr "{{appName}}ã‚’å…±æœ‰"
 
 #: www/views/tab-import-hardware.html:24
 msgid "Shared Wallet"
-msgstr "共有ウォレットに参加"
+msgstr "å…±æœ‰ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�«å�‚åŠ "
 
 #: www/views/preferencesExternal.html:34
 msgid "Show Recovery Phrase"
-msgstr "復元フレーズを表示"
+msgstr "å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã‚’è¡¨ç¤º"
 
 #: www/views/tab-receive.html:34
 msgid "Show address"
-msgstr "アドレスを表示"
+msgstr "ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’è¡¨ç¤º"
 
 #: www/views/join.html:48
 #: www/views/tab-create-personal.html:27
@@ -2670,37 +2670,37 @@ msgstr "アドレスを表示"
 #: www/views/tab-import-hardware.html:30
 #: www/views/tab-import-phrase.html:35
 msgid "Show advanced options"
-msgstr "詳細設定を表示"
+msgstr "è©³ç´°è¨­å®šã‚’è¡¨ç¤º"
 
 #: www/views/tab-send.html:37
-msgid "Show bitcoin address"
-msgstr "ビットコインアドレスを表示"
+msgid "Show BitcoinZ address"
+msgstr "ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’è¡¨ç¤º"
 
 #: www/views/tab-send.html:59
 msgid "Show more"
-msgstr "すべて表示"
+msgstr "ã�™ã�¹ã�¦è¡¨ç¤º"
 
 #: src/js/services/bwcError.js:104
 msgid "Signatures rejected by server"
-msgstr "サーバーより署名が却下されました。"
+msgstr "ã‚µãƒ¼ãƒ�ãƒ¼ã‚ˆã‚Šç½²å��ã�Œå�´ä¸‹ã�•ã‚Œã�¾ã�—ã�Ÿã€‚"
 
 #: src/js/services/onGoingProcess.js:32
 msgid "Signing transaction"
-msgstr "取引署名中"
+msgstr "å�–å¼•ç½²å��ä¸­"
 
 #: www/views/onboarding/backupRequest.html:6
-msgid "Since only you control your money, you’ll need to save your backup phrase in case this app is deleted."
-msgstr "ビットコインの管理は全てご自身でしていただくため、端末やアプリの不具合や削除に備えるために復元フレーズを書き留めていただきます。"
+msgid "Since only you control your money, youâ€™ll need to save your backup phrase in case this app is deleted."
+msgstr "ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã�®ç®¡ç�†ã�¯å…¨ã�¦ã�”è‡ªèº«ã�§ã�—ã�¦ã�„ã�Ÿã� ã��ã�Ÿã‚�ã€�ç«¯æœ«ã‚„ã‚¢ãƒ—ãƒªã�®ä¸�å…·å�ˆã‚„å‰Šé™¤ã�«å‚™ã�ˆã‚‹ã�Ÿã‚�ã�«å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã‚’æ›¸ã��ç•™ã‚�ã�¦ã�„ã�Ÿã� ã��ã�¾ã�™ã€‚"
 
 #: www/views/tab-create-personal.html:122
 #: www/views/tab-create-shared.html:151
 msgid "Single Address Wallet"
-msgstr "単一アドレスウォレット"
+msgstr "å�˜ä¸€ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¦ã‚©ãƒ¬ãƒƒãƒˆ"
 
 #: www/views/onboarding/collectEmail.html:40
 #: www/views/onboarding/tour.html:11
 msgid "Skip"
-msgstr "スキップ"
+msgstr "ã‚¹ã‚­ãƒƒãƒ—"
 
 #: src/js/controllers/confirm.js:350
 #: src/js/controllers/modals/txpDetails.js:47
@@ -2710,7 +2710,7 @@ msgstr ""
 #: www/views/buyAmazon.html:96
 #: www/views/buyMercadoLibre.html:83
 msgid "Slide to buy"
-msgstr "スライドして購入"
+msgstr "ã‚¹ãƒ©ã‚¤ãƒ‰ã�—ã�¦è³¼å…¥"
 
 #: src/js/controllers/confirm.js:344
 msgid "Slide to pay"
@@ -2724,74 +2724,74 @@ msgstr ""
 #: src/js/controllers/create.js:88
 #: src/js/controllers/join.js:71
 msgid "Specify Recovery Phrase..."
-msgstr "復元フレーズを指定…"
+msgstr "å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã‚’æŒ‡å®šâ€¦"
 
 #: src/js/services/bwcError.js:92
 msgid "Spend proposal is not accepted"
-msgstr "送金の提案が受諾されませんでした。"
+msgstr "é€�é‡‘ã�®æ��æ¡ˆã�Œå�—è«¾ã�•ã‚Œã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: src/js/services/bwcError.js:95
 msgid "Spend proposal not found"
-msgstr "送金の提案が見つかりませんでした。"
+msgstr "é€�é‡‘ã�®æ��æ¡ˆã�Œè¦‹ã�¤ã�‹ã‚Šã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: src/js/services/bwcError.js:137
 msgid "Spending Password needed"
-msgstr "パスワードが必要"
+msgstr "ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã�Œå¿…è¦�"
 
 #: www/views/walletDetails.html:173
-msgid "Spending this balance will need significant Bitcoin network fees"
-msgstr "この入力の組み合わせを送金するために膨大なビットコインネットワーク手数料を必要とします"
+msgid "Spending this balance will need significant BitcoinZ network fees"
+msgstr "ã�“ã�®å…¥åŠ›ã�®çµ„ã�¿å�ˆã‚�ã�›ã‚’é€�é‡‘ã�™ã‚‹ã�Ÿã‚�ã�«è†¨å¤§ã�ªãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ãƒ�ãƒƒãƒˆãƒ¯ãƒ¼ã‚¯æ‰‹æ•°æ–™ã‚’å¿…è¦�ã�¨ã�—ã�¾ã�™"
 
 #: www/views/tab-send.html:28
 msgid "Start sending bitcoin"
-msgstr "ビットコインの送金を始めましょう"
+msgstr "ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã�®é€�é‡‘ã‚’å§‹ã‚�ã�¾ã�—ã‚‡ã�†"
 
 #: www/views/lockSetup.html:3
 msgid "Startup Lock"
-msgstr "起動ロック"
+msgstr "èµ·å‹•ãƒ­ãƒƒã‚¯"
 
 #: www/views/mercadoLibreCards.html:21
 #: www/views/modals/mercadolibre-card-details.html:42
 msgid "Still pending"
-msgstr "まだ未決"
+msgstr "ã�¾ã� æœªæ±º"
 
 #: www/views/topup.html:101
 msgid "Success"
-msgstr "成功"
+msgstr "æˆ�åŠŸ"
 
 #: src/js/services/feeService.js:14
 msgid "Super Economy"
-msgstr "超節約"
+msgstr "è¶…ç¯€ç´„"
 
 #: www/views/preferencesCash.html:11
-msgid "Support Bitcoin Cash"
+msgid "Support BitcoinZ"
 msgstr ""
 
 #: www/views/paperWallet.html:7
 msgid "Sweep"
-msgstr "全残高インポート"
+msgstr "å…¨æ®‹é«˜ã‚¤ãƒ³ãƒ�ãƒ¼ãƒˆ"
 
 #: www/views/includes/incomingDataMenu.html:89
 #: www/views/paperWallet.html:3
 msgid "Sweep paper wallet"
-msgstr "ペーパーウォレットの全残高インポート"
+msgstr "ãƒšãƒ¼ãƒ‘ãƒ¼ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®å…¨æ®‹é«˜ã‚¤ãƒ³ãƒ�ãƒ¼ãƒˆ"
 
 #: src/js/services/onGoingProcess.js:33
 msgid "Sweeping Wallet..."
-msgstr "ビットコイン回収中…"
+msgstr "ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³å›žå�Žä¸­â€¦"
 
 #: www/views/preferencesDeleteWallet.html:16
 msgid "THIS ACTION CANNOT BE REVERSED"
-msgstr "＊＊＊注意＊＊＊ このアクションを元に戻すことはできません！！！"
+msgstr "ï¼Šï¼Šï¼Šæ³¨æ„�ï¼Šï¼Šï¼Š ã�“ã�®ã‚¢ã‚¯ã‚·ãƒ§ãƒ³ã‚’å…ƒã�«æˆ»ã�™ã�“ã�¨ã�¯ã�§ã��ã�¾ã�›ã‚“ï¼�ï¼�ï¼�"
 
 #: www/views/onboarding/welcome.html:5
-msgid "Take control of your money,<br>get started with bitcoin."
-msgstr "お金のコントロールを取り戻そう、<br>ビットコインをはじめよう"
+msgid "Take control of your money,<br>get started with BitcoinZ."
+msgstr "ã�Šé‡‘ã�®ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«ã‚’å�–ã‚Šæˆ»ã��ã�†ã€�<br>ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚’ã�¯ã�˜ã‚�ã‚ˆã�†"
 
 #: www/views/walletDetails.html:132
 #: www/views/walletDetails.html:52
 msgid "Tap and hold to show"
-msgstr "長押しで表示"
+msgstr "é•·æŠ¼ã�—ã�§è¡¨ç¤º"
 
 #: www/views/includes/walletInfo.html:3
 msgid "Tap to recreate"
@@ -2799,178 +2799,178 @@ msgstr ""
 
 #: www/views/includes/walletInfo.html:4
 msgid "Tap to retry"
-msgstr "タップしてやり直し"
+msgstr "ã‚¿ãƒƒãƒ—ã�—ã�¦ã‚„ã‚Šç›´ã�—"
 
 #: www/views/termsOfUse.html:3
 msgid "Terms Of Use"
-msgstr "利用規約"
+msgstr "åˆ©ç”¨è¦�ç´„"
 
 #: www/views/modals/terms.html:3
 #: www/views/onboarding/disclaimer.html:29
 #: www/views/onboarding/disclaimer.html:43
 #: www/views/preferencesAbout.html:30
 msgid "Terms of Use"
-msgstr "利用規約"
+msgstr "åˆ©ç”¨è¦�ç´„"
 
 #: www/views/tab-create-personal.html:118
 #: www/views/tab-import-phrase.html:68
 msgid "Testnet"
-msgstr "テスト用ネットワーク"
+msgstr "ãƒ†ã‚¹ãƒˆç”¨ãƒ�ãƒƒãƒˆãƒ¯ãƒ¼ã‚¯"
 
 #: www/views/includes/incomingDataMenu.html:61
 msgid "Text"
-msgstr "テキスト"
+msgstr "ãƒ†ã‚­ã‚¹ãƒˆ"
 
 #: src/js/controllers/feedback/send.js:27
 #: src/js/controllers/feedback/send.js:76
 #: www/views/feedback/complete.html:20
 #: www/views/feedback/rateApp.html:4
 msgid "Thank you!"
-msgstr "ありがとうございます!"
+msgstr "ã�‚ã‚Šã�Œã�¨ã�†ã�”ã�–ã�„ã�¾ã�™!"
 
 #: src/js/controllers/feedback/send.js:72
 msgid "Thanks!"
-msgstr "ありがとうございます。"
+msgstr "ã�‚ã‚Šã�Œã�¨ã�†ã�”ã�–ã�„ã�¾ã�™ã€‚"
 
 #: src/js/controllers/feedback/send.js:73
-msgid "That's exciting to hear. We'd love to earn that fifth star from you – how could we improve your experience?"
-msgstr "嬉しい限りです！是非5つ星のアプリを目指したいため、このアプリの改善するにはどうしたら良いと思いますか？"
+msgid "That's exciting to hear. We'd love to earn that fifth star from you â€“ how could we improve your experience?"
+msgstr "å¬‰ã�—ã�„é™�ã‚Šã�§ã�™ï¼�æ˜¯é�ž5ã�¤æ˜Ÿã�®ã‚¢ãƒ—ãƒªã‚’ç›®æŒ‡ã�—ã�Ÿã�„ã�Ÿã‚�ã€�ã�“ã�®ã‚¢ãƒ—ãƒªã�®æ”¹å–„ã�™ã‚‹ã�«ã�¯ã�©ã�†ã�—ã�Ÿã‚‰è‰¯ã�„ã�¨æ€�ã�„ã�¾ã�™ã�‹ï¼Ÿ"
 
 #: src/js/services/ledger.js:152
 msgid "The Ledger Chrome application is not installed"
-msgstr "Ledgerのクロームアプリがインストールされていません。"
+msgstr "Ledgerã�®ã‚¯ãƒ­ãƒ¼ãƒ ã‚¢ãƒ—ãƒªã�Œã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã�•ã‚Œã�¦ã�„ã�¾ã�›ã‚“ã€‚"
 
 #: www/views/modals/wallet-balance.html:55
-msgid "The amount of bitcoin immediately spendable from this wallet."
-msgstr "このウォレットからすぐに送金できる額"
+msgid "The amount of BitcoinZ immediately spendable from this wallet."
+msgstr "ã�“ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�‹ã‚‰ã�™ã��ã�«é€�é‡‘ã�§ã��ã‚‹é¡�"
 
 #: www/views/modals/wallet-balance.html:93
-msgid "The amount of bitcoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
-msgstr "現在協議中の送金の提案によってロックされてしまっている金額です。この金額は未使用出力の割り当てられた合計額になりますので、必ずしも送金提案の送金額だけがロックされるというものではありません。"
+msgid "The amount of BitcoinZ stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
+msgstr "ç�¾åœ¨å�”è­°ä¸­ã�®é€�é‡‘ã�®æ��æ¡ˆã�«ã‚ˆã�£ã�¦ãƒ­ãƒƒã‚¯ã�•ã‚Œã�¦ã�—ã�¾ã�£ã�¦ã�„ã‚‹é‡‘é¡�ã�§ã�™ã€‚ã�“ã�®é‡‘é¡�ã�¯æœªä½¿ç”¨å‡ºåŠ›ã�®å‰²ã‚Šå½“ã�¦ã‚‰ã‚Œã�Ÿå�ˆè¨ˆé¡�ã�«ã�ªã‚Šã�¾ã�™ã�®ã�§ã€�å¿…ã�šã�—ã‚‚é€�é‡‘æ��æ¡ˆã�®é€�é‡‘é¡�ã� ã�‘ã�Œãƒ­ãƒƒã‚¯ã�•ã‚Œã‚‹ã�¨ã�„ã�†ã‚‚ã�®ã�§ã�¯ã�‚ã‚Šã�¾ã�›ã‚“ã€‚"
 
 #: www/views/modals/wallet-balance.html:74
-msgid "The amount of bitcoin stored in this wallet with less than 1 blockchain confirmation."
-msgstr "このウォレットの1承認未満の残高。"
+msgid "The amount of BitcoinZ stored in this wallet with less than 1 blockchain confirmation."
+msgstr "ã�“ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®1æ‰¿èª�æœªæº€ã�®æ®‹é«˜ã€‚"
 
 #: www/views/tab-import-phrase.html:5
 msgid "The derivation path"
-msgstr "派生パス"
+msgstr "æ´¾ç”Ÿãƒ‘ã‚¹"
 
 #: www/views/onboarding/tour.html:37
 msgid "The exchange rate changes with the market."
-msgstr "為替レートは市場と共に変動する"
+msgstr "ç‚ºæ›¿ãƒ¬ãƒ¼ãƒˆã�¯å¸‚å ´ã�¨å…±ã�«å¤‰å‹•ã�™ã‚‹"
 
 #: www/views/preferencesFee.html:12
 msgid "The higher the fee, the greater the incentive a miner has to include that transaction in a block. Current fees are determined based on network load and the selected policy."
-msgstr "円滑な送金をしていただくために、ビットコインの送金には少量の手数料を付けることが義務付けられております。この手数料はビットコインのネットワークを運用する人たちに寄付され、より高い手数料であればより優先的にブロックに含まれ、承認されます。選択された手数料基準やネットワークの混雑状況により、その時点で払われるべき手数料が変動することがあります。"
+msgstr "å††æ»‘ã�ªé€�é‡‘ã‚’ã�—ã�¦ã�„ã�Ÿã� ã��ã�Ÿã‚�ã�«ã€�ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã�®é€�é‡‘ã�«ã�¯å°‘é‡�ã�®æ‰‹æ•°æ–™ã‚’ä»˜ã�‘ã‚‹ã�“ã�¨ã�Œç¾©å‹™ä»˜ã�‘ã‚‰ã‚Œã�¦ã�Šã‚Šã�¾ã�™ã€‚ã�“ã�®æ‰‹æ•°æ–™ã�¯ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã�®ãƒ�ãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ã‚’é�‹ç”¨ã�™ã‚‹äººã�Ÿã�¡ã�«å¯„ä»˜ã�•ã‚Œã€�ã‚ˆã‚Šé«˜ã�„æ‰‹æ•°æ–™ã�§ã�‚ã‚Œã�°ã‚ˆã‚Šå„ªå…ˆçš„ã�«ãƒ–ãƒ­ãƒƒã‚¯ã�«å�«ã�¾ã‚Œã€�æ‰¿èª�ã�•ã‚Œã�¾ã�™ã€‚é�¸æŠžã�•ã‚Œã�Ÿæ‰‹æ•°æ–™åŸºæº–ã‚„ãƒ�ãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ã�®æ··é›‘çŠ¶æ³�ã�«ã‚ˆã‚Šã€�ã��ã�®æ™‚ç‚¹ã�§æ‰•ã‚�ã‚Œã‚‹ã�¹ã��æ‰‹æ•°æ–™ã�Œå¤‰å‹•ã�™ã‚‹ã�“ã�¨ã�Œã�‚ã‚Šã�¾ã�™ã€‚"
 
 #: www/views/addresses.html:51
 msgid "The maximum number of consecutive unused addresses (20) has been reached. When one of your unused addresses receives a payment, a new address will be generated and shown in your Receive tab."
-msgstr "連続未使用アドレスの上限(20)に達しました。どれかにアドレスにビットコインが少量でも入れば再び受取画面にて新しいアドレスを生成することができるようになります。"
+msgstr "é€£ç¶šæœªä½¿ç”¨ã‚¢ãƒ‰ãƒ¬ã‚¹ã�®ä¸Šé™�(20)ã�«é�”ã�—ã�¾ã�—ã�Ÿã€‚ã�©ã‚Œã�‹ã�«ã‚¢ãƒ‰ãƒ¬ã‚¹ã�«ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã�Œå°‘é‡�ã�§ã‚‚å…¥ã‚Œã�°å†�ã�³å�—å�–ç”»é�¢ã�«ã�¦æ–°ã�—ã�„ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’ç”Ÿæˆ�ã�™ã‚‹ã�“ã�¨ã�Œã�§ã��ã‚‹ã‚ˆã�†ã�«ã�ªã‚Šã�¾ã�™ã€‚"
 
 #: src/js/controllers/onboarding/terms.js:21
 msgid "The official English Terms of Service are available on the BitPay website."
-msgstr "英語公式の規約は BitPay のウェブサイトにてご覧いただけます。"
+msgstr "è‹±èªžå…¬å¼�ã�®è¦�ç´„ã�¯ BitPay ã�®ã‚¦ã‚§ãƒ–ã‚µã‚¤ãƒˆã�«ã�¦ã�”è¦§ã�„ã�Ÿã� ã�‘ã�¾ã�™ã€‚"
 
 #: www/views/tab-import-phrase.html:4
 msgid "The password of the recovery phrase (if set)"
-msgstr "復元フレーズ用のパスワード(設定してある場合のみ)"
+msgstr "å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºç”¨ã�®ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰(è¨­å®šã�—ã�¦ã�‚ã‚‹å ´å�ˆã�®ã�¿)"
 
 #: src/js/services/walletService.js:1139
 msgid "The payment was created but could not be completed. Please try again from home screen"
-msgstr "送金の提案は作成されましたが完了できませんでした。ホーム画面からやり直して下さい。"
+msgstr "é€�é‡‘ã�®æ��æ¡ˆã�¯ä½œæˆ�ã�•ã‚Œã�¾ã�—ã�Ÿã�Œå®Œäº†ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚ãƒ›ãƒ¼ãƒ ç”»é�¢ã�‹ã‚‰ã‚„ã‚Šç›´ã�—ã�¦ä¸‹ã�•ã�„ã€‚"
 
 #: www/views/modals/txp-details.html:26
 msgid "The payment was removed by creator"
-msgstr "送金の提案が作成者により削除されました"
+msgstr "é€�é‡‘ã�®æ��æ¡ˆã�Œä½œæˆ�è€…ã�«ã‚ˆã‚Šå‰Šé™¤ã�•ã‚Œã�¾ã�—ã�Ÿ"
 
 #: www/views/join.html:91
 #: www/views/tab-create-personal.html:63
 #: www/views/tab-create-shared.html:92
 #: www/views/tab-import-phrase.html:43
 msgid "The recovery phrase could require a password to be imported"
-msgstr "復元フレーズにパスワードをかけることが\n"
-"できるのでかけてある場合は\n"
-"インポート時に必要です。"
+msgstr "å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã�«ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’ã�‹ã�‘ã‚‹ã�“ã�¨ã�Œ\n"
+"ã�§ã��ã‚‹ã�®ã�§ã�‹ã�‘ã�¦ã�‚ã‚‹å ´å�ˆã�¯\n"
+"ã‚¤ãƒ³ãƒ�ãƒ¼ãƒˆæ™‚ã�«å¿…è¦�ã�§ã�™ã€‚"
 
 #: src/js/services/bwcError.js:56
 msgid "The request could not be understood by the server"
-msgstr "サーバーが要求を処理できませんでした。"
+msgstr "ã‚µãƒ¼ãƒ�ãƒ¼ã�Œè¦�æ±‚ã‚’å‡¦ç�†ã�§ã��ã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: www/views/addresses.html:52
 msgid "The restore process will stop when 20 addresses are generated in a row which contain no funds. To safely generate more addresses, make a payment to one of the unused addresses which has already been generated."
-msgstr "復元のプロセスは残高の無いアドレスを20個連続で生成した場合に中止します。更にアドレスを生成したい場合は既存の20個のアドレスのどれかにビットコインを少量でも入金しますと、新しいアドレスが生成できます。"
+msgstr "å¾©å…ƒã�®ãƒ—ãƒ­ã‚»ã‚¹ã�¯æ®‹é«˜ã�®ç„¡ã�„ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’20å€‹é€£ç¶šã�§ç”Ÿæˆ�ã�—ã�Ÿå ´å�ˆã�«ä¸­æ­¢ã�—ã�¾ã�™ã€‚æ›´ã�«ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’ç”Ÿæˆ�ã�—ã�Ÿã�„å ´å�ˆã�¯æ—¢å­˜ã�®20å€‹ã�®ã‚¢ãƒ‰ãƒ¬ã‚¹ã�®ã�©ã‚Œã�‹ã�«ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚’å°‘é‡�ã�§ã‚‚å…¥é‡‘ã�—ã�¾ã�™ã�¨ã€�æ–°ã�—ã�„ã‚¢ãƒ‰ãƒ¬ã‚¹ã�Œç”Ÿæˆ�ã�§ã��ã�¾ã�™ã€‚"
 
 #: src/js/services/bwcError.js:98
 msgid "The spend proposal is not pending"
-msgstr "送金の提案が協議中ではありません。"
+msgstr "é€�é‡‘ã�®æ��æ¡ˆã�Œå�”è­°ä¸­ã�§ã�¯ã�‚ã‚Šã�¾ã�›ã‚“ã€‚"
 
 #: www/views/modals/wallet-balance.html:36
-msgid "The total amount of bitcoin stored in this wallet."
-msgstr "このウォレットのビットコインの総残高"
+msgid "The total amount of BitcoinZ stored in this wallet."
+msgstr "ã�“ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã�®ç·�æ®‹é«˜"
 
 #: www/views/preferencesHistory.html:27
 msgid "The transaction history and every new incoming transaction are cached in the app. This feature clean this up and synchronizes again from the server"
-msgstr "取引履歴は新規の取引が現れる度に端末にキャッシュとして保存されます。この機能はそのキャッシュを削除し、全ての取引履歴を初期の状態からサーバーに問い合わせ直します。"
+msgstr "å�–å¼•å±¥æ­´ã�¯æ–°è¦�ã�®å�–å¼•ã�Œç�¾ã‚Œã‚‹åº¦ã�«ç«¯æœ«ã�«ã‚­ãƒ£ãƒƒã‚·ãƒ¥ã�¨ã�—ã�¦ä¿�å­˜ã�•ã‚Œã�¾ã�™ã€‚ã�“ã�®æ©Ÿèƒ½ã�¯ã��ã�®ã‚­ãƒ£ãƒƒã‚·ãƒ¥ã‚’å‰Šé™¤ã�—ã€�å…¨ã�¦ã�®å�–å¼•å±¥æ­´ã‚’åˆ�æœŸã�®çŠ¶æ…‹ã�‹ã‚‰ã‚µãƒ¼ãƒ�ãƒ¼ã�«å•�ã�„å�ˆã‚�ã�›ç›´ã�—ã�¾ã�™ã€‚"
 
 #: www/views/tab-import-phrase.html:6
 msgid "The wallet service URL"
-msgstr "ウォレットサービスのURL"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚µãƒ¼ãƒ“ã‚¹ã�®URL"
 
 #: src/js/controllers/tab-home.js:38
 msgid "There is a new version of {{appName}} available"
-msgstr "{{appName}} の新しいバージョンがあります。"
+msgstr "{{appName}} ã�®æ–°ã�—ã�„ãƒ�ãƒ¼ã‚¸ãƒ§ãƒ³ã�Œã�‚ã‚Šã�¾ã�™ã€‚"
 
 #: src/js/controllers/import.js:229
 #: src/js/controllers/import.js:254
 #: src/js/controllers/import.js:335
 msgid "There is an error in the form"
-msgstr "フォームにエラーがありました"
+msgstr "ãƒ•ã‚©ãƒ¼ãƒ ã�«ã‚¨ãƒ©ãƒ¼ã�Œã�‚ã‚Šã�¾ã�—ã�Ÿ"
 
 #: src/js/controllers/feedback/send.js:61
 #: src/js/controllers/feedback/send.js:65
 msgid "There's obviously something we're doing wrong."
-msgstr "このアプリで何か間違ったことをやっているようです。"
+msgstr "ã�“ã�®ã‚¢ãƒ—ãƒªã�§ä½•ã�‹é–“é�•ã�£ã�Ÿã�“ã�¨ã‚’ã‚„ã�£ã�¦ã�„ã‚‹ã‚ˆã�†ã�§ã�™ã€‚"
 
 #: src/js/controllers/feedback/rateCard.js:38
 msgid "This app is fantastic!"
-msgstr "このアプリは素晴らしいです!"
+msgstr "ã�“ã�®ã‚¢ãƒ—ãƒªã�¯ç´ æ™´ã‚‰ã�—ã�„ã�§ã�™!"
 
 #: www/views/onboarding/tour.html:47
-msgid "This app stores your bitcoin with cutting-edge security."
-msgstr "このアプリは、最先端のセキュリティであなたのビットコインをお守りします。"
+msgid "This app stores your BitcoinZ with cutting-edge security."
+msgstr "ã�“ã�®ã‚¢ãƒ—ãƒªã�¯ã€�æœ€å…ˆç«¯ã�®ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£ã�§ã�‚ã�ªã�Ÿã�®ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚’ã�Šå®ˆã‚Šã�—ã�¾ã�™ã€‚"
 
 #: src/js/controllers/confirm.js:502
-msgid "This bitcoin payment request has expired."
-msgstr "ビットコインペイメントの請求期限が切れています。"
+msgid "This BitcoinZ payment request has expired."
+msgstr "ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ãƒšã‚¤ãƒ¡ãƒ³ãƒˆã�®è«‹æ±‚æœŸé™�ã�Œåˆ‡ã‚Œã�¦ã�„ã�¾ã�™ã€‚"
 
 #: www/views/join.html:133
 #: www/views/tab-create-personal.html:103
 #: www/views/tab-create-shared.html:132
 msgid "This password cannot be recovered. If the password is lost, there is no way you could recover your funds."
-msgstr "このパスワードは復元できません。リセットすることができません。弊社のサーバーで管理するものではありません。復元フレーズとセットで必ず書き留めておいて下さい。復元フレーズとこのパスワードのどれかを忘れてしまうと、ビットコインを復元することができません。ご注意下さい。"
+msgstr "ã�“ã�®ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã�¯å¾©å…ƒã�§ã��ã�¾ã�›ã‚“ã€‚ãƒªã‚»ãƒƒãƒˆã�™ã‚‹ã�“ã�¨ã�Œã�§ã��ã�¾ã�›ã‚“ã€‚å¼Šç¤¾ã�®ã‚µãƒ¼ãƒ�ãƒ¼ã�§ç®¡ç�†ã�™ã‚‹ã‚‚ã�®ã�§ã�¯ã�‚ã‚Šã�¾ã�›ã‚“ã€‚å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã�¨ã‚»ãƒƒãƒˆã�§å¿…ã�šæ›¸ã��ç•™ã‚�ã�¦ã�Šã�„ã�¦ä¸‹ã�•ã�„ã€‚å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã�¨ã�“ã�®ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã�®ã�©ã‚Œã�‹ã‚’å¿˜ã‚Œã�¦ã�—ã�¾ã�†ã�¨ã€�ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚’å¾©å…ƒã�™ã‚‹ã�“ã�¨ã�Œã�§ã��ã�¾ã�›ã‚“ã€‚ã�”æ³¨æ„�ä¸‹ã�•ã�„ã€‚"
 
 #: www/views/backup.html:24
 msgid "This recovery phrase was created with a password. To recover this wallet both the recovery phrase and password are needed."
-msgstr "この復元フレーズにパスワードがかかっています。このウォレットを復元するためには、復元フレーズに加え、パスワードも必要です。"
+msgstr "ã�“ã�®å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã�«ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã�Œã�‹ã�‹ã�£ã�¦ã�„ã�¾ã�™ã€‚ã�“ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’å¾©å…ƒã�™ã‚‹ã�Ÿã‚�ã�«ã�¯ã€�å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã�«åŠ ã�ˆã€�ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚‚å¿…è¦�ã�§ã�™ã€‚"
 
 #: www/views/tx-details.html:93
-msgid "This transaction amount is too small compared to current Bitcoin network fees. Spending these funds will need a Bitcoin network fee cost comparable to the funds itself."
-msgstr "この取引の金額はビットコインネットワーク手数料より低いです。送金額より大きい手数料を払ってしまうことになります。"
+msgid "This transaction amount is too small compared to current BitcoinZ network fees. Spending these funds will need a BitcoinZ network fee cost comparable to the funds itself."
+msgstr "ã�“ã�®å�–å¼•ã�®é‡‘é¡�ã�¯ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ãƒ�ãƒƒãƒˆãƒ¯ãƒ¼ã‚¯æ‰‹æ•°æ–™ã‚ˆã‚Šä½Žã�„ã�§ã�™ã€‚é€�é‡‘é¡�ã‚ˆã‚Šå¤§ã��ã�„æ‰‹æ•°æ–™ã‚’æ‰•ã�£ã�¦ã�—ã�¾ã�†ã�“ã�¨ã�«ã�ªã‚Šã�¾ã�™ã€‚"
 
 #: www/views/tx-details.html:89
 msgid "This transaction could take a long time to confirm or could be dropped due to the low fees set by the sender"
-msgstr "この取引は承認されるまで非常に時間のかかる可能性があります。承認されずにネットワークに捨てられてしまう危険性もありますので、承認されるまでお待ちいただくことを強くおすすめします。"
+msgstr "ã�“ã�®å�–å¼•ã�¯æ‰¿èª�ã�•ã‚Œã‚‹ã�¾ã�§é�žå¸¸ã�«æ™‚é–“ã�®ã�‹ã�‹ã‚‹å�¯èƒ½æ€§ã�Œã�‚ã‚Šã�¾ã�™ã€‚æ‰¿èª�ã�•ã‚Œã�šã�«ãƒ�ãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ã�«æ�¨ã�¦ã‚‰ã‚Œã�¦ã�—ã�¾ã�†å�±é™ºæ€§ã‚‚ã�‚ã‚Šã�¾ã�™ã�®ã�§ã€�æ‰¿èª�ã�•ã‚Œã‚‹ã�¾ã�§ã�Šå¾…ã�¡ã�„ã�Ÿã� ã��ã�“ã�¨ã‚’å¼·ã��ã�Šã�™ã�™ã‚�ã�—ã�¾ã�™ã€‚"
 
 #: www/views/walletDetails.html:109
 #: www/views/walletDetails.html:29
 msgid "This wallet is not registered at the given Bitcore Wallet Service (BWS). You can recreate it from the local information."
-msgstr "現在設定中のBitcore Wallet Service (BWS) サーバーにて、このウォレットの登録がありません。再登録を行うこともできます。"
+msgstr "ç�¾åœ¨è¨­å®šä¸­ã�®Bitcore Wallet Service (BWS) ã‚µãƒ¼ãƒ�ãƒ¼ã�«ã�¦ã€�ã�“ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®ç™»éŒ²ã�Œã�‚ã‚Šã�¾ã�›ã‚“ã€‚å†�ç™»éŒ²ã‚’è¡Œã�†ã�“ã�¨ã‚‚ã�§ã��ã�¾ã�™ã€‚"
 
 #: www/views/modals/txp-details.html:138
 #: www/views/tx-details.html:123
 msgid "Timeline"
-msgstr "履歴"
+msgstr "å±¥æ­´"
 
 #: www/views/confirm.html:31
 #: www/views/includes/output.html:2
@@ -2979,376 +2979,376 @@ msgstr "履歴"
 #: www/views/tx-details.html:41
 #: www/views/tx-details.html:53
 msgid "To"
-msgstr "宛先"
+msgstr "å®›å…ˆ"
 
 #: www/views/tab-send.html:32
-msgid "To get started, buy bitcoin or share your address. You can receive bitcoin from any wallet or service."
-msgstr "はじめるには、ビットコインを購入したり、アドレスを他の人に共有したりしましょう。どのビットコインウォレットやサービスから受け取れます。"
+msgid "To get started, buy BitcoinZ or share your address. You can receive BitcoinZ from any wallet or service."
+msgstr "ã�¯ã�˜ã‚�ã‚‹ã�«ã�¯ã€�ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚’è³¼å…¥ã�—ã�Ÿã‚Šã€�ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’ä»–ã�®äººã�«å…±æœ‰ã�—ã�Ÿã‚Šã�—ã�¾ã�—ã‚‡ã�†ã€‚ã�©ã�®ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚„ã‚µãƒ¼ãƒ“ã‚¹ã�‹ã‚‰å�—ã�‘å�–ã‚Œã�¾ã�™ã€‚"
 
 #: www/views/tab-send.html:33
-msgid "To get started, you'll need to create a bitcoin wallet and get some bitcoin."
-msgstr "はじめに、ビットコインウォレットを作成し、ビットコインを入手する必要があります。"
+msgid "To get started, you'll need to create a BitcoinZ wallet and get some BitcoinZ."
+msgstr "ã�¯ã�˜ã‚�ã�«ã€�ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’ä½œæˆ�ã�—ã€�ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚’å…¥æ‰‹ã�™ã‚‹å¿…è¦�ã�Œã�‚ã‚Šã�¾ã�™ã€‚"
 
 #: src/js/services/bitpayAccountService.js:73
 msgid "To {{reason}} you must first add your BitPay account - {{email}}"
-msgstr "{{reason}}：その前にBitPayアカウントを追加する必要があります - {{email}}"
+msgstr "{{reason}}ï¼šã��ã�®å‰�ã�«BitPayã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’è¿½åŠ ã�™ã‚‹å¿…è¦�ã�Œã�‚ã‚Šã�¾ã�™ - {{email}}"
 
 #: src/js/services/onGoingProcess.js:48
 msgid "Top up in progress..."
-msgstr "残高補充処理中..."
+msgstr "æ®‹é«˜è£œå……å‡¦ç�†ä¸­..."
 
 #: src/js/controllers/topup.js:206
 msgid "Top up {{amountStr}} to debit card ({{cardLastNumber}})"
-msgstr "デビットカード ({{cardLastNumber}}) に {{amountStr}} の入金を行う"
+msgstr "ãƒ‡ãƒ“ãƒƒãƒˆã‚«ãƒ¼ãƒ‰ ({{cardLastNumber}}) ã�« {{amountStr}} ã�®å…¥é‡‘ã‚’è¡Œã�†"
 
 #: www/views/buyAmazon.html:61
 #: www/views/buyMercadoLibre.html:60
 #: www/views/modals/wallet-balance.html:23
 #: www/views/topup.html:70
 msgid "Total"
-msgstr "合計"
+msgstr "å�ˆè¨ˆ"
 
 #: www/views/walletDetails.html:196
 msgid "Total Locked Balance"
-msgstr "ロック中の残高"
+msgstr "ãƒ­ãƒƒã‚¯ä¸­ã�®æ®‹é«˜"
 
 #: www/views/tab-create-shared.html:35
 msgid "Total number of copayers"
-msgstr "参加人数を選択して下さい。"
+msgstr "å�‚åŠ äººæ•°ã‚’é�¸æŠžã�—ã�¦ä¸‹ã�•ã�„ã€‚"
 
 #: www/views/addresses.html:81
 msgid "Total wallet inputs"
-msgstr "合計ウォレット入力"
+msgstr "å�ˆè¨ˆã‚¦ã‚©ãƒ¬ãƒƒãƒˆå…¥åŠ›"
 
 #: src/js/services/fingerprintService.js:63
 #: src/js/services/fingerprintService.js:68
 msgid "Touch ID Failed"
-msgstr "Touch ID が失敗しました。"
+msgstr "Touch ID ã�Œå¤±æ•—ã�—ã�¾ã�—ã�Ÿã€‚"
 
 #: src/js/controllers/tx-details.js:12
 msgid "Transaction"
-msgstr "取引"
+msgstr "å�–å¼•"
 
 #: www/views/confirm.html:128
 msgid "Transaction Created"
-msgstr "取引情報を作成しました"
+msgstr "å�–å¼•æƒ…å ±ã‚’ä½œæˆ�ã�—ã�¾ã�—ã�Ÿ"
 
 #: www/views/preferencesAdvanced.html:29
 #: www/views/preferencesHistory.html:3
 msgid "Transaction History"
-msgstr "取引履歴"
+msgstr "å�–å¼•å±¥æ­´"
 
 #: src/js/services/bwcError.js:83
 msgid "Transaction already broadcasted"
-msgstr "取引は既に配信されました。"
+msgstr "å�–å¼•ã�¯æ—¢ã�«é…�ä¿¡ã�•ã‚Œã�¾ã�—ã�Ÿã€‚"
 
 #: src/js/controllers/buyAmazon.js:308
 #: src/js/controllers/buyMercadoLibre.js:301
 #: src/js/controllers/topup.js:281
 msgid "Transaction has not been created"
-msgstr "取引が未作成です"
+msgstr "å�–å¼•ã�Œæœªä½œæˆ�ã�§ã�™"
 
 #: www/views/topup.html:104
 msgid "Transaction initiated"
-msgstr "取引が開始されました"
+msgstr "å�–å¼•ã�Œé–‹å§‹ã�•ã‚Œã�¾ã�—ã�Ÿ"
 
 #: src/js/controllers/tx-details.js:119
 msgid "Transaction not available at this time"
-msgstr "現在この取引はご覧いただけません。"
+msgstr "ç�¾åœ¨ã�“ã�®å�–å¼•ã�¯ã�”è¦§ã�„ã�Ÿã� ã�‘ã�¾ã�›ã‚“ã€‚"
 
 #: src/js/controllers/activity.js:45
 #: src/js/controllers/tab-home.js:174
 msgid "Transaction not found"
-msgstr "取引は見つかりません"
+msgstr "å�–å¼•ã�¯è¦‹ã�¤ã�‹ã‚Šã�¾ã�›ã‚“"
 
 #: www/views/modals/chooseFeeLevel.html:55
 msgid "Transactions without fee are not supported."
-msgstr "手数料なしの取引はサポートされていません。"
+msgstr "æ‰‹æ•°æ–™ã�ªã�—ã�®å�–å¼•ã�¯ã‚µãƒ�ãƒ¼ãƒˆã�•ã‚Œã�¦ã�„ã�¾ã�›ã‚“ã€‚"
 
 #: src/js/controllers/paperWallet.js:109
 msgid "Transfer to"
-msgstr "移動先"
+msgstr "ç§»å‹•å…ˆ"
 
 #: www/views/tab-send.html:67
 msgid "Transfer to Wallet"
-msgstr "ウォレットに移動"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�«ç§»å‹•"
 
 #: www/views/modals/pin.html:13
 msgid "Try again in {{expires}}"
-msgstr "{{expires}} 経過後にもう一度試してください。"
+msgstr "{{expires}} çµŒé�Žå¾Œã�«ã‚‚ã�†ä¸€åº¦è©¦ã�—ã�¦ã��ã� ã�•ã�„ã€‚"
 
 #: www/views/bitpayCardIntro.html:18
-msgid "Turn bitcoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
-msgstr "瞬時にビットコインを米ドルに変換！Visa<sup>&reg;</sup>カード利用可能店舗ならどこでも！"
+msgid "Turn BitcoinZ into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
+msgstr "çž¬æ™‚ã�«ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚’ç±³ãƒ‰ãƒ«ã�«å¤‰æ�›ï¼�Visa<sup>&reg;</sup>ã‚«ãƒ¼ãƒ‰åˆ©ç”¨å�¯èƒ½åº—èˆ—ã�ªã‚‰ã�©ã�“ã�§ã‚‚ï¼�"
 
 #: www/views/tab-import-phrase.html:17
 msgid "Type the Recovery Phrase (usually 12 words)"
-msgstr "復元フレーズの単語 (通常 12 個) を入力して下さい。"
+msgstr "å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã�®å�˜èªž (é€šå¸¸ 12 å€‹) ã‚’å…¥åŠ›ã�—ã�¦ä¸‹ã�•ã�„ã€‚"
 
 #: src/js/controllers/backup.js:75
 msgid "Uh oh..."
-msgstr "あら…"
+msgstr "ã�‚ã‚‰â€¦"
 
 #: www/views/tx-details.html:102
 msgid "Unconfirmed"
-msgstr "未承認"
+msgstr "æœªæ‰¿èª�"
 
 #: www/views/walletDetails.html:190
 msgid "Unsent transactions"
-msgstr "未送信取引"
+msgstr "æœªé€�ä¿¡å�–å¼•"
 
 #: www/views/addresses.html:39
 msgid "Unused Addresses"
-msgstr "未使用アドレス"
+msgstr "æœªä½¿ç”¨ã‚¢ãƒ‰ãƒ¬ã‚¹"
 
 #: www/views/addresses.html:50
 msgid "Unused Addresses Limit"
-msgstr "未使用アドレス生成上限"
+msgstr "æœªä½¿ç”¨ã‚¢ãƒ‰ãƒ¬ã‚¹ç”Ÿæˆ�ä¸Šé™�"
 
 #: src/js/controllers/tab-home.js:146
 msgid "Update Available"
-msgstr "利用可能なアップデートあり"
+msgstr "åˆ©ç”¨å�¯èƒ½ã�ªã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆã�‚ã‚Š"
 
 #: www/views/proposals.html:14
 msgid "Updating pending proposals. Please stand by"
-msgstr "協議中の送金提案を更新します。しばらくお待ちください。"
+msgstr "å�”è­°ä¸­ã�®é€�é‡‘æ��æ¡ˆã‚’æ›´æ–°ã�—ã�¾ã�™ã€‚ã�—ã�°ã‚‰ã��ã�Šå¾…ã�¡ã��ã� ã�•ã�„ã€‚"
 
 #: www/views/walletDetails.html:217
 msgid "Updating transaction history. Please stand by."
-msgstr "取引履歴を更新します。しばらくお待ちください。"
+msgstr "å�–å¼•å±¥æ­´ã‚’æ›´æ–°ã�—ã�¾ã�™ã€‚ã�—ã�°ã‚‰ã��ã�Šå¾…ã�¡ã��ã� ã�•ã�„ã€‚"
 
 #: www/views/activity.html:14
 msgid "Updating... Please stand by"
-msgstr "更新中... お待ち下さい"
+msgstr "æ›´æ–°ä¸­... ã�Šå¾…ã�¡ä¸‹ã�•ã�„"
 
 #: src/js/services/feeService.js:10
 msgid "Urgent"
-msgstr "緊急"
+msgstr "ç·Šæ€¥"
 
 #: www/views/advancedSettings.html:12
 msgid "Use Unconfirmed Funds"
-msgstr "未承認ビットコインを使用"
+msgstr "æœªæ‰¿èª�ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚’ä½¿ç”¨"
 
 #: src/js/services/onGoingProcess.js:34
 msgid "Validating recovery phrase..."
-msgstr "復元フレーズを検証中…"
+msgstr "å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã‚’æ¤œè¨¼ä¸­â€¦"
 
 #: www/views/modals/fingerprintCheck.html:4
 msgid "Verify your identity"
-msgstr "認証を行って下さい"
+msgstr "èª�è¨¼ã‚’è¡Œã�£ã�¦ä¸‹ã�•ã�„"
 
 #: www/views/preferencesAbout.html:14
 #: www/views/preferencesExternal.html:25
 msgid "Version"
-msgstr "バージョン"
+msgstr "ãƒ�ãƒ¼ã‚¸ãƒ§ãƒ³"
 
 #: www/views/tab-export-file.html:69
 msgid "View"
-msgstr "表示"
+msgstr "è¡¨ç¤º"
 
 #: www/views/addresses.html:34
 msgid "View All Addresses"
-msgstr "全アドレスを表示"
+msgstr "å…¨ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’è¡¨ç¤º"
 
 #: src/js/controllers/onboarding/terms.js:20
 msgid "View Terms of Service"
-msgstr "サービス利用規約を表示"
+msgstr "ã‚µãƒ¼ãƒ“ã‚¹åˆ©ç”¨è¦�ç´„ã‚’è¡¨ç¤º"
 
 #: src/js/controllers/bitpayCard.js:122
 #: src/js/controllers/tx-details.js:191
 msgid "View Transaction on Insight"
-msgstr "Insightにて取引を表示"
+msgstr "Insightã�«ã�¦å�–å¼•ã‚’è¡¨ç¤º"
 
 #: src/js/controllers/tab-home.js:148
 msgid "View Update"
-msgstr "更新情報を表示"
+msgstr "æ›´æ–°æƒ…å ±ã‚’è¡¨ç¤º"
 
 #: www/views/tx-details.html:149
 msgid "View on blockchain"
-msgstr "ブロックチェーンで詳細を閲覧"
+msgstr "ãƒ–ãƒ­ãƒƒã‚¯ãƒ�ã‚§ãƒ¼ãƒ³ã�§è©³ç´°ã‚’é–²è¦§"
 
 #: www/views/mercadoLibre.html:26
 msgid "Visit mercadolivre.com.br &rarr;"
-msgstr "mercadolivre.com.br を訪れる &rarr;"
+msgstr "mercadolivre.com.br ã‚’è¨ªã‚Œã‚‹ &rarr;"
 
 #: www/views/walletDetails.html:182
 msgid "WARNING: Key derivation is not working on this device/wallet. Actions cannot be performed on this wallet."
-msgstr "注意：このデバイスでは鍵の派生がちゃんと動いておりません。このウォレットは正常に動作しません。"
+msgstr "æ³¨æ„�ï¼šã�“ã�®ãƒ‡ãƒ�ã‚¤ã‚¹ã�§ã�¯é�µã�®æ´¾ç”Ÿã�Œã�¡ã‚ƒã‚“ã�¨å‹•ã�„ã�¦ã�Šã‚Šã�¾ã�›ã‚“ã€‚ã�“ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�¯æ­£å¸¸ã�«å‹•ä½œã�—ã�¾ã�›ã‚“ã€‚"
 
 #: www/views/tab-export-file.html:45
 msgid "WARNING: Not including the private key allows to check the wallet balance, transaction history, and create spend proposals from the export. However, does not allow to approve (sign) proposals, so <b>funds will not be accessible from the export</b>."
-msgstr "注意：このウォレットは秘密鍵がありません。残高の確認、取引履歴の確認、送金の提案ができます。しかし、<b>送金の提案を承諾 (署名) できません</b>。"
+msgstr "æ³¨æ„�ï¼šã�“ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�¯ç§˜å¯†é�µã�Œã�‚ã‚Šã�¾ã�›ã‚“ã€‚æ®‹é«˜ã�®ç¢ºèª�ã€�å�–å¼•å±¥æ­´ã�®ç¢ºèª�ã€�é€�é‡‘ã�®æ��æ¡ˆã�Œã�§ã��ã�¾ã�™ã€‚ã�—ã�‹ã�—ã€�<b>é€�é‡‘ã�®æ��æ¡ˆã‚’æ‰¿è«¾ (ç½²å��) ã�§ã��ã�¾ã�›ã‚“</b>ã€‚"
 
 #: www/views/tab-export-file.html:36
 msgid "WARNING: The private key of this wallet is not available. The export allows to check the wallet balance, transaction history, and create spend proposals from the export. However, does not allow to approve (sign) proposals, so <b>funds will not be accessible from the export</b>."
-msgstr "注意：このウォレットは秘密鍵がありません。残高の確認、取引履歴の確認、送金の提案ができます。しかし、<b>送金の提案を承諾 (署名) できません</b>。"
+msgstr "æ³¨æ„�ï¼šã�“ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�¯ç§˜å¯†é�µã�Œã�‚ã‚Šã�¾ã�›ã‚“ã€‚æ®‹é«˜ã�®ç¢ºèª�ã€�å�–å¼•å±¥æ­´ã�®ç¢ºèª�ã€�é€�é‡‘ã�®æ��æ¡ˆã�Œã�§ã��ã�¾ã�™ã€‚ã�—ã�‹ã�—ã€�<b>é€�é‡‘ã�®æ��æ¡ˆã‚’æ‰¿è«¾ (ç½²å��) ã�§ã��ã�¾ã�›ã‚“</b>ã€‚"
 
 #: www/views/modals/paypro.html:42
 msgid "WARNING: UNTRUSTED CERTIFICATE"
-msgstr "警告: 信頼されていない証明書"
+msgstr "è­¦å‘Š: ä¿¡é ¼ã�•ã‚Œã�¦ã�„ã�ªã�„è¨¼æ˜Žæ›¸"
 
 #: src/js/services/onGoingProcess.js:15
 msgid "Waiting for Ledger..."
-msgstr "Ledger を待っています..."
+msgstr "Ledger ã‚’å¾…ã�£ã�¦ã�„ã�¾ã�™..."
 
 #: src/js/services/onGoingProcess.js:16
 msgid "Waiting for Trezor..."
-msgstr "Trezor を待っています..."
+msgstr "Trezor ã‚’å¾…ã�£ã�¦ã�„ã�¾ã�™..."
 
 #: www/views/copayers.html:48
 msgid "Waiting for copayers"
-msgstr "ウォレット参加者を待っています"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆå�‚åŠ è€…ã‚’å¾…ã�£ã�¦ã�„ã�¾ã�™"
 
 #: www/views/copayers.html:53
 msgid "Waiting..."
-msgstr "少々お待ち下さい…"
+msgstr "å°‘ã€…ã�Šå¾…ã�¡ä¸‹ã�•ã�„â€¦"
 
 #: www/views/addresses.html:3
 #: www/views/preferencesAdvanced.html:17
 msgid "Wallet Addresses"
-msgstr "ウォレットのアドレス"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®ã‚¢ãƒ‰ãƒ¬ã‚¹"
 
 #: www/views/preferencesColor.html:4
 msgid "Wallet Color"
-msgstr "ウォレットの色"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®è‰²"
 
 #: www/views/preferencesInformation.html:29
 msgid "Wallet Configuration (m-n)"
-msgstr "ウォレット構成 (m-of-n)"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆæ§‹æˆ� (m-of-n)"
 
 #: www/views/onboarding/collectEmail.html:5
 msgid "Wallet Created"
-msgstr "ウォレットが作成されました"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�Œä½œæˆ�ã�•ã‚Œã�¾ã�—ã�Ÿ"
 
 #: www/views/preferencesInformation.html:23
 msgid "Wallet Id"
-msgstr "ウォレットID"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆID"
 
 #: www/views/preferencesAdvanced.html:13
 #: www/views/preferencesInformation.html:3
 msgid "Wallet Information"
-msgstr "ウォレット詳細"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆè©³ç´°"
 
 #: www/views/addresses.html:76
 msgid "Wallet Inputs"
-msgstr "ウォレットの入力"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®å…¥åŠ›"
 
 #: www/views/join.html:26
 msgid "Wallet Invitation"
-msgstr "ウォレット招待"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆæ‹›å¾…"
 
 #: www/views/join.html:60
 #: www/views/tab-create-personal.html:38
 #: www/views/tab-create-shared.html:67
 msgid "Wallet Key"
-msgstr "ウォレットの鍵"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®é�µ"
 
 #: www/views/preferencesAlias.html:4
 msgid "Wallet Name"
-msgstr "ウォレット名"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆå��"
 
 #: www/views/preferencesInformation.html:11
 msgid "Wallet Name (at creation)"
-msgstr "ウォレット名 (作成時)"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆå�� (ä½œæˆ�æ™‚)"
 
 #: www/views/preferencesInformation.html:35
 msgid "Wallet Network"
-msgstr "ウォレットのネットワーク"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®ãƒ�ãƒƒãƒˆãƒ¯ãƒ¼ã‚¯"
 
 #: www/views/join.html:77
 #: www/views/tab-create-personal.html:50
 #: www/views/tab-create-shared.html:79
 msgid "Wallet Recovery Phrase"
-msgstr "復元フレーズ"
+msgstr "å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚º"
 
 #: src/js/services/bwcError.js:26
 msgid "Wallet Recovery Phrase is invalid"
-msgstr "ウォレットシードが不正です。"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚·ãƒ¼ãƒ‰ã�Œä¸�æ­£ã�§ã�™ã€‚"
 
 #: www/views/preferencesAdvanced.html:25
 #: www/views/tab-import-phrase.html:73
 msgid "Wallet Service URL"
-msgstr "ウォレットサービスのURL"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚µãƒ¼ãƒ“ã‚¹ã�®URL"
 
 #: www/views/preferences.html:4
 msgid "Wallet Settings"
-msgstr "ウォレットの設定"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®è¨­å®š"
 
 #: www/views/tab-import-hardware.html:11
 #: www/views/tab-import-phrase.html:61
 msgid "Wallet Type"
-msgstr "ウォレットタイプ"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚¿ã‚¤ãƒ—"
 
 #: src/js/services/bwcError.js:59
 msgid "Wallet already exists"
-msgstr "既存のウォレットです"
+msgstr "æ—¢å­˜ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�§ã�™"
 
 #: src/js/services/profileService.js:515
 msgid "Wallet already in {{appName}}"
-msgstr "{{appName}}内の既存のウォレットです"
+msgstr "{{appName}}å†…ã�®æ—¢å­˜ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�§ã�™"
 
 #: www/views/includes/walletActivity.html:6
 msgid "Wallet created"
-msgstr "ウォレットが作成されました"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�Œä½œæˆ�ã�•ã‚Œã�¾ã�—ã�Ÿ"
 
 #: www/views/copayers.html:58
 msgid "Wallet incomplete and broken"
-msgstr "ウォレットが未完成で破損しています"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�Œæœªå®Œæˆ�ã�§ç ´æ��ã�—ã�¦ã�„ã�¾ã�™"
 
 #: src/js/services/bwcError.js:65
 msgid "Wallet is full"
-msgstr "ウォレットがいっぱいです。"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�Œã�„ã�£ã�±ã�„ã�§ã�™ã€‚"
 
 #: src/js/services/bwcError.js:125
 msgid "Wallet is locked"
-msgstr "ウォレットがロックされています。"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�Œãƒ­ãƒƒã‚¯ã�•ã‚Œã�¦ã�„ã�¾ã�™ã€‚"
 
 #: src/js/services/bwcError.js:128
 msgid "Wallet is not complete"
-msgstr "ウォレットが未完成です。"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�Œæœªå®Œæˆ�ã�§ã�™ã€‚"
 
 #: www/views/tab-create-personal.html:12
 #: www/views/tab-create-shared.html:12
 msgid "Wallet name"
-msgstr "ウォレット名"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆå��"
 
 #: src/js/services/bwcError.js:131
 msgid "Wallet needs backup"
-msgstr "ウォレットバックアップが必要"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ã�Œå¿…è¦�"
 
 #: www/views/tab-receive.html:59
 #: www/views/walletDetails.html:169
 msgid "Wallet not backed up"
-msgstr "ウォレットがバックアップされていません"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�Œãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ã�•ã‚Œã�¦ã�„ã�¾ã�›ã‚“"
 
 #: src/js/services/bwcError.js:68
 msgid "Wallet not found"
-msgstr "ウォレットが見つかりません。"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�Œè¦‹ã�¤ã�‹ã‚Šã�¾ã�›ã‚“ã€‚"
 
 #: src/js/controllers/cashScan.js:65
 #: src/js/controllers/tab-home.js:220
 msgid "Wallet not registered"
-msgstr "ウォレットが未登録"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�Œæœªç™»éŒ²"
 
 #: src/js/services/bwcError.js:29
 msgid "Wallet not registered at the wallet service. Recreate it from \"Create Wallet\" using \"Advanced Options\" to set your recovery phrase"
-msgstr "このウォレットは Wallet Service にて登録されていません。再び「新規作成」メニューから詳細設定を選び、復元フレーズをご入力下さい。"
+msgstr "ã�“ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�¯ Wallet Service ã�«ã�¦ç™»éŒ²ã�•ã‚Œã�¦ã�„ã�¾ã�›ã‚“ã€‚å†�ã�³ã€Œæ–°è¦�ä½œæˆ�ã€�ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã�‹ã‚‰è©³ç´°è¨­å®šã‚’é�¸ã�³ã€�å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã‚’ã�”å…¥åŠ›ä¸‹ã�•ã�„ã€‚"
 
 #: www/views/backup.html:11
 msgid "Wallet recovery phrase not available."
-msgstr "ウォレットの復元フレーズが削除されているため表示できません。"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®å¾©å…ƒãƒ•ãƒ¬ãƒ¼ã‚ºã�Œå‰Šé™¤ã�•ã‚Œã�¦ã�„ã‚‹ã�Ÿã‚�è¡¨ç¤ºã�§ã��ã�¾ã�›ã‚“ã€‚"
 
 #: src/js/services/bwcError.js:50
 msgid "Wallet service not found"
-msgstr "Wallet serviceが見つかりません。"
+msgstr "Wallet serviceã�Œè¦‹ã�¤ã�‹ã‚Šã�¾ã�›ã‚“ã€‚"
 
 #: www/views/tab-home.html:69
 msgid "Wallets"
-msgstr "ウォレット"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆ"
 
 #: www/views/tab-settings.html:107
 msgid "Wallets & Integrations"
-msgstr "ウォレットと連動"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�¨é€£å‹•"
 
 #: src/js/controllers/addressbookView.js:23
 #: src/js/controllers/modals/txpDetails.js:153
@@ -3357,177 +3357,177 @@ msgstr "ウォレットと連動"
 #: src/js/controllers/preferencesExternal.js:14
 #: www/views/preferencesDeleteWallet.html:11
 msgid "Warning!"
-msgstr "注意！"
+msgstr "æ³¨æ„�ï¼�"
 
 #: www/views/modals/txp-details.html:47
 msgid "Warning: this transaction has unconfirmed inputs"
-msgstr "注意: この取引は未承認資金が含まれており、承認されるまで商品等をお渡しするのを待つことをお勧めします。"
+msgstr "æ³¨æ„�: ã�“ã�®å�–å¼•ã�¯æœªæ‰¿èª�è³‡é‡‘ã�Œå�«ã�¾ã‚Œã�¦ã�Šã‚Šã€�æ‰¿èª�ã�•ã‚Œã‚‹ã�¾ã�§å•†å“�ç­‰ã‚’ã�Šæ¸¡ã�—ã�™ã‚‹ã�®ã‚’å¾…ã�¤ã�“ã�¨ã‚’ã�Šå‹§ã‚�ã�—ã�¾ã�™ã€‚"
 
 #: src/js/controllers/onboarding/backupRequest.js:17
 msgid "Watch out!"
-msgstr "注意して下さい！"
+msgstr "æ³¨æ„�ã�—ã�¦ä¸‹ã�•ã�„ï¼�"
 
 #: src/js/controllers/feedback/send.js:69
 msgid "We'd love to do better."
-msgstr "サービスを改善していきます"
+msgstr "ã‚µãƒ¼ãƒ“ã‚¹ã‚’æ”¹å–„ã�—ã�¦ã�„ã��ã�¾ã�™"
 
 #: www/views/backup.html:28
 msgid "We'll confirm on the next screen."
-msgstr "次の画面で確認作業を行います。"
+msgstr "æ¬¡ã�®ç”»é�¢ã�§ç¢ºèª�ä½œæ¥­ã‚’è¡Œã�„ã�¾ã�™ã€‚"
 
 #: src/js/controllers/feedback/send.js:77
 msgid "We're always looking for ways to improve {{appName}}."
-msgstr "弊社では、{{appName}} を改善する方法を常に探しています。"
+msgstr "å¼Šç¤¾ã�§ã�¯ã€�{{appName}} ã‚’æ”¹å–„ã�™ã‚‹æ–¹æ³•ã‚’å¸¸ã�«æŽ¢ã�—ã�¦ã�„ã�¾ã�™ã€‚"
 
 #: src/js/controllers/feedback/send.js:83
 msgid "We're always looking for ways to improve {{appName}}. How could we improve your experience?"
-msgstr "常に{{appName}}を改善したく思っております。どのようにしたら改善できると思いますか？"
+msgstr "å¸¸ã�«{{appName}}ã‚’æ”¹å–„ã�—ã�Ÿã��æ€�ã�£ã�¦ã�Šã‚Šã�¾ã�™ã€‚ã�©ã�®ã‚ˆã�†ã�«ã�—ã�Ÿã‚‰æ”¹å–„ã�§ã��ã‚‹ã�¨æ€�ã�„ã�¾ã�™ã�‹ï¼Ÿ"
 
 #: www/views/includes/incomingDataMenu.html:6
 msgid "Website"
-msgstr "ウェブサイト"
+msgstr "ã‚¦ã‚§ãƒ–ã‚µã‚¤ãƒˆ"
 
 #: www/views/preferencesLanguage.html:16
-msgid "We’re always looking for translation contributions! You can make corrections or help to make this app available in your native language by joining our community on Crowdin."
-msgstr "常にボランティア翻訳者募集中です！Crowdinにてご自分の母国語の翻訳をしてこのアプリをより良いものにしてみませんか？"
+msgid "Weâ€™re always looking for translation contributions! You can make corrections or help to make this app available in your native language by joining our community on Crowdin."
+msgstr "å¸¸ã�«ãƒœãƒ©ãƒ³ãƒ†ã‚£ã‚¢ç¿»è¨³è€…å‹Ÿé›†ä¸­ã�§ã�™ï¼�Crowdinã�«ã�¦ã�”è‡ªåˆ†ã�®æ¯�å›½èªžã�®ç¿»è¨³ã‚’ã�—ã�¦ã�“ã�®ã‚¢ãƒ—ãƒªã‚’ã‚ˆã‚Šè‰¯ã�„ã‚‚ã�®ã�«ã�—ã�¦ã�¿ã�¾ã�›ã‚“ã�‹ï¼Ÿ"
 
 #: www/views/preferencesAlias.html:11
 msgid "What do you call this wallet?"
-msgstr "このウォレットの名前は何ですか？"
+msgstr "ã�“ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®å��å‰�ã�¯ä½•ã�§ã�™ã�‹ï¼Ÿ"
 
 #: www/views/preferencesAlias.html:12
 msgid "When this wallet was created, it was called &ldquo;{{walletName}}&rdquo;. You can change the name displayed on this device below."
-msgstr "このウォレットが作成された当時は「{{walletName}}」と名付けられましたが、この端末での表示名を下記にて変更することができます。"
+msgstr "ã�“ã�®ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�Œä½œæˆ�ã�•ã‚Œã�Ÿå½“æ™‚ã�¯ã€Œ{{walletName}}ã€�ã�¨å��ä»˜ã�‘ã‚‰ã‚Œã�¾ã�—ã�Ÿã�Œã€�ã�“ã�®ç«¯æœ«ã�§ã�®è¡¨ç¤ºå��ã‚’ä¸‹è¨˜ã�«ã�¦å¤‰æ›´ã�™ã‚‹ã�“ã�¨ã�Œã�§ã��ã�¾ã�™ã€‚"
 
 #: www/views/onboarding/collectEmail.html:10
 msgid "Where would you like to receive email notifications about payments?"
-msgstr "送金発生時のメール通知はどのメールアドレスで受け取りますか?"
+msgstr "é€�é‡‘ç™ºç”Ÿæ™‚ã�®ãƒ¡ãƒ¼ãƒ«é€šçŸ¥ã�¯ã�©ã�®ãƒ¡ãƒ¼ãƒ«ã‚¢ãƒ‰ãƒ¬ã‚¹ã�§å�—ã�‘å�–ã‚Šã�¾ã�™ã�‹?"
 
 #: www/views/addresses.html:19
 msgid "Why?"
-msgstr "なぜ？"
+msgstr "ã�ªã�œï¼Ÿ"
 
 #: www/views/feedback/rateApp.html:10
 msgid "Would you be willing to rate {{appName}} in the app store?"
-msgstr "アプリケーションストアにレビューを書いてみませんか？"
+msgstr "ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã‚¹ãƒˆã‚¢ã�«ãƒ¬ãƒ“ãƒ¥ãƒ¼ã‚’æ›¸ã�„ã�¦ã�¿ã�¾ã�›ã‚“ã�‹ï¼Ÿ"
 
 #: www/views/onboarding/notifications.html:4
 msgid "Would you like to receive push notifications about payments?"
-msgstr "送金発生時にプッシュ通知を受け取りますか?"
+msgstr "é€�é‡‘ç™ºç”Ÿæ™‚ã�«ãƒ—ãƒƒã‚·ãƒ¥é€šçŸ¥ã‚’å�—ã�‘å�–ã‚Šã�¾ã�™ã�‹?"
 
 #: src/js/controllers/import.js:287
 msgid "Wrong number of recovery words:"
-msgstr "単語の数が間違っています："
+msgstr "å�˜èªžã�®æ•°ã�Œé–“é�•ã�£ã�¦ã�„ã�¾ã�™ï¼š"
 
 #: src/js/services/bwcError.js:140
 msgid "Wrong spending password"
-msgstr "不正なパスワード"
+msgstr "ä¸�æ­£ã�ªãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰"
 
 #: www/views/modals/confirmation.html:7
 msgid "Yes"
-msgstr "はい"
+msgstr "ã�¯ã�„"
 
 #: src/js/controllers/onboarding/backupRequest.js:25
 msgid "Yes, skip"
-msgstr "飛ばす"
+msgstr "é£›ã�°ã�™"
 
 #: src/js/controllers/onboarding/backupRequest.js:24
 msgid "You can create a backup later from your wallet settings."
-msgstr "ウォレットの設定から、後でバックアップを作成できます。"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®è¨­å®šã�‹ã‚‰ã€�å¾Œã�§ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ã‚’ä½œæˆ�ã�§ã��ã�¾ã�™ã€‚"
 
 #: src/js/controllers/preferencesLanguage.js:12
-msgid "You can make contributions by signing up on our Crowdin community translation website. We’re looking forward to hearing from you!"
-msgstr "Crowdinのサイトにて翻訳者登録をして、今すぐに投稿をいただけます。お待ちしております。"
+msgid "You can make contributions by signing up on our Crowdin community translation website. Weâ€™re looking forward to hearing from you!"
+msgstr "Crowdinã�®ã‚µã‚¤ãƒˆã�«ã�¦ç¿»è¨³è€…ç™»éŒ²ã‚’ã�—ã�¦ã€�ä»Šã�™ã��ã�«æŠ•ç¨¿ã‚’ã�„ã�Ÿã� ã�‘ã�¾ã�™ã€‚ã�Šå¾…ã�¡ã�—ã�¦ã�Šã‚Šã�¾ã�™ã€‚"
 
 #: www/views/tab-scan.html:16
-msgid "You can scan bitcoin addresses, payment requests, paper wallets, and more."
-msgstr "ビットコインアドレス、支払い請求、ペーパーウォレットなどをスキャンできます。"
+msgid "You can scan BitcoinZ addresses, payment requests, paper wallets, and more."
+msgstr "ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚¢ãƒ‰ãƒ¬ã‚¹ã€�æ”¯æ‰•ã�„è«‹æ±‚ã€�ãƒšãƒ¼ãƒ‘ãƒ¼ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�ªã�©ã‚’ã‚¹ã‚­ãƒ£ãƒ³ã�§ã��ã�¾ã�™ã€‚"
 
 #: src/js/controllers/preferencesAbout.js:14
 msgid "You can see the latest developments and contribute to this open source app by visiting our project on GitHub."
-msgstr "GitHubのページにて最近の開発動向を見たり、改善案のソースコードの貢献したりすることができます。"
+msgstr "GitHubã�®ãƒšãƒ¼ã‚¸ã�«ã�¦æœ€è¿‘ã�®é–‹ç™ºå‹•å�‘ã‚’è¦‹ã�Ÿã‚Šã€�æ”¹å–„æ¡ˆã�®ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã�®è²¢çŒ®ã�—ã�Ÿã‚Šã�™ã‚‹ã�“ã�¨ã�Œã�§ã��ã�¾ã�™ã€‚"
 
 #: www/views/onboarding/tour.html:19
-msgid "You can spend bitcoin at millions of websites and stores worldwide."
-msgstr "世界中のECサイトや店舗でビットコインを使って支払いができます。"
+msgid "You can spend BitcoinZ at millions of websites and stores worldwide."
+msgstr "ä¸–ç•Œä¸­ã�®ECã‚µã‚¤ãƒˆã‚„åº—èˆ—ã�§ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚’ä½¿ã�£ã�¦æ”¯æ‰•ã�„ã�Œã�§ã��ã�¾ã�™ã€‚"
 
 #: www/views/backup.html:12
 msgid "You can still export it from Advanced &gt; Export."
-msgstr "バックアップファイルの作成は「上級者向け」⇒「エクスポート」からアクセスできます。"
+msgstr "ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ãƒ•ã‚¡ã‚¤ãƒ«ã�®ä½œæˆ�ã�¯ã€Œä¸Šç´šè€…å�‘ã�‘ã€�â‡’ã€Œã‚¨ã‚¯ã‚¹ãƒ�ãƒ¼ãƒˆã€�ã�‹ã‚‰ã‚¢ã‚¯ã‚»ã‚¹ã�§ã��ã�¾ã�™ã€‚"
 
 #: www/views/onboarding/tour.html:32
 msgid "You can trade it for other currencies like US Dollars, Euros, or Pounds."
-msgstr "米ドル、ユーロ、ポンドなど他の通貨との取引ができます。"
+msgstr "ç±³ãƒ‰ãƒ«ã€�ãƒ¦ãƒ¼ãƒ­ã€�ãƒ�ãƒ³ãƒ‰ã�ªã�©ä»–ã�®é€šè²¨ã�¨ã�®å�–å¼•ã�Œã�§ã��ã�¾ã�™ã€‚"
 
 #: www/views/onboarding/tour.html:46
-msgid "You control your bitcoin."
-msgstr "ビットコインの自己管理"
+msgid "You control your BitcoinZ."
+msgstr "ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã�®è‡ªå·±ç®¡ç�†"
 
 #: www/views/modals/chooseFeeLevel.html:64
 msgid "You should not set a fee higher than {{maxFeeRecommended}} satoshis/byte."
-msgstr "{{maxFeeRecommended}} satoshis/byte より高い手数料を設定しない方が良いです。"
+msgstr "{{maxFeeRecommended}} satoshis/byte ã‚ˆã‚Šé«˜ã�„æ‰‹æ•°æ–™ã‚’è¨­å®šã�—ã�ªã�„æ–¹ã�Œè‰¯ã�„ã�§ã�™ã€‚"
 
 #: www/views/modals/bitpay-card-confirmation.html:5
 msgid "You will need to log back for fill in your BitPay Card."
-msgstr "BitPayカードに入金するためにログインする必要があります。"
+msgstr "BitPayã‚«ãƒ¼ãƒ‰ã�«å…¥é‡‘ã�™ã‚‹ã�Ÿã‚�ã�«ãƒ­ã‚°ã‚¤ãƒ³ã�™ã‚‹å¿…è¦�ã�Œã�‚ã‚Šã�¾ã�™ã€‚"
 
 #: www/views/preferencesNotifications.html:34
 msgid "You'll receive email notifications about payments sent and received from your wallets."
-msgstr "メールアドレスにウォレットへの入金や出金に関する通知が送られます。"
+msgstr "ãƒ¡ãƒ¼ãƒ«ã‚¢ãƒ‰ãƒ¬ã‚¹ã�«ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�¸ã�®å…¥é‡‘ã‚„å‡ºé‡‘ã�«é–¢ã�™ã‚‹é€šçŸ¥ã�Œé€�ã‚‰ã‚Œã�¾ã�™ã€‚"
 
 #: www/views/bitpayCard.html:50
 msgid "Your BitPay Card is ready. Add funds to your card to start using it at stores and ATMs worldwide."
-msgstr "BitPayカードの準備が整いました。入金して全世界のお店やATMでご利用下さい。"
+msgstr "BitPayã‚«ãƒ¼ãƒ‰ã�®æº–å‚™ã�Œæ•´ã�„ã�¾ã�—ã�Ÿã€‚å…¥é‡‘ã�—ã�¦å…¨ä¸–ç•Œã�®ã�Šåº—ã‚„ATMã�§ã�”åˆ©ç”¨ä¸‹ã�•ã�„ã€‚"
 
 #: www/views/mercadoLibre.html:57
 #: www/views/mercadoLibreCards.html:6
 msgid "Your Gift Cards"
-msgstr "ギフトカード"
+msgstr "ã‚®ãƒ•ãƒˆã‚«ãƒ¼ãƒ‰"
 
 #: www/views/includes/confirmBackupPopup.html:6
-msgid "Your bitcoin wallet is backed up!"
-msgstr "ビットコインウォレットがバックアップされました!"
+msgid "Your BitcoinZ wallet is backed up!"
+msgstr "ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�Œãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ã�•ã‚Œã�¾ã�—ã�Ÿ!"
 
 #: www/views/tab-home.html:36
-msgid "Your bitcoin wallet is ready!"
-msgstr "ビットコインウォレットが完成しました!"
+msgid "Your BitcoinZ wallet is ready!"
+msgstr "ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�Œå®Œæˆ�ã�—ã�¾ã�—ã�Ÿ!"
 
 #: www/views/modals/chooseFeeLevel.html:61
 msgid "Your fee is lower than recommended."
-msgstr "手数料設定が推奨値より低くなっております。"
+msgstr "æ‰‹æ•°æ–™è¨­å®šã�ŒæŽ¨å¥¨å€¤ã‚ˆã‚Šä½Žã��ã�ªã�£ã�¦ã�Šã‚Šã�¾ã�™ã€‚"
 
 #: www/views/feedback/send.html:42
 msgid "Your ideas, feedback, or comments"
-msgstr "提案、評価、コメントなど"
+msgstr "æ��æ¡ˆã€�è©•ä¾¡ã€�ã‚³ãƒ¡ãƒ³ãƒˆã�ªã�©"
 
 #: www/views/tab-create-shared.html:22
 msgid "Your name"
-msgstr "自分の名前"
+msgstr "è‡ªåˆ†ã�®å��å‰�"
 
 #: www/views/join.html:16
 msgid "Your nickname"
-msgstr "自分のハンドルネーム"
+msgstr "è‡ªåˆ†ã�®ãƒ�ãƒ³ãƒ‰ãƒ«ãƒ�ãƒ¼ãƒ "
 
 #: www/views/tab-export-file.html:11
 #: www/views/tab-import-file.html:20
 msgid "Your password"
-msgstr "パスワード"
+msgstr "ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰"
 
 #: www/views/buyAmazon.html:102
 msgid "Your purchase could not be completed"
-msgstr "購入が完了されませんでした。"
+msgstr "è³¼å…¥ã�Œå®Œäº†ã�•ã‚Œã�¾ã�›ã‚“ã�§ã�—ã�Ÿã€‚"
 
 #: www/views/buyAmazon.html:105
 msgid "Your purchase was added to the list of pending"
-msgstr "ご購入の品物が保留中のリストに追加されました。"
+msgstr "ã�”è³¼å…¥ã�®å“�ç‰©ã�Œä¿�ç•™ä¸­ã�®ãƒªã‚¹ãƒˆã�«è¿½åŠ ã�•ã‚Œã�¾ã�—ã�Ÿã€‚"
 
 #: www/views/onboarding/backupRequest.html:10
 msgid "Your wallet is never saved to cloud storage or standard device backups."
-msgstr "ウォレットは一度もクラウドへ保存されたりすることはありませんし、携帯電話などに付いている標準バックアップ機能ではバックアップされません！！！！"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�¯ä¸€åº¦ã‚‚ã‚¯ãƒ©ã‚¦ãƒ‰ã�¸ä¿�å­˜ã�•ã‚Œã�Ÿã‚Šã�™ã‚‹ã�“ã�¨ã�¯ã�‚ã‚Šã�¾ã�›ã‚“ã�—ã€�æ�ºå¸¯é›»è©±ã�ªã�©ã�«ä»˜ã�„ã�¦ã�„ã‚‹æ¨™æº–ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—æ©Ÿèƒ½ã�§ã�¯ãƒ�ãƒƒã‚¯ã‚¢ãƒƒãƒ—ã�•ã‚Œã�¾ã�›ã‚“ï¼�ï¼�ï¼�ï¼�"
 
 #: src/js/services/walletService.js:1030
 msgid "Your wallet key will be encrypted. The Spending Password cannot be recovered. Be sure to write it down."
-msgstr "ウォレットの鍵が暗号化されます。Copayでは送金時のパスワードをリセットしてくれる機能がありませんので、パスワードを忘れないよう、控えておいて下さい。"
+msgstr "ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã�®é�µã�Œæš—å�·åŒ–ã�•ã‚Œã�¾ã�™ã€‚Copayã�§ã�¯é€�é‡‘æ™‚ã�®ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’ãƒªã‚»ãƒƒãƒˆã�—ã�¦ã��ã‚Œã‚‹æ©Ÿèƒ½ã�Œã�‚ã‚Šã�¾ã�›ã‚“ã�®ã�§ã€�ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’å¿˜ã‚Œã�ªã�„ã‚ˆã�†ã€�æŽ§ã�ˆã�¦ã�Šã�„ã�¦ä¸‹ã�•ã�„ã€‚"
 
 #: www/views/includes/walletSelector.html:23
 #: www/views/paperWallet.html:35
@@ -3536,7 +3536,7 @@ msgstr "ウォレットの鍵が暗号化されます。Copayでは送金時の�
 #: www/views/walletDetails.html:131
 #: www/views/walletDetails.html:51
 msgid "[Balance Hidden]"
-msgstr "[残高非表示中]"
+msgstr "[æ®‹é«˜é�žè¡¨ç¤ºä¸­]"
 
 #: www/views/walletDetails.html:141
 #: www/views/walletDetails.html:61
@@ -3545,15 +3545,15 @@ msgstr ""
 
 #: src/js/controllers/bitpayCardIntro.js:11
 msgid "add your BitPay Visa card(s)"
-msgstr "BitPay VISAカードを追加します"
+msgstr "BitPay VISAã‚«ãƒ¼ãƒ‰ã‚’è¿½åŠ ã�—ã�¾ã�™"
 
 #: www/views/includes/available-balance.html:8
 msgid "locked by pending payments"
-msgstr "未対応送金の提案によりロック中"
+msgstr "æœªå¯¾å¿œé€�é‡‘ã�®æ��æ¡ˆã�«ã‚ˆã‚Šãƒ­ãƒƒã‚¯ä¸­"
 
 #: src/js/services/profileService.js:402
 msgid "me"
-msgstr "自分"
+msgstr "è‡ªåˆ†"
 
 #: www/views/addressbook.add.html:32
 msgid "name@example.com"
@@ -3561,31 +3561,31 @@ msgstr "name@example.com"
 
 #: www/views/preferencesHistory.html:15
 msgid "preparing..."
-msgstr "準備中..."
+msgstr "æº–å‚™ä¸­..."
 
 #: src/js/controllers/buyAmazon.js:239
 msgid "{{amountStr}} for Amazon.com Gift Card"
-msgstr "{{amountStr}} を Amazon.com ギフトカードに"
+msgstr "{{amountStr}} ã‚’ Amazon.com ã‚®ãƒ•ãƒˆã‚«ãƒ¼ãƒ‰ã�«"
 
 #: src/js/controllers/buyMercadoLibre.js:237
 msgid "{{amountStr}} for Mercado Livre Brazil Gift Card"
-msgstr "{{amountStr}} を Mercado Livre Brazil ギフトカードに"
+msgstr "{{amountStr}} ã‚’ Mercado Livre Brazil ã‚®ãƒ•ãƒˆã‚«ãƒ¼ãƒ‰ã�«"
 
 #: www/views/preferencesBwsUrl.html:21
 msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.bitpay.com (BitPay's public BWS instance)."
-msgstr "{{appName}}はブロックチェーンの情報を取得したり参加者を同期させたりするためにBitcore Wallet Service (BWS)に依存します。初期値としてBitPay社が提供する https://bws.bitpay.com (BitPay公式のBWSサーバー)を設定していますが、独自で運用してウォレットをそちらに接続しても構いません。"
+msgstr "{{appName}}ã�¯ãƒ–ãƒ­ãƒƒã‚¯ãƒ�ã‚§ãƒ¼ãƒ³ã�®æƒ…å ±ã‚’å�–å¾—ã�—ã�Ÿã‚Šå�‚åŠ è€…ã‚’å�ŒæœŸã�•ã�›ã�Ÿã‚Šã�™ã‚‹ã�Ÿã‚�ã�«Bitcore Wallet Service (BWS)ã�«ä¾�å­˜ã�—ã�¾ã�™ã€‚åˆ�æœŸå€¤ã�¨ã�—ã�¦BitPayç¤¾ã�Œæ��ä¾›ã�™ã‚‹ https://bws.bitpay.com (BitPayå…¬å¼�ã�®BWSã‚µãƒ¼ãƒ�ãƒ¼)ã‚’è¨­å®šã�—ã�¦ã�„ã�¾ã�™ã�Œã€�ç‹¬è‡ªã�§é�‹ç”¨ã�—ã�¦ã‚¦ã‚©ãƒ¬ãƒƒãƒˆã‚’ã��ã�¡ã‚‰ã�«æŽ¥ç¶šã�—ã�¦ã‚‚æ§‹ã�„ã�¾ã�›ã‚“ã€‚"
 
 #: src/js/controllers/confirm.js:387
-msgid "{{fee}} will be deducted for bitcoin networking fees."
-msgstr "{{fee}} のビットコインネットワーク手数料が差し引かれます。"
+msgid "{{fee}} will be deducted for BitcoinZ networking fees."
+msgstr "{{fee}} ã�®ãƒ“ãƒƒãƒˆã‚³ã‚¤ãƒ³ãƒ�ãƒƒãƒˆãƒ¯ãƒ¼ã‚¯æ‰‹æ•°æ–™ã�Œå·®ã�—å¼•ã�‹ã‚Œã�¾ã�™ã€‚"
 
 #: www/views/confirm.html:87
 msgid "{{tx.txp[wallet.id].feeRatePerStr}}  of the sending amount"
-msgstr "送金額に対する {{tx.txp[wallet.id].feeRatePerStr}}"
+msgstr "é€�é‡‘é¡�ã�«å¯¾ã�™ã‚‹ {{tx.txp[wallet.id].feeRatePerStr}}"
 
 #: www/views/walletDetails.html:218
 msgid "{{updatingTxHistoryProgress}} transactions downloaded"
-msgstr "{{updatingTxHistoryProgress}} 個の取引ダウンロード済み"
+msgstr "{{updatingTxHistoryProgress}} å€‹ã�®å�–å¼•ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰æ¸ˆã�¿"
 
 #: www/views/cashScan.html:32
 #: www/views/copayers.html:46

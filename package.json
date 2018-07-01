@@ -59,11 +59,11 @@
     "bitauth": "^0.2.1",
     "bitcore-wallet-client-btcz": "git+https://github.com/bitcoinz-wallets/bitcore-wallet-client-btcz.git#v1.0.3",
     "bower": "^1.7.9",
-    "cordova": "^7.1.0",
+    "cordova": "^8.0.0",
     "cordova-android": "^6.4.0",
     "cordova-clipboard": "1.1.1",
-    "cordova-custom-config": "~3.0.5",
-    "cordova-ios": "~4.2.1",
+    "cordova-custom-config": "^5.0.2",
+    "cordova-ios": "^4.5.4",
     "cordova-ios-requires-fullscreen": "~0.0.2",
     "cordova-plugin-android-fingerprint-auth": "~0.2.0",
     "cordova-plugin-console": "~1.0.4",
@@ -88,7 +88,7 @@
     "cordova-plugin-wkwebview-engine": "https://github.com/driftyco/cordova-plugin-wkwebview-engine.git#4221015eb3f309fe593a7d81205b691e27088743",
     "cordova-plugin-x-socialsharing": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git",
     "cordova-plugin-x-toast": "~2.5.2",
-    "cordova-windows": "~5.0.0",
+    "cordova-windows": "^6.0.0",
     "express": "^4.11.2",
     "fs-extra": "^4.0.2",
     "grunt-angular-gettext": "^2.2.3",
@@ -98,10 +98,9 @@
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-uglify": "^3.2.1",
-    "grunt-contrib-watch": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
     "grunt-exec": "^3.0.0",
     "grunt-nw-builder": "^3.1.0",
-    "grunt-sass": "^2.0.0",
     "ionic-plugin-keyboard": "~2.2.1",
     "load-grunt-tasks": "^3.5.0",
     "shelljs": "^0.7.8"
@@ -145,10 +144,12 @@
     "clean-all": "git clean -dfx"
   },
   "devDependencies": {
-    "grunt": "^1.0.1",
+    "grunt": "^1.0.3",
+    "grunt-sass": "^3.0.0",
     "ionic": "^3.6.0",
-    "trash-cli": "^1.4.0",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "node-sass": "^4.9.0",
+    "trash-cli": "^1.4.0"
   },
   "cordova": {
     "platforms": [

@@ -1,12 +1,3 @@
-/**
- * @Author: mbrooks
- * @Date:   2018-06-30T17:22:34-05:00
- * @Last modified by:   mbrooks
- * @Last modified time: 2018-06-30T22:20:12-05:00
- */
-
-
-
 'use strict';
 
 const sass = require('node-sass');

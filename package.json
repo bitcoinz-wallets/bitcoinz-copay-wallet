@@ -3,7 +3,7 @@
   "name": "copay",
   "description": "A Secure BitcoinZ Wallet",
   "author": "BitcoinZ Community",
-  "version": "10.0.10",
+  "version": "10.2.0",
   "keywords": [
     "bitcoin",
     "wallet",
@@ -56,8 +56,8 @@
     "angular": "^1.6.7",
     "bezier-easing": "^2.0.3",
     "bhttp": "^1.2.4",
-    "bitauth": "^0.2.1",
-    "bitcore-wallet-client-btcz": "git+https://github.com/bitcoinz-wallets/bitcore-wallet-client-btcz.git#v1.0.3",
+    "bitauth": "^0.3.2",
+    "bitcore-wallet-client-btcz": "git+https://github.com/bitcoinz-wallets/bitcore-wallet-client-btcz.git#v2.0.0",
     "bower": "^1.7.9",
     "cordova": "^8.0.0",
     "cordova-android": "^6.4.0",
@@ -106,7 +106,7 @@
     "shelljs": "^0.7.8"
   },
   "optionalDependencies": {
-    "fileicon": "^0.2.0"
+    "fileicon": "^0.2.2"
   },
   "scripts": {
     "postinstall": "sed -i  -e \"s/.*require(...\\/...);//g\" node_modules/asn1.js-rfc5280/index.js && bower install",

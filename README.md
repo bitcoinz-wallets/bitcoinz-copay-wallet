@@ -5,7 +5,7 @@ This software should be used at your own risk. It is experimental.
 
 BitcoinZ Wallet is a secure bitcoin wallet platform for both desktop and mobile devices. BitcoinZ Wallet uses [Bitcore Wallet Service](https://github.com/bitpay/bitcore-wallet-service) (BWS) for peer synchronization and network interfacing.
 
-Binary versions of BitcoinZ Wallet are available for download at [bitcoinz.global](https://www.bitcoinz.global/en/#wallets).
+Binary versions of BitcoinZ Wallet are available for download at [btcz.rocks](https://www.btcz.rocks/en/#wallets).
 For a list of frequently asked questions please visit the [Copay FAQ](https://github.com/bitpay/copay/wiki/COPAY---FAQ).
 
 ## Main Features

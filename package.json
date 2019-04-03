@@ -57,7 +57,7 @@
     "bezier-easing": "^2.0.3",
     "bhttp": "^1.2.4",
     "bitauth": "^0.2.1",
-    "bitcore-wallet-client-xsg": "git+https://github.com/snowgem/bitcore-wallet-client-xsg.git",
+    "bitcore-wallet-client-snowgem": "git+https://github.com/snowgem/bitcore-wallet-client-snowgem.git",
     "bower": "^1.7.9",
     "cordova": "^7.1.0",
     "cordova-android": "^6.4.0",

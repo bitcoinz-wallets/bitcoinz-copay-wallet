@@ -60,7 +60,7 @@
     "bitcore-wallet-client-snowgem": "git+https://github.com/snowgem/bitcore-wallet-client-snowgem.git",
     "bower": "^1.7.9",
     "cordova": "^7.1.0",
-    "cordova-android": "^8.0.0",
+    "cordova-android": "^6.3.0",
     "cordova-clipboard": "^1.1.1",
     "cordova-custom-config": "~3.0.5",
     "cordova-ios": "~4.2.1",
@@ -150,7 +150,7 @@
     "grunt": "^1.0.1",
     "ionic": "^3.6.0",
     "trash-cli": "^1.4.0",
-    "lodash": "^4.17.4"
+    "lodash": "^2.4.1"
   },
   "cordova": {
     "platforms": [

@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "BitcoinZ"
-#define MyAppVersion "10.0.10"
+#define MyAppVersion "10.2.0"
 #define MyAppPublisher "BitcoinZ Project"
 #define MyAppURL "https://github.com/bitcoinz-wallets/bitcoinz-copay-wallet"
 #define MyAppExeName "BitcoinZ.exe"

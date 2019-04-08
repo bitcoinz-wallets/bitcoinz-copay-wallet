@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="383200" id="com.btczcom.btcz" ios-CFBundleVersion="10.2.0" version="10.2.0">
+<widget android-versionCode="383201" id="com.btczcom.btcz" ios-CFBundleVersion="10.2.0" version="10.2.0">
     <name>BTCZ Wallet</name>
     <description>
-      BitcoinZ Wallet
+      BTCZ Wallet
     </description>
     <author email="bitcoinzcommunity@gmail.com" href="https://btcz.rocks">
-        BitcoinZ Community
+        BTCZ Community
     </author>
     <content src="index.html" />
     <access origin="*" />
@@ -14,7 +14,7 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="HideKeyboardFormAccessoryBar" value="true" />
     <preference name="WindowsStoreIdentityName" value="18C7659D.Copay-SecureBitcoinWallet" />
-    <preference name="WindowsStoreDisplayName" value="BitcoinZ Wallet - Secure BitcoinZ Wallet" />
+    <preference name="WindowsStoreDisplayName" value="BTCZ Wallet - Secure BTCZ Wallet" />
     <preference name="StatusBarBackgroundColor" value="#192c3a" />
     <preference name="BackupWebStorage" value="none" />
     <preference name="windows-target-version" value="10.0" />

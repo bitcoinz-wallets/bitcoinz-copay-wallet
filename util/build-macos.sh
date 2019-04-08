@@ -16,7 +16,7 @@ if [ -d "$dir" ]; then
 fi
 
 # set up your app name, architecture, and background image file name
-APP_NAME="BitcoinZ"
+APP_NAME="Bitcoin Z"
 rm dmg-background.tiff
 ln -s ../resources/copay/mac/dmg-background.tiff dmg-background.tiff
 rm volume-icon.icns

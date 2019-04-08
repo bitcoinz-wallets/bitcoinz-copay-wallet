@@ -169,11 +169,11 @@ msgid "All Addresses"
 msgstr ""
 
 #: www/views/modals/wallet-balance.html:18
-msgid "All of your BitcoinZ Wallet balance may not be available for immediate spending."
+msgid "All of your BTCZ Wallet balance may not be available for immediate spending."
 msgstr ""
 
 #: www/views/tab-receive.html:25
-msgid "All signing devices must be added to this multisig wallet before BitcoinZ addresses can be created."
+msgid "All signing devices must be added to this multisig wallet before BTCZ addresses can be created."
 msgstr ""
 
 #: www/views/tab-scan.html:21
@@ -220,11 +220,11 @@ msgid "An update to this app is available. For your security, please update to t
 msgstr ""
 
 #: www/views/backupWarning.html:14
-msgid "Anyone with your backup phrase can access or spend your BitcoinZ."
+msgid "Anyone with your backup phrase can access or spend your BTCZ."
 msgstr ""
 
 #: www/views/addresses.html:94
-msgid "Approximate BitcoinZ network fee to transfer wallet's balance (with normal priority)"
+msgid "Approximate BTCZ network fee to transfer wallet's balance (with normal priority)"
 msgstr ""
 
 #: www/views/backupWarning.html:10
@@ -232,7 +232,7 @@ msgid "Are you being watched?"
 msgstr ""
 
 #: src/js/controllers/preferencesExternal.js:15
-msgid "Are you being watched? Anyone with your recovery phrase can access or spend your BitcoinZ."
+msgid "Are you being watched? Anyone with your recovery phrase can access or spend your BTCZ."
 msgstr ""
 
 #: src/js/controllers/copayers.js:56
@@ -345,42 +345,42 @@ msgstr ""
 
 #: www/views/addressbook.add.html:38
 #: www/views/includes/incomingDataMenu.html:29
-msgid "BitcoinZ Address"
+msgid "BTCZ Address"
 msgstr ""
 
 #: www/views/cashScan.html:4
-msgid "BitcoinZ (BTCZ) Balances"
+msgid "BTCZ (BTCZ) Balances"
 msgstr ""
 
 #: www/views/preferencesCash.html:3
 #: www/views/tab-settings.html:47
-msgid "BitcoinZ Support"
+msgid "BTCZ Support"
 msgstr ""
 
 #: www/views/modals/chooseFeeLevel.html:4
 #: www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:90
-msgid "BitcoinZ Network Fee Policy"
+msgid "BTCZ Network Fee Policy"
 msgstr ""
 
 #: src/js/services/incomingData.js:151
-msgid "BitcoinZ Payment"
+msgid "BTCZ Payment"
 msgstr ""
 
 #: www/views/onboarding/tour.html:31
-msgid "BitcoinZ is a currency."
+msgid "BTCZ is a currency."
 msgstr ""
 
 #: www/views/onboarding/disclaimer.html:15
-msgid "BitcoinZ is different &ndash; it cannot be safely held with a bank or web service."
+msgid "BTCZ is different &ndash; it cannot be safely held with a bank or web service."
 msgstr ""
 
 #: www/views/onboarding/tour.html:18
-msgid "BitcoinZ is secure,<br>digital money."
+msgid "BTCZ is secure,<br>digital money."
 msgstr ""
 
 #: www/views/preferencesFee.html:11
-msgid "BitcoinZ transactions include a fee collected by miners on the network."
+msgid "BTCZ transactions include a fee collected by miners on the network."
 msgstr ""
 
 #: www/views/buyAmazon.html:108
@@ -410,11 +410,11 @@ msgid "Buy"
 msgstr ""
 
 #: www/views/includes/buyAndSellCard.html:3
-msgid "Buy &amp; Sell BitcoinZ"
+msgid "Buy &amp; Sell BTCZ"
 msgstr ""
 
 #: www/views/tab-send.html:35
-msgid "Buy BitcoinZ"
+msgid "Buy BTCZ"
 msgstr ""
 
 #: www/views/mercadoLibre.html:22
@@ -427,7 +427,7 @@ msgid "Buy from"
 msgstr ""
 
 #: src/js/services/onGoingProcess.js:40
-msgid "Buying BitcoinZ..."
+msgid "Buying BTCZ..."
 msgstr ""
 
 #: src/js/services/onGoingProcess.js:12
@@ -609,7 +609,7 @@ msgid "Contribute Translations"
 msgstr ""
 
 #: src/js/controllers/confirm.js:130
-msgid "Copay only supports BitcoinZ using new version numbers addresses"
+msgid "Copay only supports BTCZ using new version numbers addresses"
 msgstr ""
 
 #: src/js/services/bwcError.js:62
@@ -801,7 +801,7 @@ msgstr ""
 #: www/views/onboarding/tour.html:51
 #: www/views/tab-home.html:77
 #: www/views/tab-send.html:36
-msgid "Create BitcoinZ Wallet"
+msgid "Create BTCZ Wallet"
 msgstr ""
 
 #: www/views/tab-create-personal.html:131
@@ -928,7 +928,7 @@ msgid "Duplicating wallet..."
 msgstr ""
 
 #: www/views/addresses.html:19
-msgid "Each BitcoinZ Wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
+msgid "Each BTCZ Wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
 msgstr ""
 
 #: src/js/services/feeService.js:13
@@ -953,7 +953,7 @@ msgid "Empty addresses limit reached. New addresses cannot be generated."
 msgstr ""
 
 #: www/views/preferencesCash.html:17
-msgid "Enable BitcoinZ wallet creation and operation within the App."
+msgid "Enable BTCZ wallet creation and operation within the App."
 msgstr ""
 
 #: www/views/tab-scan.html:19
@@ -1386,7 +1386,7 @@ msgstr ""
 
 #: src/js/controllers/create.js:180
 #: src/js/controllers/join.js:145
-msgid "Hardware wallets are not yet supported with BitcoinZ"
+msgid "Hardware wallets are not yet supported with BTCZ"
 msgstr ""
 
 #: www/views/tab-settings.html:20
@@ -1619,7 +1619,7 @@ msgid "Is this email address correct?"
 msgstr ""
 
 #: www/views/addresses.html:25
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your BitcoinZ secure against hypothetical attacks by quantum computers."
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your BTCZ secure against hypothetical attacks by quantum computers."
 msgstr ""
 
 #: src/js/controllers/backup.js:76
@@ -1835,7 +1835,7 @@ msgid "No access key defined"
 msgstr ""
 
 #: www/views/onboarding/backupRequest.html:5
-msgid "No backup, no BitcoinZ."
+msgid "No backup, no BTCZ."
 msgstr ""
 
 #: www/views/addressbook.html:19
@@ -1891,7 +1891,7 @@ msgid "No wallets available to receive funds"
 msgstr ""
 
 #: www/views/cashScan.html:15
-msgid "No wallets eligible for BitcoinZ support"
+msgid "No wallets eligible for BTCZ support"
 msgstr ""
 
 #: src/js/controllers/cashScan.js:58
@@ -1936,7 +1936,7 @@ msgid "Note: if this BTCZ wallet was duplicated from a BTCZ wallet, they share t
 msgstr ""
 
 #: www/views/modals/wallets.html:25
-msgid "Notice: only 1-1 (single signature) wallets can be used for sell BitcoinZ"
+msgid "Notice: only 1-1 (single signature) wallets can be used for sell BTCZ"
 msgstr ""
 
 #: www/views/preferencesNotifications.html:3
@@ -2080,7 +2080,7 @@ msgid "Paste the backup plain text code"
 msgstr ""
 
 #: www/views/bitpayCardIntro.html:28
-msgid "Pay 0% fees to turn BitcoinZ into dollars."
+msgid "Pay 0% fees to turn BTCZ into dollars."
 msgstr ""
 
 #: www/views/modals/paypro.html:18
@@ -2141,7 +2141,7 @@ msgid "Payment accepted. It will be broadcasted by Glidera. In case there is a p
 msgstr ""
 
 #: src/js/services/incomingData.js:152
-msgid "Payment address was translated to new BitcoinZ address format:"
+msgid "Payment address was translated to new BTCZ address format:"
 msgstr ""
 
 #: www/views/modals/txp-details.html:107
@@ -2479,7 +2479,7 @@ msgid "Scan your fingerprint please"
 msgstr ""
 
 #: www/views/preferencesCash.html:23
-msgid "Scan your wallets for BitcoinZ"
+msgid "Scan your wallets for BTCZ"
 msgstr ""
 
 #: src/js/services/onGoingProcess.js:30
@@ -2499,7 +2499,7 @@ msgid "Search Transactions"
 msgstr ""
 
 #: www/views/tab-send.html:13
-msgid "Search or enter BitcoinZ address"
+msgid "Search or enter BTCZ address"
 msgstr ""
 
 #: www/views/modals/search.html:16
@@ -2531,7 +2531,7 @@ msgid "Self-signed Certificate"
 msgstr ""
 
 #: src/js/services/onGoingProcess.js:41
-msgid "Selling BitcoinZ..."
+msgid "Selling BTCZ..."
 msgstr ""
 
 #: www/views/feedback/send.html:13
@@ -2684,7 +2684,7 @@ msgid "Show advanced options"
 msgstr ""
 
 #: www/views/tab-send.html:37
-msgid "Show BitcoinZ address"
+msgid "Show BTCZ address"
 msgstr ""
 
 #: www/views/tab-send.html:59
@@ -2732,7 +2732,7 @@ msgid "Slide to send"
 msgstr ""
 
 #: www/views/cashScan.html:56
-msgid "Some of your wallets are not eligible for BitcoinZ support. You can try to access BTCZ funds from these wallets using the"
+msgid "Some of your wallets are not eligible for BTCZ support. You can try to access BTCZ funds from these wallets using the"
 msgstr ""
 
 #: src/js/controllers/create.js:88
@@ -2753,11 +2753,11 @@ msgid "Spending Password needed"
 msgstr ""
 
 #: www/views/walletDetails.html:173
-msgid "Spending this balance will need significant BitcoinZ network fees"
+msgid "Spending this balance will need significant BTCZ network fees"
 msgstr ""
 
 #: www/views/tab-send.html:28
-msgid "Start sending BitcoinZ"
+msgid "Start sending BTCZ"
 msgstr ""
 
 #: www/views/lockSetup.html:3
@@ -2778,7 +2778,7 @@ msgid "Super Economy"
 msgstr ""
 
 #: www/views/preferencesCash.html:11
-msgid "Support BitcoinZ"
+msgid "Support BTCZ"
 msgstr ""
 
 #: www/views/paperWallet.html:7
@@ -2799,7 +2799,7 @@ msgid "THIS ACTION CANNOT BE REVERSED"
 msgstr ""
 
 #: www/views/onboarding/welcome.html:5
-msgid "Take control of your money,<br>get started with BitcoinZ."
+msgid "Take control of your money,<br>get started with BTCZ."
 msgstr ""
 
 #: www/views/walletDetails.html:132
@@ -2855,15 +2855,15 @@ msgid "The Ledger Chrome application is not installed"
 msgstr ""
 
 #: www/views/modals/wallet-balance.html:55
-msgid "The amount of BitcoinZ immediately spendable from this wallet."
+msgid "The amount of BTCZ immediately spendable from this wallet."
 msgstr ""
 
 #: www/views/modals/wallet-balance.html:93
-msgid "The amount of BitcoinZ stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
+msgid "The amount of BTCZ stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
 msgstr ""
 
 #: www/views/modals/wallet-balance.html:74
-msgid "The amount of BitcoinZ stored in this wallet with less than 1 blockchain confirmation."
+msgid "The amount of BTCZ stored in this wallet with less than 1 blockchain confirmation."
 msgstr ""
 
 #: www/views/tab-import-phrase.html:5
@@ -2918,7 +2918,7 @@ msgid "The spend proposal is not pending"
 msgstr ""
 
 #: www/views/modals/wallet-balance.html:36
-msgid "The total amount of BitcoinZ stored in this wallet."
+msgid "The total amount of BTCZ stored in this wallet."
 msgstr ""
 
 #: www/views/preferencesHistory.html:27
@@ -2949,11 +2949,11 @@ msgid "This app is fantastic!"
 msgstr ""
 
 #: www/views/onboarding/tour.html:47
-msgid "This app stores your BitcoinZ with cutting-edge security."
+msgid "This app stores your BTCZ with cutting-edge security."
 msgstr ""
 
 #: src/js/controllers/confirm.js:523
-msgid "This BitcoinZ payment request has expired."
+msgid "This BTCZ payment request has expired."
 msgstr ""
 
 #: www/views/join.html:133
@@ -2967,7 +2967,7 @@ msgid "This recovery phrase was created with a password. To recover this wallet 
 msgstr ""
 
 #: www/views/tx-details.html:91
-msgid "This transaction amount is too small compared to current BitcoinZ network fees. Spending these funds will need a BitcoinZ network fee cost comparable to the funds itself."
+msgid "This transaction amount is too small compared to current BTCZ network fees. Spending these funds will need a BTCZ network fee cost comparable to the funds itself."
 msgstr ""
 
 #: www/views/tx-details.html:87
@@ -2994,11 +2994,11 @@ msgid "To"
 msgstr ""
 
 #: www/views/tab-send.html:32
-msgid "To get started, buy BitcoinZ or share your address. You can receive BitcoinZ from any wallet or service."
+msgid "To get started, buy BTCZ or share your address. You can receive BTCZ from any wallet or service."
 msgstr ""
 
 #: www/views/tab-send.html:33
-msgid "To get started, you'll need to create a BitcoinZ wallet and get some BitcoinZ."
+msgid "To get started, you'll need to create a BTCZ wallet and get some BTCZ."
 msgstr ""
 
 #: src/js/services/bitpayAccountService.js:73
@@ -3090,7 +3090,7 @@ msgid "Try again in {{expires}}"
 msgstr ""
 
 #: www/views/bitpayCardIntro.html:18
-msgid "Turn BitcoinZ into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
+msgid "Turn BTCZ into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
 msgstr ""
 
 #: www/views/tab-import-phrase.html:17
@@ -3452,7 +3452,7 @@ msgid "You can make contributions by signing up on our Crowdin community transla
 msgstr ""
 
 #: www/views/tab-scan.html:16
-msgid "You can scan BitcoinZ addresses, payment requests, paper wallets, and more."
+msgid "You can scan BTCZ addresses, payment requests, paper wallets, and more."
 msgstr ""
 
 #: src/js/controllers/preferencesAbout.js:14
@@ -3460,7 +3460,7 @@ msgid "You can see the latest developments and contribute to this open source ap
 msgstr ""
 
 #: www/views/onboarding/tour.html:19
-msgid "You can spend BitcoinZ at millions of websites and stores worldwide."
+msgid "You can spend BTCZ at millions of websites and stores worldwide."
 msgstr ""
 
 #: www/views/backup.html:15
@@ -3472,7 +3472,7 @@ msgid "You can trade it for other currencies like US Dollars, Euros, or Pounds."
 msgstr ""
 
 #: www/views/onboarding/tour.html:46
-msgid "You control your BitcoinZ."
+msgid "You control your BTCZ."
 msgstr ""
 
 #: www/views/modals/chooseFeeLevel.html:64
@@ -3497,11 +3497,11 @@ msgid "Your Gift Cards"
 msgstr ""
 
 #: www/views/includes/confirmBackupPopup.html:6
-msgid "Your BitcoinZ wallet is backed up!"
+msgid "Your BTCZ wallet is backed up!"
 msgstr ""
 
 #: www/views/tab-home.html:36
-msgid "Your BitcoinZ wallet is ready!"
+msgid "Your BTCZ wallet is ready!"
 msgstr ""
 
 #: www/views/modals/chooseFeeLevel.html:61
@@ -3592,7 +3592,7 @@ msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain inform
 msgstr ""
 
 #: src/js/controllers/confirm.js:408
-msgid "{{fee}} will be deducted for BitcoinZ networking fees."
+msgid "{{fee}} will be deducted for BTCZ networking fees."
 msgstr ""
 
 #: www/views/confirm.html:85

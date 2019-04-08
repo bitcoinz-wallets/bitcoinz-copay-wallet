@@ -194,7 +194,7 @@ msgstr "全アドレス"
 #| "All of your bitcoin wallet balance may not be available for immediate "
 #| "spending."
 msgid ""
-"All of your BitcoinZ Wallet balance may not be available for immediate "
+"All of your BTCZ Wallet balance may not be available for immediate "
 "spending."
 msgstr ""
 "ビットコインのウォレットの残高の内、即座に送れないビットコインが含まれている"
@@ -206,7 +206,7 @@ msgstr ""
 #| "All signing devices must be added to this multisig wallet before bitcoin "
 #| "addresses can be created."
 msgid ""
-"All signing devices must be added to this multisig wallet before BitcoinZ "
+"All signing devices must be added to this multisig wallet before BTCZ "
 "addresses can be created."
 msgstr ""
 "この共有ウォレットの必要参加者の人数が集まるまではビットコインアドレスを発行"
@@ -259,7 +259,7 @@ msgstr ""
 
 #: www/views/backupWarning.html:14
 #, fuzzy
-msgid "Anyone with your backup phrase can access or spend your BitcoinZ."
+msgid "Anyone with your backup phrase can access or spend your BTCZ."
 msgstr "復元フレーズを知る者はあなたのビットコインが勝手に送れてしまいます。"
 
 #: www/views/addresses.html:94
@@ -268,7 +268,7 @@ msgstr "復元フレーズを知る者はあなたのビットコインが勝手
 #| "Approximate Bitcoin network fee to transfer wallet's balance (with normal "
 #| "priority)"
 msgid ""
-"Approximate BitcoinZ network fee to transfer wallet's balance (with normal "
+"Approximate BTCZ network fee to transfer wallet's balance (with normal "
 "priority)"
 msgstr ""
 "ウォレットの残高を送るために推測される必要なビットコインネットワーク手数料(優"
@@ -285,7 +285,7 @@ msgstr "見られていませんか？"
 #| "spend your bitcoin."
 msgid ""
 "Are you being watched? Anyone with your recovery phrase can access or spend "
-"your BitcoinZ."
+"your BTCZ."
 msgstr ""
 "見られていますか？ 復元フレーズを知る者はあなたのビットコインが勝手に送れてし"
 "まいます。"
@@ -413,34 +413,34 @@ msgstr "BitPayのVISA&reg; カード"
 #: www/views/includes/incomingDataMenu.html:29
 #, fuzzy
 #| msgid "Bitcoin Address"
-msgid "BitcoinZ Address"
+msgid "BTCZ Address"
 msgstr "ビットコインアドレス"
 
 #: www/views/cashScan.html:4
-msgid "BitcoinZ (BTCZ) Balances"
+msgid "BTCZ (BTCZ) Balances"
 msgstr ""
 
 #: www/views/preferencesCash.html:3 www/views/tab-settings.html:47
-msgid "BitcoinZ Support"
+msgid "BTCZ Support"
 msgstr ""
 
 #: www/views/modals/chooseFeeLevel.html:4 www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:90
 #, fuzzy
 #| msgid "Bitcoin Network Fee Policy"
-msgid "BitcoinZ Network Fee Policy"
+msgid "BTCZ Network Fee Policy"
 msgstr "ビットコインネットワークの手数料設定"
 
 #: src/js/services/incomingData.js:151
 #, fuzzy
 #| msgid "Broadcast Payment"
-msgid "BitcoinZ Payment"
+msgid "BTCZ Payment"
 msgstr "取引送信"
 
 #: www/views/onboarding/tour.html:31
 #, fuzzy
 #| msgid "Bitcoin is a currency."
-msgid "BitcoinZ is a currency."
+msgid "BTCZ is a currency."
 msgstr "ビットコインは通貨の一つ"
 
 #: www/views/onboarding/disclaimer.html:15
@@ -449,7 +449,7 @@ msgstr "ビットコインは通貨の一つ"
 #| "Bitcoin is different &ndash; it cannot be safely held with a bank or web "
 #| "service."
 msgid ""
-"BitcoinZ is different &ndash; it cannot be safely held with a bank or web "
+"BTCZ is different &ndash; it cannot be safely held with a bank or web "
 "service."
 msgstr ""
 "ビットコインは違う &ndash; 銀行やウェブのサービスに安全に預けることはできませ"
@@ -458,14 +458,14 @@ msgstr ""
 #: www/views/onboarding/tour.html:18
 #, fuzzy
 #| msgid "Bitcoin is secure,<br>digital money."
-msgid "BitcoinZ is secure,<br>digital money."
+msgid "BTCZ is secure,<br>digital money."
 msgstr "ビットコインは世界で<br>最も安全な仮想通貨。"
 
 #: www/views/preferencesFee.html:11
 #, fuzzy
 #| msgid ""
 #| "Bitcoin transactions include a fee collected by miners on the network."
-msgid "BitcoinZ transactions include a fee collected by miners on the network."
+msgid "BTCZ transactions include a fee collected by miners on the network."
 msgstr ""
 "ビットコインの取引はネットワークの安全を守る「採掘者」と呼ばれる者達に送る手"
 "数料が含まれます。"
@@ -498,13 +498,13 @@ msgstr "購入"
 #: www/views/includes/buyAndSellCard.html:3
 #, fuzzy
 #| msgid "Buy &amp; Sell Bitcoin"
-msgid "Buy &amp; Sell BitcoinZ"
+msgid "Buy &amp; Sell BTCZ"
 msgstr "ビットコインの購入&amp;売却"
 
 #: www/views/tab-send.html:35
 #, fuzzy
 #| msgid "Buy Bitcoin"
-msgid "Buy BitcoinZ"
+msgid "Buy BTCZ"
 msgstr "ビットコインを購入"
 
 #: www/views/mercadoLibre.html:22 www/views/mercadoLibre.html:50
@@ -518,7 +518,7 @@ msgstr "今すぐ購入"
 #: src/js/services/onGoingProcess.js:40
 #, fuzzy
 #| msgid "Buying Bitcoin..."
-msgid "Buying BitcoinZ..."
+msgid "Buying BTCZ..."
 msgstr "ビットコインを購入中..."
 
 #: src/js/services/onGoingProcess.js:12
@@ -684,7 +684,7 @@ msgid "Contribute Translations"
 msgstr "翻訳に協力"
 
 #: src/js/controllers/confirm.js:130
-msgid "Copay only supports BitcoinZ using new version numbers addresses"
+msgid "Copay only supports BTCZ using new version numbers addresses"
 msgstr ""
 
 #: src/js/services/bwcError.js:62
@@ -871,8 +871,8 @@ msgstr "共有ウォレットを作成"
 
 #: www/views/onboarding/tour.html:51 www/views/tab-home.html:77
 #: www/views/tab-send.html:36
-msgid "Create BitcoinZ Wallet"
-msgstr "BitcoinZウォレットの作成"
+msgid "Create BTCZ Wallet"
+msgstr "BTCZウォレットの作成"
 
 #: www/views/tab-create-personal.html:131
 msgid "Create new wallet"
@@ -1001,7 +1001,7 @@ msgstr ""
 #| "backup. A new address is automatically generated and shown each time you "
 #| "receive a payment."
 msgid ""
-"Each BitcoinZ Wallet can generate billions of addresses from your 12-word "
+"Each BTCZ Wallet can generate billions of addresses from your 12-word "
 "backup. A new address is automatically generated and shown each time you "
 "receive a payment."
 msgstr ""
@@ -1032,7 +1032,7 @@ msgstr ""
 "ん。"
 
 #: www/views/preferencesCash.html:17
-msgid "Enable BitcoinZ wallet creation and operation within the App."
+msgid "Enable BTCZ wallet creation and operation within the App."
 msgstr ""
 
 #: www/views/tab-scan.html:19
@@ -1418,7 +1418,7 @@ msgstr "ハードウェアウォレット"
 #: src/js/controllers/create.js:180 src/js/controllers/join.js:145
 #, fuzzy
 #| msgid "No hardware wallets supported on this device"
-msgid "Hardware wallets are not yet supported with BitcoinZ"
+msgid "Hardware wallets are not yet supported with BTCZ"
 msgstr "この端末ではハードウェアウォレットがサポートされていません"
 
 #: www/views/tab-settings.html:20
@@ -1692,7 +1692,7 @@ msgstr "このメールアドレスで宜しいですか？"
 #| "quantum computers."
 msgid ""
 "It's a good idea to avoid reusing addresses - this both protects your "
-"privacy and keeps your BitcoinZ secure against hypothetical attacks by "
+"privacy and keeps your BTCZ secure against hypothetical attacks by "
 "quantum computers."
 msgstr ""
 "アドレスの再利用は避けましょう。これはプライバシーを守ることももちろんのこ"
@@ -1922,7 +1922,7 @@ msgstr "アクセスキーが定義されていません"
 #: www/views/onboarding/backupRequest.html:5
 #, fuzzy
 #| msgid "No backup, no bitcoin."
-msgid "No backup, no BitcoinZ."
+msgid "No backup, no BTCZ."
 msgstr "バックアップは非常に重要です！"
 
 #: www/views/addressbook.html:19
@@ -1976,7 +1976,7 @@ msgid "No wallets available to receive funds"
 msgstr "ペーパーウォレットの出金を受け取るためのウォレットが入っていません。"
 
 #: www/views/cashScan.html:15
-msgid "No wallets eligible for BitcoinZ support"
+msgid "No wallets eligible for BTCZ support"
 msgstr ""
 
 #: src/js/controllers/cashScan.js:58
@@ -2028,7 +2028,7 @@ msgstr ""
 #| msgid ""
 #| "Notice: only 1-1 (single signature) wallets can be used for sell bitcoin"
 msgid ""
-"Notice: only 1-1 (single signature) wallets can be used for sell BitcoinZ"
+"Notice: only 1-1 (single signature) wallets can be used for sell BTCZ"
 msgstr ""
 "注意： ビットコインの売却は 1-of-1 (単一署名) のウォレットからしか行えませ"
 "ん。"
@@ -2171,7 +2171,7 @@ msgstr "バックアップの文字をここに貼り付けて下さい"
 #: www/views/bitpayCardIntro.html:28
 #, fuzzy
 #| msgid "Pay 0% fees to turn bitcoin into dollars."
-msgid "Pay 0% fees to turn BitcoinZ into dollars."
+msgid "Pay 0% fees to turn BTCZ into dollars."
 msgstr "0% 手数料でビットコインを米ドルに替える"
 
 #: www/views/modals/paypro.html:18
@@ -2234,7 +2234,7 @@ msgstr ""
 "す６時間以内に取り消すことができます。"
 
 #: src/js/services/incomingData.js:152
-msgid "Payment address was translated to new BitcoinZ address format:"
+msgid "Payment address was translated to new BTCZ address format:"
 msgstr ""
 
 #: www/views/modals/txp-details.html:107
@@ -2567,7 +2567,7 @@ msgstr "指紋をスキャンしてください"
 #: www/views/preferencesCash.html:23
 #, fuzzy
 #| msgid "Backup your wallet before using this function"
-msgid "Scan your wallets for BitcoinZ"
+msgid "Scan your wallets for BTCZ"
 msgstr "この機能を使う前に必ず復元フレーズのバックアップを取って下さい！"
 
 #: src/js/services/onGoingProcess.js:30
@@ -2589,7 +2589,7 @@ msgstr "取引を検索"
 #: www/views/tab-send.html:13
 #, fuzzy
 #| msgid "Search or enter bitcoin address"
-msgid "Search or enter BitcoinZ address"
+msgid "Search or enter BTCZ address"
 msgstr "連絡先検索かビットコインアドレスを指定"
 
 #: www/views/modals/search.html:16
@@ -2623,7 +2623,7 @@ msgstr "自己署名証明書"
 #: src/js/services/onGoingProcess.js:41
 #, fuzzy
 #| msgid "Selling Bitcoin..."
-msgid "Selling BitcoinZ..."
+msgid "Selling BTCZ..."
 msgstr "ビットコインを売却中..."
 
 #: www/views/feedback/send.html:13 www/views/feedback/send.html:43
@@ -2766,7 +2766,7 @@ msgstr "詳細設定を表示"
 #: www/views/tab-send.html:37
 #, fuzzy
 #| msgid "Show bitcoin address"
-msgid "Show BitcoinZ address"
+msgid "Show BTCZ address"
 msgstr "ビットコインアドレスを表示"
 
 #: www/views/tab-send.html:59
@@ -2815,7 +2815,7 @@ msgstr ""
 
 #: www/views/cashScan.html:56
 msgid ""
-"Some of your wallets are not eligible for BitcoinZ support. You can try to "
+"Some of your wallets are not eligible for BTCZ support. You can try to "
 "access BTCZ funds from these wallets using the"
 msgstr ""
 
@@ -2838,7 +2838,7 @@ msgstr "パスワードが必要"
 #: www/views/walletDetails.html:173
 #, fuzzy
 #| msgid "Spending this balance will need significant Bitcoin network fees"
-msgid "Spending this balance will need significant BitcoinZ network fees"
+msgid "Spending this balance will need significant BTCZ network fees"
 msgstr ""
 "この入力の組み合わせを送金するために膨大なビットコインネットワーク手数料を必"
 "要とします"
@@ -2846,7 +2846,7 @@ msgstr ""
 #: www/views/tab-send.html:28
 #, fuzzy
 #| msgid "Start sending bitcoin"
-msgid "Start sending BitcoinZ"
+msgid "Start sending BTCZ"
 msgstr "ビットコインの送金を始めましょう"
 
 #: www/views/lockSetup.html:3
@@ -2869,7 +2869,7 @@ msgstr "超節約"
 #: www/views/preferencesCash.html:11
 #, fuzzy
 #| msgid "Buy Bitcoin"
-msgid "Support BitcoinZ"
+msgid "Support BTCZ"
 msgstr "ビットコインを購入"
 
 #: www/views/paperWallet.html:7
@@ -2891,7 +2891,7 @@ msgstr "＊＊＊注意＊＊＊ このアクションを元に戻すことは�
 #: www/views/onboarding/welcome.html:5
 #, fuzzy
 #| msgid "Take control of your money,<br>get started with bitcoin."
-msgid "Take control of your money,<br>get started with BitcoinZ."
+msgid "Take control of your money,<br>get started with BTCZ."
 msgstr "お金のコントロールを取り戻そう、<br>ビットコインをはじめよう"
 
 #: www/views/walletDetails.html:132 www/views/walletDetails.html:52
@@ -2948,7 +2948,7 @@ msgstr "Ledgerのクロームアプリがインストールされていません
 #: www/views/modals/wallet-balance.html:55
 #, fuzzy
 #| msgid "The amount of bitcoin immediately spendable from this wallet."
-msgid "The amount of BitcoinZ immediately spendable from this wallet."
+msgid "The amount of BTCZ immediately spendable from this wallet."
 msgstr "このウォレットからすぐに送金できる額"
 
 #: www/views/modals/wallet-balance.html:93
@@ -2960,7 +2960,7 @@ msgstr "このウォレットからすぐに送金できる額"
 #| "than the actual amounts associated with your pending transaction "
 #| "proposals."
 msgid ""
-"The amount of BitcoinZ stored in this wallet that is allocated as inputs to "
+"The amount of BTCZ stored in this wallet that is allocated as inputs to "
 "your pending transaction proposals. The amount is determined using unspent "
 "transaction outputs associated with this wallet and may be more than the "
 "actual amounts associated with your pending transaction proposals."
@@ -2975,7 +2975,7 @@ msgstr ""
 #| "The amount of bitcoin stored in this wallet with less than 1 blockchain "
 #| "confirmation."
 msgid ""
-"The amount of BitcoinZ stored in this wallet with less than 1 blockchain "
+"The amount of BTCZ stored in this wallet with less than 1 blockchain "
 "confirmation."
 msgstr "このウォレットの1承認未満の残高。"
 
@@ -3059,7 +3059,7 @@ msgstr "送金の提案が協議中ではありません。"
 #: www/views/modals/wallet-balance.html:36
 #, fuzzy
 #| msgid "The total amount of bitcoin stored in this wallet."
-msgid "The total amount of BitcoinZ stored in this wallet."
+msgid "The total amount of BTCZ stored in this wallet."
 msgstr "このウォレットのビットコインの総残高"
 
 #: www/views/preferencesHistory.html:27
@@ -3096,14 +3096,14 @@ msgstr "このアプリは素晴らしいです!"
 #: www/views/onboarding/tour.html:47
 #, fuzzy
 #| msgid "This app stores your bitcoin with cutting-edge security."
-msgid "This app stores your BitcoinZ with cutting-edge security."
+msgid "This app stores your BTCZ with cutting-edge security."
 msgstr ""
 "このアプリは、最先端のセキュリティであなたのビットコインをお守りします。"
 
 #: src/js/controllers/confirm.js:523
 #, fuzzy
 #| msgid "This bitcoin payment request has expired."
-msgid "This BitcoinZ payment request has expired."
+msgid "This BTCZ payment request has expired."
 msgstr "ビットコインペイメントの請求期限が切れています。"
 
 #: www/views/join.html:133 www/views/tab-create-personal.html:103
@@ -3132,8 +3132,8 @@ msgstr ""
 #| "fees. Spending these funds will need a Bitcoin network fee cost "
 #| "comparable to the funds itself."
 msgid ""
-"This transaction amount is too small compared to current BitcoinZ network "
-"fees. Spending these funds will need a BitcoinZ network fee cost comparable "
+"This transaction amount is too small compared to current BTCZ network "
+"fees. Spending these funds will need a BTCZ network fee cost comparable "
 "to the funds itself."
 msgstr ""
 "この取引の金額はビットコインネットワーク手数料より低いです。送金額より大きい"
@@ -3172,7 +3172,7 @@ msgstr "宛先"
 #| "To get started, buy bitcoin or share your address. You can receive "
 #| "bitcoin from any wallet or service."
 msgid ""
-"To get started, buy BitcoinZ or share your address. You can receive BitcoinZ "
+"To get started, buy BTCZ or share your address. You can receive BTCZ "
 "from any wallet or service."
 msgstr ""
 "はじめるには、ビットコインを購入したり、アドレスを他の人に共有したりしましょ"
@@ -3184,8 +3184,8 @@ msgstr ""
 #| "To get started, you'll need to create a bitcoin wallet and get some "
 #| "bitcoin."
 msgid ""
-"To get started, you'll need to create a BitcoinZ wallet and get some "
-"BitcoinZ."
+"To get started, you'll need to create a BTCZ wallet and get some "
+"BTCZ."
 msgstr ""
 "はじめに、ビットコインウォレットを作成し、ビットコインを入手する必要がありま"
 "す。"
@@ -3280,7 +3280,7 @@ msgstr "{{expires}} 経過後にもう一度試してください。"
 #| "Turn bitcoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is "
 #| "accepted."
 msgid ""
-"Turn BitcoinZ into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
+"Turn BTCZ into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
 msgstr ""
 "瞬時にビットコインを米ドルに変換！Visa<sup>&reg;</sup>カード利用可能店舗なら"
 "どこでも！"
@@ -3679,7 +3679,7 @@ msgstr ""
 #| msgid ""
 #| "You can scan bitcoin addresses, payment requests, paper wallets, and more."
 msgid ""
-"You can scan BitcoinZ addresses, payment requests, paper wallets, and more."
+"You can scan BTCZ addresses, payment requests, paper wallets, and more."
 msgstr ""
 "ビットコインアドレス、支払い請求、ペーパーウォレットなどをスキャンできます。"
 
@@ -3694,7 +3694,7 @@ msgstr ""
 #: www/views/onboarding/tour.html:19
 #, fuzzy
 #| msgid "You can spend bitcoin at millions of websites and stores worldwide."
-msgid "You can spend BitcoinZ at millions of websites and stores worldwide."
+msgid "You can spend BTCZ at millions of websites and stores worldwide."
 msgstr "世界中のECサイトや店舗でビットコインを使って支払いができます。"
 
 #: www/views/backup.html:15
@@ -3711,7 +3711,7 @@ msgstr "米ドル、ユーロ、ポンドなど他の通貨との取引ができ
 #: www/views/onboarding/tour.html:46
 #, fuzzy
 #| msgid "You control your bitcoin."
-msgid "You control your BitcoinZ."
+msgid "You control your BTCZ."
 msgstr "ビットコインの自己管理"
 
 #: www/views/modals/chooseFeeLevel.html:64
@@ -3744,13 +3744,13 @@ msgstr "ギフトカード"
 #: www/views/includes/confirmBackupPopup.html:6
 #, fuzzy
 #| msgid "Your bitcoin wallet is backed up!"
-msgid "Your BitcoinZ wallet is backed up!"
+msgid "Your BTCZ wallet is backed up!"
 msgstr "ビットコインウォレットがバックアップされました!"
 
 #: www/views/tab-home.html:36
 #, fuzzy
 #| msgid "Your bitcoin wallet is ready!"
-msgid "Your BitcoinZ wallet is ready!"
+msgid "Your BTCZ wallet is ready!"
 msgstr "ビットコインウォレットが完成しました!"
 
 #: www/views/modals/chooseFeeLevel.html:61
@@ -3852,7 +3852,7 @@ msgstr ""
 #: src/js/controllers/confirm.js:408
 #, fuzzy
 #| msgid "{{fee}} will be deducted for bitcoin networking fees."
-msgid "{{fee}} will be deducted for BitcoinZ networking fees."
+msgid "{{fee}} will be deducted for BTCZ networking fees."
 msgstr "{{fee}} のビットコインネットワーク手数料が差し引かれます。"
 
 #: www/views/confirm.html:85

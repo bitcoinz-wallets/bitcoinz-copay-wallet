@@ -185,15 +185,15 @@ msgstr "所有地址"
 
 #: www/views/modals/wallet-balance.html:18
 msgid ""
-"All of your BitcoinZ Wallet balance may not be available for immediate "
+"All of your BTCZ Wallet balance may not be available for immediate "
 "spending."
-msgstr "所有您的BitcoinZ的钱包余额可能无法用于直接支出。"
+msgstr "所有您的BTCZ的钱包余额可能无法用于直接支出。"
 
 #: www/views/tab-receive.html:25
 msgid ""
-"All signing devices must be added to this multisig wallet before BitcoinZ "
+"All signing devices must be added to this multisig wallet before BTCZ "
 "addresses can be created."
-msgstr "BitcoinZ地址可以创建之前，签名的所有设备都必须都添加到这个对数钱包。"
+msgstr "BTCZ地址可以创建之前，签名的所有设备都必须都添加到这个对数钱包。"
 
 #: www/views/tab-scan.html:21
 msgid "Allow Camera Access"
@@ -239,14 +239,14 @@ msgid ""
 msgstr "本程序有一个可用的更新。为了您的安全，请更新到最新版本。"
 
 #: www/views/backupWarning.html:14
-msgid "Anyone with your backup phrase can access or spend your BitcoinZ."
-msgstr "任何人只要持有你的备份短语，就可以访问或者花掉你的BitcoinZ。"
+msgid "Anyone with your backup phrase can access or spend your BTCZ."
+msgstr "任何人只要持有你的备份短语，就可以访问或者花掉你的BTCZ。"
 
 #: www/views/addresses.html:94
 msgid ""
-"Approximate BitcoinZ network fee to transfer wallet's balance (with normal "
+"Approximate BTCZ network fee to transfer wallet's balance (with normal "
 "priority)"
-msgstr "近似的BitcoinZ网络费用将钱包的余额转移 (与正常优先级)"
+msgstr "近似的BTCZ网络费用将钱包的余额转移 (与正常优先级)"
 
 #: www/views/backupWarning.html:10
 msgid "Are you being watched?"
@@ -255,9 +255,9 @@ msgstr "你正在被监视吗？"
 #: src/js/controllers/preferencesExternal.js:15
 msgid ""
 "Are you being watched? Anyone with your recovery phrase can access or spend "
-"your BitcoinZ."
+"your BTCZ."
 msgstr ""
-"有旁观者么？只要有人知道了你的恢复短语，他就能访问你的BitcoinZ，或者花费它。"
+"有旁观者么？只要有人知道了你的恢复短语，他就能访问你的BTCZ，或者花费它。"
 
 #: src/js/controllers/copayers.js:56
 msgid "Are you sure you want to cancel and delete this wallet?"
@@ -372,45 +372,45 @@ msgstr "BitPay Visa&reg; 牌"
 
 #: www/views/addressbook.add.html:38
 #: www/views/includes/incomingDataMenu.html:29
-msgid "BitcoinZ Address"
-msgstr "BitcoinZ地址"
+msgid "BTCZ Address"
+msgstr "BTCZ地址"
 
 #: www/views/cashScan.html:4
-msgid "BitcoinZ (BTCZ) Balances"
+msgid "BTCZ (BTCZ) Balances"
 msgstr ""
 
 #: www/views/preferencesCash.html:3 www/views/tab-settings.html:47
-msgid "BitcoinZ Support"
-msgstr "BitcoinZ支持"
+msgid "BTCZ Support"
+msgstr "BTCZ支持"
 
 #: www/views/modals/chooseFeeLevel.html:4 www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:90
-msgid "BitcoinZ Network Fee Policy"
-msgstr "BitcoinZ网络手续费策略"
+msgid "BTCZ Network Fee Policy"
+msgstr "BTCZ网络手续费策略"
 
 #: src/js/services/incomingData.js:151
 #, fuzzy
 #| msgid "Broadcast Payment"
-msgid "BitcoinZ Payment"
+msgid "BTCZ Payment"
 msgstr "广播支付"
 
 #: www/views/onboarding/tour.html:31
-msgid "BitcoinZ is a currency."
-msgstr "BitcoinZ是一种货币。"
+msgid "BTCZ is a currency."
+msgstr "BTCZ是一种货币。"
 
 #: www/views/onboarding/disclaimer.html:15
 msgid ""
-"BitcoinZ is different &ndash; it cannot be safely held with a bank or web "
+"BTCZ is different &ndash; it cannot be safely held with a bank or web "
 "service."
-msgstr "BitcoinZ是不同 — — 它不能安全地举行以银行或 web 服务。"
+msgstr "BTCZ是不同 — — 它不能安全地举行以银行或 web 服务。"
 
 #: www/views/onboarding/tour.html:18
-msgid "BitcoinZ is secure,<br>digital money."
-msgstr "BitcoinZ是安全的 <br>数字货币。"
+msgid "BTCZ is secure,<br>digital money."
+msgstr "BTCZ是安全的 <br>数字货币。"
 
 #: www/views/preferencesFee.html:11
-msgid "BitcoinZ transactions include a fee collected by miners on the network."
-msgstr "BitcoinZ交易包括在网络上被矿工所收取的费用。"
+msgid "BTCZ transactions include a fee collected by miners on the network."
+msgstr "BTCZ交易包括在网络上被矿工所收取的费用。"
 
 #: www/views/buyAmazon.html:108
 msgid "Bought {{amountUnitStr}}"
@@ -438,12 +438,12 @@ msgid "Buy"
 msgstr "购买"
 
 #: www/views/includes/buyAndSellCard.html:3
-msgid "Buy &amp; Sell BitcoinZ"
-msgstr "购买或出售BitcoinZ"
+msgid "Buy &amp; Sell BTCZ"
+msgstr "购买或出售BTCZ"
 
 #: www/views/tab-send.html:35
-msgid "Buy BitcoinZ"
-msgstr "购买BitcoinZ"
+msgid "Buy BTCZ"
+msgstr "购买BTCZ"
 
 #: www/views/mercadoLibre.html:22 www/views/mercadoLibre.html:50
 msgid "Buy a Gift Card"
@@ -454,8 +454,8 @@ msgid "Buy from"
 msgstr "从什么地方购买"
 
 #: src/js/services/onGoingProcess.js:40
-msgid "Buying BitcoinZ..."
-msgstr "正在发送 BitcoinZ..."
+msgid "Buying BTCZ..."
+msgstr "正在发送 BTCZ..."
 
 #: src/js/services/onGoingProcess.js:12
 msgid "Calculating fee"
@@ -620,7 +620,7 @@ msgid "Contribute Translations"
 msgstr "参与翻译"
 
 #: src/js/controllers/confirm.js:130
-msgid "Copay only supports BitcoinZ using new version numbers addresses"
+msgid "Copay only supports BTCZ using new version numbers addresses"
 msgstr ""
 
 #: src/js/services/bwcError.js:62
@@ -803,8 +803,8 @@ msgstr "创建自己的免费钱包"
 
 #: www/views/onboarding/tour.html:51 www/views/tab-home.html:77
 #: www/views/tab-send.html:36
-msgid "Create BitcoinZ Wallet"
-msgstr "创建BitcoinZ的钱包"
+msgid "Create BTCZ Wallet"
+msgstr "创建BTCZ的钱包"
 
 #: www/views/tab-create-personal.html:131
 msgid "Create new wallet"
@@ -926,11 +926,11 @@ msgstr ""
 
 #: www/views/addresses.html:19
 msgid ""
-"Each BitcoinZ Wallet can generate billions of addresses from your 12-word "
+"Each BTCZ Wallet can generate billions of addresses from your 12-word "
 "backup. A new address is automatically generated and shown each time you "
 "receive a payment."
 msgstr ""
-"每个BitcoinZ钱包可以从您的 12 字备份生成亿万个地址。一个新的地址是自动生成和"
+"每个BTCZ钱包可以从您的 12 字备份生成亿万个地址。一个新的地址是自动生成和"
 "显示每个时间你收到付款。"
 
 #: src/js/services/feeService.js:13
@@ -954,7 +954,7 @@ msgid "Empty addresses limit reached. New addresses cannot be generated."
 msgstr "已达到空地址限制。无法生成新的地址。"
 
 #: www/views/preferencesCash.html:17
-msgid "Enable BitcoinZ wallet creation and operation within the App."
+msgid "Enable BTCZ wallet creation and operation within the App."
 msgstr ""
 
 #: www/views/tab-scan.html:19
@@ -1338,7 +1338,7 @@ msgstr "硬件钱包"
 #: src/js/controllers/create.js:180 src/js/controllers/join.js:145
 #, fuzzy
 #| msgid "No hardware wallets supported on this device"
-msgid "Hardware wallets are not yet supported with BitcoinZ"
+msgid "Hardware wallets are not yet supported with BTCZ"
 msgstr "此设备不支持硬件钱包"
 
 #: www/views/tab-settings.html:20
@@ -1421,7 +1421,7 @@ msgid ""
 "I understand that if this app is moved to another device or deleted, my "
 "bitcoinz can only be recovered with the backup phrase."
 msgstr ""
-"我明白是否这个应用程序是搬到另一个设备或删除，我BitcoinZ可以只能进行恢复与备"
+"我明白是否这个应用程序是搬到另一个设备或删除，我BTCZ可以只能进行恢复与备"
 "份的短语。"
 
 #: www/views/onboarding/disclaimer.html:18
@@ -1591,10 +1591,10 @@ msgstr "此电子邮件地址是正确的？"
 #: www/views/addresses.html:25
 msgid ""
 "It's a good idea to avoid reusing addresses - this both protects your "
-"privacy and keeps your BitcoinZ secure against hypothetical attacks by "
+"privacy and keeps your BTCZ secure against hypothetical attacks by "
 "quantum computers."
 msgstr ""
-"它是一个好主意，以避免重用地址 — — 这既能保护您的隐私又保持您的BitcoinZ安全假"
+"它是一个好主意，以避免重用地址 — — 这既能保护您的隐私又保持您的BTCZ安全假"
 "设攻击由量子计算机。"
 
 #: src/js/controllers/backup.js:76
@@ -1810,8 +1810,8 @@ msgid "No access key defined"
 msgstr "没有定义的访问键"
 
 #: www/views/onboarding/backupRequest.html:5
-msgid "No backup, no BitcoinZ."
-msgstr "没有备份，没有BitcoinZ。"
+msgid "No backup, no BTCZ."
+msgstr "没有备份，没有BTCZ。"
 
 #: www/views/addressbook.html:19
 msgid "No contacts yet"
@@ -1864,7 +1864,7 @@ msgid "No wallets available to receive funds"
 msgstr "没有可用于接收资金的钱包"
 
 #: www/views/cashScan.html:15
-msgid "No wallets eligible for BitcoinZ support"
+msgid "No wallets eligible for BTCZ support"
 msgstr ""
 
 #: src/js/controllers/cashScan.js:58
@@ -1913,8 +1913,8 @@ msgstr ""
 
 #: www/views/modals/wallets.html:25
 msgid ""
-"Notice: only 1-1 (single signature) wallets can be used for sell BitcoinZ"
-msgstr "注意︰ 只有 1-1 （单签名） 钱包可以用于卖BitcoinZ"
+"Notice: only 1-1 (single signature) wallets can be used for sell BTCZ"
+msgstr "注意︰ 只有 1-1 （单签名） 钱包可以用于卖BTCZ"
 
 #: www/views/preferencesNotifications.html:3 www/views/tab-settings.html:61
 msgid "Notifications"
@@ -2050,8 +2050,8 @@ msgid "Paste the backup plain text code"
 msgstr "粘贴备份的纯文本代码"
 
 #: www/views/bitpayCardIntro.html:28
-msgid "Pay 0% fees to turn BitcoinZ into dollars."
-msgstr "0%付费以BitcoinZ变成美元。"
+msgid "Pay 0% fees to turn BTCZ into dollars."
+msgstr "0%付费以BTCZ变成美元。"
 
 #: www/views/modals/paypro.html:18
 msgid "Pay To"
@@ -2113,7 +2113,7 @@ msgstr ""
 "删除。"
 
 #: src/js/services/incomingData.js:152
-msgid "Payment address was translated to new BitcoinZ address format:"
+msgid "Payment address was translated to new BTCZ address format:"
 msgstr ""
 
 #: www/views/modals/txp-details.html:107
@@ -2445,7 +2445,7 @@ msgstr "请扫描你的指纹"
 #: www/views/preferencesCash.html:23
 #, fuzzy
 #| msgid "Backup your wallet before using this function"
-msgid "Scan your wallets for BitcoinZ"
+msgid "Scan your wallets for BTCZ"
 msgstr "在使用此功能之前，请备份你的钱包。"
 
 #: src/js/services/onGoingProcess.js:30
@@ -2465,8 +2465,8 @@ msgid "Search Transactions"
 msgstr "搜索交易"
 
 #: www/views/tab-send.html:13
-msgid "Search or enter BitcoinZ address"
-msgstr "搜索或输入BitcoinZ地址"
+msgid "Search or enter BTCZ address"
+msgstr "搜索或输入BTCZ地址"
 
 #: www/views/modals/search.html:16
 msgid "Search transactions"
@@ -2497,8 +2497,8 @@ msgid "Self-signed Certificate"
 msgstr "自签名证书"
 
 #: src/js/services/onGoingProcess.js:41
-msgid "Selling BitcoinZ..."
-msgstr "出售BitcoinZ......"
+msgid "Selling BTCZ..."
+msgstr "出售BTCZ......"
 
 #: www/views/feedback/send.html:13 www/views/feedback/send.html:43
 #: www/views/tab-send.html:3 www/views/tabs.html:15
@@ -2635,8 +2635,8 @@ msgid "Show advanced options"
 msgstr "显示高级选项"
 
 #: www/views/tab-send.html:37
-msgid "Show BitcoinZ address"
-msgstr "显示BitcoinZ地址"
+msgid "Show BTCZ address"
+msgstr "显示BTCZ地址"
 
 #: www/views/tab-send.html:59
 msgid "Show more"
@@ -2682,7 +2682,7 @@ msgstr ""
 
 #: www/views/cashScan.html:56
 msgid ""
-"Some of your wallets are not eligible for BitcoinZ support. You can try to "
+"Some of your wallets are not eligible for BTCZ support. You can try to "
 "access BTCZ funds from these wallets using the"
 msgstr ""
 
@@ -2703,12 +2703,12 @@ msgid "Spending Password needed"
 msgstr "需要支付密码"
 
 #: www/views/walletDetails.html:173
-msgid "Spending this balance will need significant BitcoinZ network fees"
-msgstr "这笔交易将需要非常高的BitcoinZ网络手续费"
+msgid "Spending this balance will need significant BTCZ network fees"
+msgstr "这笔交易将需要非常高的BTCZ网络手续费"
 
 #: www/views/tab-send.html:28
-msgid "Start sending BitcoinZ"
-msgstr "开始发送BitcoinZ"
+msgid "Start sending BTCZ"
+msgstr "开始发送BTCZ"
 
 #: www/views/lockSetup.html:3
 msgid "Startup Lock"
@@ -2728,8 +2728,8 @@ msgid "Super Economy"
 msgstr "超级经济"
 
 #: www/views/preferencesCash.html:11
-msgid "Support BitcoinZ"
-msgstr "购买BitcoinZ"
+msgid "Support BTCZ"
+msgstr "购买BTCZ"
 
 #: www/views/paperWallet.html:7
 msgid "Sweep"
@@ -2748,8 +2748,8 @@ msgid "THIS ACTION CANNOT BE REVERSED"
 msgstr "此操作无法撤消"
 
 #: www/views/onboarding/welcome.html:5
-msgid "Take control of your money,<br>get started with BitcoinZ."
-msgstr "把你的钱，<br>得到控制开始用BitcoinZ。"
+msgid "Take control of your money,<br>get started with BTCZ."
+msgstr "把你的钱，<br>得到控制开始用BTCZ。"
 
 #: www/views/walletDetails.html:132 www/views/walletDetails.html:52
 msgid "Tap and hold to show"
@@ -2802,25 +2802,25 @@ msgid "The Ledger Chrome application is not installed"
 msgstr "Ledger Chrome 应用程序未安装"
 
 #: www/views/modals/wallet-balance.html:55
-msgid "The amount of BitcoinZ immediately spendable from this wallet."
-msgstr "BitcoinZ立即可从这个钱包的金额。"
+msgid "The amount of BTCZ immediately spendable from this wallet."
+msgstr "BTCZ立即可从这个钱包的金额。"
 
 #: www/views/modals/wallet-balance.html:93
 msgid ""
-"The amount of BitcoinZ stored in this wallet that is allocated as inputs to "
+"The amount of BTCZ stored in this wallet that is allocated as inputs to "
 "your pending transaction proposals. The amount is determined using unspent "
 "transaction outputs associated with this wallet and may be more than the "
 "actual amounts associated with your pending transaction proposals."
 msgstr ""
-"BitcoinZ存储在分配作为你挂起的事务建议的输入这个钱包中的金额。量确定使用未用"
+"BTCZ存储在分配作为你挂起的事务建议的输入这个钱包中的金额。量确定使用未用"
 "余额交易记录输出与这个钱包关联，可能会与您挂起的事务建议相关联的实际数额超"
 "过。"
 
 #: www/views/modals/wallet-balance.html:74
 msgid ""
-"The amount of BitcoinZ stored in this wallet with less than 1 blockchain "
+"The amount of BTCZ stored in this wallet with less than 1 blockchain "
 "confirmation."
-msgstr "BitcoinZ存储在与小于 1 blockchain 确认这个钱包中的金额。"
+msgstr "BTCZ存储在与小于 1 blockchain 确认这个钱包中的金额。"
 
 #: www/views/tab-import-phrase.html:5
 msgid "The derivation path"
@@ -2890,8 +2890,8 @@ msgid "The spend proposal is not pending"
 msgstr "花费提议不是未决"
 
 #: www/views/modals/wallet-balance.html:36
-msgid "The total amount of BitcoinZ stored in this wallet."
-msgstr "BitcoinZ存储在这个钱包的总量。"
+msgid "The total amount of BTCZ stored in this wallet."
+msgstr "BTCZ存储在这个钱包的总量。"
 
 #: www/views/preferencesHistory.html:27
 msgid ""
@@ -2924,12 +2924,12 @@ msgid "This app is fantastic!"
 msgstr "这个应用程序太棒了 ！"
 
 #: www/views/onboarding/tour.html:47
-msgid "This app stores your BitcoinZ with cutting-edge security."
-msgstr "此应用程序商店你BitcoinZ与尖端的安全。"
+msgid "This app stores your BTCZ with cutting-edge security."
+msgstr "此应用程序商店你BTCZ与尖端的安全。"
 
 #: src/js/controllers/confirm.js:523
-msgid "This BitcoinZ payment request has expired."
-msgstr "这BitcoinZ付款请求已过期。"
+msgid "This BTCZ payment request has expired."
+msgstr "这BTCZ付款请求已过期。"
 
 #: www/views/join.html:133 www/views/tab-create-personal.html:103
 #: www/views/tab-create-shared.html:132
@@ -2946,11 +2946,11 @@ msgstr "此恢复短语是用密码创建。为了恢复此钱包，需要恢复
 
 #: www/views/tx-details.html:91
 msgid ""
-"This transaction amount is too small compared to current BitcoinZ network "
-"fees. Spending these funds will need a BitcoinZ network fee cost comparable "
+"This transaction amount is too small compared to current BTCZ network "
+"fees. Spending these funds will need a BTCZ network fee cost comparable "
 "to the funds itself."
 msgstr ""
-"相对于当前BitcoinZ网络费，这笔交易金额太小。手续费相当于这笔交易金额本身。"
+"相对于当前BTCZ网络费，这笔交易金额太小。手续费相当于这笔交易金额本身。"
 
 #: www/views/tx-details.html:87
 msgid ""
@@ -2978,16 +2978,16 @@ msgstr "发送到"
 
 #: www/views/tab-send.html:32
 msgid ""
-"To get started, buy BitcoinZ or share your address. You can receive BitcoinZ "
+"To get started, buy BTCZ or share your address. You can receive BTCZ "
 "from any wallet or service."
 msgstr ""
-"若要开始，请买BitcoinZ或共享您的地址。你可以从任何钱包或服务接收比特币。"
+"若要开始，请买BTCZ或共享您的地址。你可以从任何钱包或服务接收比特币。"
 
 #: www/views/tab-send.html:33
 msgid ""
-"To get started, you'll need to create a BitcoinZ wallet and get some "
-"BitcoinZ."
-msgstr "若要开始，您将需要创建一个BitcoinZ的钱包，并获得一些比特币。"
+"To get started, you'll need to create a BTCZ wallet and get some "
+"BTCZ."
+msgstr "若要开始，您将需要创建一个BTCZ的钱包，并获得一些比特币。"
 
 #: src/js/services/bitpayAccountService.js:73
 msgid "To {{reason}} you must first add your BitPay account - {{email}}"
@@ -3074,8 +3074,8 @@ msgstr "在 {{expires}} 中再试一次"
 
 #: www/views/bitpayCardIntro.html:18
 msgid ""
-"Turn BitcoinZ into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
-msgstr "BitcoinZ变成美元，刷在接受 Visa<sup>®</sup> 的任何地方。"
+"Turn BTCZ into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
+msgstr "BTCZ变成美元，刷在接受 Visa<sup>®</sup> 的任何地方。"
 
 #: www/views/tab-import-phrase.html:17
 msgid "Type the Recovery Phrase (usually 12 words)"
@@ -3460,8 +3460,8 @@ msgstr "您可以通过签约我们 Crowdin 社区翻译网站作出贡献。我
 
 #: www/views/tab-scan.html:16
 msgid ""
-"You can scan BitcoinZ addresses, payment requests, paper wallets, and more."
-msgstr "您可以扫描BitcoinZ地址、 付款申请、 纸钱包和更多。"
+"You can scan BTCZ addresses, payment requests, paper wallets, and more."
+msgstr "您可以扫描BTCZ地址、 付款申请、 纸钱包和更多。"
 
 #: src/js/controllers/preferencesAbout.js:14
 msgid ""
@@ -3472,8 +3472,8 @@ msgstr ""
 "项目。"
 
 #: www/views/onboarding/tour.html:19
-msgid "You can spend BitcoinZ at millions of websites and stores worldwide."
-msgstr "你可以花BitcoinZ在数以百万计的网站和世界各地的商店。"
+msgid "You can spend BTCZ at millions of websites and stores worldwide."
+msgstr "你可以花BTCZ在数以百万计的网站和世界各地的商店。"
 
 #: www/views/backup.html:15
 msgid "You can still export it from Advanced &gt; Export."
@@ -3485,8 +3485,8 @@ msgid ""
 msgstr "你可以换其他货币，如美元、 欧元或英镑。"
 
 #: www/views/onboarding/tour.html:46
-msgid "You control your BitcoinZ."
-msgstr "您可以控制您的BitcoinZ。"
+msgid "You control your BTCZ."
+msgstr "您可以控制您的BTCZ。"
 
 #: www/views/modals/chooseFeeLevel.html:64
 msgid ""
@@ -3515,12 +3515,12 @@ msgid "Your Gift Cards"
 msgstr "礼品卡"
 
 #: www/views/includes/confirmBackupPopup.html:6
-msgid "Your BitcoinZ wallet is backed up!"
-msgstr "你的BitcoinZ钱包被备份 ！"
+msgid "Your BTCZ wallet is backed up!"
+msgstr "你的BTCZ钱包被备份 ！"
 
 #: www/views/tab-home.html:36
-msgid "Your BitcoinZ wallet is ready!"
-msgstr "你的BitcoinZ钱包是准备好了 ！"
+msgid "Your BTCZ wallet is ready!"
+msgstr "你的BTCZ钱包是准备好了 ！"
 
 #: www/views/modals/chooseFeeLevel.html:61
 msgid "Your fee is lower than recommended."
@@ -3614,8 +3614,8 @@ msgstr ""
 "BWS 实例)。"
 
 #: src/js/controllers/confirm.js:408
-msgid "{{fee}} will be deducted for BitcoinZ networking fees."
-msgstr "{{fee}} 将BitcoinZ网络费用中扣除。"
+msgid "{{fee}} will be deducted for BTCZ networking fees."
+msgstr "{{fee}} 将BTCZ网络费用中扣除。"
 
 #: www/views/confirm.html:85
 msgid "{{tx.txp[wallet.id].feeRatePerStr}}  of the sending amount"

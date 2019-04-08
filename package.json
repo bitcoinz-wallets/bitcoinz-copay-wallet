@@ -1,8 +1,8 @@
 {
   "//": "        Modify it in the app-template directory",
   "name": "copay",
-  "description": "A Secure BitcoinZ Wallet",
-  "author": "BitcoinZ Community",
+  "description": "A Secure BTCZ Wallet",
+  "author": "BTCZ Community",
   "version": "10.2.0",
   "keywords": [
     "bitcoin",
@@ -13,9 +13,9 @@
     "bitcore"
   ],
   "main": "www/index.html",
-  "title": "BitcoinZ",
+  "title": "BTCZ",
   "window": {
-    "title": "BitcoinZ - BitcoinZ Wallet",
+    "title": "BTCZ Wallet",
     "icon": "www/img/app/icon.png",
     "toolbar": false,
     "show": true,

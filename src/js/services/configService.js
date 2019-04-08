@@ -19,7 +19,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
 
     download: {
       bitpay: {
-        url: 'https://bitpay.com/wallet'
+        url: 'https://github.com/bitcoinz-wallets/bitcoinz-copay-wallet/releases'
       },
       copay: {
         url: 'https://github.com/bitcoinz-wallets/bitcoinz-copay-wallet/releases'
@@ -29,7 +29,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
     rateApp: {
       bitpay: {
         ios: 'http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=1149581638&pageNumber=0&sortOrdering=2&type=Purple+Software&mt=8',
-        android: 'https://play.google.com/store/apps/details?id=com.bitpay.wallet',
+        android: 'https://play.google.com/store/apps/details?id=com.btczcom.btcz-wallet',
         wp: ''
       },
       copay: {

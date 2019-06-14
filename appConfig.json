@@ -26,8 +26,8 @@
   "windowsAppId": "804636ee-b017-4cad-8719-e58ac97ffa5c",
   "pushSenderId": "1036948132229",
   "description": "A Secure SnowGem Wallet",
-  "version": "2.0.0",
-  "androidVersion": "383014",
+  "version": "2.0.1",
+  "androidVersion": "383015",
   "_extraCSS": null,
   "_enabledExtensions": {}
 }

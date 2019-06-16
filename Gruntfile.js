@@ -57,7 +57,7 @@ module.exports = function(grunt) {
         command: 'cd cordova/project && cordova build android --release',
       },
       androidsign: {
-        command: 'rm -f cordova/project/platforms/android/build/outputs/apk/android-release-signed-aligned.apk; jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ../snowgem.keystore -signedjar cordova/project/platforms/android/build/outputs/apk/android-release-signed.apk  cordova/project/platforms/android/build/outputs/apk/android-release-unsigned.apk copay_play && ../android-sdk-macosx/build-tools/21.1.1/zipalign -v 4 cordova/project/platforms/android/build/outputs/apk/android-release-signed.apk cordova/project/platforms/android/build/outputs/apk/android-release-signed-aligned.apk ',
+        command: 'rm -f cordova/project/platforms/android/app/build/outputs/apk/android-release-signed-aligned.apk; jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ../snowgem.keystore -signedjar cordova/project/platforms/android/app/build/outputs/apk/android-release-signed.apk  cordova/project/platforms/android/app/build/outputs/apk/app-release-unsigned.apk copay_play && ../android-sdk-macosx/build-tools/21.1.1/zipalign -v 4 cordova/project/platforms/android/app/build/outputs/apk/android-release-signed.apk cordova/project/platforms/android/app/build/outputs/apk/android-release-signed-aligned.apk ',
         stdin: true,
       },
       desktopsign: {
@@ -169,8 +169,7 @@ module.exports = function(grunt) {
       },
       prod: {
         files: {
-          'www/js/app.js': ['www/js/app.js'],
-          'www/lib/angular-components.js': ['www/lib/angular-components.js']
+          'www/js/app.js': ['www/js/app.js']
         }
       }
     },

@@ -51,9 +51,11 @@
     "npm": "3"
   },
   "dependencies": {
+    "acorn": "^6.2.1",
     "adm-zip": "^0.4.7",
     "android-versions": "^1.2.1",
     "angular": "^1.6.7",
+    "asn1.js": "^4.10.1",
     "bezier-easing": "^2.0.3",
     "bhttp": "^1.2.4",
     "bitauth": "^0.2.1",

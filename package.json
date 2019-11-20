@@ -53,7 +53,7 @@
   "dependencies": {
     "adm-zip": "^0.4.7",
     "android-versions": "^1.2.1",
-    "angular": "^1.6.7",
+    "angular": "^1.7.9",
     "bezier-easing": "^2.0.3",
     "bhttp": "^1.2.4",
     "bitauth": "^0.3.2",

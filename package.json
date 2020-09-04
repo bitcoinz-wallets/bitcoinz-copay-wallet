@@ -149,7 +149,7 @@
     "grunt-sass": "^3.0.0",
     "ionic": "^4.12.0",
     "lodash": "^4.17.4",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.13.1",
     "trash-cli": "^1.4.0"
   },
   "cordova": {

@@ -145,7 +145,7 @@
     "clean-all": "git clean -dfx"
   },
   "devDependencies": {
-    "grunt": "^1.0.3",
+    "grunt": "^1.3.0",
     "grunt-sass": "^3.0.0",
     "ionic": "^4.12.0",
     "lodash": "^4.17.4",

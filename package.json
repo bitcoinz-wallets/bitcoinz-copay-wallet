@@ -104,7 +104,7 @@
     "grunt-nw-builder": "^3.1.0",
     "ionic-plugin-keyboard": "~2.2.1",
     "load-grunt-tasks": "^4.0.0",
-    "shelljs": "^0.8.3"
+    "shelljs": "^0.8.5"
   },
   "optionalDependencies": {
     "fileicon": "^0.2.2"
